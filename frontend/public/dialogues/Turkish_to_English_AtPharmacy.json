@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Pharmacy Greeting",
+    "lines": [
+      {
+        "role": "Pharmacist",
+        "text": "Good morning. How can I help you today?",
+        "fullTranslation": "Günaydın. Bugün size nasıl yardım edebilirim?"
+      },
+      {
+        "role": "Customer",
+        "text": "I need something for a headache.",
+        "fullTranslation": "Baş ağrısı için bir şeye ihtiyacım var."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "How long have you had the headache?",
+        "fullTranslation": "Baş ağrısını ne kadar zamandır yaşıyorsunuz?"
+      },
+      {
+        "role": "Customer",
+        "text": "Since yesterday evening.",
+        "fullTranslation": "Dün akşamdan beri."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Cold Medicine",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Do you have medicine for a cold?",
+        "fullTranslation": "Soğuk algınlığı için ilacınız var mı?"
+      },
+      {
+        "role": "Pharmacist",
+        "text": "Yes, are your symptoms severe?",
+        "fullTranslation": "Evet, belirtileriniz şiddetli mi?"
+      },
+      {
+        "role": "Customer",
+        "text": "Mostly a sore throat and a cough.",
+        "fullTranslation": "Çoğunlukla boğaz ağrısı ve öksürük."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "This medicine should help relieve those symptoms.",
+        "fullTranslation": "Bu ilaç o belirtileri hafifletmeye yardımcı olmalı."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Prescription Pickup",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I am here to pick up my prescription.",
+        "fullTranslation": "Reçetemi almaya geldim."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "Could you tell me your last name?",
+        "fullTranslation": "Soyadınızı söyleyebilir misiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "It is Johnson.",
+        "fullTranslation": "Johnson."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "Your prescription is ready.",
+        "fullTranslation": "Reçeteniz hazır."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Dosage Instructions",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "How often should I take these tablets?",
+        "fullTranslation": "Bu tabletleri ne kadar sık almalıyım?"
+      },
+      {
+        "role": "Pharmacist",
+        "text": "Take one tablet three times a day after meals.",
+        "fullTranslation": "Yemeklerden sonra günde üç kez bir tablet alın."
+      },
+      {
+        "role": "Customer",
+        "text": "Should I avoid alcohol while taking them?",
+        "fullTranslation": "Onları alırken alkolden kaçınmalı mıyım?"
+      },
+      {
+        "role": "Pharmacist",
+        "text": "Yes, that would be advisable.",
+        "fullTranslation": "Evet, bu tavsiye edilir olurdu."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Allergy Medicine",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Do you sell allergy medication without a prescription?",
+        "fullTranslation": "Reçetesiz alerji ilacı satıyor musunuz?"
+      },
+      {
+        "role": "Pharmacist",
+        "text": "Yes, we have several options available.",
+        "fullTranslation": "Evet, birkaç seçeneğimiz mevcut."
+      },
+      {
+        "role": "Customer",
+        "text": "Which one causes the least drowsiness?",
+        "fullTranslation": "Hangisi en az uyku hali yapıyor?"
+      },
+      {
+        "role": "Pharmacist",
+        "text": "This one is usually recommended for daytime use.",
+        "fullTranslation": "Bu genellikle gündüz kullanımı için tavsiye edilir."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Pain Relief",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I have severe back pain.",
+        "fullTranslation": "Şiddetli sırt ağrım var."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "Have you experienced this pain before?",
+        "fullTranslation": "Bu ağrıyı daha önce yaşadınız mı?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, but it has become worse recently.",
+        "fullTranslation": "Evet, ama son zamanlarda daha kötü oldu."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "You may also want to consult a doctor.",
+        "fullTranslation": "Ayrıca bir doktora danışmak isteyebilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Vitamin Advice",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Could you recommend a good vitamin supplement?",
+        "fullTranslation": "İyi bir vitamin takviyesi önerebilir misiniz?"
+      },
+      {
+        "role": "Pharmacist",
+        "text": "Are you looking for general health support?",
+        "fullTranslation": "Genel sağlık desteği mi arıyorsunuz?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, especially for energy and immunity.",
+        "fullTranslation": "Evet, özellikle enerji ve bağışıklık için."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "This multivitamin is one of our most popular products.",
+        "fullTranslation": "Bu multivitamin en popüler ürünlerimizden biri."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Child Medicine",
+    "lines": [
+      {
+        "role": "Parent",
+        "text": "Do you have medicine suitable for children?",
+        "fullTranslation": "Çocuklar için uygun ilacınız var mı?"
+      },
+      {
+        "role": "Pharmacist",
+        "text": "How old is your child?",
+        "fullTranslation": "Çocuğunuz kaç yaşında?"
+      },
+      {
+        "role": "Parent",
+        "text": "She is five years old.",
+        "fullTranslation": "O beş yaşında."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "This syrup should be safe for her age.",
+        "fullTranslation": "Bu şurup onun yaşı için güvenli olmalı."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Expired Medicine",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Can I still use this medicine after the expiration date?",
+        "fullTranslation": "Bu ilacı son kullanma tarihinden sonra hâlâ kullanabilir miyim?"
+      },
+      {
+        "role": "Pharmacist",
+        "text": "No, it is safer to replace it.",
+        "fullTranslation": "Hayır, onu değiştirmek daha güvenli."
+      },
+      {
+        "role": "Customer",
+        "text": "Where can I dispose of it?",
+        "fullTranslation": "Onu nerede atabilirim?"
+      },
+      {
+        "role": "Pharmacist",
+        "text": "You can leave it here at the pharmacy.",
+        "fullTranslation": "Onu burada eczanede bırakabilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Skin Cream",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I need a cream for dry skin.",
+        "fullTranslation": "Kuru cilt için bir krem lazım."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "Is your skin sensitive as well?",
+        "fullTranslation": "Cildiniz ayrıca hassas mı?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, especially during winter.",
+        "fullTranslation": "Evet, özellikle kış sırasında."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "This cream is designed for sensitive skin.",
+        "fullTranslation": "Bu krem hassas cilt için tasarlandı."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Travel Medicine",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I am traveling abroad next week.",
+        "fullTranslation": "Gelecek hafta yurt dışına seyahat ediyorum."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "Do you need any travel medication?",
+        "fullTranslation": "Herhangi bir seyahat ilacına ihtiyacınız var mı?"
+      },
+      {
+        "role": "Customer",
+        "text": "Something for motion sickness would be useful.",
+        "fullTranslation": "Hareket hastalığı için bir şey faydalı olurdu."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "These tablets are commonly used for that purpose.",
+        "fullTranslation": "Bu tabletler o amaç için yaygın şekilde kullanılıyor."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Side Effects",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Are there any side effects I should know about?",
+        "fullTranslation": "Bilmem gereken herhangi bir yan etki var mı?"
+      },
+      {
+        "role": "Pharmacist",
+        "text": "Some people experience mild dizziness.",
+        "fullTranslation": "Bazı insanlar hafif baş dönmesi yaşıyor."
+      },
+      {
+        "role": "Customer",
+        "text": "Should I stop taking it if that happens?",
+        "fullTranslation": "Eğer bu olursa onu almayı bırakmalı mıyım?"
+      },
+      {
+        "role": "Pharmacist",
+        "text": "If the symptoms continue, contact your doctor.",
+        "fullTranslation": "Eğer belirtiler devam ederse doktorunuzla iletişime geçin."
+      }
+    ]
+  }
+]

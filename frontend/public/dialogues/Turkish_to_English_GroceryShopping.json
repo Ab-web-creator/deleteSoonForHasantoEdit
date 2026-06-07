@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Supermarket Greeting",
+    "lines": [
+      {
+        "role": "Cashier",
+        "text": "Good evening. Did you find everything you needed?",
+        "fullTranslation": "İyi akşamlar. İhtiyacınız olan her şeyi buldunuz mu?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, everything was easy to find.",
+        "fullTranslation": "Evet, her şey bulması kolaydı."
+      },
+      {
+        "role": "Cashier",
+        "text": "Would you like a receipt?",
+        "fullTranslation": "Bir fiş ister misiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, please.",
+        "fullTranslation": "Evet, lütfen."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Finding Products",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Excuse me, where can I find the milk?",
+        "fullTranslation": "Affedersiniz, sütü nerede bulabilirim?"
+      },
+      {
+        "role": "Employee",
+        "text": "It is in aisle five near the yogurt section.",
+        "fullTranslation": "O yoğurt bölümünün yanında beşinci koridorda."
+      },
+      {
+        "role": "Customer",
+        "text": "Thank you for your help.",
+        "fullTranslation": "Yardımınız için teşekkür ederim."
+      },
+      {
+        "role": "Employee",
+        "text": "You are welcome.",
+        "fullTranslation": "Rica ederim."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Card Payment",
+    "lines": [
+      {
+        "role": "Cashier",
+        "text": "That will be thirty-two euros and fifty cents.",
+        "fullTranslation": "Bu otuz iki euro elli sent oluyor."
+      },
+      {
+        "role": "Customer",
+        "text": "Can I pay by card?",
+        "fullTranslation": "Kart ile ödeyebilir miyim?"
+      },
+      {
+        "role": "Cashier",
+        "text": "Of course. Please use the payment terminal.",
+        "fullTranslation": "Tabii ki. Lütfen ödeme terminalini kullanın."
+      },
+      {
+        "role": "Customer",
+        "text": "Done. Thank you.",
+        "fullTranslation": "Tamamlandı. Teşekkür ederim."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Discount Question",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Is this product on sale?",
+        "fullTranslation": "Bu ürün indirimde mi?"
+      },
+      {
+        "role": "Employee",
+        "text": "Yes, it currently has a twenty percent discount.",
+        "fullTranslation": "Evet, şu anda yüzde yirmi indirimi var."
+      },
+      {
+        "role": "Customer",
+        "text": "How long will the sale last?",
+        "fullTranslation": "İndirim ne kadar sürecek?"
+      },
+      {
+        "role": "Employee",
+        "text": "Until the end of the week.",
+        "fullTranslation": "Haftanın sonuna kadar."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Bakery Section",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Are these croissants fresh?",
+        "fullTranslation": "Bu kruvasanlar taze mi?"
+      },
+      {
+        "role": "Employee",
+        "text": "Yes, they were baked this morning.",
+        "fullTranslation": "Evet, onlar bu sabah pişirildi."
+      },
+      {
+        "role": "Customer",
+        "text": "I will take four of them.",
+        "fullTranslation": "Onlardan dört tane alacağım."
+      },
+      {
+        "role": "Employee",
+        "text": "Certainly. I will pack them for you.",
+        "fullTranslation": "Tabii ki. Onları sizin için paketleyeceğim."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Self Checkout",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "This machine is not scanning the item.",
+        "fullTranslation": "Bu makine ürünü taramıyor."
+      },
+      {
+        "role": "Assistant",
+        "text": "Let me help you with that.",
+        "fullTranslation": "Size bununla yardım etmeme izin verin."
+      },
+      {
+        "role": "Customer",
+        "text": "Thank you. I was not sure what to do.",
+        "fullTranslation": "Teşekkür ederim. Ne yapacağımı emin değildim."
+      },
+      {
+        "role": "Assistant",
+        "text": "It happens quite often.",
+        "fullTranslation": "Bu oldukça sık oluyor."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Organic Products",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Do you sell organic vegetables?",
+        "fullTranslation": "Organik sebzeler satıyor musunuz?"
+      },
+      {
+        "role": "Employee",
+        "text": "Yes, they are in the produce section.",
+        "fullTranslation": "Evet, onlar sebze bölümünde."
+      },
+      {
+        "role": "Customer",
+        "text": "Are they more expensive than regular vegetables?",
+        "fullTranslation": "Onlar normal sebzelerden daha pahalı mı?"
+      },
+      {
+        "role": "Employee",
+        "text": "Usually a little more expensive.",
+        "fullTranslation": "Genellikle biraz daha pahalı."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Loyalty Card",
+    "lines": [
+      {
+        "role": "Cashier",
+        "text": "Do you have a loyalty card?",
+        "fullTranslation": "Bir sadakat kartınız var mı?"
+      },
+      {
+        "role": "Customer",
+        "text": "No, but I would like to apply for one.",
+        "fullTranslation": "Hayır, ama bir tane için başvurmak istiyorum."
+      },
+      {
+        "role": "Cashier",
+        "text": "You can register online or at customer service.",
+        "fullTranslation": "Online veya müşteri hizmetlerinde kayıt olabilirsiniz."
+      },
+      {
+        "role": "Customer",
+        "text": "Great, I will do that later.",
+        "fullTranslation": "Harika, bunu daha sonra yapacağım."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Returning Items",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I would like to return this product.",
+        "fullTranslation": "Bu ürünü iade etmek istiyorum."
+      },
+      {
+        "role": "Employee",
+        "text": "Do you still have the receipt?",
+        "fullTranslation": "Hâlâ fişiniz var mı?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, I bought it yesterday.",
+        "fullTranslation": "Evet, onu dün satın aldım."
+      },
+      {
+        "role": "Employee",
+        "text": "We can refund the money to your card.",
+        "fullTranslation": "Parayı kartınıza geri ödeyebiliriz."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Frozen Food",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Where is the frozen food section?",
+        "fullTranslation": "Donmuş gıda bölümü nerede?"
+      },
+      {
+        "role": "Employee",
+        "text": "At the back of the store near the drinks.",
+        "fullTranslation": "Mağazanın arkasında içeceklerin yanında."
+      },
+      {
+        "role": "Customer",
+        "text": "Do you have frozen pizza?",
+        "fullTranslation": "Donmuş pizza var mı?"
+      },
+      {
+        "role": "Employee",
+        "text": "Yes, there are several brands available.",
+        "fullTranslation": "Evet, birkaç marka mevcut."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Fruit Selection",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "These apples look very fresh.",
+        "fullTranslation": "Bu elmalar çok taze görünüyor."
+      },
+      {
+        "role": "Employee",
+        "text": "They arrived this morning from a local farm.",
+        "fullTranslation": "Onlar bu sabah yerel bir çiftlikten geldi."
+      },
+      {
+        "role": "Customer",
+        "text": "I would like one kilogram, please.",
+        "fullTranslation": "Bir kilogram istiyorum, lütfen."
+      },
+      {
+        "role": "Employee",
+        "text": "Certainly. I will weigh them for you.",
+        "fullTranslation": "Tabii ki. Onları sizin için tartacağım."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Closing Time",
+    "lines": [
+      {
+        "role": "Employee",
+        "text": "The supermarket will close in ten minutes.",
+        "fullTranslation": "Süpermarket on dakika içinde kapanacak."
+      },
+      {
+        "role": "Customer",
+        "text": "I only need a few more items.",
+        "fullTranslation": "Sadece birkaç ürüne daha ihtiyacım var."
+      },
+      {
+        "role": "Employee",
+        "text": "Please proceed to the checkout when you are ready.",
+        "fullTranslation": "Hazır olduğunuzda lütfen kasaya ilerleyin."
+      },
+      {
+        "role": "Customer",
+        "text": "I will. Thank you for letting me know.",
+        "fullTranslation": "Yapacağım. Bana bildirdiğiniz için teşekkür ederim."
+      }
+    ]
+  }
+]

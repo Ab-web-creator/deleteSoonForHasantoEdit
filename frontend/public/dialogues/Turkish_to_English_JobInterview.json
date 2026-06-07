@@ -1,0 +1,319 @@
+[
+  {
+    "id": 1,
+    "title": "Job Interview (B2)",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "Could you briefly introduce yourself?",
+        "fullTranslation": "Kendinizi kısaca tanıtabilir misiniz?"
+      },
+      {
+        "role": "Applicant",
+        "text": "Certainly. I recently graduated in business administration and have two years of experience in customer service.",
+        "fullTranslation": "Tabii ki. Ben yakın zamanda işletme yönetiminden mezun oldum ve müşteri hizmetlerinde iki yıllık deneyime sahibim."
+      },
+      {
+        "role": "Interviewer",
+        "text": "Why are you interested in this position?",
+        "fullTranslation": "Neden bu pozisyonla ilgileniyorsunuz?"
+      },
+      {
+        "role": "Applicant",
+        "text": "Because I believe this role matches both my skills and long-term career goals.",
+        "fullTranslation": "Çünkü ben bu rolün hem benim yeteneklerime hem de uzun vadeli kariyer hedeflerime uyduğuna inanıyorum."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Work Experience",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "What was your previous job like?",
+        "fullTranslation": "Önceki işiniz nasıldı?"
+      },
+      {
+        "role": "Applicant",
+        "text": "I worked as a sales assistant in a large retail company.",
+        "fullTranslation": "Ben büyük bir perakende şirketinde satış asistanı olarak çalıştım."
+      },
+      {
+        "role": "Interviewer",
+        "text": "What were your main responsibilities?",
+        "fullTranslation": "Ana sorumluluklarınız nelerdi?"
+      },
+      {
+        "role": "Applicant",
+        "text": "I handled customer inquiries, managed stock, and supported daily operations.",
+        "fullTranslation": "Ben müşteri sorularıyla ilgilendim, stok yönettim ve günlük operasyonları destekledim."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Strengths",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "What would you say are your greatest strengths?",
+        "fullTranslation": "En büyük güçlü yönlerinizin neler olduğunu söylersiniz?"
+      },
+      {
+        "role": "Applicant",
+        "text": "I am highly organized and work well under pressure.",
+        "fullTranslation": "Ben oldukça düzenliyim ve baskı altında iyi çalışırım."
+      },
+      {
+        "role": "Interviewer",
+        "text": "Can you give an example?",
+        "fullTranslation": "Bir örnek verebilir misiniz?"
+      },
+      {
+        "role": "Applicant",
+        "text": "During busy seasons, I successfully managed multiple tasks without missing deadlines.",
+        "fullTranslation": "Yoğun sezonlar sırasında ben teslim tarihlerini kaçırmadan birden fazla görevi başarıyla yönettim."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Weaknesses",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "What is one weakness you are currently improving?",
+        "fullTranslation": "Şu anda geliştirdiğiniz bir zayıf yönünüz nedir?"
+      },
+      {
+        "role": "Applicant",
+        "text": "I used to struggle with public speaking.",
+        "fullTranslation": "Ben eskiden topluluk önünde konuşma ile zorlanırdım."
+      },
+      {
+        "role": "Applicant",
+        "text": "However, I have been attending workshops to become more confident.",
+        "fullTranslation": "Ancak ben daha özgüvenli olmak için atölyelere katılıyorum."
+      },
+      {
+        "role": "Interviewer",
+        "text": "That shows initiative.",
+        "fullTranslation": "Bu girişim gösteriyor."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Teamwork",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "How do you usually handle teamwork?",
+        "fullTranslation": "Takım çalışmasını genellikle nasıl yönetirsiniz?"
+      },
+      {
+        "role": "Applicant",
+        "text": "I value communication and cooperation within a team.",
+        "fullTranslation": "Ben bir takım içinde iletişime ve iş birliğine değer veriyorum."
+      },
+      {
+        "role": "Interviewer",
+        "text": "Have you ever dealt with conflict at work?",
+        "fullTranslation": "Hiç işte bir çatışma ile uğraştınız mı?"
+      },
+      {
+        "role": "Applicant",
+        "text": "Yes, and I always try to resolve issues professionally and calmly.",
+        "fullTranslation": "Evet, ve ben sorunları her zaman profesyonelce ve sakin şekilde çözmeye çalışırım."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Career Goals",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "Where do you see yourself in five years?",
+        "fullTranslation": "Kendinizi beş yıl içinde nerede görüyorsunuz?"
+      },
+      {
+        "role": "Applicant",
+        "text": "I hope to grow into a leadership role within the company.",
+        "fullTranslation": "Ben şirket içinde bir liderlik rolüne büyümeyi umuyorum."
+      },
+      {
+        "role": "Interviewer",
+        "text": "What motivates you professionally?",
+        "fullTranslation": "Sizi profesyonel olarak ne motive ediyor?"
+      },
+      {
+        "role": "Applicant",
+        "text": "Continuous learning and meaningful challenges motivate me.",
+        "fullTranslation": "Sürekli öğrenme ve anlamlı zorluklar beni motive ediyor."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Remote Work",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "Do you have experience working remotely?",
+        "fullTranslation": "Uzaktan çalışma deneyiminiz var mı?"
+      },
+      {
+        "role": "Applicant",
+        "text": "Yes, I worked remotely for nearly a year during the pandemic.",
+        "fullTranslation": "Evet, ben pandemi sırasında yaklaşık bir yıl uzaktan çalıştım."
+      },
+      {
+        "role": "Interviewer",
+        "text": "How did you stay productive?",
+        "fullTranslation": "Nasıl üretken kaldınız?"
+      },
+      {
+        "role": "Applicant",
+        "text": "I maintained a structured schedule and communicated regularly with my team.",
+        "fullTranslation": "Ben düzenli bir program sürdürdüm ve takımım ile düzenli şekilde iletişim kurdum."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Problem Solving",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "Tell me about a difficult problem you solved.",
+        "fullTranslation": "Bana çözdüğünüz zor bir problem hakkında anlatın."
+      },
+      {
+        "role": "Applicant",
+        "text": "A major shipment was delayed, which affected customer orders.",
+        "fullTranslation": "Büyük bir gönderi gecikti, bu da müşteri siparişlerini etkiledi."
+      },
+      {
+        "role": "Applicant",
+        "text": "I coordinated with suppliers and informed customers proactively.",
+        "fullTranslation": "Ben tedarikçiler ile koordinasyon kurdum ve müşterileri önceden bilgilendirdim."
+      },
+      {
+        "role": "Interviewer",
+        "text": "What was the result?",
+        "fullTranslation": "Sonuç neydi?"
+      },
+      {
+        "role": "Applicant",
+        "text": "Most customers appreciated the transparency and remained satisfied.",
+        "fullTranslation": "Çoğu müşteri şeffaflığı takdir etti ve memnun kaldı."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Salary Expectations",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "What are your salary expectations?",
+        "fullTranslation": "Maaş beklentileriniz nelerdir?"
+      },
+      {
+        "role": "Applicant",
+        "text": "I am looking for a salary that reflects my experience and qualifications.",
+        "fullTranslation": "Ben deneyimimi ve niteliklerimi yansıtan bir maaş arıyorum."
+      },
+      {
+        "role": "Interviewer",
+        "text": "Do you have a specific range in mind?",
+        "fullTranslation": "Aklınızda belirli bir aralık var mı?"
+      },
+      {
+        "role": "Applicant",
+        "text": "I would prefer to discuss that after learning more about the role.",
+        "fullTranslation": "Ben rol hakkında daha fazla öğrendikten sonra bunu konuşmayı tercih ederim."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Availability",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "When would you be available to start?",
+        "fullTranslation": "Ne zaman başlamaya uygun olursunuz?"
+      },
+      {
+        "role": "Applicant",
+        "text": "I would be available starting next month.",
+        "fullTranslation": "Ben gelecek aydan başlayarak uygun olurum."
+      },
+      {
+        "role": "Interviewer",
+        "text": "Would you need to give notice to your current employer?",
+        "fullTranslation": "Mevcut işvereninize bildirim vermeniz gerekir mi?"
+      },
+      {
+        "role": "Applicant",
+        "text": "Yes, I would need to complete a two-week notice period.",
+        "fullTranslation": "Evet, benim iki haftalık bir bildirim süresini tamamlamam gerekir."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Company Knowledge",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "What do you know about our company?",
+        "fullTranslation": "Şirketimiz hakkında ne biliyorsunuz?"
+      },
+      {
+        "role": "Applicant",
+        "text": "I know that your company focuses on innovation and customer satisfaction.",
+        "fullTranslation": "Ben şirketinizin yenilik ve müşteri memnuniyetine odaklandığını biliyorum."
+      },
+      {
+        "role": "Interviewer",
+        "text": "Why does that interest you?",
+        "fullTranslation": "Bu neden ilginizi çekiyor?"
+      },
+      {
+        "role": "Applicant",
+        "text": "Because I enjoy working in environments that encourage growth and creativity.",
+        "fullTranslation": "Çünkü ben büyümeyi ve yaratıcılığı teşvik eden ortamlarda çalışmayı seviyorum."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Closing Questions",
+    "lines": [
+      {
+        "role": "Interviewer",
+        "text": "Do you have any questions for us?",
+        "fullTranslation": "Bizim için herhangi bir sorunuz var mı?"
+      },
+      {
+        "role": "Applicant",
+        "text": "Yes, could you tell me more about the training process?",
+        "fullTranslation": "Evet, eğitim süreci hakkında bana daha fazla anlatabilir misiniz?"
+      },
+      {
+        "role": "Interviewer",
+        "text": "Of course. New employees receive training during their first month.",
+        "fullTranslation": "Tabii ki. Yeni çalışanlar ilk ayları boyunca eğitim alırlar."
+      },
+      {
+        "role": "Applicant",
+        "text": "That sounds very helpful.",
+        "fullTranslation": "Bu kulağa çok yardımcı geliyor."
+      }
+    ]
+  }
+]

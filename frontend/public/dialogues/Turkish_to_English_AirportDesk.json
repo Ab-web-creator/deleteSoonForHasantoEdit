@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Airport Check-in",
+    "lines": [
+      {
+        "role": "Agent",
+        "text": "Good afternoon. May I see your passport and ticket?",
+        "fullTranslation": "İyi günler. Pasaportunuzu ve biletinizi görebilir miyim?"
+      },
+      {
+        "role": "Traveler",
+        "text": "Of course. Here they are.",
+        "fullTranslation": "Tabii ki. Burada onlar."
+      },
+      {
+        "role": "Agent",
+        "text": "Are you checking in any luggage today?",
+        "fullTranslation": "Bugün herhangi bir bagaj teslim ediyor musunuz?"
+      },
+      {
+        "role": "Traveler",
+        "text": "Yes, just one suitcase.",
+        "fullTranslation": "Evet, sadece bir bavul."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Security Check",
+    "lines": [
+      {
+        "role": "Officer",
+        "text": "Please place your bag on the conveyor belt.",
+        "fullTranslation": "Lütfen çantanızı taşıma bandına koyun."
+      },
+      {
+        "role": "Traveler",
+        "text": "Do I need to remove my laptop?",
+        "fullTranslation": "Laptopumu çıkarmam gerekiyor mu?"
+      },
+      {
+        "role": "Officer",
+        "text": "Yes, and please take off your jacket as well.",
+        "fullTranslation": "Evet, ve lütfen ceketinizi de çıkarın."
+      },
+      {
+        "role": "Traveler",
+        "text": "Alright, no problem.",
+        "fullTranslation": "Tamam, sorun yok."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Boarding Gate",
+    "lines": [
+      {
+        "role": "Traveler",
+        "text": "Excuse me, where is gate B12?",
+        "fullTranslation": "Affedersiniz, B12 kapısı nerede?"
+      },
+      {
+        "role": "Employee",
+        "text": "Go straight ahead and turn left.",
+        "fullTranslation": "Dümdüz gidin ve sola dönün."
+      },
+      {
+        "role": "Traveler",
+        "text": "Is it far from here?",
+        "fullTranslation": "Buradan uzak mı?"
+      },
+      {
+        "role": "Employee",
+        "text": "No, it is only a five-minute walk.",
+        "fullTranslation": "Hayır, sadece beş dakikalık yürüyüş."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Flight Delay",
+    "lines": [
+      {
+        "role": "Traveler",
+        "text": "Has the flight been delayed?",
+        "fullTranslation": "Uçuş gecikti mi?"
+      },
+      {
+        "role": "Agent",
+        "text": "Yes, due to bad weather conditions.",
+        "fullTranslation": "Evet, kötü hava koşulları nedeniyle."
+      },
+      {
+        "role": "Traveler",
+        "text": "How long will the delay be?",
+        "fullTranslation": "Gecikme ne kadar uzun olacak?"
+      },
+      {
+        "role": "Agent",
+        "text": "Approximately two hours.",
+        "fullTranslation": "Yaklaşık iki saat."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Window Seat",
+    "lines": [
+      {
+        "role": "Traveler",
+        "text": "Could I have a window seat, please?",
+        "fullTranslation": "Bir pencere koltuğu alabilir miyim, lütfen?"
+      },
+      {
+        "role": "Agent",
+        "text": "Let me check what is available.",
+        "fullTranslation": "Neyin uygun olduğuna bakmama izin verin."
+      },
+      {
+        "role": "Agent",
+        "text": "Yes, we still have one available.",
+        "fullTranslation": "Evet, hâlâ bir tane uygun var."
+      },
+      {
+        "role": "Traveler",
+        "text": "Perfect, thank you very much.",
+        "fullTranslation": "Mükemmel, çok teşekkür ederim."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Lost Passport",
+    "lines": [
+      {
+        "role": "Traveler",
+        "text": "I think I lost my passport.",
+        "fullTranslation": "Sanırım pasaportumu kaybettim."
+      },
+      {
+        "role": "Officer",
+        "text": "Where did you last see it?",
+        "fullTranslation": "Onu en son nerede gördünüz?"
+      },
+      {
+        "role": "Traveler",
+        "text": "Probably near the coffee shop.",
+        "fullTranslation": "Muhtemelen kahve dükkânının yanında."
+      },
+      {
+        "role": "Officer",
+        "text": "Please come with me to the information desk.",
+        "fullTranslation": "Lütfen benimle bilgi masasına gelin."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Passport Control",
+    "lines": [
+      {
+        "role": "Officer",
+        "text": "What is the purpose of your visit?",
+        "fullTranslation": "Ziyaretinizin amacı nedir?"
+      },
+      {
+        "role": "Traveler",
+        "text": "I am here for tourism.",
+        "fullTranslation": "Ben burada turizm içinim."
+      },
+      {
+        "role": "Officer",
+        "text": "How long will you stay?",
+        "fullTranslation": "Ne kadar kalacaksınız?"
+      },
+      {
+        "role": "Traveler",
+        "text": "For about one week.",
+        "fullTranslation": "Yaklaşık bir hafta boyunca."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Airport Wi-Fi",
+    "lines": [
+      {
+        "role": "Traveler",
+        "text": "Is there free Wi-Fi at the airport?",
+        "fullTranslation": "Havaalanında ücretsiz Wi-Fi var mı?"
+      },
+      {
+        "role": "Employee",
+        "text": "Yes, you can connect to Airport_Free_WiFi.",
+        "fullTranslation": "Evet, Airport_Free_WiFi'ye bağlanabilirsiniz."
+      },
+      {
+        "role": "Traveler",
+        "text": "Do I need a password?",
+        "fullTranslation": "Bir şifreye ihtiyacım var mı?"
+      },
+      {
+        "role": "Employee",
+        "text": "No, it is completely free.",
+        "fullTranslation": "Hayır, tamamen ücretsiz."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Carry-on Bag",
+    "lines": [
+      {
+        "role": "Agent",
+        "text": "Your carry-on bag is slightly overweight.",
+        "fullTranslation": "El bagajınız biraz fazla ağır."
+      },
+      {
+        "role": "Traveler",
+        "text": "Can I remove a few items?",
+        "fullTranslation": "Birkaç eşya çıkarabilir miyim?"
+      },
+      {
+        "role": "Agent",
+        "text": "Yes, that would be fine.",
+        "fullTranslation": "Evet, bu uygun olur."
+      },
+      {
+        "role": "Traveler",
+        "text": "I will do that now.",
+        "fullTranslation": "Bunu şimdi yapacağım."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Boarding Time",
+    "lines": [
+      {
+        "role": "Traveler",
+        "text": "What time does boarding begin?",
+        "fullTranslation": "Uçağa biniş saat kaçta başlıyor?"
+      },
+      {
+        "role": "Agent",
+        "text": "Boarding starts at 6:45.",
+        "fullTranslation": "Biniş 6:45'te başlıyor."
+      },
+      {
+        "role": "Traveler",
+        "text": "Has boarding started already?",
+        "fullTranslation": "Biniş çoktan başladı mı?"
+      },
+      {
+        "role": "Agent",
+        "text": "No, not yet.",
+        "fullTranslation": "Hayır, henüz değil."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Customs Question",
+    "lines": [
+      {
+        "role": "Officer",
+        "text": "Are you carrying any food or liquids?",
+        "fullTranslation": "Herhangi bir yiyecek veya sıvı taşıyor musunuz?"
+      },
+      {
+        "role": "Traveler",
+        "text": "Only a bottle of water.",
+        "fullTranslation": "Sadece bir şişe su."
+      },
+      {
+        "role": "Officer",
+        "text": "You cannot bring that through security.",
+        "fullTranslation": "Bunu güvenlikten geçiremezsiniz."
+      },
+      {
+        "role": "Traveler",
+        "text": "I understand. I will throw it away.",
+        "fullTranslation": "Anlıyorum. Onu çöpe atacağım."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Baggage Claim",
+    "lines": [
+      {
+        "role": "Traveler",
+        "text": "Where can I collect my luggage?",
+        "fullTranslation": "Bagajımı nereden alabilirim?"
+      },
+      {
+        "role": "Employee",
+        "text": "At carousel number seven.",
+        "fullTranslation": "Yedi numaralı bantta."
+      },
+      {
+        "role": "Traveler",
+        "text": "Has the luggage arrived already?",
+        "fullTranslation": "Bagaj çoktan geldi mi?"
+      },
+      {
+        "role": "Employee",
+        "text": "Not yet, it should arrive soon.",
+        "fullTranslation": "Henüz değil, yakında gelmeli."
+      }
+    ]
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Bank Account",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I would like to open a bank account.",
+        "fullTranslation": "Bir banka hesabı açmak istiyorum."
+      },
+      {
+        "role": "Employee",
+        "text": "Certainly. Do you have your identification with you?",
+        "fullTranslation": "Tabii ki. Kimliğiniz yanınızda mı?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, here is my passport.",
+        "fullTranslation": "Evet, burada pasaportum."
+      },
+      {
+        "role": "Employee",
+        "text": "Thank you. Please fill out this form.",
+        "fullTranslation": "Teşekkür ederim. Lütfen bu formu doldurun."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Card Problem",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "My bank card is not working.",
+        "fullTranslation": "Benim banka kartım çalışmıyor."
+      },
+      {
+        "role": "Employee",
+        "text": "When did the problem start?",
+        "fullTranslation": "Problem ne zaman başladı?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yesterday evening.",
+        "fullTranslation": "Dün akşam."
+      },
+      {
+        "role": "Employee",
+        "text": "We can issue a new card for you.",
+        "fullTranslation": "Size yeni bir kart verebiliriz."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Cash Withdrawal",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I would like to withdraw some cash.",
+        "fullTranslation": "Biraz nakit çekmek istiyorum."
+      },
+      {
+        "role": "Employee",
+        "text": "How much would you like to withdraw?",
+        "fullTranslation": "Ne kadar çekmek istersiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "Two hundred euros, please.",
+        "fullTranslation": "İki yüz euro, lütfen."
+      },
+      {
+        "role": "Employee",
+        "text": "Please enter your PIN code.",
+        "fullTranslation": "Lütfen PIN kodunuzu girin."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Transfer Request",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I need to transfer money internationally.",
+        "fullTranslation": "Uluslararası para transferi yapmam gerekiyor."
+      },
+      {
+        "role": "Employee",
+        "text": "Which country are you sending it to?",
+        "fullTranslation": "Onu hangi ülkeye gönderiyorsunuz?"
+      },
+      {
+        "role": "Customer",
+        "text": "To Turkey.",
+        "fullTranslation": "Türkiye’ye."
+      },
+      {
+        "role": "Employee",
+        "text": "Please provide the IBAN number.",
+        "fullTranslation": "Lütfen IBAN numarasını verin."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Balance Inquiry",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Could you check my account balance?",
+        "fullTranslation": "Hesap bakiyemi kontrol edebilir misiniz?"
+      },
+      {
+        "role": "Employee",
+        "text": "Of course. One moment, please.",
+        "fullTranslation": "Tabii ki. Bir dakika, lütfen."
+      },
+      {
+        "role": "Employee",
+        "text": "Your current balance is one thousand euros.",
+        "fullTranslation": "Şu anki bakiyeniz bin euro."
+      },
+      {
+        "role": "Customer",
+        "text": "Thank you for your help.",
+        "fullTranslation": "Yardımınız için teşekkür ederim."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Online Banking",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I cannot access my online banking account.",
+        "fullTranslation": "Online bankacılık hesabıma erişemiyorum."
+      },
+      {
+        "role": "Employee",
+        "text": "Did you forget your password?",
+        "fullTranslation": "Şifrenizi unuttunuz mu?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, I think so.",
+        "fullTranslation": "Evet, sanırım öyle."
+      },
+      {
+        "role": "Employee",
+        "text": "We can reset it for you.",
+        "fullTranslation": "Onu sizin için sıfırlayabiliriz."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Loan Information",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I would like information about personal loans.",
+        "fullTranslation": "Bireysel krediler hakkında bilgi istiyorum."
+      },
+      {
+        "role": "Employee",
+        "text": "How much would you like to borrow?",
+        "fullTranslation": "Ne kadar borç almak istersiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "Around ten thousand euros.",
+        "fullTranslation": "Yaklaşık on bin euro."
+      },
+      {
+        "role": "Employee",
+        "text": "We offer several options with different interest rates.",
+        "fullTranslation": "Farklı faiz oranları ile birkaç seçenek sunuyoruz."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Address Change",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I need to update my address.",
+        "fullTranslation": "Adresimi güncellemem gerekiyor."
+      },
+      {
+        "role": "Employee",
+        "text": "Do you have proof of your new address?",
+        "fullTranslation": "Yeni adresinizin kanıtı var mı?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, here is my rental contract.",
+        "fullTranslation": "Evet, burada kira kontratım."
+      },
+      {
+        "role": "Employee",
+        "text": "Thank you. We will update it immediately.",
+        "fullTranslation": "Teşekkür ederim. Onu hemen güncelleyeceğiz."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Credit Card",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I would like to apply for a credit card.",
+        "fullTranslation": "Bir kredi kartına başvurmak istiyorum."
+      },
+      {
+        "role": "Employee",
+        "text": "Do you currently have a bank account with us?",
+        "fullTranslation": "Şu anda bizimle bir banka hesabınız var mı?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, I opened one last year.",
+        "fullTranslation": "Evet, geçen yıl bir tane açtım."
+      },
+      {
+        "role": "Employee",
+        "text": "Great. We just need a few more details.",
+        "fullTranslation": "Harika. Sadece birkaç ayrıntıya daha ihtiyacımız var."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "ATM Issue",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "The ATM kept my card.",
+        "fullTranslation": "ATM kartımı tuttu."
+      },
+      {
+        "role": "Employee",
+        "text": "Did the machine show an error message?",
+        "fullTranslation": "Makine bir hata mesajı gösterdi mi?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, but I could not understand it.",
+        "fullTranslation": "Evet, ama onu anlayamadım."
+      },
+      {
+        "role": "Employee",
+        "text": "We will block the card and order a new one.",
+        "fullTranslation": "Kartı bloke edeceğiz ve yeni bir tane sipariş edeceğiz."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Savings Account",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I am interested in opening a savings account.",
+        "fullTranslation": "Bir tasarruf hesabı açmakla ilgileniyorum."
+      },
+      {
+        "role": "Employee",
+        "text": "Would you like a flexible or fixed account?",
+        "fullTranslation": "Esnek mi yoksa sabit bir hesap mı istersiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "What is the difference between them?",
+        "fullTranslation": "Onların arasındaki fark nedir?"
+      },
+      {
+        "role": "Employee",
+        "text": "A fixed account usually offers higher interest rates.",
+        "fullTranslation": "Sabit bir hesap genellikle daha yüksek faiz oranları sunar."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Appointment Request",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Could I schedule an appointment with a financial advisor?",
+        "fullTranslation": "Bir finans danışmanı ile randevu planlayabilir miyim?"
+      },
+      {
+        "role": "Employee",
+        "text": "Certainly. What day would work best for you?",
+        "fullTranslation": "Tabii ki. Hangi gün sizin için en iyi olur?"
+      },
+      {
+        "role": "Customer",
+        "text": "Friday morning would be ideal.",
+        "fullTranslation": "Cuma sabahı ideal olurdu."
+      },
+      {
+        "role": "Employee",
+        "text": "You are scheduled for ten thirty on Friday.",
+        "fullTranslation": "Cuma günü saat on otuz için planlandınız."
+      }
+    ]
+  }
+]

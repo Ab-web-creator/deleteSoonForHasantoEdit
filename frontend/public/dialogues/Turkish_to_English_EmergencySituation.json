@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Emergency Call",
+    "lines": [
+      {
+        "role": "Operator",
+        "text": "Emergency services. What is your emergency?",
+        "fullTranslation": "Acil servisler. Acil durumunuz nedir?"
+      },
+      {
+        "role": "Caller",
+        "text": "There has been a car accident on the highway.",
+        "fullTranslation": "Otoyolda bir araba kazası oldu."
+      },
+      {
+        "role": "Operator",
+        "text": "Are there any injuries?",
+        "fullTranslation": "Herhangi bir yaralanma var mı?"
+      },
+      {
+        "role": "Caller",
+        "text": "Yes, one person appears to be unconscious.",
+        "fullTranslation": "Evet, bir kişi bilinçsiz görünüyor."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Police Report",
+    "lines": [
+      {
+        "role": "Officer",
+        "text": "Could you describe what happened?",
+        "fullTranslation": "Ne olduğunu tarif edebilir misiniz?"
+      },
+      {
+        "role": "Witness",
+        "text": "I saw two cars collide at the intersection.",
+        "fullTranslation": "Kavşakta iki arabanın çarpıştığını gördüm."
+      },
+      {
+        "role": "Officer",
+        "text": "Did anyone leave the scene?",
+        "fullTranslation": "Herhangi biri olay yerinden ayrıldı mı?"
+      },
+      {
+        "role": "Witness",
+        "text": "No, everyone stayed until the police arrived.",
+        "fullTranslation": "Hayır, polis gelene kadar herkes kaldı."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Calling Ambulance",
+    "lines": [
+      {
+        "role": "Caller",
+        "text": "My friend is having trouble breathing.",
+        "fullTranslation": "Arkadaşım nefes almakta zorlanıyor."
+      },
+      {
+        "role": "Operator",
+        "text": "Please remain calm. What is your location?",
+        "fullTranslation": "Lütfen sakin kalın. Konumunuz nedir?"
+      },
+      {
+        "role": "Caller",
+        "text": "We are near Central Station.",
+        "fullTranslation": "Biz Merkez İstasyonu’nun yanındayız."
+      },
+      {
+        "role": "Operator",
+        "text": "An ambulance is on the way.",
+        "fullTranslation": "Bir ambulans yolda."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Lost Child",
+    "lines": [
+      {
+        "role": "Parent",
+        "text": "I cannot find my child anywhere.",
+        "fullTranslation": "Çocuğumu hiçbir yerde bulamıyorum."
+      },
+      {
+        "role": "Officer",
+        "text": "When did you last see your child?",
+        "fullTranslation": "Çocuğunuzu en son ne zaman gördünüz?"
+      },
+      {
+        "role": "Parent",
+        "text": "About ten minutes ago near the playground.",
+        "fullTranslation": "Yaklaşık on dakika önce oyun alanının yanında."
+      },
+      {
+        "role": "Officer",
+        "text": "We will begin searching immediately.",
+        "fullTranslation": "Hemen aramaya başlayacağız."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Fire Emergency",
+    "lines": [
+      {
+        "role": "Caller",
+        "text": "There is smoke coming from the apartment upstairs.",
+        "fullTranslation": "Üst kattaki daireden duman geliyor."
+      },
+      {
+        "role": "Operator",
+        "text": "Has the building been evacuated?",
+        "fullTranslation": "Bina tahliye edildi mi?"
+      },
+      {
+        "role": "Caller",
+        "text": "Not yet, people are still inside.",
+        "fullTranslation": "Henüz değil, insanlar hâlâ içeride."
+      },
+      {
+        "role": "Operator",
+        "text": "Firefighters are being dispatched now.",
+        "fullTranslation": "İtfaiyeciler şimdi gönderiliyor."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Stolen Wallet",
+    "lines": [
+      {
+        "role": "Tourist",
+        "text": "I think someone stole my wallet.",
+        "fullTranslation": "Sanırım biri cüzdanımı çaldı."
+      },
+      {
+        "role": "Officer",
+        "text": "Where do you believe it happened?",
+        "fullTranslation": "Onun nerede olduğunu düşünüyorsunuz?"
+      },
+      {
+        "role": "Tourist",
+        "text": "Probably on the crowded tram.",
+        "fullTranslation": "Muhtemelen kalabalık tramvayda."
+      },
+      {
+        "role": "Officer",
+        "text": "We will file a theft report for you.",
+        "fullTranslation": "Sizin için bir hırsızlık raporu hazırlayacağız."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Road Accident",
+    "lines": [
+      {
+        "role": "Officer",
+        "text": "Were you injured in the accident?",
+        "fullTranslation": "Kazada yaralandınız mı?"
+      },
+      {
+        "role": "Driver",
+        "text": "Only minor injuries, fortunately.",
+        "fullTranslation": "Sadece küçük yaralanmalar, neyse ki."
+      },
+      {
+        "role": "Officer",
+        "text": "Did you exchange insurance information?",
+        "fullTranslation": "Sigorta bilgilerini değiştirdiniz mi?"
+      },
+      {
+        "role": "Driver",
+        "text": "Yes, we already exchanged details.",
+        "fullTranslation": "Evet, biz zaten bilgileri değiştirdik."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Reporting Noise",
+    "lines": [
+      {
+        "role": "Resident",
+        "text": "My neighbors are making a lot of noise.",
+        "fullTranslation": "Komşularım çok fazla gürültü yapıyor."
+      },
+      {
+        "role": "Officer",
+        "text": "How long has this been happening?",
+        "fullTranslation": "Bu ne kadar zamandır oluyor?"
+      },
+      {
+        "role": "Resident",
+        "text": "Since late last night.",
+        "fullTranslation": "Dün gece geç saatten beri."
+      },
+      {
+        "role": "Officer",
+        "text": "We will send someone to investigate.",
+        "fullTranslation": "İncelemek için birini göndereceğiz."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Medical Emergency",
+    "lines": [
+      {
+        "role": "Operator",
+        "text": "Can the patient respond to you?",
+        "fullTranslation": "Hasta size cevap verebiliyor mu?"
+      },
+      {
+        "role": "Caller",
+        "text": "No, he is not responding.",
+        "fullTranslation": "Hayır, o cevap vermiyor."
+      },
+      {
+        "role": "Operator",
+        "text": "Check whether he is breathing normally.",
+        "fullTranslation": "Normal nefes alıp almadığını kontrol edin."
+      },
+      {
+        "role": "Caller",
+        "text": "His breathing is very weak.",
+        "fullTranslation": "Onun nefesi çok zayıf."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Suspicious Person",
+    "lines": [
+      {
+        "role": "Caller",
+        "text": "There is someone acting suspiciously near the bank.",
+        "fullTranslation": "Bankanın yanında şüpheli davranan biri var."
+      },
+      {
+        "role": "Operator",
+        "text": "Could you describe the person?",
+        "fullTranslation": "Kişiyi tarif edebilir misiniz?"
+      },
+      {
+        "role": "Caller",
+        "text": "He is wearing a black jacket and sunglasses.",
+        "fullTranslation": "O siyah bir ceket ve güneş gözlüğü giyiyor."
+      },
+      {
+        "role": "Operator",
+        "text": "Officers are heading there now.",
+        "fullTranslation": "Polisler şimdi oraya gidiyor."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Power Outage",
+    "lines": [
+      {
+        "role": "Resident",
+        "text": "The entire street has lost electricity.",
+        "fullTranslation": "Tüm sokak elektriği kaybetti."
+      },
+      {
+        "role": "Emergency Worker",
+        "text": "When did the outage begin?",
+        "fullTranslation": "Kesinti ne zaman başladı?"
+      },
+      {
+        "role": "Resident",
+        "text": "About twenty minutes ago.",
+        "fullTranslation": "Yaklaşık yirmi dakika önce."
+      },
+      {
+        "role": "Emergency Worker",
+        "text": "Technicians are currently working on the issue.",
+        "fullTranslation": "Teknisyenler şu anda sorun üzerinde çalışıyor."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Flood Warning",
+    "lines": [
+      {
+        "role": "Official",
+        "text": "Residents should avoid traveling unless necessary.",
+        "fullTranslation": "Sakinler gerekli olmadıkça seyahat etmekten kaçınmalı."
+      },
+      {
+        "role": "Resident",
+        "text": "Is the bridge still open?",
+        "fullTranslation": "Köprü hâlâ açık mı?"
+      },
+      {
+        "role": "Official",
+        "text": "No, it has been closed for safety reasons.",
+        "fullTranslation": "Hayır, güvenlik nedenleri için kapatıldı."
+      },
+      {
+        "role": "Resident",
+        "text": "Thank you for the information.",
+        "fullTranslation": "Bilgi için teşekkür ederim."
+      }
+    ]
+  }
+]

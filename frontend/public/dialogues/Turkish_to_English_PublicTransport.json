@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Public Transport Ticket",
+    "lines": [
+      {
+        "role": "Passenger",
+        "text": "Excuse me, where can I buy a transport ticket?",
+        "fullTranslation": "Affedersiniz, ulaşım bileti nereden satın alabilirim?"
+      },
+      {
+        "role": "Employee",
+        "text": "You can buy one from the machine over there.",
+        "fullTranslation": "Bir tane şuradaki makineden satın alabilirsiniz."
+      },
+      {
+        "role": "Passenger",
+        "text": "Does the machine accept credit cards?",
+        "fullTranslation": "Makine kredi kartlarını kabul ediyor mu?"
+      },
+      {
+        "role": "Employee",
+        "text": "Yes, both cards and cash are accepted.",
+        "fullTranslation": "Evet, hem kartlar hem nakit kabul ediliyor."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Train Delay",
+    "lines": [
+      {
+        "role": "Passenger",
+        "text": "Has the train to Rotterdam been delayed?",
+        "fullTranslation": "Rotterdam’a giden tren gecikti mi?"
+      },
+      {
+        "role": "Employee",
+        "text": "Unfortunately, it is delayed by twenty minutes.",
+        "fullTranslation": "Maalesef, o yirmi dakika gecikti."
+      },
+      {
+        "role": "Passenger",
+        "text": "Do you know the reason for the delay?",
+        "fullTranslation": "Gecikmenin sebebini biliyor musunuz?"
+      },
+      {
+        "role": "Employee",
+        "text": "There was a technical issue on the railway.",
+        "fullTranslation": "Demiryolunda teknik bir sorun vardı."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bus Route",
+    "lines": [
+      {
+        "role": "Passenger",
+        "text": "Does this bus go to the city center?",
+        "fullTranslation": "Bu otobüs şehir merkezine gidiyor mu?"
+      },
+      {
+        "role": "Driver",
+        "text": "Yes, but you need to change buses once.",
+        "fullTranslation": "Evet, ama bir kez otobüs değiştirmeniz gerekiyor."
+      },
+      {
+        "role": "Passenger",
+        "text": "Where should I change?",
+        "fullTranslation": "Nerede değiştirmeliyim?"
+      },
+      {
+        "role": "Driver",
+        "text": "At Central Station.",
+        "fullTranslation": "Merkez İstasyonu’nda."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Missed Stop",
+    "lines": [
+      {
+        "role": "Passenger",
+        "text": "I think I missed my stop.",
+        "fullTranslation": "Sanırım durağımı kaçırdım."
+      },
+      {
+        "role": "Driver",
+        "text": "The next stop is only two minutes away.",
+        "fullTranslation": "Sonraki durak sadece iki dakika uzaklıkta."
+      },
+      {
+        "role": "Passenger",
+        "text": "Can I walk back from there?",
+        "fullTranslation": "Oradan geri yürüyebilir miyim?"
+      },
+      {
+        "role": "Driver",
+        "text": "Yes, it is a short walk.",
+        "fullTranslation": "Evet, kısa bir yürüyüş."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Monthly Pass",
+    "lines": [
+      {
+        "role": "Passenger",
+        "text": "I would like to buy a monthly transport pass.",
+        "fullTranslation": "Aylık ulaşım kartı satın almak istiyorum."
+      },
+      {
+        "role": "Employee",
+        "text": "Do you already have a transport card?",
+        "fullTranslation": "Zaten bir ulaşım kartınız var mı?"
+      },
+      {
+        "role": "Passenger",
+        "text": "No, this would be my first one.",
+        "fullTranslation": "Hayır, bu benim ilk kartım olurdu."
+      },
+      {
+        "role": "Employee",
+        "text": "Then we will need your identification.",
+        "fullTranslation": "O zaman kimliğinize ihtiyacımız olacak."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Taxi Ride",
+    "lines": [
+      {
+        "role": "Passenger",
+        "text": "Could you take me to the airport, please?",
+        "fullTranslation": "Beni havaalanına götürebilir misiniz, lütfen?"
+      },
+      {
+        "role": "Driver",
+        "text": "Certainly. Do you prefer the fastest route?",
+        "fullTranslation": "Tabii ki. En hızlı rotayı mı tercih ediyorsunuz?"
+      },
+      {
+        "role": "Passenger",
+        "text": "Yes, I am in a bit of a hurry.",
+        "fullTranslation": "Evet, biraz acelem var."
+      },
+      {
+        "role": "Driver",
+        "text": "We should arrive in about twenty minutes.",
+        "fullTranslation": "Yaklaşık yirmi dakika içinde varmalıyız."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Platform Number",
+    "lines": [
+      {
+        "role": "Passenger",
+        "text": "Which platform does the train depart from?",
+        "fullTranslation": "Tren hangi perondan kalkıyor?"
+      },
+      {
+        "role": "Employee",
+        "text": "It will depart from platform six.",
+        "fullTranslation": "O altıncı perondan kalkacak."
+      },
+      {
+        "role": "Passenger",
+        "text": "Has boarding started already?",
+        "fullTranslation": "Biniş çoktan başladı mı?"
+      },
+      {
+        "role": "Employee",
+        "text": "No, passengers may board in about ten minutes.",
+        "fullTranslation": "Hayır, yolcular yaklaşık on dakika içinde binebilir."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Bike Rental",
+    "lines": [
+      {
+        "role": "Tourist",
+        "text": "Do you rent bicycles here?",
+        "fullTranslation": "Burada bisiklet kiralıyor musunuz?"
+      },
+      {
+        "role": "Employee",
+        "text": "Yes, we rent them by the hour or by the day.",
+        "fullTranslation": "Evet, onları saatlik veya günlük kiralıyoruz."
+      },
+      {
+        "role": "Tourist",
+        "text": "How much does it cost for one day?",
+        "fullTranslation": "Bir gün için ne kadar tutuyor?"
+      },
+      {
+        "role": "Employee",
+        "text": "Fifteen euros including a lock.",
+        "fullTranslation": "Kilit dahil on beş euro."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Wrong Train",
+    "lines": [
+      {
+        "role": "Passenger",
+        "text": "I think I boarded the wrong train.",
+        "fullTranslation": "Sanırım yanlış trene bindim."
+      },
+      {
+        "role": "Conductor",
+        "text": "Where are you trying to go?",
+        "fullTranslation": "Nereye gitmeye çalışıyorsunuz?"
+      },
+      {
+        "role": "Passenger",
+        "text": "I am trying to get to Utrecht.",
+        "fullTranslation": "Utrecht’e gitmeye çalışıyorum."
+      },
+      {
+        "role": "Conductor",
+        "text": "You should get off at the next station and transfer.",
+        "fullTranslation": "Sonraki istasyonda inip aktarma yapmalısınız."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Rush Hour",
+    "lines": [
+      {
+        "role": "Passenger",
+        "text": "The train is extremely crowded today.",
+        "fullTranslation": "Tren bugün aşırı kalabalık."
+      },
+      {
+        "role": "Passenger",
+        "text": "Is it always this busy during the evening?",
+        "fullTranslation": "Akşam sırasında her zaman bu kadar yoğun mu?"
+      },
+      {
+        "role": "Local",
+        "text": "Yes, especially during rush hour.",
+        "fullTranslation": "Evet, özellikle yoğun saat sırasında."
+      },
+      {
+        "role": "Passenger",
+        "text": "I should probably travel earlier next time.",
+        "fullTranslation": "Muhtemelen bir dahaki sefere daha erken seyahat etmeliyim."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Lost Item",
+    "lines": [
+      {
+        "role": "Passenger",
+        "text": "I left my bag on the tram this morning.",
+        "fullTranslation": "Bu sabah çantamı tramvayda bıraktım."
+      },
+      {
+        "role": "Employee",
+        "text": "Can you describe the bag for me?",
+        "fullTranslation": "Çantayı benim için tarif edebilir misiniz?"
+      },
+      {
+        "role": "Passenger",
+        "text": "It is black with a small blue label.",
+        "fullTranslation": "O küçük mavi etiketli siyah."
+      },
+      {
+        "role": "Employee",
+        "text": "Please fill out this lost property form.",
+        "fullTranslation": "Lütfen bu kayıp eşya formunu doldurun."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Travel Recommendation",
+    "lines": [
+      {
+        "role": "Tourist",
+        "text": "What is the best way to get around the city?",
+        "fullTranslation": "Şehirde dolaşmanın en iyi yolu nedir?"
+      },
+      {
+        "role": "Local",
+        "text": "Public transportation is usually very reliable.",
+        "fullTranslation": "Toplu taşıma genellikle çok güvenilir."
+      },
+      {
+        "role": "Tourist",
+        "text": "Would you recommend buses or trams?",
+        "fullTranslation": "Otobüsleri mi yoksa tramvayları mı tavsiye edersiniz?"
+      },
+      {
+        "role": "Local",
+        "text": "Trams are usually faster in the city center.",
+        "fullTranslation": "Tramvaylar genellikle şehir merkezinde daha hızlı."
+      }
+    ]
+  }
+]

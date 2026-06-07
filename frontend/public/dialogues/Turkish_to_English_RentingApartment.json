@@ -1,0 +1,329 @@
+[
+  {
+    "id": 1,
+    "title": "Budget Inquiry",
+    "lines": [
+      {
+        "role": "Landlord",
+        "text": "What is your budget?",
+        "fullTranslation": "Sizin bütçeniz nedir?"
+      },
+      {
+        "role": "Tenant",
+        "text": "Maximum eight hundred euros per month.",
+        "fullTranslation": "Ay başına maksimum sekiz yüz euro."
+      },
+      {
+        "role": "Landlord",
+        "text": "Would you like an apartment or a house?",
+        "fullTranslation": "Bir apartman mı yoksa ev mi istiyorsunuz?"
+      },
+      {
+        "role": "Tenant",
+        "text": "An apartment, please.",
+        "fullTranslation": "Bir apartman, lütfen."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Apartment Size",
+    "lines": [
+      {
+        "role": "Tenant",
+        "text": "How big is the apartment?",
+        "fullTranslation": "Apartman ne kadar büyük?"
+      },
+      {
+        "role": "Landlord",
+        "text": "It is fifty square meters.",
+        "fullTranslation": "O elli metrekare."
+      },
+      {
+        "role": "Tenant",
+        "text": "Does it have two bedrooms?",
+        "fullTranslation": "Onun iki yatak odası var mı?"
+      },
+      {
+        "role": "Landlord",
+        "text": "No, one bedroom.",
+        "fullTranslation": "Hayır, bir yatak odası."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Location Question",
+    "lines": [
+      {
+        "role": "Tenant",
+        "text": "Where is the house?",
+        "fullTranslation": "Ev nerede?"
+      },
+      {
+        "role": "Landlord",
+        "text": "In the center of Amsterdam.",
+        "fullTranslation": "Amsterdam'ın merkezinde."
+      },
+      {
+        "role": "Tenant",
+        "text": "Is it close to a station?",
+        "fullTranslation": "O bir istasyona yakın mı?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Yes, five minutes walking.",
+        "fullTranslation": "Evet, beş dakika yürüyüş."
+      },
+      {
+        "role": "Tenant",
+        "text": "That sounds good.",
+        "fullTranslation": "Bu kulağa iyi geliyor."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Furnished Apartment",
+    "lines": [
+      {
+        "role": "Tenant",
+        "text": "Is the apartment furnished?",
+        "fullTranslation": "Apartman eşyalı mı?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Yes, it has furniture.",
+        "fullTranslation": "Evet, onun mobilyaları var."
+      },
+      {
+        "role": "Tenant",
+        "text": "Is there a bed included?",
+        "fullTranslation": "Bir yatak dahil mi?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Yes, and also a sofa.",
+        "fullTranslation": "Evet, ve ayrıca bir kanepe."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Rental Price",
+    "lines": [
+      {
+        "role": "Tenant",
+        "text": "How much is the rent?",
+        "fullTranslation": "Kira ne kadar?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Nine hundred euros per month.",
+        "fullTranslation": "Ay başına dokuz yüz euro."
+      },
+      {
+        "role": "Tenant",
+        "text": "Is that including gas and water?",
+        "fullTranslation": "Bu gaz ve su dahil mi?"
+      },
+      {
+        "role": "Landlord",
+        "text": "No, that is extra.",
+        "fullTranslation": "Hayır, o ekstra."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Pet Policy",
+    "lines": [
+      {
+        "role": "Tenant",
+        "text": "May I keep a cat?",
+        "fullTranslation": "Bir kedi tutabilir miyim?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Yes, pets are allowed.",
+        "fullTranslation": "Evet, evcil hayvanlara izin veriliyor."
+      },
+      {
+        "role": "Tenant",
+        "text": "Is there an extra cost?",
+        "fullTranslation": "Ekstra bir masraf var mı?"
+      },
+      {
+        "role": "Landlord",
+        "text": "No, no extra costs.",
+        "fullTranslation": "Hayır, ekstra masraf yok."
+      },
+      {
+        "role": "Tenant",
+        "text": "Nice, thank you.",
+        "fullTranslation": "Güzel, teşekkür ederim."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Contract Length",
+    "lines": [
+      {
+        "role": "Tenant",
+        "text": "How long is the contract?",
+        "fullTranslation": "Kontrat ne kadar uzun?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Minimum one year.",
+        "fullTranslation": "Minimum bir yıl."
+      },
+      {
+        "role": "Tenant",
+        "text": "Can it be shorter?",
+        "fullTranslation": "O daha kısa olabilir mi?"
+      },
+      {
+        "role": "Landlord",
+        "text": "No, only one year.",
+        "fullTranslation": "Hayır, sadece bir yıl."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Apartment Viewing",
+    "lines": [
+      {
+        "role": "Tenant",
+        "text": "Can I see the apartment?",
+        "fullTranslation": "Apartmanı görebilir miyim?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Yes, when can you come?",
+        "fullTranslation": "Evet, ne zaman gelebilirsiniz?"
+      },
+      {
+        "role": "Tenant",
+        "text": "Tomorrow at three o’clock?",
+        "fullTranslation": "Yarın saat üçte?"
+      },
+      {
+        "role": "Landlord",
+        "text": "That is fine, see you tomorrow.",
+        "fullTranslation": "Bu iyi, yarın görüşürüz."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Parking Space",
+    "lines": [
+      {
+        "role": "Tenant",
+        "text": "Is there a parking space?",
+        "fullTranslation": "Bir park yeri var mı?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Yes, next to the house.",
+        "fullTranslation": "Evet, evin yanında."
+      },
+      {
+        "role": "Tenant",
+        "text": "How much does it cost?",
+        "fullTranslation": "O ne kadar tutuyor?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Fifty euros per month.",
+        "fullTranslation": "Ay başına elli euro."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Move-In Date",
+    "lines": [
+      {
+        "role": "Tenant",
+        "text": "When can I move in?",
+        "fullTranslation": "Ne zaman taşınabilirim?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Starting next month.",
+        "fullTranslation": "Gelecek aydan başlayarak."
+      },
+      {
+        "role": "Tenant",
+        "text": "Is that the first of July?",
+        "fullTranslation": "Bu bir Temmuz mu?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Yes, that is correct.",
+        "fullTranslation": "Evet, bu doğru."
+      },
+      {
+        "role": "Tenant",
+        "text": "Perfect, thank you.",
+        "fullTranslation": "Mükemmel, teşekkür ederim."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Deposit Inquiry",
+    "lines": [
+      {
+        "role": "Tenant",
+        "text": "Is a deposit required?",
+        "fullTranslation": "Bir depozito gerekli mi?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Yes, one month of rent.",
+        "fullTranslation": "Evet, bir aylık kira."
+      },
+      {
+        "role": "Tenant",
+        "text": "Will I get it back?",
+        "fullTranslation": "Onu geri alacak mıyım?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Yes, if everything is fine.",
+        "fullTranslation": "Evet, eğer her şey iyiyse."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Utilities Included",
+    "lines": [
+      {
+        "role": "Tenant",
+        "text": "Are water and electricity included?",
+        "fullTranslation": "Su ve elektrik dahil mi?"
+      },
+      {
+        "role": "Landlord",
+        "text": "Yes, everything is included.",
+        "fullTranslation": "Evet, her şey dahil."
+      },
+      {
+        "role": "Tenant",
+        "text": "Including internet as well?",
+        "fullTranslation": "İnternet de dahil mi?"
+      },
+      {
+        "role": "Landlord",
+        "text": "No, internet is separate.",
+        "fullTranslation": "Hayır, internet ayrı."
+      }
+    ]
+  }
+]

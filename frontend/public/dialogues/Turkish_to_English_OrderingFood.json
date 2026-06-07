@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Restaurant Table",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Do you have a free table?",
+        "fullTranslation": "Boş bir masanız var mı?"
+      },
+      {
+        "role": "Waiter",
+        "text": "Yes, for how many people?",
+        "fullTranslation": "Evet, kaç kişi için?"
+      },
+      {
+        "role": "Customer",
+        "text": "For two people.",
+        "fullTranslation": "İki kişi için."
+      },
+      {
+        "role": "Waiter",
+        "text": "Please follow me.",
+        "fullTranslation": "Lütfen beni takip edin."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ordering Drinks",
+    "lines": [
+      {
+        "role": "Waiter",
+        "text": "What would you like to drink?",
+        "fullTranslation": "Ne içmek istersiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "I would like a coffee.",
+        "fullTranslation": "Bir kahve istiyorum."
+      },
+      {
+        "role": "Waiter",
+        "text": "Anything else?",
+        "fullTranslation": "Başka bir şey?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, a bottle of water.",
+        "fullTranslation": "Evet, bir şişe su."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Menu Question",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Can I see the menu?",
+        "fullTranslation": "Menüyü görebilir miyim?"
+      },
+      {
+        "role": "Waiter",
+        "text": "Of course, here it is.",
+        "fullTranslation": "Tabii ki, burada o."
+      },
+      {
+        "role": "Customer",
+        "text": "What do you recommend?",
+        "fullTranslation": "Ne tavsiye ediyorsunuz?"
+      },
+      {
+        "role": "Waiter",
+        "text": "The chicken pasta is very popular.",
+        "fullTranslation": "Tavuklu makarna çok popüler."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Vegetarian Food",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Do you have vegetarian food?",
+        "fullTranslation": "Vejetaryen yemekleriniz var mı?"
+      },
+      {
+        "role": "Waiter",
+        "text": "Yes, we do.",
+        "fullTranslation": "Evet, var."
+      },
+      {
+        "role": "Customer",
+        "text": "What vegetarian dishes do you have?",
+        "fullTranslation": "Hangi vejetaryen yemekleriniz var?"
+      },
+      {
+        "role": "Waiter",
+        "text": "We have vegetable soup and salad.",
+        "fullTranslation": "Sebze çorbası ve salatamız var."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Food Order",
+    "lines": [
+      {
+        "role": "Waiter",
+        "text": "Are you ready to order?",
+        "fullTranslation": "Sipariş vermeye hazır mısınız?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, I would like a pizza.",
+        "fullTranslation": "Evet, bir pizza istiyorum."
+      },
+      {
+        "role": "Waiter",
+        "text": "Which pizza would you like?",
+        "fullTranslation": "Hangi pizzayı istersiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "A large margherita pizza.",
+        "fullTranslation": "Büyük bir margherita pizza."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Spicy Food",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Is this dish spicy?",
+        "fullTranslation": "Bu yemek baharatlı mı?"
+      },
+      {
+        "role": "Waiter",
+        "text": "Yes, a little bit.",
+        "fullTranslation": "Evet, biraz."
+      },
+      {
+        "role": "Customer",
+        "text": "Can you make it less spicy?",
+        "fullTranslation": "Onu daha az baharatlı yapabilir misiniz?"
+      },
+      {
+        "role": "Waiter",
+        "text": "Yes, no problem.",
+        "fullTranslation": "Evet, sorun yok."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Paying the Bill",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Can I have the bill, please?",
+        "fullTranslation": "Hesabı alabilir miyim, lütfen?"
+      },
+      {
+        "role": "Waiter",
+        "text": "Yes, here you are.",
+        "fullTranslation": "Evet, buyurun."
+      },
+      {
+        "role": "Customer",
+        "text": "Can I pay by card?",
+        "fullTranslation": "Kart ile ödeyebilir miyim?"
+      },
+      {
+        "role": "Waiter",
+        "text": "Yes, of course.",
+        "fullTranslation": "Evet, tabii ki."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Reservation",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "I have a reservation.",
+        "fullTranslation": "Bir rezervasyonum var."
+      },
+      {
+        "role": "Waiter",
+        "text": "Under what name?",
+        "fullTranslation": "Hangi isim altında?"
+      },
+      {
+        "role": "Customer",
+        "text": "Under Smith.",
+        "fullTranslation": "Smith adı altında."
+      },
+      {
+        "role": "Waiter",
+        "text": "Yes, your table is ready.",
+        "fullTranslation": "Evet, masanız hazır."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Soup Order",
+    "lines": [
+      {
+        "role": "Waiter",
+        "text": "Would you like some soup?",
+        "fullTranslation": "Biraz çorba ister misiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, tomato soup please.",
+        "fullTranslation": "Evet, domates çorbası lütfen."
+      },
+      {
+        "role": "Waiter",
+        "text": "Small or large?",
+        "fullTranslation": "Küçük mü büyük mü?"
+      },
+      {
+        "role": "Customer",
+        "text": "Large, please.",
+        "fullTranslation": "Büyük, lütfen."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Dessert Choice",
+    "lines": [
+      {
+        "role": "Waiter",
+        "text": "Would you like dessert?",
+        "fullTranslation": "Tatlı ister misiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, what do you have?",
+        "fullTranslation": "Evet, neleriniz var?"
+      },
+      {
+        "role": "Waiter",
+        "text": "We have cake and ice cream.",
+        "fullTranslation": "Kek ve dondurmamız var."
+      },
+      {
+        "role": "Customer",
+        "text": "I would like chocolate cake.",
+        "fullTranslation": "Çikolatalı kek istiyorum."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Breakfast Order",
+    "lines": [
+      {
+        "role": "Waiter",
+        "text": "What would you like for breakfast?",
+        "fullTranslation": "Kahvaltı için ne istersiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "Eggs and toast, please.",
+        "fullTranslation": "Yumurta ve tost, lütfen."
+      },
+      {
+        "role": "Waiter",
+        "text": "Would you like tea or coffee?",
+        "fullTranslation": "Çay mı kahve mi istersiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "Coffee, please.",
+        "fullTranslation": "Kahve, lütfen."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Takeaway Order",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Can I order takeaway?",
+        "fullTranslation": "Paket servis siparişi verebilir miyim?"
+      },
+      {
+        "role": "Waiter",
+        "text": "Yes, what would you like?",
+        "fullTranslation": "Evet, ne istersiniz?"
+      },
+      {
+        "role": "Customer",
+        "text": "One burger and fries.",
+        "fullTranslation": "Bir hamburger ve patates kızartması."
+      },
+      {
+        "role": "Waiter",
+        "text": "It will be ready in ten minutes.",
+        "fullTranslation": "O on dakika içinde hazır olacak."
+      }
+    ]
+  }
+]

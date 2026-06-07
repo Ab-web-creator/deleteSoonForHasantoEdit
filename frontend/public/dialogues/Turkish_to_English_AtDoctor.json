@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Doctor Appointment",
+    "lines": [
+      {
+        "role": "Receptionist",
+        "text": "Do you have an appointment?",
+        "fullTranslation": "Bir randevunuz var mı?"
+      },
+      {
+        "role": "Patient",
+        "text": "Yes, at ten o’clock.",
+        "fullTranslation": "Evet, saat onda."
+      },
+      {
+        "role": "Receptionist",
+        "text": "What is your name?",
+        "fullTranslation": "Adınız nedir?"
+      },
+      {
+        "role": "Patient",
+        "text": "My name is Emma Brown.",
+        "fullTranslation": "Benim adım Emma Brown."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Headache",
+    "lines": [
+      {
+        "role": "Doctor",
+        "text": "What seems to be the problem?",
+        "fullTranslation": "Sorun ne gibi görünüyor?"
+      },
+      {
+        "role": "Patient",
+        "text": "I have a headache.",
+        "fullTranslation": "Benim baş ağrım var."
+      },
+      {
+        "role": "Doctor",
+        "text": "Since when?",
+        "fullTranslation": "Ne zamandan beri?"
+      },
+      {
+        "role": "Patient",
+        "text": "Since yesterday evening.",
+        "fullTranslation": "Dün akşamdan beri."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Fever Check",
+    "lines": [
+      {
+        "role": "Doctor",
+        "text": "Do you have a fever?",
+        "fullTranslation": "Ateşiniz var mı?"
+      },
+      {
+        "role": "Patient",
+        "text": "Yes, a little.",
+        "fullTranslation": "Evet, biraz."
+      },
+      {
+        "role": "Doctor",
+        "text": "I will check your temperature.",
+        "fullTranslation": "Sizin ateşinizi kontrol edeceğim."
+      },
+      {
+        "role": "Patient",
+        "text": "Okay.",
+        "fullTranslation": "Tamam."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Medicine Question",
+    "lines": [
+      {
+        "role": "Patient",
+        "text": "Do I need medicine?",
+        "fullTranslation": "İlaca ihtiyacım var mı?"
+      },
+      {
+        "role": "Doctor",
+        "text": "Yes, I will give you a prescription.",
+        "fullTranslation": "Evet, size bir reçete vereceğim."
+      },
+      {
+        "role": "Patient",
+        "text": "How often should I take it?",
+        "fullTranslation": "Onu ne kadar sık almalıyım?"
+      },
+      {
+        "role": "Doctor",
+        "text": "Twice a day.",
+        "fullTranslation": "Günde iki kez."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Stomach Pain",
+    "lines": [
+      {
+        "role": "Doctor",
+        "text": "Where does it hurt?",
+        "fullTranslation": "Neresi ağrıyor?"
+      },
+      {
+        "role": "Patient",
+        "text": "My stomach hurts.",
+        "fullTranslation": "Benim midem ağrıyor."
+      },
+      {
+        "role": "Doctor",
+        "text": "Did you eat something unusual?",
+        "fullTranslation": "Sıradışı bir şey yediniz mi?"
+      },
+      {
+        "role": "Patient",
+        "text": "Yes, street food yesterday.",
+        "fullTranslation": "Evet, dün sokak yemeği."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Blood Pressure",
+    "lines": [
+      {
+        "role": "Doctor",
+        "text": "I will check your blood pressure.",
+        "fullTranslation": "Sizin tansiyonunuzu kontrol edeceğim."
+      },
+      {
+        "role": "Patient",
+        "text": "Is it high?",
+        "fullTranslation": "O yüksek mi?"
+      },
+      {
+        "role": "Doctor",
+        "text": "No, it looks normal.",
+        "fullTranslation": "Hayır, o normal görünüyor."
+      },
+      {
+        "role": "Patient",
+        "text": "That is good.",
+        "fullTranslation": "Bu iyi."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cough Problem",
+    "lines": [
+      {
+        "role": "Doctor",
+        "text": "How long have you been coughing?",
+        "fullTranslation": "Ne kadar zamandır öksürüyorsunuz?"
+      },
+      {
+        "role": "Patient",
+        "text": "For three days.",
+        "fullTranslation": "Üç gündür."
+      },
+      {
+        "role": "Doctor",
+        "text": "Do you smoke?",
+        "fullTranslation": "Sigara içiyor musunuz?"
+      },
+      {
+        "role": "Patient",
+        "text": "No, I do not smoke.",
+        "fullTranslation": "Hayır, sigara içmiyorum."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Allergy Question",
+    "lines": [
+      {
+        "role": "Doctor",
+        "text": "Do you have allergies?",
+        "fullTranslation": "Alerjileriniz var mı?"
+      },
+      {
+        "role": "Patient",
+        "text": "Yes, pollen allergy.",
+        "fullTranslation": "Evet, polen alerjisi."
+      },
+      {
+        "role": "Doctor",
+        "text": "Do you take allergy medicine?",
+        "fullTranslation": "Alerji ilacı alıyor musunuz?"
+      },
+      {
+        "role": "Patient",
+        "text": "Only in spring.",
+        "fullTranslation": "Sadece ilkbaharda."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Sore Throat",
+    "lines": [
+      {
+        "role": "Patient",
+        "text": "My throat hurts.",
+        "fullTranslation": "Benim boğazım ağrıyor."
+      },
+      {
+        "role": "Doctor",
+        "text": "Please open your mouth.",
+        "fullTranslation": "Lütfen ağzınızı açın."
+      },
+      {
+        "role": "Patient",
+        "text": "Like this?",
+        "fullTranslation": "Böyle mi?"
+      },
+      {
+        "role": "Doctor",
+        "text": "Yes, exactly.",
+        "fullTranslation": "Evet, aynen."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Pharmacy Visit",
+    "lines": [
+      {
+        "role": "Pharmacist",
+        "text": "Can I help you?",
+        "fullTranslation": "Size yardım edebilir miyim?"
+      },
+      {
+        "role": "Customer",
+        "text": "I need pain medicine.",
+        "fullTranslation": "Ağrı ilacına ihtiyacım var."
+      },
+      {
+        "role": "Pharmacist",
+        "text": "For headache or fever?",
+        "fullTranslation": "Baş ağrısı için mi yoksa ateş için mi?"
+      },
+      {
+        "role": "Customer",
+        "text": "For headache.",
+        "fullTranslation": "Baş ağrısı için."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Cold Symptoms",
+    "lines": [
+      {
+        "role": "Doctor",
+        "text": "Do you have cold symptoms?",
+        "fullTranslation": "Soğuk algınlığı belirtileriniz var mı?"
+      },
+      {
+        "role": "Patient",
+        "text": "Yes, I have a runny nose.",
+        "fullTranslation": "Evet, benim akan burnum var."
+      },
+      {
+        "role": "Doctor",
+        "text": "Any fever?",
+        "fullTranslation": "Ateş var mı?"
+      },
+      {
+        "role": "Patient",
+        "text": "No fever.",
+        "fullTranslation": "Ateş yok."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Emergency Visit",
+    "lines": [
+      {
+        "role": "Nurse",
+        "text": "What happened?",
+        "fullTranslation": "Ne oldu?"
+      },
+      {
+        "role": "Patient",
+        "text": "I fell from my bike.",
+        "fullTranslation": "Ben bisikletimden düştüm."
+      },
+      {
+        "role": "Nurse",
+        "text": "Does your arm hurt?",
+        "fullTranslation": "Kolunuz ağrıyor mu?"
+      },
+      {
+        "role": "Patient",
+        "text": "Yes, very much.",
+        "fullTranslation": "Evet, çok fazla."
+      }
+    ]
+  }
+]

@@ -1,0 +1,329 @@
+[
+  {
+    "id": 1,
+    "title": "Form Submission",
+    "lines": [
+      {
+        "role": "Administrator",
+        "text": "Did you fill out the forms?",
+        "fullTranslation": "Formları doldurdunuz mu?"
+      },
+      {
+        "role": "Parent",
+        "text": "Yes, here they are.",
+        "fullTranslation": "Evet, burada onlar."
+      },
+      {
+        "role": "Administrator",
+        "text": "Which student is this for?",
+        "fullTranslation": "Bu hangi öğrenci için?"
+      },
+      {
+        "role": "Parent",
+        "text": "For my son, Tom.",
+        "fullTranslation": "Benim oğlum Tom için."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Child Age",
+    "lines": [
+      {
+        "role": "Administrator",
+        "text": "How old is your child?",
+        "fullTranslation": "Çocuğunuz kaç yaşında?"
+      },
+      {
+        "role": "Parent",
+        "text": "My daughter is six years old.",
+        "fullTranslation": "Benim kızım altı yaşında."
+      },
+      {
+        "role": "Administrator",
+        "text": "Is she going to third grade?",
+        "fullTranslation": "O üçüncü gruba gidiyor mu?"
+      },
+      {
+        "role": "Parent",
+        "text": "Yes, that is correct.",
+        "fullTranslation": "Evet, bu doğru."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "School Start",
+    "lines": [
+      {
+        "role": "Parent",
+        "text": "When does school start?",
+        "fullTranslation": "Okul ne zaman başlıyor?"
+      },
+      {
+        "role": "Administrator",
+        "text": "School starts in September.",
+        "fullTranslation": "Okul Eylül'de başlıyor."
+      },
+      {
+        "role": "Parent",
+        "text": "Is that on a Monday?",
+        "fullTranslation": "Bu bir Pazartesi günü mü?"
+      },
+      {
+        "role": "Administrator",
+        "text": "Yes, on September second.",
+        "fullTranslation": "Evet, iki Eylül'de."
+      },
+      {
+        "role": "Parent",
+        "text": "Thank you, good to know.",
+        "fullTranslation": "Teşekkür ederim, bilmek iyi."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Required Documents",
+    "lines": [
+      {
+        "role": "Administrator",
+        "text": "Do you have your child’s passport?",
+        "fullTranslation": "Çocuğunuzun pasaportu var mı?"
+      },
+      {
+        "role": "Parent",
+        "text": "Yes, here is the passport.",
+        "fullTranslation": "Evet, burada pasaport."
+      },
+      {
+        "role": "Administrator",
+        "text": "And proof of address?",
+        "fullTranslation": "Ve adres kanıtı?"
+      },
+      {
+        "role": "Parent",
+        "text": "I have that as well.",
+        "fullTranslation": "Ben ona da sahibim."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Previous School",
+    "lines": [
+      {
+        "role": "Administrator",
+        "text": "Which school does your child come from?",
+        "fullTranslation": "Çocuğunuz hangi okuldan geliyor?"
+      },
+      {
+        "role": "Parent",
+        "text": "From Rainbow School in Utrecht.",
+        "fullTranslation": "Utrecht'teki Rainbow Okulu'ndan."
+      },
+      {
+        "role": "Administrator",
+        "text": "Do you have a report card?",
+        "fullTranslation": "Bir karne var mı?"
+      },
+      {
+        "role": "Parent",
+        "text": "Yes, I will send it tomorrow.",
+        "fullTranslation": "Evet, onu yarın göndereceğim."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Class Placement",
+    "lines": [
+      {
+        "role": "Parent",
+        "text": "Which class will my son join?",
+        "fullTranslation": "Benim oğlum hangi sınıfa katılacak?"
+      },
+      {
+        "role": "Administrator",
+        "text": "In group five, with teacher Anna.",
+        "fullTranslation": "Beşinci grupta, öğretmen Anna ile."
+      },
+      {
+        "role": "Parent",
+        "text": "How many children are there?",
+        "fullTranslation": "Orada kaç çocuk var?"
+      },
+      {
+        "role": "Administrator",
+        "text": "Twenty children in the class.",
+        "fullTranslation": "Sınıfta yirmi çocuk."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "School Supplies",
+    "lines": [
+      {
+        "role": "Parent",
+        "text": "Do I need to buy supplies?",
+        "fullTranslation": "Malzemeler satın almam gerekiyor mu?"
+      },
+      {
+        "role": "Administrator",
+        "text": "Yes, a list will follow by email.",
+        "fullTranslation": "Evet, bir liste e-posta ile gelecek."
+      },
+      {
+        "role": "Parent",
+        "text": "Does my child need a bag?",
+        "fullTranslation": "Benim çocuğumun bir çantaya ihtiyacı var mı?"
+      },
+      {
+        "role": "Administrator",
+        "text": "Yes, a backpack is fine.",
+        "fullTranslation": "Evet, bir sırt çantası iyi."
+      },
+      {
+        "role": "Parent",
+        "text": "Okay, thank you.",
+        "fullTranslation": "Tamam, teşekkür ederim."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "School Hours",
+    "lines": [
+      {
+        "role": "Parent",
+        "text": "What time does school start?",
+        "fullTranslation": "Okul saat kaçta başlıyor?"
+      },
+      {
+        "role": "Administrator",
+        "text": "At eight thirty.",
+        "fullTranslation": "Saat sekiz otuzda."
+      },
+      {
+        "role": "Parent",
+        "text": "And when does it end?",
+        "fullTranslation": "Ve o ne zaman bitiyor?"
+      },
+      {
+        "role": "Administrator",
+        "text": "At three in the afternoon.",
+        "fullTranslation": "Öğleden sonra saat üçte."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Special Needs",
+    "lines": [
+      {
+        "role": "Parent",
+        "text": "My child needs extra help.",
+        "fullTranslation": "Benim çocuğum ekstra yardıma ihtiyaç duyuyor."
+      },
+      {
+        "role": "Administrator",
+        "text": "What kind of help?",
+        "fullTranslation": "Ne tür yardım?"
+      },
+      {
+        "role": "Parent",
+        "text": "Help with reading.",
+        "fullTranslation": "Okuma ile yardım."
+      },
+      {
+        "role": "Administrator",
+        "text": "We have a reading program.",
+        "fullTranslation": "Bizim bir okuma programımız var."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Language Support",
+    "lines": [
+      {
+        "role": "Parent",
+        "text": "My child does not speak Dutch.",
+        "fullTranslation": "Benim çocuğum Hollandaca konuşmuyor."
+      },
+      {
+        "role": "Administrator",
+        "text": "We have language lessons.",
+        "fullTranslation": "Bizim dil derslerimiz var."
+      },
+      {
+        "role": "Parent",
+        "text": "Are those lessons free?",
+        "fullTranslation": "O dersler ücretsiz mi?"
+      },
+      {
+        "role": "Administrator",
+        "text": "Yes, for new students.",
+        "fullTranslation": "Evet, yeni öğrenciler için."
+      },
+      {
+        "role": "Parent",
+        "text": "That is good, thank you.",
+        "fullTranslation": "Bu iyi, teşekkür ederim."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "School Uniform",
+    "lines": [
+      {
+        "role": "Parent",
+        "text": "Is a uniform required?",
+        "fullTranslation": "Bir üniforma gerekli mi?"
+      },
+      {
+        "role": "Administrator",
+        "text": "No, there is no uniform here.",
+        "fullTranslation": "Hayır, burada üniforma yok."
+      },
+      {
+        "role": "Parent",
+        "text": "What clothes are okay?",
+        "fullTranslation": "Hangi kıyafetler uygun?"
+      },
+      {
+        "role": "Administrator",
+        "text": "Regular clothes are fine.",
+        "fullTranslation": "Normal kıyafetler iyi."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "After School Care",
+    "lines": [
+      {
+        "role": "Parent",
+        "text": "Do you offer after-school care?",
+        "fullTranslation": "Okul sonrası bakım sunuyor musunuz?"
+      },
+      {
+        "role": "Administrator",
+        "text": "Yes, until six o’clock.",
+        "fullTranslation": "Evet, saat altıya kadar."
+      },
+      {
+        "role": "Parent",
+        "text": "How much does it cost?",
+        "fullTranslation": "O ne kadar tutuyor?"
+      },
+      {
+        "role": "Administrator",
+        "text": "Five euros per hour.",
+        "fullTranslation": "Saat başına beş euro."
+      }
+    ]
+  }
+]

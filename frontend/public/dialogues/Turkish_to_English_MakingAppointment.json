@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Making Appointment",
+    "lines": [
+      {
+        "role": "Caller",
+        "text": "Hello, I would like to schedule an appointment.",
+        "fullTranslation": "Merhaba, bir randevu planlamak istiyorum."
+      },
+      {
+        "role": "Receptionist",
+        "text": "Certainly. What is the appointment regarding?",
+        "fullTranslation": "Tabii ki. Randevu ne hakkında?"
+      },
+      {
+        "role": "Caller",
+        "text": "I need to speak with a doctor.",
+        "fullTranslation": "Bir doktor ile konuşmam gerekiyor."
+      },
+      {
+        "role": "Receptionist",
+        "text": "What day would work best for you?",
+        "fullTranslation": "Hangi gün sizin için en iyi olur?"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Available Time",
+    "lines": [
+      {
+        "role": "Receptionist",
+        "text": "Are you available on Thursday morning?",
+        "fullTranslation": "Perşembe sabahı müsait misiniz?"
+      },
+      {
+        "role": "Caller",
+        "text": "Yes, that would be perfect.",
+        "fullTranslation": "Evet, bu mükemmel olurdu."
+      },
+      {
+        "role": "Receptionist",
+        "text": "We have an opening at 10:30.",
+        "fullTranslation": "10:30’da boş yerimiz var."
+      },
+      {
+        "role": "Caller",
+        "text": "Please book that time for me.",
+        "fullTranslation": "Lütfen o saati benim için ayırtın."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Changing Appointment",
+    "lines": [
+      {
+        "role": "Caller",
+        "text": "I need to reschedule my appointment.",
+        "fullTranslation": "Randevumu yeniden planlamam gerekiyor."
+      },
+      {
+        "role": "Receptionist",
+        "text": "What was your original appointment time?",
+        "fullTranslation": "Orijinal randevu saatiniz neydi?"
+      },
+      {
+        "role": "Caller",
+        "text": "Friday at two o’clock.",
+        "fullTranslation": "Cuma günü saat ikide."
+      },
+      {
+        "role": "Receptionist",
+        "text": "Would next Monday work instead?",
+        "fullTranslation": "Onun yerine gelecek Pazartesi uygun olur mu?"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Canceling Appointment",
+    "lines": [
+      {
+        "role": "Caller",
+        "text": "I would like to cancel my appointment.",
+        "fullTranslation": "Randevumu iptal etmek istiyorum."
+      },
+      {
+        "role": "Receptionist",
+        "text": "May I ask for the reason?",
+        "fullTranslation": "Sebebini sorabilir miyim?"
+      },
+      {
+        "role": "Caller",
+        "text": "Something urgent came up.",
+        "fullTranslation": "Acil bir şey ortaya çıktı."
+      },
+      {
+        "role": "Receptionist",
+        "text": "No problem. The appointment has been canceled.",
+        "fullTranslation": "Sorun yok. Randevu iptal edildi."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Hairdresser Booking",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Do you have any appointments available this afternoon?",
+        "fullTranslation": "Bugün öğleden sonra uygun randevularınız var mı?"
+      },
+      {
+        "role": "Hairdresser",
+        "text": "Yes, we have one slot at four o’clock.",
+        "fullTranslation": "Evet, saat dörtte bir boşluğumuz var."
+      },
+      {
+        "role": "Customer",
+        "text": "That works for me.",
+        "fullTranslation": "Bu benim için uygun."
+      },
+      {
+        "role": "Hairdresser",
+        "text": "Great, we will see you then.",
+        "fullTranslation": "Harika, o zaman sizi göreceğiz."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Dentist Visit",
+    "lines": [
+      {
+        "role": "Receptionist",
+        "text": "How can I help you today?",
+        "fullTranslation": "Bugün size nasıl yardım edebilirim?"
+      },
+      {
+        "role": "Patient",
+        "text": "I would like to make a dentist appointment.",
+        "fullTranslation": "Bir dişçi randevusu yapmak istiyorum."
+      },
+      {
+        "role": "Receptionist",
+        "text": "Is it for a regular check-up?",
+        "fullTranslation": "Bu normal kontrol için mi?"
+      },
+      {
+        "role": "Patient",
+        "text": "No, I have a toothache.",
+        "fullTranslation": "Hayır, benim diş ağrım var."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Late Arrival",
+    "lines": [
+      {
+        "role": "Caller",
+        "text": "I might be late for my appointment.",
+        "fullTranslation": "Randevuma geç kalabilirim."
+      },
+      {
+        "role": "Receptionist",
+        "text": "How late do you expect to be?",
+        "fullTranslation": "Ne kadar geç olmayı bekliyorsunuz?"
+      },
+      {
+        "role": "Caller",
+        "text": "Around fifteen minutes.",
+        "fullTranslation": "Yaklaşık on beş dakika."
+      },
+      {
+        "role": "Receptionist",
+        "text": "That should still be okay.",
+        "fullTranslation": "Bu hâlâ uygun olmalı."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Online Appointment",
+    "lines": [
+      {
+        "role": "Customer",
+        "text": "Can I book the appointment online?",
+        "fullTranslation": "Randevuyu online ayırtabilir miyim?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "Yes, through our website.",
+        "fullTranslation": "Evet, internet sitemiz üzerinden."
+      },
+      {
+        "role": "Customer",
+        "text": "Do I need to create an account?",
+        "fullTranslation": "Bir hesap oluşturmam gerekiyor mu?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "Yes, registration is required.",
+        "fullTranslation": "Evet, kayıt gerekli."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Confirmation Call",
+    "lines": [
+      {
+        "role": "Receptionist",
+        "text": "I am calling to confirm your appointment tomorrow.",
+        "fullTranslation": "Yarınki randevunuzu doğrulamak için arıyorum."
+      },
+      {
+        "role": "Customer",
+        "text": "Yes, I will be there.",
+        "fullTranslation": "Evet, orada olacağım."
+      },
+      {
+        "role": "Receptionist",
+        "text": "Please arrive ten minutes early.",
+        "fullTranslation": "Lütfen on dakika erken gelin."
+      },
+      {
+        "role": "Customer",
+        "text": "Of course, thank you.",
+        "fullTranslation": "Tabii ki, teşekkür ederim."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Business Meeting",
+    "lines": [
+      {
+        "role": "Assistant",
+        "text": "Would you like to arrange a meeting with the manager?",
+        "fullTranslation": "Müdür ile bir toplantı ayarlamak ister misiniz?"
+      },
+      {
+        "role": "Client",
+        "text": "Yes, preferably sometime next week.",
+        "fullTranslation": "Evet, tercihen gelecek hafta bir zaman."
+      },
+      {
+        "role": "Assistant",
+        "text": "Wednesday afternoon is currently available.",
+        "fullTranslation": "Çarşamba öğleden sonra şu anda uygun."
+      },
+      {
+        "role": "Client",
+        "text": "That would suit me well.",
+        "fullTranslation": "Bu bana iyi uyar."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Eye Doctor",
+    "lines": [
+      {
+        "role": "Patient",
+        "text": "I need to schedule an eye examination.",
+        "fullTranslation": "Bir göz muayenesi planlamam gerekiyor."
+      },
+      {
+        "role": "Receptionist",
+        "text": "Have you visited us before?",
+        "fullTranslation": "Bizi daha önce ziyaret ettiniz mi?"
+      },
+      {
+        "role": "Patient",
+        "text": "No, this would be my first visit.",
+        "fullTranslation": "Hayır, bu benim ilk ziyaretim olurdu."
+      },
+      {
+        "role": "Receptionist",
+        "text": "Then we will need some personal information first.",
+        "fullTranslation": "O zaman önce bazı kişisel bilgilere ihtiyacımız olacak."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Interview Schedule",
+    "lines": [
+      {
+        "role": "Recruiter",
+        "text": "We would like to invite you for an interview.",
+        "fullTranslation": "Sizi bir görüşmeye davet etmek istiyoruz."
+      },
+      {
+        "role": "Applicant",
+        "text": "Thank you. When would the interview take place?",
+        "fullTranslation": "Teşekkür ederim. Görüşme ne zaman gerçekleşecek?"
+      },
+      {
+        "role": "Recruiter",
+        "text": "Next Tuesday at eleven in the morning.",
+        "fullTranslation": "Gelecek Salı sabah saat on birde."
+      },
+      {
+        "role": "Applicant",
+        "text": "I am available at that time.",
+        "fullTranslation": "O saatte müsaitim."
+      }
+    ]
+  }
+]

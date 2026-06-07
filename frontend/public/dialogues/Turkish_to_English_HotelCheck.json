@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Hotel Check-in",
+    "lines": [
+      {
+        "role": "Receptionist",
+        "text": "Welcome to our hotel. Do you have a reservation?",
+        "fullTranslation": "Otelimize hoş geldiniz. Bir rezervasyonunuz var mı?"
+      },
+      {
+        "role": "Guest",
+        "text": "Yes, I booked a room under the name Carter.",
+        "fullTranslation": "Evet, Carter adı altında bir oda ayırttım."
+      },
+      {
+        "role": "Receptionist",
+        "text": "May I see your passport, please?",
+        "fullTranslation": "Pasaportunuzu görebilir miyim, lütfen?"
+      },
+      {
+        "role": "Guest",
+        "text": "Certainly. Here it is.",
+        "fullTranslation": "Tabii ki. Burada."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Room Service",
+    "lines": [
+      {
+        "role": "Guest",
+        "text": "I would like to order room service.",
+        "fullTranslation": "Oda servisi sipariş etmek istiyorum."
+      },
+      {
+        "role": "Employee",
+        "text": "What would you like to order?",
+        "fullTranslation": "Ne sipariş etmek istersiniz?"
+      },
+      {
+        "role": "Guest",
+        "text": "A sandwich and a bottle of water, please.",
+        "fullTranslation": "Bir sandviç ve bir şişe su, lütfen."
+      },
+      {
+        "role": "Employee",
+        "text": "Your order will arrive within thirty minutes.",
+        "fullTranslation": "Siparişiniz otuz dakika içinde gelecek."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Hotel Problem",
+    "lines": [
+      {
+        "role": "Guest",
+        "text": "The air conditioning in my room is not working.",
+        "fullTranslation": "Odamdaki klima çalışmıyor."
+      },
+      {
+        "role": "Receptionist",
+        "text": "I apologize for the inconvenience.",
+        "fullTranslation": "Rahatsızlık için özür dilerim."
+      },
+      {
+        "role": "Receptionist",
+        "text": "We will send someone to fix it immediately.",
+        "fullTranslation": "Onu hemen tamir etmek için birini göndereceğiz."
+      },
+      {
+        "role": "Guest",
+        "text": "Thank you. I appreciate it.",
+        "fullTranslation": "Teşekkür ederim. Takdir ediyorum."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Breakfast Hours",
+    "lines": [
+      {
+        "role": "Guest",
+        "text": "What time is breakfast served?",
+        "fullTranslation": "Kahvaltı saat kaçta servis ediliyor?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "Breakfast is served from seven until ten.",
+        "fullTranslation": "Kahvaltı yediden ona kadar servis ediliyor."
+      },
+      {
+        "role": "Guest",
+        "text": "Is it included in the room price?",
+        "fullTranslation": "O oda fiyatına dahil mi?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "Yes, breakfast is included.",
+        "fullTranslation": "Evet, kahvaltı dahil."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Late Check-out",
+    "lines": [
+      {
+        "role": "Guest",
+        "text": "Would it be possible to check out later?",
+        "fullTranslation": "Daha geç çıkış yapmak mümkün olur mu?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "How late would you like to stay?",
+        "fullTranslation": "Ne kadar geç kalmak istersiniz?"
+      },
+      {
+        "role": "Guest",
+        "text": "Until two o’clock in the afternoon.",
+        "fullTranslation": "Öğleden sonra saat ikiye kadar."
+      },
+      {
+        "role": "Receptionist",
+        "text": "That can be arranged for an additional fee.",
+        "fullTranslation": "Bu ek ücret karşılığında ayarlanabilir."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Wi-Fi Access",
+    "lines": [
+      {
+        "role": "Guest",
+        "text": "Could you tell me the Wi-Fi password?",
+        "fullTranslation": "Wi-Fi şifresini söyleyebilir misiniz?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "Certainly. It is written on your room card.",
+        "fullTranslation": "Tabii ki. O oda kartınızın üzerinde yazıyor."
+      },
+      {
+        "role": "Guest",
+        "text": "Is the connection reliable?",
+        "fullTranslation": "Bağlantı güvenilir mi?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "Yes, it works well throughout the hotel.",
+        "fullTranslation": "Evet, otelin her yerinde iyi çalışıyor."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Tourist Information",
+    "lines": [
+      {
+        "role": "Guest",
+        "text": "Could you recommend some places to visit nearby?",
+        "fullTranslation": "Yakında ziyaret edilecek bazı yerler tavsiye edebilir misiniz?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "The old town and the museum district are very popular.",
+        "fullTranslation": "Eski şehir ve müze bölgesi çok popüler."
+      },
+      {
+        "role": "Guest",
+        "text": "How can I get there?",
+        "fullTranslation": "Oraya nasıl gidebilirim?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "You can take tram number four from outside the hotel.",
+        "fullTranslation": "Otelin dışından dört numaralı tramvayı alabilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Extra Towels",
+    "lines": [
+      {
+        "role": "Guest",
+        "text": "Could I get some extra towels for my room?",
+        "fullTranslation": "Odam için ekstra havlu alabilir miyim?"
+      },
+      {
+        "role": "Employee",
+        "text": "Of course. How many would you need?",
+        "fullTranslation": "Tabii ki. Kaç tane ihtiyacınız olur?"
+      },
+      {
+        "role": "Guest",
+        "text": "Two additional towels would be enough.",
+        "fullTranslation": "İki ek havlu yeterli olurdu."
+      },
+      {
+        "role": "Employee",
+        "text": "We will bring them to your room shortly.",
+        "fullTranslation": "Onları birazdan odanıza getireceğiz."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Taxi Request",
+    "lines": [
+      {
+        "role": "Guest",
+        "text": "Could you call a taxi for me?",
+        "fullTranslation": "Benim için bir taksi çağırabilir misiniz?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "Certainly. Where would you like to go?",
+        "fullTranslation": "Tabii ki. Nereye gitmek istersiniz?"
+      },
+      {
+        "role": "Guest",
+        "text": "To the central train station.",
+        "fullTranslation": "Merkez tren istasyonuna."
+      },
+      {
+        "role": "Receptionist",
+        "text": "The taxi should arrive in about five minutes.",
+        "fullTranslation": "Taksi yaklaşık beş dakika içinde gelmeli."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Noisy Room",
+    "lines": [
+      {
+        "role": "Guest",
+        "text": "My room is very noisy at night.",
+        "fullTranslation": "Odam gece çok gürültülü."
+      },
+      {
+        "role": "Receptionist",
+        "text": "I am sorry to hear that.",
+        "fullTranslation": "Bunu duyduğuma üzüldüm."
+      },
+      {
+        "role": "Guest",
+        "text": "Would it be possible to change rooms?",
+        "fullTranslation": "Oda değiştirmek mümkün olur mu?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "Let me check what rooms are available.",
+        "fullTranslation": "Hangi odaların uygun olduğuna bakmama izin verin."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Gym Facilities",
+    "lines": [
+      {
+        "role": "Guest",
+        "text": "Does the hotel have a fitness center?",
+        "fullTranslation": "Otelin bir spor merkezi var mı?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "Yes, it is located on the second floor.",
+        "fullTranslation": "Evet, o ikinci katta bulunuyor."
+      },
+      {
+        "role": "Guest",
+        "text": "Is it open twenty-four hours a day?",
+        "fullTranslation": "O günde yirmi dört saat açık mı?"
+      },
+      {
+        "role": "Receptionist",
+        "text": "No, it closes at eleven in the evening.",
+        "fullTranslation": "Hayır, akşam saat on birde kapanıyor."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Checking Out",
+    "lines": [
+      {
+        "role": "Receptionist",
+        "text": "How was your stay with us?",
+        "fullTranslation": "Bizimle konaklamanız nasıldı?"
+      },
+      {
+        "role": "Guest",
+        "text": "Everything was excellent. I really enjoyed it.",
+        "fullTranslation": "Her şey mükemmeldi. Gerçekten keyif aldım."
+      },
+      {
+        "role": "Receptionist",
+        "text": "Would you like the invoice by email?",
+        "fullTranslation": "Faturayı e-posta ile ister misiniz?"
+      },
+      {
+        "role": "Guest",
+        "text": "Yes, that would be very convenient.",
+        "fullTranslation": "Evet, bu çok uygun olurdu."
+      }
+    ]
+  }
+]
