@@ -11,7 +11,7 @@ export default function HomePage() {
         mobileLinks={[
           { label: "Ana Sayfa", href: "/irsad-home" },
           { label: "Kısas'ul Enbiya, Türkçe", href: "/kisas-trk" },
-          { label: "Qisas al-anbiya, Özbekça", href: "/qisas-uzb" },
+          { label: "Qisas al-anbiya, Dutch", href: "/qisas-nl" },
           { label: "Döküman Yönetimi", href: "/irsad-docs" },
           { label: "Öğrenme Platformu", href: "/ogrenme-platformu" },
         ]}

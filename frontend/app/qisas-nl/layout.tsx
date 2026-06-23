@@ -1,0 +1,67 @@
+// app/qisas-nl/layout.tsx
+"use client";
+
+// import NavbarQisas from "../components/NavbarQisas";
+import SearchButtonQisas from "./components/SearchBoxQisas";
+import NavSideBar from "../components/NavSideBar";
+import QisasEnglishIntroBox from "./components/QisasEnglishIntroBox";
+
+
+
+export default function QisasEngLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="min-h-screen bg-white">
+      {/* <NavbarQisas
+      title="Qisas al-Anbiya"
+      leftTitle="Weg van Ișq"
+      searchComponent={<SearchButtonQisas />}
+      menuHref="/qisas-nl"
+      mobileLinks={[
+        { label: "Startpagina", href: "/home-page" },
+        { label: "Verhalen van de Profeten", href: "/qisas-nl" },
+        { label: "Қисас ал-Анбиё, Oezbeeks", href: "/qisas-uzb" },
+        { label: "Bibliotheek", href: "/docs-upload" },
+        { label: "Kennis & Gemeenschap", href: "/study-platform" },
+      ]}
+      sideContent={<QisasEnglishIntroBox />}
+    /> */}
+      <main className="pt-[50px]">
+        <div className="mx-auto grid max-w-[780px] grid-cols-1 md:grid-cols-[70px_minmax(0,700px)_1fr] xl:max-w-[1500px] xl:grid-cols-[280px_minmax(0,700px)_1fr]">
+          <NavSideBar
+            items={[
+              {
+                label: "Startpagina",
+                href: "/home-page",
+                image: "/images/iconHome.png",
+              },
+              {
+                label: "Oezbeekse Qisas",
+                href: "/qisas-uzb",
+                image: "/images/iconSripture.png",
+              },
+              {
+                label: "Bibliotheek",
+                href: "/docs-upload",
+                image: "/images/iconResources.png",
+              },
+              {
+                label: "Gemeenschap",
+                href: "/study-platform",
+                image: "/images/iconStudy.png",
+              },
+            ]}
+          />
+          <div className="min-w-0 border-r border-gray-200 py-4 px-6 md:border-r">
+            {children}
+          </div>
+          <div className="hidden p-6 md:block">
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+}

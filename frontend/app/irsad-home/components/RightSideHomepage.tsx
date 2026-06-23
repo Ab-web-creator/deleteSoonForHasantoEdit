@@ -71,7 +71,7 @@ export default function RightSideHomepage() {
 
         {/* CARD */}
         <Link
-          href="/qisas-uzb"
+          href="/qisas-nl"
           className="
             flex items-center gap-4
             rounded-3xl
@@ -374,7 +374,7 @@ export default function RightSideHomepage() {
 
         {/* BOTTOM LEFT QUADRANT HOVER AREA */}
         <Link
-          href="/qisas-uzb"
+          href="/qisas-nl"
           className="
             group absolute left-0 bottom-0 z-20
             h-1/2 w-1/2
@@ -397,7 +397,7 @@ export default function RightSideHomepage() {
           >
             Qisas al-Anbiya,
             <br />
-            Ózbekça
+            Dutch
             <span
               className="
                 ml-3 inline-block
