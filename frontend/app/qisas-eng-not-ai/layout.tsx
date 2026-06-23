@@ -23,9 +23,9 @@ export default function QisasEngLayout({
           mobileLinks={[
             { label: "Home Page", href: "/irsad-home" },
             { label: "Stories of Prophets, English", href: "/qisas-eng" },
+            { label: "Qisas, English bT", href: "/qisas-eng-not-ai" },
             { label: "Қисас ал-Анбиё, ўзбекча", href: "/qisas-uzb" },
-            { label: "Knowledge & Community", href: "/study-platform" },
-            { label: "Resource Library", href: "/docs-upload" },
+            { label: "Qisas, Dutch", href: "/qisas-nl" },
           ]}
            sideContent={<QisasEnglishIntroBox />}
         />
@@ -36,17 +36,21 @@ export default function QisasEngLayout({
              { label: "Home Page", 
               href: "/irsad-home",
               image: "/images/iconHome.png",
+             }, 
+             { label: "Qisas, English BT", 
+               href: "/qisas-eng-not-ai",
+               image: "/images/iconSripture.png", 
              },
-        
+             
+             { label: "Qisas Dutch", 
+              href: "/qisas-nl",
+              image: "/images/iconSripture.png", 
+            },
+          
             { label: "Қисас ал-Анбиё", 
               href: "/qisas-uzb",
-              image: "/images/iconSripture.png", },
-            { label: "Resource Library", 
-              href: "/docs-upload",
-              image: "/images/iconResources.png", },
-            { label: "Community", 
-              href: "/study-platform",
-              image: "/images/iconStudy.png", },
+              image: "/images/iconSripture.png", 
+            },
             ]}
           />
           <div className="min-w-0 border-r border-l-8 border-l-brand-600 border-gray-200 py-4 px-6 md:border-r">

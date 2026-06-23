@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans, Fraunces } from "next/font/google";
 import "./globals.css";
 import { Amiri, Roboto, Oswald } from "next/font/google";
 import BottomNav from "./components/BottomNav";
+import { agaArabesque } from "@/fonts/fonts";
 
 const amiri = Amiri({
   subsets: ["arabic", "latin"],
@@ -82,10 +83,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+  
   return (
     <html
       lang="tr"
-      className={`${amiri.variable} ${roboto.variable} ${oswald.variable} ${sans.variable} ${display.variable}`}
+      className={`${amiri.variable} ${agaArabesque.variable} ${roboto.variable} ${oswald.variable} ${sans.variable} ${display.variable}`}
     >
       <body className="min-h-screen font-sans antialiased">
         <div>{children}</div>

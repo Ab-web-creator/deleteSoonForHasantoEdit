@@ -357,3 +357,14 @@ a, p, label, input, span, button, .stories {
   font-family: var(--font-roboto), sans-serif;
 }
 
+.as-symbol {
+  font-family: var(--font-aga-arabesque);
+  font-size: 0.9em;
+  line-height: 1;
+  display: inline-block;
+  margin-inline-start: 0.15em;
+  position: relative;
+  top: 0.8em;
+  user-select: none;
+  color: rgb(88, 114, 0);
+}

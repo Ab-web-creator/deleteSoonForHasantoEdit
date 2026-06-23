@@ -46,15 +46,16 @@ export default function QisasEngLayout({
                 image: "/images/iconSripture.png",
               },
               {
-                label: "Bibliotheek",
-                href: "/docs-upload",
-                image: "/images/iconResources.png",
+                label: "English BT",
+                href: "/qisas-eng-not-ai",
+                image: "/images/iconSripture.png",
               },
               {
-                label: "Gemeenschap",
-                href: "/study-platform",
-                image: "/images/iconStudy.png",
+                label: "English Qisas (ai)",
+                href: "/qisas-eng",
+                image: "/images/iconSripture.png",
               },
+             
             ]}
           />
           <div className="min-w-0 border-r border-gray-200 py-4 px-6 md:border-r">
