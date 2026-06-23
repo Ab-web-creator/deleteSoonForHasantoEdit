@@ -71,7 +71,7 @@ function TabletLinksMd({
 }
 
 const desktopLinks = [
-  { href: "/home-page", label: "Home" },
+  { href: "/irsad-home", label: "Home" },
   // { href: "/qisas-eng", label: "Stories of Prophets" },
   { href: "/qisas-multi-page", label: "Translations" },
   { href: "/study-platform", label: "Platform" },
@@ -118,7 +118,7 @@ export default function NavbarHome({ mobileLinks }: NavbarHomeProps) {
 
   const handleLogout = async () => {
     await logout();
-    router.push("/home-page");
+    router.push("/irsad-home");
   };
 
   return (
@@ -137,7 +137,7 @@ export default function NavbarHome({ mobileLinks }: NavbarHomeProps) {
             }
           `}
         >
-          <Link href="/home-page" className="flex items-center gap-2">
+          <Link href="/irsad-home" className="flex items-center gap-2">
             <IrsadLogo
               className={`h-6 w-6 ${
                 isScrolled
@@ -204,7 +204,7 @@ export default function NavbarHome({ mobileLinks }: NavbarHomeProps) {
           <div
           className='hidden md:flex justify-between lg:hidden'
         >
-              <Link href="/home-page" className="flex items-center gap-2">
+              <Link href="/irsad-home" className="flex items-center gap-2">
                 <IrsadLogo
                   className='h-6 w-6 text-white'
                 />
@@ -272,7 +272,7 @@ export default function NavbarHome({ mobileLinks }: NavbarHomeProps) {
             rounded-2xl px-4 py-1 xl:px-0
           "
         >
-          <Link href="/home-page" className="flex items-center gap-2">
+          <Link href="/irsad-home" className="flex items-center gap-2">
             <IrsadLogo
               className={`h-6 w-6 ${
                 isScrolled ? "text-brand-950" : "text-white"

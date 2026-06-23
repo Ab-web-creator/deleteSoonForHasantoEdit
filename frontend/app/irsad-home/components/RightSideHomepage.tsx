@@ -114,18 +114,18 @@ export default function RightSideHomepage() {
                 fontFamily: "Cormorant Garamond, serif",
               }}
             >
-              Qisas al-Anbiya, Özbekça
+              Qisas al-Anbiya, Dutch
             </span>
 
             <span className="text-[#6B5B4A] text-sm mt-1">
-              Payğambarlar tarixi
+              Stories of the Prophets
             </span>
           </div>
         </Link>
 
       {/* CARD */}
         <Link
-          href="/irsad-docs"
+          href="/qisas-eng-not-ai"
           className="
             flex items-center gap-4
             rounded-3xl
@@ -168,18 +168,18 @@ export default function RightSideHomepage() {
                 fontFamily: "Cormorant Garamond, serif",
               }}
             >
-              Dökümanlar
+              Qisas in Englis BT
             </span>
 
             <span className="text-[#6B5B4A] text-sm mt-1">
-              PDF ve kaynaklar
+              It is back translation from Uzbek
             </span>
           </div>
         </Link>
 
         {/* CARD */}
         <Link
-          href="/ogrenme-platformu"
+          href="/qisas-uzb"
           className="
             flex items-center gap-4
             rounded-3xl
@@ -222,10 +222,10 @@ export default function RightSideHomepage() {
                 fontFamily: "Cormorant Garamond, serif",
               }}
             >
-              Öğrenme Platformu
+              Ózbekça qissalar
             </span>
                <span className="text-[#6B5B4A] text-sm mt-1">
-              Kurslar ve odalar
+              Ўзбек тилида ёзилган тарих
             </span>
           </div>
                  {/* CENTER IMAGE */}
@@ -321,7 +321,7 @@ export default function RightSideHomepage() {
 
         {/* TOP RIGHT QUADRANT HOVER AREA */}
         <Link
-          href="/irsad-docs"
+          href="/qisas-eng-not-ai"
           className="
             group absolute right-0 top-0 z-20
             h-1/2 w-1/2
@@ -343,7 +343,7 @@ export default function RightSideHomepage() {
               fontFamily: "Cormorant Garamond, serif",
             }}
           >
-            Döküman  <br /> Yönetimi
+                English back T,  <br /> of Qisas
             <span
               className="
                 ml-3 inline-block
@@ -415,7 +415,7 @@ export default function RightSideHomepage() {
 
         {/* BOTTOM RIGHT QUADRANT HOVER AREA */}
         <Link
-          href="/ogrenme-platformu"
+          href="/qisas-uzb"
           className="
             group absolute right-0 bottom-0 z-20
             h-1/2 w-1/2
@@ -437,7 +437,7 @@ export default function RightSideHomepage() {
               fontFamily: "Cormorant Garamond, serif",
             }}
           >
-            Öğrenme <br /> Platformu
+            Qisas Uzbek <br /> in Cyrillic
             <span
               className="
                 ml-3 inline-block

@@ -18,19 +18,19 @@ const sidebarItems = [
     label: "Kısas'ul Enbiya",
   },
   {
+    href: "/qisas-nl",
+    iconSrc: "/images/iconQisasBooks.png",
+    label: "Qisas, Dutch",
+  },
+  {
+    href: "/qisas-eng-not-ai",
+    iconSrc: "/images/iconQisasBooks.png",
+    label: "Qisas al-Anbiya, English BT",
+  },
+  {
     href: "/qisas-uzb",
     iconSrc: "/images/iconQisasBooks.png",
-    label: "Qisas al-Anbiya",
-  },
-  {
-    href: "/irsad-docs",
-    iconSrc: "/images/iconDocs.png",
-    label: "Dökümanlar",
-  },
-  {
-    href: "/ogrenme-platformu",
-    iconSrc: "/images/iconStudy.png",
-    label: "Öğrenme Alanı",
+    label: "Qisas Uzbek",
   },
 ];
 

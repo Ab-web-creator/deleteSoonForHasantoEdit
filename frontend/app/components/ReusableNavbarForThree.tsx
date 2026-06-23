@@ -22,8 +22,8 @@ type ReusableNavbarForThreeProps = {
 const desktopLinks = [
   { href: "/irsad-home", label: "Ana sayfa" },
   { href: "/kisas-trk", label: "Kıssalar" },
-  { href: "/qisas-uzb", label: "Qisas" },
-  { href: "/irsad-docs", label: "Dökümanlar" },
+  { href: "/qisas-nl", label: "Qisas" },
+  
   { href: "/ogrenme-platformu", label: "Platform" },
 ];
 
@@ -118,10 +118,6 @@ export default function ReusableNavbarForThree({
                 Sign in
               </Link>
           
-       
-
-
-
             {/* MOBILE Hamburger menu */}
             <button
               onClick={() => setMenuOpen((prev) => !prev)}

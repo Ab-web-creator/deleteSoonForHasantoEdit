@@ -12,8 +12,7 @@ export default function HomePage() {
           { label: "Ana Sayfa", href: "/irsad-home" },
           { label: "Kısas'ul Enbiya, Türkçe", href: "/kisas-trk" },
           { label: "Qisas al-anbiya, Dutch", href: "/qisas-nl" },
-          { label: "Döküman Yönetimi", href: "/irsad-docs" },
-          { label: "Öğrenme Platformu", href: "/ogrenme-platformu" },
+          { label: "Qisas al-anbiya, Eng BT", href: "/qisas-eng-not-ai" },
         ]}
       />
 

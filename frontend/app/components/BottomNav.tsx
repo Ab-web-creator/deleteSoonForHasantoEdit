@@ -6,9 +6,9 @@ import { usePathname } from "next/navigation";
 const navItems = [
   { href: "/irsad-home", iconSrc: "/images/iconHome.png", label: "Anasayfa" },
   { href: "/kisas-trk", iconSrc: "/images/iconQisasBooks.png", label: "Kıssalar" },
-  { href: "/qisas-uzb", iconSrc: "/images/iconQisasBooks.png", label: "Qisas" },
-  { href: "/irsad-docs", iconSrc: "/images/iconDocs.png", label: "Dökümanlar" },
-  { href: "/ogrenme-platformu", iconSrc: "/images/iconStudy.png", label: "Platform" },
+  { href: "/qisas-nl", iconSrc: "/images/iconQisasBooks.png", label: "Qisas" },
+  { href: "/qisas-uzb", iconSrc: "/images/iconDocs.png", label: "Uzbek" },
+  { href: "/qisas-eng-not-ai", iconSrc: "/images/iconStudy.png", label: "Eng BT" },
 ];
 
 export default function BottomNav() {

@@ -1,0 +1,117 @@
+
+.stories .speech-bubble {
+  position: absolute;
+  padding: 15px;
+  width: 380px;
+  left: 690px;
+  right: auto;
+  /* background: rgba(253, 255, 201, 0.797); */
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.stories .speech-bubble .vitalic {
+  color: rgb(83, 83, 83) !important;
+  font-weight: 400;
+  font-size: 13px !important;
+}
+
+.stories .speech-bubble .boldItalic {
+  color: rgb(0, 160, 16) !important;
+  font-weight: 400;
+  font-size: 13px !important;
+}
+
+.stories .speech-bubble p .boldItalic {
+  color: rgb(0, 160, 16) !important;
+  font-weight: 400;
+  font-size: 13px !important;
+}
+
+
+.stories .speech-bubble p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: 400;
+  /* font-family: "Roboto" !important; */
+  color: black;
+}
+
+
+@media only screen and (max-width: 1280px) {
+  .stories .speech-bubble {
+    left: auto;
+    right: 20px;
+    width: 280px;
+    background-color: rgb(244, 255, 244);
+    width: fit-content;
+    max-width: 90%;
+    border: 1px dotted rgb(246, 61, 61);
+  }
+
+  .stories .speech-bubble p {
+    color: rgb(69, 69, 69);
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .stories .speech-bubble .boldItalic {
+    color: rgb(0, 119, 255) !important;
+    font-weight: 400;
+    font-size: 16px !important;
+  }
+
+  .stories .speech-bubble p .boldItalic {
+    color: rgb(0, 119, 255) !important;
+    font-weight: 400;
+    font-size: 16px !important;
+  }
+}
+
+.stories .vitalic {
+   color: rgb(0, 111, 152)
+}
+
+.stories .boldItalic {
+  color: rgb(31, 122, 31);
+}
+
+.stories .paragraph_heading {
+  margin-top: 30px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.stories .paragraph_heading p {
+  font-family: 'TimesNewRoman-regular';
+  text-transform: uppercase;
+  letter-spacing: 0.03rem;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 18px;
+  color: rgb(88, 114, 0);
+}
+.stories p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-wrap: pretty;
+  
+    max-width: 70ch;
+}
+
+.arabic_quran {
+  text-align: right;
+  direction: rtl;
+}
+
+.stories .arabic_quran span {
+  line-height: 40px;
+  font-size: 22px;
+  color: rgb(97, 97, 97);
+}

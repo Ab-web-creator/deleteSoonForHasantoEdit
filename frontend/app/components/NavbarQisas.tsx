@@ -5,7 +5,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
-import { useAuth } from "@/stores/authStore";
+
 
 import IrsadLogo from "./IrsadLogo";
 import HamburgerMenuButton from "./HamburgerMenuButton";
@@ -40,20 +40,17 @@ export default function NavbarQisas({
 
   const shouldShowMenu = menuHref && pathname !== menuHref;
 
-  const { isAuthenticated, logout } = useAuth();
+
   const router = useRouter();
 
-  const handleLogout = async () => {
-    await logout();
-    router.push("/home-page");
-  };
+
 
   return (
     <header className="fixed left-0 right-0 top-0 z-50 border-b border-gray-200 bg-white  md:pl-0">
       <div className="mx-auto grid max-w-[780px] grid-cols-[minmax(0,1fr)_auto] md:grid-cols-[70px_minmax(0,700px)_1fr] xl:max-w-[1500px] xl:grid-cols-[280px_minmax(0,700px)_1fr]">
         {/* Left */}
         <Link
-          href="/home-page"
+          href="/irsad-home"
           className="
           hidden md:flex h-[50px] items-center justify-center gap-1
             border-0 border-gray-200 transition-opacity
@@ -103,8 +100,6 @@ export default function NavbarQisas({
             <div className="md:hidden">
               <MobileNavigationMenu
               links={mobileLinks}
-                isAuthenticated={isAuthenticated}
-                onLogout={handleLogout}
               buttonClassName="text-brand-600 hover:bg-gray-200"
             />
             </div>

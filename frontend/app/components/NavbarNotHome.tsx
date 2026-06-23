@@ -24,7 +24,7 @@ type NavbarNotHomeProps = {
 };
 
 const desktopLinks = [
-  { href: "/home-page", label: "Home" },
+  { href: "/irsad-home", label: "Home" },
   { href: "/qisas-multi-page", label: "Translations" },
   { href: "/study-platform", label: "Platform" },
   { href: "/docs-upload", label: "Library" },
@@ -68,7 +68,7 @@ export default function NavbarNotHome({ mobileLinks }: NavbarNotHomeProps) {
 
   const handleLogout = async () => {
     await logout();
-    router.push("/home-page");
+    router.push("/irsad-home");
   };
 
   return (
@@ -97,7 +97,7 @@ export default function NavbarNotHome({ mobileLinks }: NavbarNotHomeProps) {
             }
           `}
         >
-          <Link href="/home-page" className="flex items-center gap-2">
+          <Link href="/irsad-home" className="flex items-center gap-2">
             <IrsadLogo
               className={`h-6 w-6 ${
                 isScrolled ? "text-brand-950" : "text-white"
@@ -176,7 +176,7 @@ export default function NavbarNotHome({ mobileLinks }: NavbarNotHomeProps) {
             rounded-2xl px-4 py-1
           "
         >
-          <Link href="/home-page" className="flex items-center gap-2">
+          <Link href="/irsad-home" className="flex items-center gap-2">
             <IrsadLogo
               className={`h-6 w-6 ${
                 isScrolled ? "text-brand-800" : "text-white"
