@@ -10,7 +10,7 @@ export default function KainAbel() {
   ]);
 
   return ( 
-      <main className="stories relative">
+<main className="stories relative">
   <div className="main_text">
     <p className="boldItalic">
       “Recite to them the true account of the two sons of Adam.

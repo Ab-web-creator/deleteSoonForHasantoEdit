@@ -13,207 +13,198 @@ export default function AdamAlayhissalam() {
     'bubble4',
     'bubble5',
     'bubble6',
-    'bubble7',
+    
   ]);
 
-return (
-<main className="stories relative">
-  <div className="main_text">
-    <p
-      className="vitalic cursor-pointer"
-      onClick={() => toggleBubble('bubble1')}
-    >
-      As it is written in the Qur&apos;an, Allah Almighty created Adam (a.s.)
-      from the soil-mud (Saad 38:71).<sup>a</sup>
-    </p>
+  return (
+    <main className="stories relative">
+      <div className="main_text">
+        <p className="vitalic">
+          As it is written in the Qurʾān al-Karīm,
+        </p>
 
-    {openBubbles['bubble1'] && (
-      <div className="speech-bubble" onClick={() => toggleBubble('bubble1')}>
+        <p className="boldItalic cursor-pointer" onClick={() => toggleBubble('bubble1')}>
+          "Allāh Almighty (s.w.t.) created Ādam (a.s.) from clay." ( Ṣād 38:71).
+          <sup>1</sup>
+        </p>
+
+        {openBubbles['bubble1'] && (
+          <div className="speech-bubble" onClick={() => toggleBubble('bubble1')}>
+            <p>
+              <sup>1</sup> Your Lord said to the angels, ‘I will create a man from
+              clay. When I have shaped him and breathed from My Spirit into him, bow
+              down before him.’ The angels all bowed down together. ( Ṣād 38:71-73)
+            </p>
+          </div>
+        )}
+      </div>
+
+      <div className="paragraph_heading mt-10">
+        <p>The Creation of Ādam (a.s.)</p>
+      </div>
+
+      <div className="main_text">
+        <p className="cursor-pointer" onClick={() => toggleBubble('bubble2')}>
+          Allāh made a man from the soil and breathed life-giving breath from{' '}
+          <span className="vitalic">His spirit</span> into the man's nostrils, and
+          the man started breathing.<sup>2</sup>{' '}
+          <span className="vitalic">
+            At that time there was no-one else on the earth besides Ādam (a.s.).
+          </span>
+        </p>
+
+        {openBubbles['bubble2'] && (
+          <div className="speech-bubble" onClick={() => toggleBubble('bubble2')}>
+            <p>
+              <sup>2</sup> According to ḥadīth, Ādam (a.s.) was created on Friday
+              (Muslim, Abū Dāwūd, al-Tirmidhī, Ibn Mājah).
+            </p>
+          </div>
+        )}
+      </div>
+
+      <div className="main_text">
         <p>
-          <sup>a</sup> [Speech bubble placeholder]
+          Allāh made a garden in a place called ʿAdn and filled it with beautiful
+          and delicious fruit trees. There were two special trees in the middle of
+          the garden: one was the tree of life, and the second one was the tree of
+          knowing good and evil.
+        </p>
+
+        <p>
+          So Allāh (s.w.t.) placed Ādam (a.s.) in this garden and commanded him to
+          take care of the garden.
+        </p>
+
+        <p className="cursor-pointer" onClick={() => toggleBubble('bubble3')}>
+          Then Allāh (s.w.t) warned him saying: "Go ahead. It is{' '}
+          <span className="wa">ḥalāl</span> for you to eat fruit from any of these
+          trees, except for one. Do not eat from the tree of the knowledge of good
+          and evil, because you will die on the same day that you eat from it."
+          <sup>3</sup>
+        </p>
+
+        {openBubbles['bubble3'] && (
+          <div className="speech-bubble" onClick={() => toggleBubble('bubble3')}>
+            <p>
+              <sup>3</sup> In sūra <span className="vitalic">Tāʾ Hāʾ</span> it is
+              written that Allāh (s.w.t.) warned Ādam (a.s.) about Shayṭān:{' '}
+              <span className="boldItalic">
+                "Ādam, this is your enemy, yours and your wife’s: do not let him
+                drive you out of the garden and make you miserable."
+              </span>{' '}
+              ( 20:117).
+            </p>
+          </div>
+        )}
+      </div>
+
+      <div className="paragraph_heading">
+        <p>The First Prophet</p>
+      </div>
+
+      <div className="main_text">
+        <p className="vitalic cursor-pointer" onClick={() => toggleBubble('bubble4')}>
+          One of the great ṣaḥāba, Abū Dhar (r.a.), asked the prophet (s.a.w.):
+          "Among the prophets, who was the first?" Rasul Allāh (s.a.w.) said: "Ādam
+          (a.s.) is the first sent prophet. Allāh made him by His hand and put spirit
+          in him and created him as a handsome human being." Another narration from
+          Abū Dhar (r.a.) says: "I asked the messenger (s.a.w.): "Oh messenger of
+          Allāh, was Ādam one of the prophets?" The messenger (s.a.w.) answered
+          saying: "Of course, Ādam was the first prophet who spoke with Allāh
+          directly."<sup>4</sup>
+        </p>
+
+        {openBubbles['bubble4'] && (
+          <div className="speech-bubble" onClick={() => toggleBubble('bubble4')}>
+            <p>
+              <sup>4</sup> Abū Jaʿfar b. Jarīr al-Ṭabarī, "
+              <span className="vitalic">Tarīkh al-umam wa-l-mulūk</span>".
+            </p>
+          </div>
+        )}
+      </div>
+
+      <div className="paragraph_heading">
+        <p>Naming the Animals</p>
+      </div>
+
+      <div className="main_text">
+        <p className="vitalic">
+          As Ādam (a.s.) walked through <span className="wa">jannat ʿadn</span>, he
+          observed the beautiful perfection that surrounded him.
+        </p>
+
+        <p className="cursor-pointer" onClick={() => toggleBubble('bubble5')}>
+          Allāh (s.w.t.) brought all the creatures He had created to Ādam's (a.s.)
+          presence so that he (a.s.) could name them.<sup>5</sup> When he finished
+          naming them, he realized that Ādam (a.s.) lacked only one thing. There was
+          no suitable companion for him.<sup>6</sup>
+        </p>
+
+        {openBubbles['bubble5'] && (
+          <div className="speech-bubble" onClick={() => toggleBubble('bubble5')}>
+            <p>
+              <sup>5</sup> There is a verse in Qurʾān, which says{' '}
+              <span className="boldItalic">"(Allāh) taught Ādam all the names"</span>{' '}
+              ( Al-Baqara 2:31).
+            </p>
+
+            <p>
+              <sup>6</sup> Someone might ask: "Why would animals not be a suitable
+              companion for Ādam (a.s.)?" Animals have a certain amount of
+              understanding, but the ability to imagine is given only to man.
+            </p>
+          </div>
+        )}
+      </div>
+
+      <div className="paragraph_heading">
+        <p>The Creation of Umm Ḥawwāʾ</p>
+      </div>
+
+      <div className="main_text">
+        <p className="cursor-pointer" onClick={() => toggleBubble('bubble6')}>
+          Before Allāh the Highest presented the living creatures to Nabī Ādam, he
+          revealed: "It is not good for Ādam to be alone. I will create a suitable
+          companion for him."<sup>7</sup> So after Ādam (a.s.) had named the animals,
+          Allāh created Umm Ḥawwāʾ from Ādam's (a.s.) side.<sup>8</sup>
+        </p>
+
+        {openBubbles['bubble6'] && (
+          <div className="speech-bubble" onClick={() => toggleBubble('bubble6')}>
+            <p>
+              <sup>7</sup> According to Sharīʿa, it is stressed that we need to
+              choose our spouses fittingly.
+            </p>
+
+            <p>
+              <sup>8</sup> The book of Thaʿlabī "
+              <span className="vitalic">ʿArāʾis</span>" says that Allāh put Ādam
+              (a.s.) to sleep and created Mother Ḥawwāʾ from his rib.
+            </p>
+          </div>
+        )}
+      </div>
+
+      <div className="main_text">
+        <p>
+          When Ādam (a.s.) first saw Umm Ḥawwāʾ, he rejoiced and said, "These bones
+          are from my bones; this flesh is from my flesh; I name her 'woman', for she
+          was created from man's rib."
+        </p>
+
+        <p className="vitalic">
+          So Umm Ḥawwāʾ's bone and flesh were originally taken from Ādam. As it is
+          said in the Qurʾān al-Karīm:{' '}
+          <span className="boldItalic">
+            "People, be mindful of your Lord, who created you from a single soul,
+            and from it created its mate..."
+          </span>{' '}
+          ( Al-Nisāʾ 4:1). That is why when a man gets married he leaves his
+          parents, becomes joined to his wife, and the two of them become one body.
         </p>
       </div>
-    )}
-  </div>
-
-  <div className="arabic_quran pt-4 pb-3 px-6 border border-gray-300 rounded-md">
-    <span className="font-amiri">
-      إِذْ قَالَ رَبُّكَ لِلْمَلَـٰٓئِكَةِ إِنِّى خَـٰلِقٌۢ بَشَرًۭا مِّن طِينٍۢ
-      فَإِذَا سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَـٰجِدِينَ
-      فَسَجَدَ ٱلْمَلَـٰٓئِكَةُ كُلُّهُمْ أَجْمَعُونَ
-    </span>
-  </div>
-
-  <div className="paragraph_heading mt-10">
-    <p>The creation of the Adam (a.s.)</p>
-  </div>
-
-  <div className="main_text">
-    <p className="cursor-pointer" onClick={() => toggleBubble('bubble2')}>
-      Allah makes a man from the soil and breathes from His spirit the life
-      (-giving) breath into his nostrils, and the man started breathing.
-
-      <span className="vitalic">
-        {' '}
-        At that time there was no one else on the earth besides Hazrat Adam
-        (a.s.).<sup>b</sup>
-      </span>
-    </p>
-
-    {openBubbles['bubble2'] && (
-      <div className="speech-bubble" onClick={() => toggleBubble('bubble2')}>
-        <p>
-          <sup>b</sup> [Speech bubble placeholder]
-        </p>
-      </div>
-    )}
-  </div>
-
-  <div className="main_text">
-    <p>
-      Then God made a garden in a place called Eden and filled it with beautiful
-      and delicious fruit trees. There grew two trees in the middle of the
-      garden: one was the tree of life, and the second one was the tree of
-      knowing good and evil. Allah ta&apos;ala placed Adam (a.s.) in this place
-      saying, &quot;Let him take care of the garden.&quot;
-    </p>
-
-    <p>
-      Then He warned him, saying: &quot;Go ahead and eat the fruit of all these
-      trees. Only do not eat from the tree of the knowledge of good and evil,
-      because you will die on the same day as you eat.&quot;
-    </p>
-
-    <p className="vitalic">
-      In the sura Taa-Haa it is written that Allah (s.w.t.) warned Adam (a.s.)
-      about Satan:{' '}
-
-      <span className="boldItalic">
-        &quot;Oh Adam, of course, he is your enemy and the enemy of your wife,
-        (be careful) so that he will not kick the two of you out of Janna and
-        you will be unhappy&quot;
-      </span>
-      {' '}
-      (20:117).
-    </p>
-  </div>
-
-  <div className="paragraph_heading">
-    <p>The First prophet</p>
-  </div>
-
-  <div className="main_text">
-    <p className="vitalic cursor-pointer" onClick={() => toggleBubble('bubble3')}>
-      One of the great sahaba — Abu Zarr (r.a.) asked the prophet (s.a.w.):
-      &quot;Who was the first among prophets?&quot; The Messenger (s.a.w.) said:
-      &quot;Adam (a.s.) is the first sent prophet, Allah made him by His hand and
-      put the spirit in him and created him as a handsome human being.&quot; In
-      another narration from Abu Zarr (r.a.) it says: &quot;I asked the messenger
-      (s.a.v.): &quot;Oh the messenger of Allah, was Adam from among prophets?&quot;
-      The messenger (s.a.v.) answered saying: &quot;Of course, Adam was the prophet
-      who spoke first with Allah without a middle person.&quot;<sup>c</sup>
-    </p>
-
-    {openBubbles['bubble3'] && (
-      <div className="speech-bubble" onClick={() => toggleBubble('bubble3')}>
-        <p>
-          <sup>c</sup> [Speech bubble placeholder]
-        </p>
-      </div>
-    )}
-  </div>
-
-  <div className="paragraph_heading">
-    <p>Naming the animals</p>
-  </div>
-
-  <div className="main_text">
-    <p>
-      <span className="vitalic">
-        As Hazrat Adam walked through the garden of paradise, he was watching
-        pairs of animals that were walking, and beautiful birds flying together.
-        Everything was made very beautifully and wonderfully.
-      </span>
-    </p>
-
-    <p className="cursor-pointer" onClick={() => toggleBubble('bubble4')}>
-      Allah ta&apos;ala brought all the creatures He had created into the
-      presence of Adam (a.s.) and he (a.s.) named them all the things, animals
-      and birds.<sup>d</sup>
-    </p>
-
-    {openBubbles['bubble4'] && (
-      <div className="speech-bubble" onClick={() => toggleBubble('bubble4')}>
-        <p>
-          <sup>d</sup> [Speech bubble placeholder]
-        </p>
-      </div>
-    )}
-  </div>
-
-  <div className="main_text">
-    <p className="cursor-pointer" onClick={() => toggleBubble('bubble5')}>
-      He lacked only one thing and so it was that there was not found a suitable
-      companion.<sup>e</sup>
-    </p>
-
-    {openBubbles['bubble5'] && (
-      <div className="speech-bubble" onClick={() => toggleBubble('bubble5')}>
-        <p>
-          <sup>e</sup> [Speech bubble placeholder]
-        </p>
-      </div>
-    )}
-  </div>
-
-  <div className="paragraph_heading">
-    <p>The creation of Mother Eve</p>
-  </div>
-
-  <div className="main_text">
-    <p className="cursor-pointer" onClick={() => toggleBubble('bubble6')}>
-      Allah the Highest had said before: &quot;It is not good for Adam to be
-      alone, I will create a suitable companion<sup>f</sup> After Adam (a.s.) had
-      named the animals, God created Mother Eve from his side.
-    </p>
-
-    {openBubbles['bubble6'] && (
-      <div className="speech-bubble" onClick={() => toggleBubble('bubble6')}>
-        <p>
-          <sup>f</sup> [Speech bubble placeholder]
-        </p>
-      </div>
-    )}
-  </div>
-
-  <div className="main_text">
-    <p className="cursor-pointer" onClick={() => toggleBubble('bubble7')}>
-      When Hazrat Adam first saw Mother Eve he was so happy and cheered up
-      saying: &quot;So there is such a one (for me)!&quot;<sup>g</sup>
-    </p>
-
-    {openBubbles['bubble7'] && (
-      <div className="speech-bubble" onClick={() => toggleBubble('bubble7')}>
-        <p>
-          <sup>g</sup> [Speech bubble placeholder]
-        </p>
-      </div>
-    )}
-
-    <p>
-      So, Mother Eve&apos;s bones andflesh were originally taken from Adam. As it
-      is said in the Qur&apos;an:{' '}
-
-      <span className="boldItalic">
-        «Oh you people! Your Rabb had created you from one soul and He created
-        his pair from him...»
-      </span>
-      {' '}
-      (Sura Nisa 4:1). That is why when a man gets married, he puts his parents
-      aside, and will be welded with his wife and the two of them will become one
-      body.
-    </p>
-  </div>
-</main>
-);
+    </main>
+  );
 }
