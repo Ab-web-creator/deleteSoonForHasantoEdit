@@ -221,16 +221,11 @@ export default function Introduction() {
       van taqwa.
     </p>
 
-    <p>Met respect, het vertaalteam.</p>
+    <p className='my-0'>Met respect, het vertaalteam.</p>
+    <p className='my-0'>© 2016 Abdul-Ghafur ibn Abdul-Sattar</p>
   </div>
 
   {/* <ConverterForQisas /> */}
-
-  <footer>
-    <div>
-      <p>© 2016 Abdul-Ghafur ibn Abdul-Sattar</p>
-    </div>
-  </footer>
 </main>
   );
 }
