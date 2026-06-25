@@ -14,6 +14,7 @@ export default function AdamAlayhissalam() {
     'bubble5',
     'bubble6',
     'bubble7',
+    'bubble8',
   ]);
 
 return (
@@ -110,7 +111,7 @@ return (
       zodat hij voor de tuin zou zorgen.
     </p>
 
-    <p>
+    <p  className='cursor-pointer' onClick={() => toggleBubble('bubble3')}>
       Daarna waarschuwde Hij hem:
 
       “Je mag eten van de vruchten
@@ -120,11 +121,15 @@ return (
       van de Kennis van Goed en Kwaad.
 
       Op de dag dat je daarvan eet,
-      zul je zeker sterven!”
+      zul je zeker sterven!”<sup>3</sup>
     </p>
-
+ {openBubbles['bubble3'] && (
+   <div
+        className="speech-bubble"
+        onClick={() => toggleBubble('bubble3')}
+      >
     <p className="vitalic">
-      In Soera Ta-Ha
+      <sup>3</sup> In Soera Ta-Ha
       staat geschreven dat Allah de Verhevene
       Adam alayhis-salam waarschuwde voor Shaytan:
 
@@ -139,6 +144,8 @@ return (
       {' '}
       (20:117).
     </p>
+    </div>
+ )}
   </div>
 
   <div className="paragraph_heading">
@@ -148,7 +155,7 @@ return (
   <div className="main_text">
     <p
       className="vitalic cursor-pointer"
-      onClick={() => toggleBubble('bubble3')}
+      onClick={() => toggleBubble('bubble4')}
     >
       Abu Dharr رضي الله عنه,
       een van de edele Sahaba,
@@ -176,16 +183,16 @@ return (
       ‘Zeker,
       Adam was de eerste profeet
       die rechtstreeks met Allah sprak.’”
-      <sup>3</sup>
+      <sup>4</sup>
     </p>
 
-    {openBubbles['bubble3'] && (
+    {openBubbles['bubble4'] && (
       <div
         className="speech-bubble"
-        onClick={() => toggleBubble('bubble3')}
+        onClick={() => toggleBubble('bubble4')}
       >
         <p>
-          <sup>3</sup> Abu Ja‘far Muhammad ibn Jarir al-Tabari,
+          <sup>4</sup> Abu Ja‘far Muhammad ibn Jarir al-Tabari,
           “Tarikh al-Umam wa al-Muluk”.
         </p>
       </div>
@@ -209,22 +216,22 @@ return (
 
     <p
       className="cursor-pointer "
-      onClick={() => toggleBubble('bubble4')}
+      onClick={() => toggleBubble('bubble5')}
     >
       Allah bracht de levende schepselen
       die Hij vóór Adam alayhis-salam had geschapen,
-      en Adam gaf namen<sup>4</sup> {" "}
+      en Adam gaf namen<sup>5</sup> {" "}
       aan hen allemaal —
       de dieren en de vogels.
     </p>
 
-    {openBubbles['bubble4'] && (
+    {openBubbles['bubble5'] && (
       <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble4')}
+        className="speech-bubble -mt-10"
+        onClick={() => toggleBubble('bubble5')}
       >
         <p>
-          <sup>4</sup> Soera Al-Baqarah:
+          <sup>5</sup> Soera Al-Baqarah:
           “En Hij onderwees Adam alle namen”
           (2:31).
         </p>
@@ -235,21 +242,21 @@ return (
   <div className="main_text">
     <p
       className="cursor-pointer "
-      onClick={() => toggleBubble('bubble5')}
+      onClick={() => toggleBubble('bubble6')}
     >
       Het enige wat voor hem nog ontbrak,
       was dat er nog geen geschikte metgezel
       voor hem gevonden was.
-      <sup>5</sup>
+      <sup>6</sup>
     </p>
 
-    {openBubbles['bubble5'] && (
+    {openBubbles['bubble6'] && (
       <div
         className="speech-bubble"
-        onClick={() => toggleBubble('bubble5')}
+        onClick={() => toggleBubble('bubble6')}
       >
         <p>
-          <sup>5</sup> Dieren hebben ook
+          <sup>6</sup> Dieren hebben ook
           een bepaalde mate van intelligentie gekregen,
           maar zij bezitten niet
           het soort overdenking en redenering
@@ -259,34 +266,34 @@ return (
     )}
   </div>
 
-  <div className="paragraph_heading">
+  <div className="paragraph_heading relative">
     <p>DE SCHEPPING VAN MOEDER HAWWA</p>
   </div>
 
   <div className="main_text">
     <p
       className="cursor-pointer "
-      onClick={() => toggleBubble('bubble6')}
+      onClick={() => toggleBubble('bubble7')}
     >
       Allah, verheerlijkt en verheven is Hij,
       zei dat het niet goed was
       dat Adam alayhis-salam alleen zou zijn,
       en dat Hij voor hem
       een geschikte echtgenote zou scheppen
-      <sup>6</sup>.
+      <sup>7</sup>.
 
       Nadat Adam alayhis-salam de dieren namen had gegeven,
       schiep Allah Moeder Hawwa رضي الله عنها
       uit zijn zijde.
     </p>
 
-    {openBubbles['bubble6'] && (
+    {openBubbles['bubble7'] && (
       <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble6')}
+        className="speech-bubble -mt-4"
+        onClick={() => toggleBubble('bubble7')}
       >
         <p>
-          <sup>6</sup> In de Shariah
+          <sup>7</sup> In de Shariah
           wordt het belang van het kiezen
           van een geschikte echtgenoot of echtgenote
           bijzonder benadrukt.
@@ -298,7 +305,7 @@ return (
   <div className="main_text">
     <p
       className="cursor-pointer "
-      onClick={() => toggleBubble('bubble7')}
+      onClick={() => toggleBubble('bubble8')}
     >
       Toen Profeet Adam alayhis-salam Moeder Hawwa voor het eerst zag
 
@@ -309,16 +316,16 @@ return (
       , zou hij hebben uitgeroepen:
 
       “Dus zij bestaat toch!”
-      <sup>7</sup>
+      <sup>8</sup>
     </p>
 
-    {openBubbles['bubble7'] && (
+    {openBubbles['bubble8'] && (
       <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble7')}
+        className="speech-bubble mt-6"
+        onClick={() => toggleBubble('bubble8')}
       >
         <p>
-          <sup>7</sup> Volgens wat geschreven staat
+          <sup>8</sup> Volgens wat geschreven staat
           in het boek “Arais” van Hazrat Tha‘labi,
           liet Allah de Verhevene Adam alayhis-salam slapen
           en schiep Hij Moeder Hawwa

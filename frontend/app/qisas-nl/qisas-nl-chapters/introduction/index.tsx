@@ -48,14 +48,34 @@ export default function Introduction() {
     </div>
   </article>
 
-  <div onClick={() => toggleBubble('bubble1')}  className="paragraph_heading cursor-pointer">
+  <div  className="paragraph_heading">
    <p className="boldItalic my-2">
         “Voorwaar, in de verhalen van de {' '}<span className="vitalic">(profeten)</span>{' '}
         is een les voor mensen van begrip.”
         <br />
         <span className="vitalic"> (Surah Yusuf, vers 111)</span>
-        <sup>1</sup>
       </p>
+
+
+  </div>
+
+  <div className="main_text">
+    <p>
+      Alle lof behoort toe aan Allah, de Heer van alle werelden. Moge vrede en
+      zegeningen rusten op onze meester Muḥammad, op zijn familie en op al zijn
+      metgezellen. Assalamu alaykum wa rahmatullahi wa barakatuh. Om verder te
+      gaan...
+    </p>
+
+    <p onClick={() => toggleBubble('bubble1')} className='cursor-pointer'>
+      Dit boek staat in het Arabisch bekend als “Qisas al-Anbiya” en vertelt de
+      geschiedenis van de profeten, vrede zij met hen. Er zijn meerdere boeken
+      in dit genre geschreven. Het eerste daarvan was de verzameling van
+      Muhammad ibn Ishaq. Hij wijdde zijn werk vooral aan drie onderwerpen: de
+      schepping van de wereld en de geschiedenis van de profeten vóór Muhammad ﷺ
+      (Kitab al-mubtada’), het leven van onze Profeet ﷺ en de openbaringen die
+      hij ontving (Sirah), en zijn militaire expedities (Maghozi).<sup>1</sup>
+    </p>
 
     {openBubbles['bubble1'] && (
       <div className="speech-bubble" onClick={() => toggleBubble('bubble1')}>
@@ -67,25 +87,6 @@ export default function Introduction() {
         <p className="who_wrote">(Ibn Saʿd, “Tabaqat”, Vol. 1, p. 155.)</p>
       </div>
     )}
-  </div>
-
-  <div className="main_text">
-    <p>
-      Alle lof behoort toe aan Allah, de Heer van alle werelden. Moge vrede en
-      zegeningen rusten op onze meester Muḥammad, op zijn familie en op al zijn
-      metgezellen. Assalamu alaykum wa rahmatullahi wa barakatuh. Om verder te
-      gaan...
-    </p>
-
-    <p>
-      Dit boek staat in het Arabisch bekend als “Qisas al-Anbiya” en vertelt de
-      geschiedenis van de profeten, vrede zij met hen. Er zijn meerdere boeken
-      in dit genre geschreven. Het eerste daarvan was de verzameling van
-      Muhammad ibn Ishaq. Hij wijdde zijn werk vooral aan drie onderwerpen: de
-      schepping van de wereld en de geschiedenis van de profeten vóór Muhammad ﷺ
-      (Kitab al-mubtada’), het leven van onze Profeet ﷺ en de openbaringen die
-      hij ontving (Sirah), en zijn militaire expedities (Maghozi).
-    </p>
 
     <p>
       Helaas is het werk van Ibn Ishaq niet volledig tot ons gekomen. Toch
