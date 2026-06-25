@@ -48,18 +48,14 @@ export default function Introduction() {
     </div>
   </article>
 
-  <div className="uzbek_quron relative">
-    <article
-      className="w-full boldItalic cursor-pointer border border-gray-400 px-4 rounded-md"
-      onClick={() => toggleBubble('bubble1')}
-    >
-      <p className="boldItalic my-2">
-        “Voorwaar, in de verhalen van de <span className="vitalic">(profeten)</span>
+  <div onClick={() => toggleBubble('bubble1')}  className="paragraph_heading cursor-pointer">
+   <p className="boldItalic my-2">
+        “Voorwaar, in de verhalen van de {' '}<span className="vitalic">(profeten)</span>{' '}
         is een les voor mensen van begrip.”
+        <br />
         <span className="vitalic"> (Surah Yusuf, vers 111)</span>
         <sup>1</sup>
       </p>
-    </article>
 
     {openBubbles['bubble1'] && (
       <div className="speech-bubble" onClick={() => toggleBubble('bubble1')}>
