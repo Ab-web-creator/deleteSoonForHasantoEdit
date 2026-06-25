@@ -14,233 +14,223 @@ export default function Introduction() {
   ]);
 
   return (
-        <main className="stories relative">
-          <p className="!text-[rgba(133,127,0,0.9)] font-['Aga_islamic'] !text-[32px] text-center mt-10 !mb-20">
-            ﷽
-          </p>
+  <main className="stories relative">
+  <p className="!text-[rgba(133,127,0,0.9)] font-['Aga_islamic'] !text-[32px] text-center mt-10 !mb-20">
+    ﷽
+  </p>
 
-          <article className="hidden mb-10 sm:flex gap-6">
-            <div className="w-1/2">
-              <p className='!text-[10px] font-normal !leading-[20px]'>
-                “O Allah, Lord of all sovereignty! You grant sovereignty to whom You will,
-                and You take sovereignty away from whom You will. You honor whom You will,
-                and You humble whom You will. All goodness is in Your Hand. Indeed, You
-                have power over all things. You cause the night to pass into the day, and
-                You cause the day to pass into the night. You bring forth the living from
-                the dead, and You bring forth the dead from the living, and You provide
-                for whom You will without measure.” <span className="vitalic">(Āl ʿImrān 3:26–27).</span>
-              </p>
-            </div>
+  <article className="hidden mb-10 sm:flex gap-6">
+    <div className="w-1/2">
+      <p className="!text-[10px] font-normal !leading-[20px]">
+        “O Allah, Heer van alle heerschappij! U geeft heerschappij aan wie U wilt,
+        en U neemt heerschappij weg van wie U wilt. U eert wie U wilt,
+        en U vernedert wie U wilt. Al het goede is in Uw Hand. Voorwaar, U
+        heeft macht over alle dingen. U laat de nacht overgaan in de dag, en
+        U laat de dag overgaan in de nacht. U brengt het levende voort uit
+        het dode, en U brengt het dode voort uit het levende, en U voorziet
+        wie U wilt zonder maat.” <span className="vitalic">(Āl ʿImrān 3:26–27).</span>
+      </p>
+    </div>
 
-            <div className="w-1/2 rtl">
-               <p 
-                  dir="rtl" 
-                  lang="ar" 
-                  className="font-amiri !text-[18px] !leading-[26px]  text-justify"
-                >
-                ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ
-                ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ
-                بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ
-                ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ
-                ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ
-                وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ
-              </p>
-            </div>
-          </article>
+    <div className="w-1/2 rtl">
+      <p
+        dir="rtl"
+        lang="ar"
+        className="font-amiri !text-[18px] !leading-[26px] text-justify"
+      >
+        ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ
+        ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ
+        بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ
+        ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ
+        ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ
+        وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ
+      </p>
+    </div>
+  </article>
 
-    
+  <div className="uzbek_quron relative">
+    <article
+      className="w-full boldItalic cursor-pointer border border-gray-400 px-4 rounded-md"
+      onClick={() => toggleBubble('bubble1')}
+    >
+      <p className="boldItalic my-2">
+        “Voorwaar, in de verhalen van de <span className="vitalic">(profeten)</span>
+        is een les voor mensen van begrip.”
+        <span className="vitalic"> (Surah Yusuf, vers 111)</span>
+        <sup>1</sup>
+      </p>
+    </article>
 
-          <div className="uzbek_quron relative">
-            <article
-              className="w-full boldItalic cursor-pointer border border-gray-400  px-4 rounded-md"
-              onClick={() => toggleBubble('bubble1')}
-            >
-              <p className='boldItalic my-2'>
-                “Indeed, in the stories of the <span className="vitalic">(prophets)</span>
-              there is a lesson for people of understanding.”
-              <span className="vitalic"> (Surah Yusuf, verse 111)</span>
-              <sup>1</sup>
-              </p>
-            </article>
+    {openBubbles['bubble1'] && (
+      <div className="speech-bubble" onClick={() => toggleBubble('bubble1')}>
+        <p>
+          <sup>1</sup> Abu Dharr al-Ghifari zei: “Ik vroeg: ‘O Boodschapper van Allah,
+          wat stond er in de Geschriften van Musa?’ De Profeet, vrede zij met
+          hem, antwoordde: ‘Alles daarin was vermaning en wijsheid.’”
+        </p>
+        <p className="who_wrote">(Ibn Saʿd, “Tabaqat”, Vol. 1, p. 155.)</p>
+      </div>
+    )}
+  </div>
 
-            {openBubbles['bubble1'] && (
-              <div className="speech-bubble" onClick={() => toggleBubble('bubble1')}>
-                <p>
-                  <sup>1</sup> Abu Dharr al-Ghifari said: “I asked, ‘O Messenger of Allah,
-                  what was contained in the Scrolls of Musa?’ The Prophet, peace be upon
-                  him, replied: ‘All of it was admonition and wisdom.’”
-                </p>
-                <p className="who_wrote">(Ibn Saʿd, “Tabaqat”, Vol. 1, p. 155.)</p>
-              </div>
-            )}
-          </div>
+  <div className="main_text">
+    <p>
+      Alle lof behoort toe aan Allah, de Heer van alle werelden. Moge vrede en
+      zegeningen rusten op onze meester Muḥammad, op zijn familie en op al zijn
+      metgezellen. Assalamu alaykum wa rahmatullahi wa barakatuh. Om verder te
+      gaan...
+    </p>
 
-          <div className="main_text">
-            <p>
-              All praise belongs to Allah, Lord of all worlds. May peace and blessings be
-              upon our master Muhammad, and upon his family and all his companions.
-              Assalamu alaykum wa rahmatullahi wa barakatuh. To proceed...
-            </p>
+    <p>
+      Dit boek staat in het Arabisch bekend als “Qisas al-Anbiya” en vertelt de
+      geschiedenis van de profeten, vrede zij met hen. Er zijn meerdere boeken
+      in dit genre geschreven. Het eerste daarvan was de verzameling van
+      Muhammad ibn Ishaq. Hij wijdde zijn werk vooral aan drie onderwerpen: de
+      schepping van de wereld en de geschiedenis van de profeten vóór Muhammad ﷺ
+      (Kitab al-mubtada’), het leven van onze Profeet ﷺ en de openbaringen die
+      hij ontving (Sirah), en zijn militaire expedities (Maghozi).
+    </p>
 
-            <p>
-              This book is known in Arabic as “Qisas al-Anbiya” and tells the history of
-              the prophets, peace be upon them. A number of books have been written in
-              this genre. The first of them was the collection of Muhammad ibn Ishaq, who
-              devoted his work mainly to three subjects: the creation of the world and the
-              history of the prophets before Muhammad ﷺ (Kitab al-mubtada’), the life of
-              our Prophet ﷺ and the revelations he received (Sirah), and his military
-              expeditions (Maghozi).
-            </p>
+    <p>
+      Helaas is het werk van Ibn Ishaq niet volledig tot ons gekomen. Toch
+      hebben sommige geleerden, zoals al-Tabari, de overleveringen van Ibn Ishaq
+      vaak genoemd in zijn tafsir en in zijn boek over de wereldgeschiedenis
+      (zie: Tarikh al-rusul wa-l-muluk). Vooral de invloed van Ibn Ishaq is
+      sterk te zien in zowel het idee als de opbouw van dat latere werk.
+    </p>
 
-            <p>
-              Sadly, the work of Ibn Ishaq has not reached us in full. However, some
-              scholars, such as al-Tabari, repeatedly mentioned Ibn Ishaq’s reports in his
-              tafsir and in his book on world history (see: Tarikh al-rusul wa-l-muluk).
-              In particular, Ibn Ishaq’s influence is very strong in both the idea and the
-              structure of that later work.
-            </p>
+    <p>
+      Een andere schrijver die bijdroeg aan het genre Qisas al-Anbiya was Wahb
+      ibn Munabbih, een Jemenitische geleerde van Perzische afkomst. Hij bezat
+      een verzameling van honderd delen waarin de geschiedenis van de profeten
+      werd verteld. Naast Arabisch kende hij ook goed Hebreeuws en Aramees. Hij
+      kon de Torah en de Psalmen in hun oorspronkelijke taal lezen, en daarom
+      vertelde hij de geschiedenis van de oude profeten met sterke bewijzen en
+      documentatie.
+    </p>
+  </div>
 
-            <p>
-              Another writer who contributed to the Qisas al-Anbiya genre was Wahb ibn
-              Munabbih, a Yemeni scholar of Persian origin. He possessed a collection of
-              one hundred sections narrating the history of the prophets. In addition to
-              Arabic, he also knew Hebrew and Aramaic well. He could read the Torah and
-              the Psalms in their original texts, and for this reason he narrated the
-              history of the ancient prophets with strong evidence and documentation.
-            </p>
-          </div>
+  <div className="main_text">
+    <p onClick={() => toggleBubble('bubble2')} className="cursor-pointer">
+      Een andere verzameling van Qisas al-Anbiya behoort toe aan Ishaq ibn Bishr
+      uit Khurasan. Hij schreef ook werken over andere onderwerpen, maar voor de
+      geschiedenis van de profeten schreef hij een boek met de titel “Mubtada’
+      al-dunya wa qisas al-Anbiya”, wat betekent: “Het Begin van de Wereld en
+      de Verhalen van de Profeten”. Tot voor kort werd dit boek als verloren
+      beschouwd, maar door Allah’s gunst werd enkele jaren geleden het eerste
+      deel van het boek ontdekt, en werden de bibliotheken van de wereld verrijkt
+      met nog een manuscript.<sup>2</sup>
+    </p>
 
-          <div className="main_text">
-           
-            <p
-              onClick={() => toggleBubble('bubble2')}
-              className="cursor-pointer "
-            >
-              Another collection of Qisas al-Anbiya belongs to Ishaq ibn Bishr of
-              Khurasan. He also wrote works on other subjects, but for the history of the
-              prophets he authored a book called “Mubtada’ al-dunya wa qisas al-Anbiya”,
-              meaning “The Beginning of the World and the Stories of the Prophets”. Until
-              recently this book was considered lost, but by Allah’s grace, a few years
-              ago the first part of the book was discovered, and the world’s libraries
-              were enriched with yet another manuscript.<sup>2</sup>
-            </p>
-             {openBubbles['bubble2'] && (
-              <div className="speech-bubble" onClick={() => toggleBubble('bubble2')}>
-                <p>
-                  <sup>2</sup> This manuscript describes the creation of the world, the
-                  story of Ibrahim, peace be upon him, and the history of the prophets who
-                  lived before him.
-                </p>
-              </div>
-            )}
-          </div>
+    {openBubbles['bubble2'] && (
+      <div className="speech-bubble" onClick={() => toggleBubble('bubble2')}>
+        <p>
+          <sup>2</sup> Dit manuscript beschrijft de schepping van de wereld, het
+          verhaal van Ibrahim, vrede zij met hem, en de geschiedenis van de
+          profeten die vóór hem leefden.
+        </p>
+      </div>
+    )}
+  </div>
 
-          <div className="main_text">
-            
+  <div className="main_text">
+    <p onClick={() => toggleBubble('bubble3')} className="cursor-pointer">
+      De volgende verzameling van profetische geschiedenis behoort toe aan Abu
+      Ishaq al-Thaʿlabi.<sup>3</sup> Hoewel zijn commentaren op de geopenbaarde
+      geschriften grote wetenschappelijke waarde hebben, werden ze onder het
+      gewone volk niet erg bekend.
+    </p>
 
-            <p
-              onClick={() => toggleBubble('bubble3')}
-              className="cursor-pointer "
-            >
-              The next collection of prophetic history belongs to Abu Ishaq al-Thaʿlabi.
-              <sup>3</sup> Although his commentaries on the revealed scriptures carry
-              great scholarly value, they did not become very widely known among the
-              common people.
-            </p>
+    {openBubbles['bubble3'] && (
+      <div className="speech-bubble" onClick={() => toggleBubble('bubble3')}>
+        <p>
+          <sup>3</sup> Abu Ishaq was een geleerde en uitlegger die ongeveer
+          vierhonderd jaar na onze Profeet Muhammad ﷺ leefde.
+        </p>
+      </div>
+    )}
 
-            {openBubbles['bubble3'] && (
-              <div className="speech-bubble" onClick={() => toggleBubble('bubble3')}>
-                <p>
-                  <sup>3</sup> Abu Ishaq was a scholar and commentator who lived about
-                  four hundred years after our Prophet Muhammad ﷺ.
-                </p>
-              </div>
-            )}
+    <p>
+      De volgende schrijver was al-Haytham ibn Muhammad al-Bushanjī. Zijn
+      Arabische verzameling “Qisas al-Qur’an” verdient ook bijzondere aandacht.
+      Het boek vertelt de geschiedenis van de profeten die in de Qur’an worden
+      genoemd, de overleveringen die over hen zijn doorgegeven, en het leven van
+      de Profeet Muhammad ﷺ.
+    </p>
 
-            <p>
-              The next writer was al-Haytham ibn Muhammad al-Bushanjī. His Arabic
-              collection “Qisas al-Qur’an” is also worthy of special attention. The book
-              narrates the history of the prophets mentioned in the Qur’an, the reports
-              transmitted about them, and the life of the Prophet Muhammad ﷺ.
-            </p>
+    <p>
+      Ahmad ibn Abu Uzaybah uit Jeruzalem stelde ook een “Qisas al-Anbiya”
+      samen, maar slechts één manuscript van zijn werk is tot ons gekomen.
+    </p>
 
-            <p>
-              Ahmad ibn Abu Uzaybah of Jerusalem also compiled a “Qisas al-Anbiya”, but
-              only one manuscript of his work has reached us.
-            </p>
+    <p>
+      Onder niet-Arabische auteurs behoort misschien de belangrijkste plaats toe
+      aan het boek van Nasiruddin Rabghuzi, geschreven in de Turkse taal. Zijn
+      verhalen over de profeten zijn uitgebreid en bestaan uit overleveringen en
+      traditionele vertellingen met veel details.
+    </p>
+  </div>
 
-            <p>
-              Among non-Arab authors, perhaps the most important place belongs to
-              Nasiruddin Rabghuzi’s book written in the Turkic language. His stories about
-              the prophets are extensive and consist of narrations and traditional tales
-              containing many details.
-            </p>
-          </div>
+  <div className="main_text">
+    <p onClick={() => toggleBubble('bubble4')} className="cursor-pointer">
+      Later onderzochten Ibn Taymiyyah en zijn leerling Ibn Kathir de boeken van
+      Qisas al-Anbiya die in hun tijd bestonden. Zij verwierpen sommige
+      verhalen, vooral die vertellingen die in Joodse en Christelijke teksten
+      werden gevonden.<sup>4</sup>
+    </p>
 
-          <div className="main_text">
-           
+    {openBubbles['bubble4'] && (
+      <div className="speech-bubble" onClick={() => toggleBubble('bubble4')}>
+        <p>
+          <sup>4</sup> Er moet worden vermeld dat de verzameling van Ibn Kathir
+          in de laatste honderd jaar een grote invloed heeft gehad onder het
+          algemene publiek.
+        </p>
+      </div>
+    )}
 
-            <p
-              onClick={() => toggleBubble('bubble4')}
-              className="cursor-pointer "
-            >
-              Later, Ibn Taymiyyah and his student Ibn Kathir examined the Qisas
-              al-Anbiya books that existed in their time. They rejected some stories,
-              especially those narratives found in Jewish and Christian texts.<sup>4</sup>
-            </p>
+    <p>
+      Ja, dit literaire genre, dat door de eeuwen heen van generatie op generatie
+      is doorgegeven — de boeken van “Qisas al-Anbiya” — blijft zelfs vandaag
+      geliefd bij lezers. Onder Arabische, Perzische en Turkse volkeren wordt
+      “De Geschiedenis van de Profeten” steeds opnieuw gepubliceerd. Bijvoorbeeld
+      ook de “Qisas al-Anbiya” van de Egyptische geleerde al-Shaʿrawi is zeer
+      bekend. Dit boek, bestaande uit vijf delen en meer dan 3.000 pagina’s,
+      legt de geschiedenis van de profeten uit in een moderne stijl en bevat,
+      hoewel soms kort in diepgang, een grote hoeveelheid informatie.
+    </p>
 
-            {openBubbles['bubble4'] && (
-              <div className="speech-bubble" onClick={() => toggleBubble('bubble4')}>
-                <p>
-                  <sup>4</sup> It should be mentioned that during the last hundred years,
-                  Ibn Kathir’s collection has had a wide influence among the general
-                  public.
-                </p>
-              </div>
-            )}
+    <p>
+      Tot nu toe is de geschiedenis van de profeten vele malen gepubliceerd in
+      het Arabisch, Perzisch en Turkse talen. Helaas is dit literaire genre
+      echter zeer weinig in het Oezbeeks gedrukt. Daarom hebben ook wij, hoewel
+      onze inspanning misschien niet veel is, een beetje moeite gedaan op dit
+      gebied en geprobeerd ten minste enige kennis over de geschiedenis van de
+      vroegere profeten over te brengen.
+    </p>
 
-            <p>
-              Yes, this literary genre, passed down from generation to generation through
-              the centuries — the books of “Qisas al-Anbiya” — remains popular among
-              readers even today. Among Arab, Persian, and Turkic peoples, “The History
-              of the Prophets” continues to be published again and again. For example,
-              the Egyptian scholar al-Shaʿrawi’s “Qisas al-Anbiya” is also very well
-              known. This book, consisting of five volumes and more than 3,000 pages,
-              explains the history of the prophets in a modern style and, though at times
-              brief in depth, contains a great amount of information.
-            </p>
+    <p>
+      Dit boek is de verzameling van Abu Hamid ibn Muhammad. Hij bestudeerde de
+      geschiedenis van de profeten vanuit oude en betrouwbare bronnen, vooral
+      vanuit de edele Torah en Psalmen. Hij onderzocht ook de verzen van de Edele
+      Qur’an over dit onderwerp en hield rekening met de uitleg van grote
+      geleerden van de Islam, onder wie al-Tabari, Ibn Ishaq, Ibn Khaldun en
+      al-Yaʿqubi. Wij hebben deze verzameling naar ons beste vermogen in het
+      Oezbeeks vertaald. Wij hopen dat de verhalen van de profeten uw hart zullen
+      inspireren en u zullen uitnodigen tot goedheid, waarachtigheid en een leven
+      van taqwa.
+    </p>
 
-            <p>
-              Until now, the history of the prophets has been published many times in
-              Arabic, Persian, and Turkic languages. Sadly, however, this literary genre
-              has been printed very little in Uzbek. For this reason, although our effort
-              may not be much, we too have labored a little in this field and tried to
-              convey at least some knowledge about the history of the prophets of the
-              past.
-            </p>
+    <p>Met respect, het vertaalteam.</p>
+  </div>
 
-            <p>
-              This book is the collection of Abu Hamid ibn Muhammad. He studied the
-              history of the prophets from ancient and reliable sources, especially from
-              the noble Torah and Psalms. He also examined the verses of the Noble Qur’an
-              concerning this subject and considered the explanations of great scholars
-              of Islam, including al-Tabari, Ibn Ishaq, Ibn Khaldun, and al-Yaʿqubi. We
-              have translated this collection into Uzbek to the best of our ability. We
-              hope that the stories of the prophets will inspire your heart and call you
-              toward goodness, truthfulness, and a life of taqwa.
-            </p>
+  {/* <ConverterForQisas /> */}
 
-            <p>With respect, the translation team.</p>
-          </div>
-
-          {/* <ConverterForQisas /> */}
-
-          <footer>
-            <div>
-              <p>© 2016 Abdul-Ghafur ibn Abdul-Sattar</p>
-            </div>
-          </footer>
-        </main>
-
+  <footer>
+    <div>
+      <p>© 2016 Abdul-Ghafur ibn Abdul-Sattar</p>
+    </div>
+  </footer>
+</main>
   );
 }
