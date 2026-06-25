@@ -336,29 +336,56 @@ export default function AdamAlayhissalam() {
             </p>
             </div>      
             
-            {/* <div className="bism">
-                <p>
-                  t Q E y u I a d Z
+            <div className='mt-20'>
+              <p className='!text-4xl'>SEE HONORIFICS IN ARABIC</p>
+            </div>
+     
+            <div className="mt-10">
+                <p>CAPITAL LETTERS of ENGLISH ALPHABET</p>
+                <p className='aga-font !text-8xl !leading-[2] tracking-wider'>
+                   A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
                 </p>
               </div>
 
+              <div className="mt-10">
+                <p>SMALL LETTERS of ENGLISH ALPHABET</p>
+                <p className='aga-font !text-8xl !leading-[2] tracking-wider'>
+                    a b c d e f g h i j k l m n o p q r s t u v w x y z
+                </p>
+              </div>
+
+              <div className="mt-10">
+                <p>NUMBERS of ENGLISH ALPHABET</p>
+                <p className='aga-font !text-8xl !leading-[2] tracking-wider'>
+                     0 1 2 3 4 5 6 7 8 9
+                </p>
+              </div>
+
+              <div className="mt-10">
+                <p>Common Symbols of ENGLISH ALPHABET</p>
+<p className="aga-font !text-8xl !leading-[2] tracking-wider">
+  ! @ # $ % ^ &amp; * ( ) _ + - = {'{'} {'}'} [ ] | \ : ; " ' &lt; &gt; , . ? / ` ~
+</p>
+              </div>
+
+
               <div className="symbol_group">
-                <span>
+                <span className='text-4xl !leading-[2] tracking-wide'>
                   &#9760; &#9872; &#9990; &#9993; &#9881; &#9874; &#9850; &#9836;
                 </span>
 
-                <span>
+             <span className='text-4xl !leading-[2] tracking-wide'>
                   &#9832; &#9789; &#9790; &#9752; &#9756; &#9758; &#9752; &#9743; &#9734; &#9733; &#9737; &#9998; &#10003; &#10004; &#10005; &#10019; &#10017; &#10142; &#10143; &#10148; &#10146; &#10227; &#10606;
                 </span>
 
-                <span>
+             <span className='text-4xl !leading-[2] tracking-wide'>
                   &#10025; &#10043; &#10044; &#10052; &#10056; &#10070; &#10084;
                 </span>
 
-                <span>
+             <span className='text-4xl !leading-[2] tracking-wide'>
                   &#8364; &#65284; &#8858; &#8861; &#167; &#169; &#182; &#183; &#8213;
                 </span>
-              </div> */}
+              </div>
 
         </main>
       </div>

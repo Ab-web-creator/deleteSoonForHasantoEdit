@@ -368,3 +368,7 @@ a, p, label, input, span, button, .stories {
   user-select: none;
   color: rgb(88, 114, 0);
 }
+
+.aga-font {
+  font-family: var(--font-aga-arabesque), sans-serif !important;
+}

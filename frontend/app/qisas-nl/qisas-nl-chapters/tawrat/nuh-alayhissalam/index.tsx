@@ -303,7 +303,7 @@ export default function NuhAlayhissalam() {
 
     {openBubbles['bubble4'] && (
       <div
-        className="speech-bubble"
+        className="speech-bubble -mt-10"
         onClick={() => toggleBubble('bubble4')}
       >
         <p>
