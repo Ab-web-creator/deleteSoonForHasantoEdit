@@ -12,15 +12,15 @@ export default function MotherAgar() {
   ]);
 
   return ( 
-  <main className="stories relative">
+<main className="stories relative">
   <div className="main_text">
     <p>
-      Sarah, the wife of Ibrahim عليه السلام, had not borne any children.
-      So one day she spoke to her husband about her Egyptian maidservant and said:
-      “Allah has not granted me a child.
-      Go in to Hajar;
-      perhaps through her I may have a child.”
-      Allah’s Messenger, Ibrahim عليه السلام, agreed.
+      Sarah, de vrouw van Ibrahim عليه السلام, had geen kinderen gekregen.
+      Daarom sprak zij op een dag met haar man over haar Egyptische dienares en zei:
+      “Allah heeft mij geen kind geschonken.
+      Ga naar Hajar;
+      misschien zal ik via haar een kind krijgen.”
+      De Boodschapper van Allah, Ibrahim عليه السلام, stemde toe.
     </p>
   </div>
 
@@ -29,13 +29,14 @@ export default function MotherAgar() {
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble1')}
     >
-      Thus, ten years after they had settled in Canaan,
-      Lady Sarah رضي الله عنها gave her Egyptian maidservant Hajar
-      to her husband as a wife.
-      Before long,
-      Hajar became pregnant.
-      When she realized that she had conceived,
-      she began to look down upon her co-wife,
+      Zo gaf Lady Sarah رضي الله عنها,
+      tien jaar nadat zij zich in Kanaän hadden gevestigd,
+      haar Egyptische dienares Hajar
+      aan haar man als vrouw.
+      Niet lang daarna
+      werd Hajar zwanger.
+      Toen zij besefte dat zij zwanger was,
+      begon zij neer te kijken op haar medevrouw,
       Lady Sarah.
       <sup>1</sup>
     </p>
@@ -53,12 +54,12 @@ export default function MotherAgar() {
     )}
 
     <p>
-      Then our mother Sarah came to Allah’s Messenger and complained:
-      “You are responsible for all of this!
-      I placed this maidservant in your care,
-      and now that she has conceived,
-      she no longer regards me with respect.
-      Let Allah Himself judge between us!”
+      Toen kwam onze moeder Sarah naar de Boodschapper van Allah en klaagde:
+      “Jij bent verantwoordelijk voor dit alles!
+      Ik heb deze dienares aan jouw zorg toevertrouwd,
+      en nu zij zwanger is,
+      behandelt zij mij niet meer met respect.
+      Laat Allah Zelf tussen ons oordelen!”
     </p>
   </div>
 
@@ -67,14 +68,13 @@ export default function MotherAgar() {
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble2')}
     >
-      Ibrahim عليه السلام replied:
-      “She is under your authority.
-      Do with her as you see fit.”
+      Ibrahim عليه السلام antwoordde:
+      “Zij staat onder jouw gezag.
+      Doe met haar wat jij passend vindt.”
 
-      After that,
-      Sarah رضي الله عنها began to treat her maidservant harshly.
-      In the end,
-      our mother Hajar fled from that place.
+      Daarna begon Sarah رضي الله عنها
+      haar dienares hard te behandelen.
+      Uiteindelijk vluchtte onze moeder Hajar weg van die plaats.
       <sup>2</sup>
     </p>
 
@@ -85,33 +85,33 @@ export default function MotherAgar() {
       >
         <p>
           <sup>2</sup>
-          According to al-Tabari’s “Tarikh”,
+          Volgens al-Tabari’s “Tarikh”,
           Ibn al-Athir’s “Al-Kamil”,
-          and al-Suhayli’s “Al-Rawd al-Unuf”,
-          Lady Sarah,
-          overcome by jealousy and anger,
-          drove our mother Hajar away.
+          en al-Suhayli’s “Al-Rawd al-Unuf”,
+          verdreef Lady Sarah,
+          overmand door jaloezie en boosheid,
+          onze moeder Hajar.
         </p>
       </div>
     )}
   </div>
 
   <div className="paragraph_heading">
-    <p>THE ANGEL OF ALLAH TURNS LADY HAJAR BACK</p>
+    <p>DE ENGEL VAN ALLAH STUURT LADY HAJAR TERUG</p>
   </div>
 
   <div className="main_text">
     <p>
-      In the wilderness,
-      beside a spring on the road to Shur,
-      an angel of Allah appeared to Hajar رضي الله عنها and asked:
+      In de wildernis,
+      bij een bron op de weg naar Shur,
+      verscheen een engel van Allah aan Hajar رضي الله عنها en vroeg:
       “Hajar,
-      maidservant of Sarah,
-      where have you come from,
-      and where are you going?”
+      dienares van Sarah,
+      waar kom je vandaan,
+      en waar ga je heen?”
 
-      Lady Hajar replied:
-      “I am fleeing from my mistress.”
+      Lady Hajar antwoordde:
+      “Ik vlucht weg van mijn meesteres.”
     </p>
   </div>
 
@@ -120,31 +120,31 @@ export default function MotherAgar() {
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble3')}
     >
-      “No,” the angel said to her.
-      “Return to your mistress
-      and obey her.
+      “Nee,” zei de engel tegen haar.
+      “Keer terug naar je meesteres
+      en gehoorzaam haar.
 
-      Allah Most High will support you.
+      Allah, de Allerhoogste, zal jou steunen.
 
-      He will multiply your descendants
-      so greatly
-      that no one will be able to count them.
+      Hij zal jouw nakomelingen
+      zo sterk vermenigvuldigen
+      dat niemand hen zal kunnen tellen.
 
-      You are now pregnant,
-      and you will give birth to a son.
+      Je bent nu zwanger,
+      en je zult een zoon baren.
 
-      Name him Ismail.
+      Noem hem Ismail.
       <sup>3</sup>
 
-      For Allah has heard your distress.
+      Want Allah heeft jouw nood gehoord.
 
-      Your son will be freedom-loving like an eagle
-      and independent like a wild horse of the desert.
+      Je zoon zal vrijheidslievend zijn als een adelaar
+      en onafhankelijk als een wild paard van de woestijn.
 
-      He will live apart from all his brothers.
+      Hij zal apart leven van al zijn broeders.
 
-      His hand will be against everyone,
-      and everyone’s hand will be against him.”
+      Zijn hand zal tegen iedereen zijn,
+      en ieders hand zal tegen hem zijn.”
     </p>
 
     {openBubbles['bubble3'] && (
@@ -154,30 +154,31 @@ export default function MotherAgar() {
       >
         <p>
           <sup>3</sup>
-          The name Ismail means
-          “Allah hears.”
+          De naam Ismail betekent
+          “Allah hoort.”
         </p>
       </div>
     )}
   </div>
 
   <div className="paragraph_heading">
-    <p>THE BIRTH OF ISMAIL</p> <AlayhS className='text-green-800 font-medium' />
-  </div> 
+    <p>DE GEBOORTE VAN ISMAIL</p> <AlayhS className='text-green-800 font-medium' />
+  </div>
 
   <div className="main_text">
     <p
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble4')}
     >
-      So our mother Hajar returned to Lady Sarah.
-      When her time was complete,
-      she bore a son to Allah’s Messenger, Ibrahim عليه السلام.
+      Zo keerde onze moeder Hajar terug naar Lady Sarah.
+      Toen haar tijd voltooid was,
+      baarde zij een zoon voor de Boodschapper van Allah,
+      Ibrahim عليه السلام.
 
-      Prophet Ibrahim named his son Ismail.
+      Profeet Ibrahim noemde zijn zoon Ismail.
 
-      (At that time,
-      Ibrahim عليه السلام was eighty-six years old.
+      (In die tijd
+      was Ibrahim عليه السلام zesentachtig jaar oud.
       <sup>4</sup>)
     </p>
 
@@ -188,8 +189,8 @@ export default function MotherAgar() {
       >
         <p>
           <sup>4</sup>
-          This report is also mentioned by Ibn Khaldun.
-          See also:
+          Dit bericht wordt ook genoemd door Ibn Khaldun.
+          Zie ook:
           Ibn Qutaybah, “Al-Ma‘arif”, p. 16;
           al-Ya‘qubi, “Tarikh”, vol. 1, p. 25.
         </p>

@@ -10,46 +10,49 @@ export default function Isaak() {
   ]);
 
   return (
-  <main className="stories relative">
+<main className="stories relative">
   <div className="decor_line"></div>
 
   <div className="main_text">
     <p>
       <span className="vitalic">
-        Much time passed.
-        Then our mother Sarah رضي الله عنها also passed away.
+        Er ging veel tijd voorbij.
+        Daarna overleed ook onze moeder Sarah رضي الله عنها.
       </span>
       {' '}
-      Ibrahim عليه السلام had by then reached an advanced age,
-      and Allah, Glorified and Exalted,
-      had blessed him in every way.
+      Ibrahim عليه السلام had toen een hoge leeftijd bereikt,
+      en Allah, Verheven en Geprezen,
+      had hem in alle opzichten gezegend.
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>THE MARRIAGE OF ISHAQ </p>
-    <AlayhS className='text-green-800 font-medium' />
+    <p>HET HUWELIJK VAN ISHAQ</p>
+    <AlayhS className="text-green-800 font-medium" />
   </div>
 
   <div className="main_text">
     <p>
-      One day, prophet Ibrahim (a.s.) called for his most trusted servant:
+      Op een dag riep Profeet Ibrahim (a.s.)
+      zijn meest vertrouwde dienaar bij zich:
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble1')}
     >
-      “Come here!
-      Swear to me that you will not take a wife
-      for my son Ishaq from among the Canaanites.
+      “Kom hier!
+      Zweer mij dat je voor mijn zoon Ishaq
+      geen vrouw zult nemen
+      uit de Kanaänieten.
       <sup>1</sup>{' '}
 
-      Instead,
-      you shall go to my relatives
-      and bring back a bride for him from among them.”
+      In plaats daarvan
+      moet je naar mijn verwanten gaan
+      en uit hun midden
+      een bruid voor hem terugbrengen.”
     </p>
 
     {openBubbles['bubble1'] && (
@@ -59,529 +62,685 @@ export default function Isaak() {
       >
         <p>
           <sup>1</sup>
-          The land of Canaan was inhabited by pagan peoples
-          who worshipped idols.
+          Het land Kanaän werd bewoond
+          door heidense volkeren
+          die afgoden aanbaden.
         </p>
       </div>
     )}
 
     <p>
-      “But what if the young woman refuses to return here with me?”
-      the servant asked.
-      “Should I then take your son back to your homeland?”
+      “Maar wat als de jonge vrouw
+      weigert met mij hierheen terug te keren?”
+      vroeg de dienaar.
+
+      “Moet ik uw zoon dan
+      terugbrengen naar uw geboorteland?”
     </p>
 
     <p>
-      “No!” replied rasulullah. “Never take my son there. Allah Most High will send His angel with you.
+      “Nee!”
+      antwoordde rasulullah.
 
-      You shall bring back a wife for my son from among my relatives.
+      “Breng mijn zoon daar nooit heen.
 
-      The God who brought me out of my homeland
-      promised me:
-      ‘I shall give this land to your descendants.’
+      Allah, de Allerhoogste,
+      zal Zijn engel met jou meesturen.
 
-      If the woman refuses to come,
-      then you are released from your oath.
+      Jij zult voor mijn zoon
+      een vrouw terugbrengen
+      uit mijn verwanten.
 
-      But under no circumstances
-      are you to take my son there.”
+      De God Die mij
+      uit mijn geboorteland heeft geleid,
+      heeft mij beloofd:
+
+      ‘Ik zal dit land
+      aan jouw nakomelingen geven.’
+
+      Als de vrouw weigert mee te komen,
+      dan ben je vrij
+      van je eed.
+
+      Maar onder geen enkele omstandigheid
+      mag je mijn zoon daarheen brengen.”
     </p>
 
     <p>
-      After swearing the oath before his master,
-      Ibrahim’s servant loaded ten camels
-      with precious gifts
-      and set out on his journey.
+      Nadat hij de eed
+      tegenover zijn meester had gezworen,
+      laadde de dienaar van Ibrahim
+      tien kamelen
+      met kostbare geschenken
+      en ging op reis.
 
-      Eventually he arrived in Aram-Naharaim,
-      the region where Nahur lived.
+      Uiteindelijk kwam hij aan
+      in Aram-Naharaim,
+      de streek waar Nahur woonde.
     </p>
 
     <p>
-      There he made the camels kneel
-      beside a well outside the city.
+      Daar liet hij de kamelen knielen
+      bij een bron buiten de stad.
 
-      It was evening,
-      and the women of the town
-      were coming as usual
-      to draw water.
+      Het was avond,
+      en de vrouwen van de stad
+      kwamen zoals gewoonlijk
+      water putten.
     </p>
 
     <p>
-      Then the servant raised his hands in du‘a:
+      Toen hief de dienaar
+      zijn handen op in duʿā:
 
       “O Allah,
-      Lord who established a covenant with my master Ibrahim!
+      Heer Die een verbond sloot
+      met mijn meester Ibrahim!
 
-      I beg You,
-      do not withhold Your favor from my master.
+      Ik smeek U,
+      onthoud Uw gunst
+      niet aan mijn meester.
 
-      Grant success to my mission.
+      Schenk succes
+      aan mijn opdracht.
 
-      Here I stand beside the well,
-      while the daughters of the city come to draw water.
+      Hier sta ik
+      bij de bron,
+      terwijl de dochters van de stad
+      komen om water te putten.
 
-      If I say to one of them,
-      ‘Please lower your jar that I may drink,’
-      and she replies,
+      Als ik tegen een van hen zeg:
+      ‘Laat uw kruik zakken,
+      zodat ik kan drinken,’
+
+      en zij antwoordt:
       ‘Drink,
-      and I shall also draw water for your camels,’
-      then let that be the woman
-      whom You have chosen for Your servant Ishaq.
+      en ik zal ook water putten
+      voor uw kamelen,’
 
-      Through this,
-      I shall know that You have shown mercy
-      to my master Ibrahim...”
+      laat zij dan de vrouw zijn
+      die U hebt gekozen
+      voor Uw dienaar Ishaq.
+
+      Hierdoor zal ik weten
+      dat U barmhartigheid hebt getoond
+      aan mijn meester Ibrahim...”
     </p>
   </div>
-
   <div className="paragraph_heading">
-    <p>THE ANSWER TO THE DU‘A</p>
-  </div>
-
-  <div className="main_text">
-    <p>
-      Before he had even finished making du‘a,
-      a young woman named Rifqah,
-      the daughter of Bethuel,
-      arrived carrying a water jar upon her shoulder.
-
-      (Bethuel was the son of Nahur,
-      the brother of Ibrahim عليه السلام.)
-</p>
-<p>
-  
-      Rifqah was exceptionally beautiful.
-
-      She went down to the well,
-      filled her jar,
-      and came back up.
-    </p>
-
-    <p>
-      The servant hurried toward her and said:
-
-      “Please,
-      let me drink a little water from your jar.”
-    </p>
-
-    <p>
-      “Drink, sir,”
-      Rifqah replied,
-      lowering the jar from her shoulder.
-
-      Then she added:
-
-      “I shall also draw water for your camels.”
-
-      She ran to the trough,
-      emptied the remaining water,
-      and hurried back to the well again and again
-      until all the camels had drunk their fill.
-    </p>
-
-    <p>
-      Meanwhile,
-      Ibrahim’s servant watched her carefully in silence,
-      thinking:
-
-      “It seems Allah has blessed my journey.”
-    </p>
-
-    <p>
-      When the camels had finished drinking,
-      he brought out a valuable gold nose ring
-      and two large gold bracelets.
-
-      Then he asked:
-
-      “Whose daughter are you?
-
-      Is there room in your family’s home
-      for us to spend the night?”
-    </p>
-
-    <p>
-      “I am the daughter of Bethuel,”
-      she replied.
-
-      “The granddaughter of Nahur and Milkah.
-
-      There is plenty of room in our home,
-      and we have abundant straw and fodder
-      for your camels.”
-    </p>
-
-    <p>
-      At once,
-      Ibrahim’s servant bowed down
-      and prostrated before Allah.
-
-      He said:
-
-      “O Allah,
-      God of my master Ibrahim!
-
-      Never have You withheld
-      Your mercy and faithfulness from my master.
-
-      Today once again
-      You have guided my path
-      and brought me to the house of his relatives.
-
-      All praise belongs to You!”
-    </p>
-  </div>
-
-  <div className="paragraph_heading">
-    <p>IN THE HOUSE OF BETHUEL</p>
-  </div>
-
-  <div className="main_text">
-    <p>
-      Rifqah ran home
-      and told her family everything that had happened.
-
-      She had a brother named Laban.
-
-      When he heard her account
-      and saw the ring and bracelets,
-      he immediately hurried to the well.
-
-      Ibrahim’s servant was still standing there
-      beside the camels.
-    </p>
-
-    <p>
-      Laban greeted him and said:
-
-      “Why are you standing here?
-
-      Come to our house.
-
-      I have prepared a place for you,
-      and there is room for the camels as well.”
-    </p>
-
-    <p>
-      They all went to Laban’s house.
-
-      The servants unloaded the camels,
-      gave them fodder,
-      and brought water
-      for Ibrahim’s servant and his companions
-      to wash their feet.
-    </p>
-
-    <p>
-      When food was set before them,
-      Ibrahim’s servant said:
-
-      “I will not eat
-      until I have told you why I have come.”
-
-      “Very well,”
-      said Laban.
-
-      “Tell us your purpose.”
-    </p>
-
-    <p>
-      “I am the servant of prophet Ibrahim,”
-      he began.
-
-      “Allah has greatly blessed my master.
-
-      He has become a man of honor and wealth.
-
-      Allah has granted him flocks,
-      herds,
-      silver,
-      gold,
-      servants,
-      and maidservants.
-    </p>
-
-    <p>
-      In his old age,
-      his wife Sarah bore him a son.
-
-      He has now made that son
-      the heir to all that he possesses.
-    </p>
-
-    <p>
-      Before sending me here,
-      my master made me swear
-      that I would not take a wife
-      for his son from among the Canaanites.
-
-      Instead,
-      I was to come to his homeland
-      and to his relatives.
-    </p>
-
-    <p>
-      I asked:
-      ‘What if the young woman refuses to come?’
-
-      He replied:
-
-      ‘I walk in the path of Allah.
-
-      He will send His angel with you
-      and grant success to your journey.
-
-      You shall take a wife for my son
-      from among my relatives
-      and from my father’s household.
-
-      If they refuse,
-      then you are released from your oath.’
-    </p>
-
-    <p>
-      Today at the well
-      I prayed:
-
-      ‘O Allah,
-      open the way before me.
-
-      If the young woman to whom I say,
-      “Let me drink a little water,”
-      replies,
-      “Drink,
-      and I shall also draw water for your camels,”
-      then I shall know
-      that she is the one You have chosen
-      for Ishaq.’
-    </p>
-
-    <p>
-      While I was still praying in my heart,
-      Rifqah arrived carrying a jar.
-
-      She filled it at the well.
-
-      I asked for a drink.
-
-      Immediately she lowered the jar and said:
-
-      ‘Drink.’
-
-      Then she offered
-      to water the camels as well.
-    </p>
-
-    <p>
-      After the camels had drunk,
-      I asked:
-
-      ‘Whose daughter are you?’
-
-      She replied:
-
-      ‘I am the daughter of Bethuel,
-      granddaughter of Nahur and Milkah.’
-
-      Then I placed a ring in her nose
-      and bracelets upon her wrists.
-
-      Afterwards I bowed in prostration
-      and praised Allah,
-      the God of my master Ibrahim,
-      who guided me directly
-      to the family of my master’s brother.
-
-      That is the matter in full.
-
-      What do you say?
-
-      Will you grant my master’s request?
-
-      If not,
-      tell me plainly,
-      and I shall decide what to do next.”
-    </p>
-
-    <p>
-      Laban and Bethuel listened
-      and replied:
-
-      “This matter has come from Allah.
-
-      What can we say against it?
-
-      Here is Rifqah.
-
-      Take her and go.
-
-      We consent.
-
-      Let her become the wife
-      of your master’s son,
-      as Allah has decreed.”
-    </p>
-
-    <p>
-      When Ibrahim’s servant heard this,
-      he bowed down in prostration before Allah.
-
-      Then he brought out the gold,
-      silver,
-      fine garments,
-      and precious gifts
-      and presented them to Rifqah.
-
-      He also gave valuable gifts
-      to her brother and her mother.
-
-      Afterwards,
-      he and his companions ate and drank
-      and spent the night there.
-    </p>
-  </div>
-
-  <div className="paragraph_heading">
-    <p>THE JOURNEY HOME</p>
-  </div>
-
-  <div className="main_text">
-    <p>
-      Early the next morning he said:
-
-      “Permit me now
-      to return to my master.”
-    </p>
-
-    <p>
-      But Rifqah’s brother and mother replied:
-
-      “Do not hurry.
-
-      Let our daughter remain with us
-      for another ten days or so.
-
-      After that you may depart.”
-    </p>
-
-    <p>
-      He answered:
-
-      “No.
-
-      Allah has granted success to my mission.
-
-      Please do not delay me.
-
-      Let me return to my master.”
-    </p>
-
-    <p>
-      Then they said:
-
-      “Let us call the young woman
-      and ask her directly.”
-
-      They summoned Rifqah and asked:
-
-      “This man wishes to leave.
-      Will you go with him?”
-    </p>
-
-    <p>
-      “I will go,”
-      she replied.
-    </p>
-
-    <p>
-      So they sent Rifqah away
-      together with her nurse
-      and the travelers.
-
-      Before she departed,
-      they blessed her saying:
-
-      “Our sister,
-      may Allah grant you many children.
-
-      May your descendants become countless.
-
-      May your offspring possess
-      the cities of their enemies.”
-    </p>
-
-    <p>
-      Then Rifqah and her maidservants
-      mounted the camels
-      and set out
-      with Ibrahim’s servant.
-    </p>
-
-    <p>
-      At that time,
-      Ishaq عليه السلام
-      had returned from Beer-lahai-roi
-      to the southern region.
-
-      One evening he was walking in the field,
-      deep in thought,
-      when he noticed camels approaching.
-
-      He began walking toward them.
-    </p>
-
-    <p>
-      Rifqah also saw Ishaq.
-
-      She immediately dismounted from her camel
-      and asked Ibrahim’s servant:
-
-      “Who is that man?”
-    </p>
-
-    <p>
-      “That is my master,”
-      he replied.
-
-      Rifqah then drew her veil
-      and covered her face.
-
-      Afterwards,
-      the servant told Ishaq
-      everything that had happened.
-    </p>
-  </div>
-
-  <div className="main_text">
-    <p
-      className="cursor-pointer "
+  <p>HET ANTWOORD OP DE DUʿĀ</p>
+</div>
+
+<div className="main_text">
+  <p>
+    Nog voordat hij zijn duʿā
+    had voltooid,
+    kwam een jonge vrouw,
+    Rifqah genaamd,
+    de dochter van Bethuel,
+    aan met een waterkruik
+    op haar schouder.
+
+    (Bethuel was de zoon van Nahur,
+    de broer van Ibrahim عليه السلام.)
+  </p>
+
+  <p>
+    Rifqah was buitengewoon mooi.
+
+    Zij daalde af naar de bron,
+    vulde haar kruik
+    en kwam weer naar boven.
+  </p>
+
+  <p>
+    De dienaar liep snel naar haar toe
+    en zei:
+
+    “Mag ik alstublieft
+    een beetje water drinken
+    uit uw kruik?”
+  </p>
+
+  <p>
+    “Drink, heer,”
+    antwoordde Rifqah,
+    terwijl zij de kruik
+    van haar schouder liet zakken.
+
+    Daarna voegde zij eraan toe:
+
+    “Ik zal ook water putten
+    voor uw kamelen.”
+
+    Zij rende naar de drinkbak,
+    goot het overgebleven water uit,
+    en haastte zich
+    steeds opnieuw terug naar de bron,
+    totdat alle kamelen
+    genoeg hadden gedronken.
+  </p>
+
+  <p>
+    Ondertussen
+    keek de dienaar van Ibrahim
+    zwijgend naar haar
+    en dacht:
+
+    “Het lijkt erop
+    dat Allah
+    mijn reis heeft gezegend.”
+  </p>
+
+  <p>
+    Toen de kamelen
+    klaar waren met drinken,
+    haalde hij
+    een kostbare gouden neusring
+    en twee grote gouden armbanden tevoorschijn.
+
+    Daarna vroeg hij:
+
+    “Van wie bent u de dochter?
+
+    Is er plaats
+    in het huis van uw familie
+    zodat wij daar vannacht kunnen verblijven?”
+  </p>
+
+  <p>
+    “Ik ben de dochter van Bethuel,”
+    antwoordde zij.
+
+    “De kleindochter
+    van Nahur en Milkah.
+
+    Er is volop plaats
+    in ons huis,
+    en wij hebben voldoende stro
+    en voer
+    voor uw kamelen.”
+  </p>
+
+  <p>
+    Meteen
+    boog de dienaar van Ibrahim zich neer
+    en verrichtte sujūd
+    voor Allah.
+
+    Hij zei:
+
+    “O Allah,
+    God van mijn meester Ibrahim!
+
+    Nooit hebt U
+    Uw barmhartigheid
+    en trouw
+    aan mijn meester onthouden.
+
+    Vandaag opnieuw
+    hebt U mijn weg geleid
+    en mij gebracht
+    naar het huis
+    van zijn verwanten.
+
+    Alle lof behoort U toe!”
+  </p>
+</div>
+
+<div className="paragraph_heading">
+  <p>IN HET HUIS VAN BETHUEL</p>
+</div>
+
+<div className="main_text">
+  <p>
+    Rifqah rende naar huis
+    en vertelde haar familie
+    alles wat er was gebeurd.
+
+    Zij had een broer
+    die Laban heette.
+
+    Toen hij haar verhaal hoorde
+    en de ring
+    en de armbanden zag,
+    haastte hij zich onmiddellijk
+    naar de bron.
+
+    De dienaar van Ibrahim
+    stond daar nog steeds
+    naast de kamelen.
+  </p>
+
+  <p>
+    Laban begroette hem
+    en zei:
+
+    “Waarom staat u hier?
+
+    Kom naar ons huis.
+
+    Ik heb een plaats
+    voor u klaargemaakt,
+    en er is ook ruimte
+    voor de kamelen.”
+  </p>
+
+  <p>
+    Zij gingen allemaal
+    naar het huis van Laban.
+
+    De dienaren laadden
+    de kamelen uit,
+    gaven hun voer,
+    en brachten water
+    zodat de dienaar van Ibrahim
+    en zijn reisgenoten
+    hun voeten konden wassen.
+  </p>
+
+  <p>
+    Toen het eten
+    werd opgediend,
+    zei de dienaar van Ibrahim:
+
+    “Ik zal niet eten,
+    voordat ik u verteld heb
+    waarom ik gekomen ben.”
+
+    “Goed,”
+    zei Laban.
+
+    “Vertel ons
+    waarvoor u gekomen bent.”
+  </p>
+
+  <p>
+    “Ik ben de dienaar
+    van Profeet Ibrahim,”
+    begon hij.
+
+    “Allah heeft mijn meester
+    overvloedig gezegend.
+
+    Hij is een man geworden
+    van aanzien
+    en grote rijkdom.
+
+    Allah heeft hem
+    kudden,
+    vee,
+    zilver,
+    goud,
+    dienaren
+    en dienaressen geschonken.”
+  </p>
+
+  <p>
+    Op hoge leeftijd
+    schonk zijn vrouw Sarah
+    hem een zoon.
+
+    Aan die zoon
+    heeft hij nu
+    alles nagelaten
+    wat hij bezit.
+  </p>
+
+  <p>
+    Voordat mijn meester
+    mij hierheen stuurde,
+    liet hij mij zweren
+    dat ik geen vrouw
+    voor zijn zoon zou nemen
+    uit de Kanaänieten.
+
+    In plaats daarvan
+    moest ik
+    naar zijn geboorteland
+    en naar zijn verwanten gaan.
+  </p>
+
+  <p>
+    Ik vroeg:
+
+    ‘Maar wat als
+    de jonge vrouw
+    weigert mee te komen?’
+
+    Hij antwoordde:
+
+    ‘Ik wandel
+    op de weg van Allah.
+
+    Hij zal Zijn engel
+    met jou meesturen
+    en jouw reis
+    laten slagen.
+
+    Jij zult een vrouw
+    voor mijn zoon nemen
+    uit mijn verwanten
+    en uit het huis
+    van mijn vader.
+
+    Als zij weigeren,
+    ben jij vrij
+    van je eed.’
+  </p>
+
+  <p>
+    Vandaag,
+    bij de bron,
+    bad ik:
+
+    ‘O Allah,
+    maak mijn weg gemakkelijk.
+
+    Als de jonge vrouw
+    tegen wie ik zeg:
+
+    “Laat mij
+    een beetje water drinken,”
+
+    antwoordt:
+
+    “Drink,
+    en ik zal ook water putten
+    voor uw kamelen,”
+
+    dan zal ik weten
+    dat zij degene is
+    die U
+    voor Ishaq hebt uitgekozen.’
+  </p>
+
+  <p>
+    Terwijl ik
+    nog in mijn hart bad,
+    kwam Rifqah aan
+    met een kruik.
+
+    Zij vulde die
+    bij de bron.
+
+    Ik vroeg haar
+    om wat water.
+
+    Meteen liet zij
+    de kruik zakken
+    en zei:
+
+    ‘Drink.’
+
+    Daarna bood zij aan
+    ook de kamelen
+    water te geven.
+  </p>
+
+  <p>
+    Nadat de kamelen
+    genoeg hadden gedronken,
+    vroeg ik:
+
+    ‘Van wie bent u de dochter?’
+
+    Zij antwoordde:
+
+    ‘Ik ben de dochter
+    van Bethuel,
+    kleindochter
+    van Nahur en Milkah.’
+
+    Daarna plaatste ik
+    een ring
+    in haar neus
+    en armbanden
+    om haar polsen.
+
+    Vervolgens
+    verrichtte ik sujūd
+    en prees Allah,
+    de God
+    van mijn meester Ibrahim,
+
+    Die mij rechtstreeks geleid heeft
+    naar de familie
+    van de broer
+    van mijn meester.
+
+    Dit is het hele verhaal.
+
+    Wat zegt u ervan?
+
+    Wilt u instemmen
+    met het verzoek
+    van mijn meester?
+
+    Zo niet,
+    zeg het mij dan eerlijk,
+    zodat ik weet
+    wat ik verder moet doen.”
+  </p>
+
+  <p>
+    Laban en Bethuel
+    luisterden
+    en antwoordden:
+
+    “Deze zaak
+    komt van Allah.
+
+    Wat zouden wij
+    daartegen kunnen zeggen?
+
+    Hier is Rifqah.
+
+    Neem haar mee
+    en ga.
+
+    Wij stemmen toe.
+
+    Laat haar
+    de vrouw worden
+    van de zoon
+    van uw meester,
+    zoals Allah
+    heeft bepaald.”
+  </p>
+
+  <p>
+    Toen de dienaar van Ibrahim
+    dit hoorde,
+    verrichtte hij sujūd
+    voor Allah.
+
+    Daarna haalde hij
+    goud,
+    zilver,
+    prachtige kleding
+    en kostbare geschenken tevoorschijn
+    en gaf die aan Rifqah.
+
+    Ook haar broer
+    en haar moeder
+    gaf hij waardevolle geschenken.
+
+    Daarna aten
+    en dronken
+    hij en zijn reisgenoten
+    en brachten daar de nacht door.
+  </p>
+</div>
+<div className="paragraph_heading">
+  <p>DE TERUGREIS</p>
+</div>
+
+<div className="main_text">
+  <p>
+    Vroeg de volgende morgen zei hij:
+
+    “Sta mij nu toe
+    terug te keren
+    naar mijn meester.”
+  </p>
+
+  <p>
+    Maar de broer van Rifqah
+    en haar moeder antwoordden:
+
+    “Haast u niet.
+
+    Laat onze dochter
+    nog ongeveer tien dagen
+    bij ons blijven.
+
+    Daarna kunt u vertrekken.”
+  </p>
+
+  <p>
+    Hij antwoordde:
+
+    “Nee.
+
+    Allah heeft mijn opdracht
+    doen slagen.
+
+    Houd mij alstublieft niet op.
+
+    Laat mij terugkeren
+    naar mijn meester.”
+  </p>
+
+  <p>
+    Toen zeiden zij:
+
+    “Laten wij
+    de jonge vrouw roepen
+    en haar zelf vragen.”
+
+    Zij riepen Rifqah
+    en vroegen:
+
+    “Deze man
+    wil vertrekken.
+
+    Wil jij met hem meegaan?”
+  </p>
+
+  <p>
+    “Ik zal meegaan,”
+    antwoordde zij.
+  </p>
+
+  <p>
+    Zo namen zij afscheid
+    van Rifqah,
+    samen met haar voedster
+    en de reizigers.
+
+    Voordat zij vertrok,
+    zegenden zij haar met de woorden:
+
+    “Onze zuster,
+
+    moge Allah jou
+    vele kinderen schenken.
+
+    Mogen jouw nakomelingen
+    ontelbaar worden.
+
+    Mogen jouw afstammelingen
+    de steden
+    van hun vijanden bezitten.”
+  </p>
+
+  <p>
+    Daarna stegen Rifqah
+    en haar dienaressen
+    op de kamelen
+    en vertrokken
+    met de dienaar van Ibrahim.
+  </p>
+
+  <p>
+    In die tijd
+    was Ishaq عليه السلام
+    teruggekeerd
+    van Beer-lahai-roi
+    naar het zuidelijke gebied.
+
+    Op een avond
+    wandelde hij
+    peinzend over het veld,
+    toen hij
+    kamelen zag naderen.
+
+    Hij liep hun tegemoet.
+  </p>
+
+  <p>
+    Ook Rifqah
+    zag Ishaq.
+
+    Zij stapte onmiddellijk
+    van haar kameel af
+    en vroeg
+    aan de dienaar van Ibrahim:
+
+    “Wie is die man?”
+  </p>
+
+  <p>
+    “Dat is mijn meester,”
+    antwoordde hij.
+
+    Toen nam Rifqah
+    haar sluier
+    en bedekte haar gezicht.
+
+    Daarna vertelde
+    de dienaar
+    aan Ishaq
+    alles wat er was gebeurd.
+  </p>
+</div>
+
+<div className="main_text">
+  <p
+    className="cursor-pointer"
+    onClick={() => toggleBubble('bubble2')}
+  >
+    Ishaq (a.s.)
+    bracht Rifqah
+    in de tent
+    van Lady Sarah.
+
+    Hij trouwde met haar,
+    en na het overlijden
+    van zijn moeder
+    vond hij grote troost
+    in haar gezelschap,
+    want hij hield
+    heel veel van haar.
+    <sup>2</sup>
+  </p>
+
+  {openBubbles['bubble2'] && (
+    <div
+      className="speech-bubble"
       onClick={() => toggleBubble('bubble2')}
     >
-      Ishaq (a.s.) brought Rifqah
-      into the tent of Lady Sarah.
-
-      He married her,
-      and after the passing of his mother
-      he found great comfort in her companionship,
-      for he loved her deeply.
-      <sup>2</sup>
-    </p>
-
-    {openBubbles['bubble2'] && (
-      <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble2')}
-      >
-        <p>
-          <sup>2</sup>
-          Ishaq عليه السلام was forty years old
-          when he married Lady Rifqah.
-        </p>
-      </div>
-    )}
-  </div>
+      <p>
+        <sup>2</sup>
+        Ishaq عليه السلام
+        was veertig jaar oud
+        toen hij trouwde
+        met Lady Rifqah.
+      </p>
+    </div>
+  )}
+</div>
 </main>
-    
   );
 }

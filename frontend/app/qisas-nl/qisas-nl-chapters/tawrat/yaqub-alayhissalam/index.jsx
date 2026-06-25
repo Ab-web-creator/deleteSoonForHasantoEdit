@@ -10,23 +10,26 @@ export default function Jacob() {
   ]);
 
   return ( 
- <main className="stories relative">
+<main className="stories relative">
   <div className="main_text">
     <p
-      className="boldItalic cursor-pointer "
+      className="boldItalic cursor-pointer"
       onClick={() => toggleBubble('bubble1')}
     >
-      “And remember Our servants Ibrahim, Ishaq, and Ya‘qub,
-      men of strength and insight.
+      “En gedenk Onze dienaren Ibrahim, Ishaq en Ya‘qub,
+      mannen van kracht en inzicht.
 
-      Indeed, We chose them for a special quality:
-      remembrance of the Hereafter.
+      Voorwaar, Wij hebben hen uitverkoren
+      vanwege één bijzondere eigenschap:
+      het gedenken van het Hiernamaals.
 
-      And surely, in Our sight,
-      they were among the chosen and the most righteous.”
+      En voorwaar,
+      in Onze ogen
+      behoorden zij tot de uitverkorenen
+      en de meest rechtschapenen.”
       <sup>1</sup>{' '}
       <span className="vitalic">
-        (The Noble Qur’an, 38:45–47).
+        (De Edele Qur'an, 38:45–47).
       </span>
     </p>
 
@@ -37,318 +40,442 @@ export default function Jacob() {
       >
         <p>
           <sup>1</sup>
-          The Arabic word
-          <span className="boldItalic">
-            {' '}
-            akhyar
-          </span>
+          Het Arabische woord
+          <span className="boldItalic"> akhyar</span>
           {' '}
-          means “the very best” or “the most excellent.”
+          betekent
+          "de allerbesten"
+          of
+          "de voortreffelijksten".
 
-          The prophets mentioned in this verse —
-          Ibrahim, Ishaq, and Ya‘qub عليهم السلام —
-          were among those specially chosen by Allah
-          as His most righteous servants.
+          De profeten
+          Ibrahim,
+          Ishaq
+          en Ya‘qub عليهم السلام,
+          die in deze aya worden genoemd,
+          behoorden tot degenen
+          die Allah speciaal had uitgekozen
+          als Zijn meest rechtschapen dienaren.
         </p>
       </div>
     )}
   </div>
 
   <div className="paragraph_heading">
-    <p>SETTING OUT ON THE JOURNEY</p>
+    <p>VERTREK OP REIS</p>
   </div>
 
   <div className="main_text">
     <p>
       Lady Rifqah رضي الله عنها
-      knew of Esau’s intentions.
+      wist wat Esau van plan was.
 
-      Therefore she called Ya‘qub عليه السلام and said:
+      Daarom riep zij
+      Ya‘qub عليه السلام
+      bij zich en zei:
 
-      “Your brother intends to kill you.
+      “Je broer
+      wil je doden.
 
-      You must leave at once
-      and go to Haran,
-      to your uncle Laban.
+      Je moet onmiddellijk vertrekken
+      en naar Haran gaan,
+      naar je oom Laban.
 
-      Remain there until your brother’s anger subsides.
+      Blijf daar
+      totdat de woede van je broer
+      is bedaard.
 
-      When he has forgotten what happened,
-      I will send word for you to return.
+      Wanneer hij vergeten is
+      wat er gebeurd is,
+      zal ik je laten weten
+      dat je kunt terugkomen.
 
-      I cannot bear to lose both of you in a single day!”
+      Ik kan het niet verdragen
+      om jullie allebei
+      op één dag te verliezen!”
     </p>
 
     <p>
-      Then she went to Ishaq عليه السلام and said:
+      Daarna ging zij
+      naar Ishaq عليه السلام
+      en zei:
 
-      “These Hittite daughters-in-law
-      have made my life miserable.
+      “Deze Hethitische schoondochters
+      maken mijn leven ondraaglijk.
 
-      If Ya‘qub also takes a wife from among the Hittites,
-      I would rather die!”
+      Als Ya‘qub ook
+      een vrouw neemt
+      uit de Hethieten,
+      dan sterf ik liever!”
     </p>
 
     <p>
-      Ishaq عليه السلام called his son Ya‘qub
-      and blessed him, saying:
+      Ishaq عليه السلام
+      riep zijn zoon Ya‘qub
+      en zegende hem:
 
-      “I do not want you to marry a Canaanite woman.
+      “Ik wil niet
+      dat jij trouwt
+      met een Kanaänitische vrouw.
 
-      Set out today for Mesopotamia,
-      to the house of your grandfather Bethuel.
+      Vertrek vandaag nog
+      naar Mesopotamië,
+      naar het huis
+      van je grootvader Bethuël.
 
-      There,
-      marry one of the daughters of your uncle Laban.
+      Trouw daar
+      met één van de dochters
+      van je oom Laban.
 
-      May Allah bless you,
-      grant you many children,
-      and multiply your descendants
-      until they become a great assembly of peoples.
+      Moge Allah jou zegenen,
+      jou veel kinderen schenken
+      en jouw nakomelingen vermeerderen,
+      totdat zij
+      een grote gemeenschap
+      van volken worden.
 
-      May you and your offspring inherit
-      the blessing promised to your grandfather Ibrahim,
-      and may you inherit the land of Canaan,
-      the land in which we now live as strangers.”
+      Moge jij
+      en jouw nageslacht
+      de zegen erven
+      die aan jouw grootvader Ibrahim
+      is beloofd.
+
+      En moge jij
+      het land Kanaän erven,
+      het land
+      waarin wij nu
+      als vreemdelingen wonen.”
     </p>
 
     <p>
-      With these words,
-      Prophet Ishaq sent Ya‘qub عليه السلام
-      on his way to Mesopotamia,
-      to the household of his uncle Laban.
+      Met deze woorden
+      stuurde Profeet Ishaq
+      Ya‘qub عليه السلام
+      op weg
+      naar Mesopotamië,
+      naar het huis
+      van zijn oom Laban.
     </p>
 
     <p>
-      When Esau رضي الله عنه saw
-      how displeased his father was
-      with the Canaanite wives,
-      and how Ya‘qub had been blessed and sent away
-      with instructions not to marry among the Canaanites,
-      he went to the family of his uncle Ismail عليه السلام
-      and married Mahalath,
-      the daughter of Ismail عليه السلام
-      and sister of Nabayoth.
+      Toen Esau رضي الله عنه zag
+      hoe ontevreden zijn vader was
+      over de Kanaänitische vrouwen,
+
+      en hoe Ya‘qub
+      was gezegend
+      en weggestuurd
+      met de opdracht
+      niet met een Kanaänitische vrouw
+      te trouwen,
+
+      ging hij
+      naar de familie
+      van zijn oom Ismail عليه السلام
+      en trouwde
+      met Mahalath,
+      de dochter van Ismail عليه السلام
+      en de zuster van Nabayoth.
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>THE DREAM OF YA‘QUB عليه السلام</p>
+    <p>DE DROOM VAN YA‘QUB عليه السلام</p>
   </div>
 
   <div className="main_text">
     <p>
-      Thus Ya‘qub عليه السلام
-      departed from Beersheba
-      and set out toward Haran,
-      where his uncle lived.
+      Zo vertrok
+      Ya‘qub عليه السلام
+      uit Beersheba
+      naar Haran,
+      waar zijn oom woonde.
 
-      As the sun was setting,
-      he stopped at a certain place
-      to spend the night.
+      Toen de zon onderging,
+      kwam hij
+      op een bepaalde plaats
+      om daar te overnachten.
 
-      Taking one of the stones there,
-      he placed it beneath his head
-      and fell asleep.
+      Hij nam
+      één van de stenen
+      die daar lag,
+      legde die
+      onder zijn hoofd
+      en viel in slaap.
     </p>
 
     <p>
-      During the night,
-      he saw a dream.
+      Die nacht
+      zag hij een droom.
 
-      In the dream,
-      there was a ladder.
+      In de droom
+      stond er een ladder.
 
-      One end stood upon the earth,
-      while the other reached into the highest heavens.
+      Het ene uiteinde
+      stond op de aarde,
 
-      The angels of Allah
-      were ascending and descending upon it.
+      terwijl het andere
+      reikte
+      tot de hoogste hemelen.
+
+      De engelen van Allah
+      stegen erop op
+      en daalden weer af.
     </p>
 
     <p>
-      Then Allah Most High spoke to Ya‘qub عليه السلام
-      from above:
+      Toen sprak Allah,
+      de Verhevene,
+      van bovenaf
+      tot Ya‘qub عليه السلام:
 
-      “I am the God
-      who established a covenant
-      with your grandfather Ibrahim
-      and your father Ishaq.
+      “Ik ben de God
+      Die een verbond sloot
+      met jouw grootvader Ibrahim
+      en jouw vader Ishaq.
 
-      The land upon which you are lying,
-      I shall give to you
-      and to your descendants.
+      Het land
+      waarop jij nu ligt,
+      zal Ik geven
+      aan jou
+      en aan jouw nakomelingen.
 
-      Your offspring shall become
-      as numerous as the dust of the earth.
+      Jouw nageslacht
+      zal zo talrijk worden
+      als het stof
+      van de aarde.
 
-      You shall spread
-      to the west and to the east,
-      to the north and to the south.
+      Jij zult je uitbreiden
+      naar het westen
+      en het oosten,
+      naar het noorden
+      en het zuiden.
 
-      Through you and your descendants,
-      all the peoples of the earth
-      shall receive blessing.”
+      Door jou
+      en jouw nakomelingen
+      zullen alle volken
+      van de aarde
+      gezegend worden.”
     </p>
 
     <p>
-      “I am with you.
+      “Ik ben met jou.
 
-      Wherever you go,
-      I shall protect you.
+      Waar je ook gaat,
+      Ik zal jou beschermen.
 
-      And when the appointed time comes,
-      I shall bring you back to this land.
+      En wanneer
+      de vastgestelde tijd komt,
+      zal Ik jou
+      terugbrengen
+      naar dit land.
 
-      I will never abandon you.
+      Ik zal jou
+      nooit verlaten.
 
-      I shall remain with you
-      and fulfill every promise
-      that I have spoken to you.”
+      Ik zal bij jou blijven
+      en iedere belofte vervullen
+      die Ik jou heb gedaan.”
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>PROMISES GIVEN TO YA‘QUB عليه السلام</p>
+    <p>DE BELOFTEN AAN YA‘QUB عليه السلام</p>
   </div>
 
   <div className="main_text">
     <p className="vitalic">
-      Thus Allah, Mighty and Majestic,
-      gave Ya‘qub عليه السلام
-      the same three promises:
+      Zo gaf Allah,
+      de Almachtige,
+      aan Ya‘qub عليه السلام
+      dezelfde drie beloften:
     </p>
   </div>
 
   <div className="border rounded-md border-green-600 p-3">
     <p className="vitalic pl-4">
-      ~ that his descendants would become numerous,
+      ~ dat zijn nakomelingen talrijk zouden worden,
     </p>
 
     <p className="vitalic pl-4">
-      ~ that his descendants would inherit the land,
+      ~ dat zijn nakomelingen het land zouden erven,
     </p>
 
     <p className="vitalic pl-4">
-      ~ and that through his offspring,
-      all the peoples of the earth
-      would receive blessing.
+      ~ en dat door zijn nageslacht
+      alle volken van de aarde
+      gezegend zouden worden.
     </p>
   </div>
 
-  <div>
+  <div className="main_text">
     <p className="vitalic">
-      If you remember,
-      these were exactly the same promises
-      that had previously been given
-      to Prophet Ibrahim عليه السلام
-      and to Ishaq عليه السلام.
+      Als je het je herinnert,
+
+      waren dit precies
+      dezelfde beloften
+      die eerder
+      waren gegeven
+      aan Profeet Ibrahim عليه السلام
+      en aan Ishaq عليه السلام.
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>YA‘QUB عليه السلام MAKES A VOW</p>
+    <p>YA‘QUB عليه السلام LEGT EEN GELOFTE AF</p>
   </div>
 
   <div className="main_text">
     <p>
-      When Ya‘qub عليه السلام awoke from his sleep,
-      he said in amazement:
+      Toen Ya‘qub عليه السلام
+      wakker werd,
+      zei hij verbaasd:
 
-      “Surely this place is sacred!
-      I did not know it.”
+      “Voorwaar,
+      deze plaats is heilig!
+
+      Dat wist ik niet.”
     </p>
 
     <p>
-      Then fear filled his heart,
-      and he exclaimed:
+      Zijn hart
+      werd vervuld met ontzag,
+      en hij zei:
 
-      “This truly is the gateway to the highest heavens!”
+      “Dit is werkelijk
+      de poort
+      naar de hoogste hemelen!”
     </p>
 
     <p>
-      Early in the morning,
-      Ya‘qub عليه السلام rose,
-      took the stone upon which he had rested his head,
-      set it upright,
-      poured olive oil upon it,
-      and dedicated it to Allah.
+      Vroeg in de ochtend
+      stond Ya‘qub عليه السلام op.
 
-      He then named that place
-      Bayt-El
-      (its former name had been Luz).
+      Hij nam de steen
+      waarop hij had gerust,
+      zette die rechtop,
+      goot er olijfolie over
+      en wijdde die toe aan Allah.
+
+      Daarna gaf hij
+      die plaats
+      de naam Bayt-El.
+
+      (De vroegere naam
+      was Luz.)
     </p>
 
     <p>
-      Then he said:
+      Daarna zei hij:
 
-      “If Allah remains with me,
-      protects me on my journey,
-      provides me with food to eat
-      and clothing to wear,
-      and returns me safely
-      to my father’s house,
+      “Als Allah
+      met mij blijft,
 
-      then I shall worship Him alone.
+      mij beschermt
+      op mijn reis,
 
-      This stone which I have set up
-      shall become a House dedicated to Allah.
+      mij voedsel geeft
+      om te eten
+      en kleding
+      om te dragen,
 
-      And whatever Allah grants me,
-      I shall give a tenth of it
-      as an offering.”
+      en mij veilig
+      terugbrengt
+      naar het huis
+      van mijn vader,
+
+      dan zal ik
+      alleen Hem aanbidden.
+
+      Deze steen,
+      die ik heb opgericht,
+
+      zal een Huis worden
+      dat aan Allah is gewijd.
+
+      En van alles
+      wat Allah mij schenkt,
+
+      zal ik
+      een tiende deel
+      als offer geven.”
     </p>
 
     <p className="vitalic">
-      Allah revealed Himself to Prophet Ya‘qub
-      through a dream.
+      Allah openbaarde Zich
+      aan Profeet Ya‘qub
+      door middel
+      van een droom.
 
-      Just imagine:
-      what if there truly were a staircase
-      reaching from the earth
-      all the way to where Allah has placed His command?
+      Stel je eens voor:
 
-      We would climb it,
-      see many things,
-      and understand much that is hidden from us,
-      would we not?
+      wat als er werkelijk
+      een trap zou zijn
+      die vanaf de aarde
+      helemaal reikt
+      tot de plaats
+      waar Allah Zijn bevel laat uitgaan?
 
-      Perhaps we might even glimpse Paradise itself.
-      What do you think?
+      Wij zouden erop klimmen,
+
+      veel dingen zien,
+
+      en veel begrijpen
+      wat nu nog
+      voor ons verborgen is,
+      nietwaar?
+
+      Misschien zouden wij
+      zelfs een glimp
+      van het Paradijs zien.
+
+      Wat denk jij?
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>AT HIS UNCLE’S HOUSE</p>
+    <p>IN HET HUIS VAN ZIJN OOM</p>
   </div>
 
   <div className="main_text">
     <p>
-      Ya‘qub عليه السلام continued his journey
-      and eventually arrived in the land of Haran.
+      Ya‘qub عليه السلام
+      vervolgde zijn reis
+      en kwam uiteindelijk
+      aan
+      in het land Haran.
 
-      There he saw a well.
+      Daar zag hij
+      een waterput.
 
-      Beside the well lay three flocks of sheep,
-      and over the mouth of the well
-      was a large stone.
+      Naast de put
+      lagen drie kudden schapen,
 
-      (The stone would only be removed
-      once all the shepherds had gathered.
+      en over de opening
+      van de put
+      lag een grote steen.
 
-      After the sheep had finished drinking,
-      the stone would be rolled back into place.)
+      (De steen
+      werd pas weggehaald
+      wanneer alle herders
+      bijeen waren gekomen.
+
+      Nadat de schapen
+      hadden gedronken,
+
+      werd de steen
+      weer teruggerold.)
     </p>
 
     <p className="!my-0">
-      —Brothers,
-      where are you from?
-      asked Ya‘qub عليه السلام.
+      —Broeders,
+      waar komen jullie vandaan?
+      vroeg Ya‘qub عليه السلام.
     </p>
 
     <p className="!my-0">
-      —From Haran,
-      they replied.
+      —Uit Haran,
+      antwoordden zij.
     </p>
   </div>
 
@@ -357,8 +484,11 @@ export default function Jacob() {
       className="cursor-pointer !my-0"
       onClick={() => toggleBubble('bubble2')}
     >
-      —Do you know a man named Laban?
-      The grandson of Nahur?
+      —Kennen jullie
+      een man
+      die Laban heet?
+
+      De kleinzoon van Nahur?
       <sup>2</sup>
     </p>
 
@@ -369,84 +499,136 @@ export default function Jacob() {
       >
         <p>
           <sup>2</sup>
-          Nahur was the brother of Ibrahim عليه السلام.
+          Nahur was
+          de broer
+          van Ibrahim عليه السلام.
         </p>
       </div>
     )}
   </div>
 
   <div className="main_text">
-    <p className="!my-0">—Yes, we know him.</p>
-
-    <p className="!my-0">—Is he well?</p>
-
     <p className="!my-0">
-      —Yes, he is well,
-      one of the shepherds replied.
-
-      Look,
-      his daughter Rachel is coming now,
-      bringing her sheep.
+      —Ja,
+      wij kennen hem.
     </p>
 
     <p className="!my-0">
-      —There is still plenty of daylight.
-      Why do you not water your flocks
-      and take them back out to pasture?
+      —Gaat het goed met hem?
     </p>
 
     <p className="!my-0">
-      —We cannot move the stone
-      until all the flocks have gathered,
-      they answered.
+      —Ja,
+      het gaat goed met hem,
+
+      antwoordde
+      één van de herders.
+
+      Kijk,
+
+      zijn dochter Rachel
+      komt daar nu aan
+      met haar schapen.
+    </p>
+
+    <p className="!my-0">
+      —Er is nog
+      genoeg daglicht.
+
+      Waarom geven jullie
+      de schapen
+      niet eerst water
+      en brengen jullie ze
+      daarna weer
+      naar de weide?
+    </p>
+
+    <p className="!my-0">
+      —Wij kunnen
+      de steen niet verplaatsen
+      voordat alle kudden
+      verzameld zijn,
+      antwoordden zij.
     </p>
 
     <p>
-      While they were speaking,
-      Rachel arrived with her father’s sheep.
+      Terwijl zij
+      nog aan het praten waren,
 
-      (Rachel herself cared for her father’s flock.)
+      kwam Rachel aan
+      met de schapen
+      van haar vader.
 
-      Immediately,
-      Ya‘qub عليه السلام rolled the stone away
-      from the mouth of the well
-      and watered his uncle’s sheep.
+      (Rachel zorgde zelf
+      voor de kudde
+      van haar vader.)
 
-      Then,
-      while speaking with Rachel,
-      he became overwhelmed with emotion
-      and began to weep.
+      Meteen
+      rolde Ya‘qub عليه السلام
+      de steen weg
+      van de opening
+      van de put
+
+      en gaf
+      de schapen
+      van zijn oom
+      water.
+
+      Daarna,
+
+      terwijl hij
+      met Rachel sprak,
+
+      werd hij
+      zo door emoties
+      overweldigd
+
+      dat hij begon te huilen.
     </p>
 
     <p>
-      “I am the son of your aunt Rifqah,”
-      he told her.
+      “Ik ben de zoon
+      van jouw tante Rifqah,”
+      vertelde hij haar.
 
-      Rachel ran home at once
-      and informed her father.
+      Rachel rende
+      onmiddellijk naar huis
+
+      en vertelde het
+      aan haar vader.
     </p>
 
     <p>
-      When Laban heard
-      that his nephew had arrived,
-      he hurried out to meet him.
+      Toen Laban hoorde
+      dat zijn neef
+      was aangekomen,
 
-      He embraced him,
-      kissed him,
-      and brought him into his home.
+      haastte hij zich
+      om hem te ontmoeten.
 
-      There,
-      Ya‘qub عليه السلام told his uncle
-      everything that had happened.
+      Hij omhelsde hem,
+
+      kuste hem,
+
+      en nam hem mee
+      naar zijn huis.
+
+      Daar vertelde
+      Ya‘qub عليه السلام
+      zijn oom
+      alles
+      wat er was gebeurd.
     </p>
 
     <p>
-      “Do not worry,”
-      said Laban.
+      “Maak je geen zorgen,”
+      zei Laban.
 
-      “You are my own flesh and blood.
+      “Jij bent
+      mijn eigen vlees en bloed.
 
-      Stay here with me.”
+      Blijf hier
+      bij mij.”
     </p>
   </div>
 </main>

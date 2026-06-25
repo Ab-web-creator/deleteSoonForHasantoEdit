@@ -12,13 +12,12 @@ export default function AbrahamicCovenant() {
   ]);
 
   return ( 
-   <main className="stories relative">
+<main className="stories relative">
   <div className="main_text">
     <p className="boldItalic">
-      “Who is better in religion than one who submits himself to Allah,
-      does good,
-      and follows the upright way of Ibrahim?
-      For Allah took Ibrahim as His close friend.”
+      “Wie is beter in religie dan degene die zichzelf aan Allah overgeeft,
+      goed doet en de oprechte weg van Ibrahim volgt? Want Allah nam Ibrahim
+      als Zijn hechte vriend.”
       <span className="vitalic">
         {' '}
         (Surah An-Nisa 4:125).
@@ -26,96 +25,96 @@ export default function AbrahamicCovenant() {
     </p>
 
     <p>
-      One day Allah said to Prophet Ibrahim:
+      Op een dag zei Allah tegen Profeet Ibrahim:
 
-      “Leave your father's house
-      and go to the land that I will show you.
+      “Verlaat het huis van je vader
+      en ga naar het land dat Ik je zal tonen.
 
-      I shall make from you a great nation.
-      I shall bless you,
-      make your name great,
-      and you shall become a source of blessing.
+      Ik zal uit jou een groot volk maken.
+      Ik zal je zegenen,
+      je naam groot maken,
+      en jij zult een bron van zegen worden.
 
-      I will bless those who bless you,
-      and I will curse those who curse you.
+      Ik zal zegenen wie jou zegenen,
+      en Ik zal vervloeken wie jou vervloeken.
 
-      Through you,
-      all the nations of the earth shall receive blessing.”
+      Door jou
+      zullen alle volkeren van de aarde zegen ontvangen.”
     </p>
 
     <p className="vitalic">
-      Allah Most High desired that humanity
-      restore its relationship with Him
-      and that the vicegerency first entrusted to Adam (peace be upon him)
-      continue upon the earth.
+      Allah, de Allerhoogste, wilde dat de mensheid
+      haar band met Hem zou herstellen
+      en dat het khalīfa-schap dat eerst aan Adam (vrede zij met hem)
+      was toevertrouwd,
+      op aarde zou voortgaan.
 
-      For this reason,
-      He chose to establish a covenant
-      with Ibrahim (peace be upon him).
+      Daarom koos Hij ervoor
+      een verbond te sluiten
+      met Ibrahim (vrede zij met hem).
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>THE PROMISE OF BLESSING</p>
+    <p>DE BELOFTE VAN ZEGEN</p>
   </div>
 
   <div className="main_text">
     <p className="vitalic">
-      Thus Allah, Mighty and Majestic,
-      took Ibrahim (peace be upon him)
-      under His protection and declared:
+      Zo nam Allah, de Machtige en Majesteitelijke,
+      Ibrahim (vrede zij met hem)
+      onder Zijn bescherming en verklaarde:
 
-      “All the nations of the earth
-      shall be blessed through you.”
+      “Alle volkeren van de aarde
+      zullen door jou gezegend worden.”
 
-      Do you remember how Adam (peace be upon him)
-      and our mother Hawwa (may Allah be pleased with her)
-      once lived in Paradise,
-      in the presence of Allah?
+      Herinner je je hoe Adam (vrede zij met hem)
+      en onze moeder Hawwa (moge Allah tevreden met haar zijn)
+      ooit in het Paradijs leefden,
+      in de aanwezigheid van Allah?
 
-      Whoever is a friend of Allah
-      lives beneath His blessing.
+      Wie een vriend van Allah is,
+      leeft onder Zijn zegen.
 
-      Yet after eating from the forbidden tree,
-      they went astray.
+      Maar nadat zij van de verboden boom hadden gegeten,
+      dwaalden zij af.
 
-      As a result,
-      death,
-      curse,
-      and sin entered the world.
+      Daardoor kwamen dood,
+      vloek
+      en zonde de wereld binnen.
 
-      Allah did not warn them in vain when He said:
+      Allah waarschuwde hen niet voor niets toen Hij zei:
 
-      “The day you eat from it,
-      you shall surely die.”
+      “Op de dag dat jullie ervan eten,
+      zullen jullie zeker sterven.”
 
-      (This refers not only to physical death,
-      but also to spiritual death —
-      separation from the presence of Allah.)
+      (Dit verwijst niet alleen naar lichamelijke dood,
+      maar ook naar geestelijke dood —
+      verwijdering van de aanwezigheid van Allah.)
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="vitalic cursor-pointer "
+      className="vitalic cursor-pointer"
       onClick={() => toggleBubble('bubble1')}
     >
-      Now Allah was promising Prophet Ibrahim
-      a blessing intended for all peoples and nations of the earth —
-      the blessing of faith.
+      Nu beloofde Allah aan Profeet Ibrahim
+      een zegen die bedoeld was voor alle volken en naties van de aarde —
+      de zegen van īmān.
 
-      Whoever becomes part of Ibrahim’s family
-      shares in that blessing.
+      Wie deel wordt van de familie van Ibrahim
+      deelt in die zegen.
 
-      His sins are forgiven,
-      and he becomes one of those
-      brought near to Allah.
+      Zijn zonden worden vergeven,
+      en hij behoort tot degenen
+      die dicht bij Allah worden gebracht.
 
-      This is why the Qur’an says:
+      Daarom zegt de Qur’an:
 
       {' '}
       <span className="boldItalic">
-        “Follow the way of Ibrahim.”
+        “Volg de weg van Ibrahim.”
         <sup>1</sup>
       </span>
     </p>
@@ -127,16 +126,16 @@ export default function AbrahamicCovenant() {
       >
         <p>
           <sup>1</sup>
-          The Qur’an also says:
+          De Qur’an zegt ook:
 
           {' '}
           <span className="boldItalic">
-            “Who would turn away from the way of Ibrahim
-            except one who has debased himself?
+            “Wie zou zich afwenden van de weg van Ibrahim
+            behalve iemand die zichzelf heeft vernederd?
 
-            We chose him in this world,
-            and in the Hereafter
-            he will surely be among the righteous.”
+            Wij kozen hem in deze wereld,
+            en in het Hiernamaals
+            zal hij zeker tot de rechtschapenen behoren.”
           </span>
           {' '}
           (Al-Baqarah 2:130).
@@ -145,39 +144,40 @@ export default function AbrahamicCovenant() {
     )}
 
     <p className="vitalic">
-      But who are the descendants of Ibrahim?
+      Maar wie zijn de nakomelingen van Ibrahim?
 
-      Not everyone can simply claim
-      to belong to his family.
+      Niet iedereen kan zomaar beweren
+      tot zijn familie te behoren.
 
-      How can you become a member
-      of the family of Ibrahim?
+      Hoe kun je lid worden
+      van de familie van Ibrahim?
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble2')}
     >
-      At that time,
-      the Messenger of Allah was seventy-five years old.
+      In die tijd
+      was de Boodschapper van Allah vijfenzeventig jaar oud.
 
-      Obeying Allah,
-      he took his wife Sarah,
-      his nephew Lut,
-      <sup>2</sup> {" "} together with the wealth,
-      servants,
-      and possessions he had acquired in Harran,
-      and departed for the land of Canaan.
+      Gehoorzaam aan Allah
+      nam hij zijn vrouw Sarah,
+      zijn neef Lut,
+      <sup>2</sup>{' '}
+      samen met de rijkdom,
+      dienaren
+      en bezittingen die hij in Harran had verkregen,
+      en vertrok naar het land Kanaän.
 
-      After arriving there,
-      Allah Most High revealed His purpose to Ibrahim (peace be upon him):
+      Nadat hij daar was aangekomen,
+      openbaarde Allah, de Allerhoogste, Zijn doel aan Ibrahim (vrede zij met hem):
 
-      “This land I shall give to your descendants.”
+      “Dit land zal Ik aan jouw nakomelingen geven.”
 
-      (At that time,
-      Ibrahim still had no children.)
+      (In die tijd
+      had Ibrahim nog geen kinderen.)
     </p>
 
     {openBubbles['bubble2'] && (
@@ -187,88 +187,88 @@ export default function AbrahamicCovenant() {
       >
         <p>
           <sup>2</sup>
-          Lut (peace be upon him)
-          was the first person
-          to believe in Ibrahim (peace be upon him)
-          (see Surah Al-‘Ankabut 29:26).
+          Lut (vrede zij met hem)
+          was de eerste persoon
+          die in Ibrahim (vrede zij met hem) geloofde
+          (zie Surah Al-‘Ankabut 29:26).
 
-          Later,
-          he migrated alongside Ibrahim
-          for the sake of Allah
+          Later
+          emigreerde hij samen met Ibrahim
+          omwille van Allah
           (Mir Khwand, “Rawdat al-Safa”).
         </p>
       </div>
     )}
 
     <p className="vitalic">
-      Among all the prophets,
-      Ibrahim (peace be upon him)
-      became known as
+      Onder alle profeten
+      werd Ibrahim (vrede zij met hem)
+      bekend als
       <span className="boldItalic"> Khalilullah </span>
-      — the Friend of Allah.
+      — de Vriend van Allah.
 
-      He believed in Allah.
+      Hij geloofde in Allah.
 
-      Because he believed,
-      he obeyed.
+      Omdat hij geloofde,
+      gehoorzaamde hij.
 
-      When Allah commanded him to set out,
-      he departed,
-      even though he did not know where the journey would lead.
+      Toen Allah hem beval te vertrekken,
+      ging hij op weg,
+      ook al wist hij niet waar de reis heen zou leiden.
 
-      Through faith,
-      he settled in a foreign land.
+      Door īmān
+      vestigde hij zich in een vreemd land.
 
-      He lived as a traveler in tents
-      wherever Allah directed him.
+      Hij leefde als reiziger in tenten,
+      waar Allah hem ook heen leidde.
 
-      His eyes were fixed upon a true homeland —
-      an everlasting abode
-      whose Architect and Builder is Allah Himself.
+      Zijn ogen waren gericht op een waar vaderland —
+      een eeuwige verblijfplaats
+      waarvan Allah Zelf de Ontwerper en Bouwer is.
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>IBRAHIM'S JOURNEY TO EGYPT</p>
+    <p>IBRAHIMS REIS NAAR EGYPTE</p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble5')}
     >
-      During this period,
-      a severe famine struck the land,
-      and the Messenger of Allah
-      temporarily traveled to Egypt.
+      In deze periode
+      trof een zware hongersnood het land,
+      en de Boodschapper van Allah
+      reisde tijdelijk naar Egypte.
 
-      As they approached Egypt,
-      he said to his wife Sarah:
+      Toen zij Egypte naderden,
+      zei hij tegen zijn vrouw Sarah:
 
-      “You are a very beautiful woman.
+      “Jij bent een zeer mooie vrouw.
 
-      If the Egyptians discover
-      that I am your husband,
-      they may kill me because of you.
+      Als de Egyptenaren ontdekken
+      dat ik jouw man ben,
+      kunnen zij mij om jou doden.
 
-      Therefore tell them:
-      ‘I am his sister.’
+      Zeg daarom tegen hen:
+      ‘Ik ben zijn zus.’
       <sup>3</sup>
 
-      If you do so,
-      they will treat me well
-      and spare my life.”
-      <sup>4</sup> {" "}
+      Als je dat doet,
+      zullen zij mij goed behandelen
+      en mijn leven sparen.”
+      <sup>4</sup>{' '}
 
-      Indeed,
-      as soon as they arrived,
-      Sarah’s beauty attracted everyone’s attention.
+      Inderdaad,
+      zodra zij aankwamen,
+      trok Sarahs schoonheid ieders aandacht.
 
-      Pharaoh’s officials,
-      seeing her extraordinary beauty,
-      praised her before Pharaoh
-      <sup>5</sup>{" "}
-      and Sarah was brought into the royal palace.
+      De dienaren van de Farao,
+      die haar buitengewone schoonheid zagen,
+      prezen haar bij de Farao
+      <sup>5</sup>{' '}
+      en Sarah werd naar het koninklijk paleis gebracht.
     </p>
 
     {openBubbles['bubble5'] && (
@@ -278,14 +278,14 @@ export default function AbrahamicCovenant() {
       >
         <p>
           <sup>3</sup>
-          In a hadith narrated by Imam al-Bukhari,
-          Ibrahim (peace be upon him) said:
+          In een hadith overgeleverd door Imam al-Bukhari,
+          zei Ibrahim (vrede zij met hem):
 
-          “I introduced you to them as my sister.
-          Do not contradict my statement.
-          By Allah,
-          there are no believers on earth today
-          besides you and me.”
+          “Ik heb jou aan hen voorgesteld als mijn zus.
+          Spreek mijn uitspraak niet tegen.
+          Bij Allah,
+          er zijn vandaag op aarde geen gelovigen
+          behalve jij en ik.”
         </p>
 
         <p>
@@ -296,58 +296,58 @@ export default function AbrahamicCovenant() {
         <p>
           <sup>5</sup>
           Al-Mas‘udi, “Akhbar al-Zaman”.
-          See also al-Bukhari, vol. 4, p. 112.
+          Zie ook al-Bukhari, vol. 4, p. 112.
         </p>
       </div>
     )}
   </div>
 
   <div className="paragraph_heading">
-    <p>BUT...</p>
+    <p>MAAR...</p>
   </div>
 
   <div className="main_text">
     <p>
-      Allah Most High afflicted Pharaoh
-      and the people of his palace
-      with severe illnesses
-      because they had taken Sarah (may Allah be pleased with her)
-      into the palace.
+      Allah, de Allerhoogste, trof de Farao
+      en de mensen van zijn paleis
+      met zware ziekten
+      omdat zij Sarah (moge Allah tevreden met haar zijn)
+      in het paleis hadden genomen.
 
-      Terrified by what was happening,
-      Pharaoh quickly summoned Ibrahim (peace be upon him) and said:
+      Doodsbang door wat er gebeurde,
+      liet de Farao snel Ibrahim (vrede zij met hem) roepen en zei:
 
-      “Why did you do this?
+      “Waarom heb je dit gedaan?
 
-      Why did you not tell me
-      that Sarah was your wife?
+      Waarom heb je mij niet verteld
+      dat Sarah jouw vrouw was?
 
-      Why did you call her your sister?
+      Waarom noemde je haar je zus?
 
-      Had you told me the truth,
-      I would never have brought her into my palace.
+      Als je mij de waarheid had verteld,
+      zou ik haar nooit in mijn paleis hebben gebracht.
 
-      Take your wife
-      and leave my land.”
+      Neem je vrouw
+      en verlaat mijn land.”
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble6')}
     >
-      Then Pharaoh commanded his men:
+      Daarna gaf de Farao zijn mannen opdracht:
 
-      “Escort this man,
-      his wife,
-      and all his possessions
-      safely to the border.”
+      “Begeleid deze man,
+      zijn vrouw
+      en al zijn bezittingen
+      veilig naar de grens.”
 
-      Thus Ibrahim (peace be upon him)
-      returned to Canaan
-      with his wife
-      and all that he possessed.
+      Zo keerde Ibrahim (vrede zij met hem)
+      terug naar Kanaän
+      met zijn vrouw
+      en alles wat hij bezat.
       <sup>6</sup>
     </p>
 
@@ -358,13 +358,13 @@ export default function AbrahamicCovenant() {
       >
         <p>
           <sup>6</sup>
-          Pharaoh presented Ibrahim (peace be upon him)
-          with many gifts and much wealth.
+          De Farao schonk Ibrahim (vrede zij met hem)
+          vele geschenken en grote rijkdom.
 
           Hajar,
-          our noble mother,
-          who was given to Sarah as a servant,
-          was also among Pharaoh’s gifts
+          onze edele moeder,
+          die aan Sarah als dienares werd gegeven,
+          behoorde ook tot de geschenken van de Farao
           (Ibn Sa‘d, “Tabaqat”).
         </p>
       </div>
@@ -372,78 +372,78 @@ export default function AbrahamicCovenant() {
   </div>
 
   <div className="paragraph_heading">
-    <p>LUT (PEACE BE UPON HIM) SEPARATES FROM IBRAHIM</p>
+    <p>LUT (VREDE ZIJ MET HEM) SCHEIDT ZICH VAN IBRAHIM</p>
   </div>
 
   <div className="main_text">
     <p>
-      Both Ibrahim (peace be upon him)
-      and Lut (peace be upon him),
-      who traveled with him,
-      possessed large flocks
-      and many servants.
+      Zowel Ibrahim (vrede zij met hem)
+      als Lut (vrede zij met hem),
+      die met hem meereisde,
+      bezaten grote kuddes
+      en veel dienaren.
 
-      One day,
-      the grazing land became insufficient,
-      and a dispute broke out
-      between the shepherds of Ibrahim
-      and those of Lut.
+      Op een dag
+      werd het weideland onvoldoende,
+      en er ontstond een conflict
+      tussen de herders van Ibrahim
+      en die van Lut.
 
-      The Canaanites and Perizzites
-      were also living in the area at that time.
+      De Kanaänieten en Perizzieten
+      woonden in die tijd ook in het gebied.
 
-      Then Ibrahim said to Lut:
+      Toen zei Ibrahim tegen Lut:
 
-      “We are relatives.
-      There must be no quarrel
-      between us,
-      nor between our shepherds.
+      “Wij zijn familie.
+      Er mag geen ruzie zijn
+      tussen ons,
+      noch tussen onze herders.
 
-      The land is vast.
+      Het land is ruim.
 
-      Let us separate peacefully.
+      Laten wij in vrede uit elkaar gaan.
 
-      If you remain here,
-      I will go elsewhere.
+      Als jij hier blijft,
+      zal ik ergens anders heen gaan.
 
-      If you leave,
-      I shall remain.”
+      Als jij vertrekt,
+      zal ik blijven.”
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>LUT CHOOSES SODOM</p>
+    <p>LUT KIEST SODOM</p>
   </div>
 
   <div className="main_text">
     <p>
-      Lut (peace be upon him)
-      looked toward Sodom
-      and the Jordan Valley
-      and could not take his eyes from it.
+      Lut (vrede zij met hem)
+      keek naar Sodom
+      en de Jordaanvallei
+      en kon zijn ogen er niet van afhouden.
 
-      The region was fertile
-      and rich in water,
-      much like the lands of Egypt.
+      Het gebied was vruchtbaar
+      en rijk aan water,
+      net als de landen van Egypte.
 
-      “I choose the Jordan Valley,”
-      said Lut.
+      “Ik kies de Jordaanvallei,”
+      zei Lut.
 
-      He parted from Ibrahim (peace be upon him),
-      took his livestock and servants,
-      and moved there,
-      settling among the cities of the valley.
+      Hij scheidde zich van Ibrahim (vrede zij met hem),
+      nam zijn vee en dienaren mee,
+      en trok daarheen,
+      waar hij zich vestigde tussen de steden van de vallei.
 
-      He pitched his tents near Sodom.
+      Hij sloeg zijn tenten op bij Sodom.
 
-      (The people of Sodom were wicked,
-      given to grave sins
-      and rebellion against Allah.)
+      (De mensen van Sodom waren slecht,
+      begaan met zware zonden
+      en opstand tegen Allah.)
 
       {' '}
       <span className="vitalic">
-        We shall soon tell the rest of that story
-        and how it came to its end.
+        Wij zullen binnenkort de rest van dat verhaal vertellen
+        en hoe het tot zijn einde kwam.
       </span>
     </p>
   </div>

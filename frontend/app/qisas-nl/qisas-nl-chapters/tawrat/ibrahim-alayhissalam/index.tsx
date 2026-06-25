@@ -17,13 +17,11 @@ export default function Abraham() {
   ]);
 
   return (
-   <main className="stories relative">
+<main className="stories relative">
   <div className="main_text">
     <p className="boldItalic">
-      “Allah has spoken the truth.
-      Therefore follow the way of Ibrahim,
-      who was upright in faith
-      and was never among the idolaters.”
+      “Allah heeft de waarheid gesproken. Volg daarom de weg van Ibrahim, die
+      oprecht was in het geloof en nooit tot de afgodendienaren behoorde.”
       <span className="vitalic">
         {' '}
         (Qur’an, Surah Aal ʿImran 3:95).
@@ -32,197 +30,121 @@ export default function Abraham() {
   </div>
 
   <div className="paragraph_heading">
-    <p>THE FATHER OF PROPHET IBRAHIM</p>
+    <p>DE VADER VAN PROFEET IBRAHIM</p>
   </div>
 
   <div className="main_text">
     <p>
-      Terah had three sons:
-      Ibrahim,
-      Nahor,
-      and Haran.
-
-      At that time they lived in the city of Ur
-      in the land of the Chaldeans.
-
-      Haran later married
-      and had a son named Lut
-      and two daughters named Milkah and Iskah.
-
-      Afterwards,
-      while his father was still alive,
-      Haran passed away in his homeland,
-      the city of Ur.
-
-      Ibrahim also married.
+      Terah had drie zonen: Ibrahim, Nahor en Haran. In die tijd woonden zij in
+      de stad Ur, in het land van de Chaldeeën. Haran trouwde later en kreeg een
+      zoon genaamd Lut en twee dochters genaamd Milkah en Iskah. Daarna, terwijl
+      zijn vader nog leefde, overleed Haran in zijn geboorteland, de stad Ur.
+      Ook Ibrahim trouwde.
     </p>
   </div>
 
   <div className="main_text">
-    <p
-      className="cursor-pointer "
-      onClick={() => toggleBubble('bubble1')}
-    >
-      But his wife Sarah
-      was unable to bear children.
-
-      Then one day Terah gathered his family
-      and set out for the land of Canaan.
-
-      However,
-      when they reached Harran,
-      <sup>1</sup>   they remained there
-      for various reasons
-      and did not continue their journey.
+    <p className="cursor-pointer" onClick={() => toggleBubble('bubble1')}>
+      Maar zijn vrouw Sarah kon geen kinderen krijgen. Toen verzamelde Terah op
+      een dag zijn familie en vertrok naar het land Kanaän. Maar toen zij Harran
+      bereikten,<sup>1</sup> bleven zij daar om verschillende redenen en zetten
+      hun reis niet voort.
     </p>
 
     {openBubbles['bubble1'] && (
-      <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble1')}
-      >
+      <div className="speech-bubble" onClick={() => toggleBubble('bubble1')}>
         <p>
-          <sup>1</sup>
-          Since a vast desert lay between them and Canaan,
-          they first traveled north to the city of Harran,
-          intending later to continue southward toward Canaan.
+          <sup>1</sup> Omdat er een uitgestrekte woestijn tussen hen en Kanaän
+          lag, reisden zij eerst noordwaarts naar de stad Harran, met de
+          bedoeling later zuidwaarts verder te reizen naar Kanaän.
         </p>
       </div>
     )}
   </div>
 
   <div className="paragraph_heading">
-    <p>THE YOUTH OF IBRAHIM (PEACE BE UPON HIM)</p>
+    <p>DE JEUGD VAN IBRAHIM (VREDE ZIJ MET HEM)</p>
   </div>
 
   <div className="main_text">
     <p className="vitalic">
-      According to the historical accounts,
-      the people of Ibrahim (peace be upon him)
-      worshipped lifeless idols
-      and did not acknowledge the Living Allah.
-
-      Ibrahim, however,
-      searched for answers to questions such as:
-
-      “Does this universe have an Owner?”
-      and
-      “Who is the Lord of all the worlds?”
+      Volgens de historische verslagen aanbaden de mensen van Ibrahim (vrede zij
+      met hem) levenloze afgoden en erkenden zij de Levende Allah niet. Ibrahim
+      zocht echter naar antwoorden op vragen zoals: “Heeft dit heelal een
+      Eigenaar?” en “Wie is de Heer van alle werelden?”
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>THE SEARCH FOR ALLAH</p>
+    <p>DE ZOEKTOCHT NAAR ALLAH</p>
   </div>
 
   <div className="main_text">
     <p className="boldItalic">
-      “When the darkness of night enveloped him,
-      he saw a star and said:
-      ‘This is my Lord.’
-
-      But when it set,
-      he said:
-      ‘I do not love those that disappear.’
-
-      Then, when he saw the moon rising,
-      he said:
-      ‘This is my Lord.’”
+      “Toen de duisternis van de nacht hem omhulde, zag hij een ster en zei:
+      ‘Dit is mijn Heer.’ Maar toen zij onderging, zei hij: ‘Ik houd niet van
+      wat verdwijnt.’ Toen hij daarna de maan zag opkomen, zei hij: ‘Dit is mijn
+      Heer.’”
       {' '}
-      <span className="vitalic">
-        (But the moon also set.)
-      </span>
+      <span className="vitalic">(Maar ook de maan ging onder.)</span>
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="boldItalic cursor-pointer "
+      className="boldItalic cursor-pointer"
       onClick={() => toggleBubble('bubble2')}
     >
-      “When it too disappeared,
-      he said:
-
-      ‘I was mistaken.
-      If my Lord does not guide me,
-      I shall surely be among those who go astray.’
-
-      Then, when he saw the sun rising,
-      he said:
-
-      ‘This is my Lord.
-      This is greater.’
-
-      But when it also set,”
-      {' '}
+      “Toen ook zij verdween, zei hij: ‘Ik had mij vergist. Als mijn Heer mij
+      niet leidt, zal ik zeker behoren tot degenen die dwalen.’ Toen hij daarna
+      de zon zag opkomen, zei hij: ‘Dit is mijn Heer. Deze is groter.’ Maar toen
+      ook zij onderging,”{' '}
       <span className="vitalic">
-        (he reflected:
-        surely there must be One
-        who created all of these
-        and is greater than them all.
-        Then he declared:)
-      </span>
-      {' '}
-      “‘O my people,
-      I disassociate myself
-      from everything you associate with Allah.
-
-      I have turned my face toward the One
-      who created the heavens and the earth.
-      I seek the straight path,
-      and I am not among the idolaters.’”
+        (dacht hij na: er moet zeker Eén zijn Die dit alles heeft geschapen en
+        groter is dan alles. Daarna verklaarde hij:)
+      </span>{' '}
+      “‘O mijn volk, ik neem afstand van alles wat jullie met Allah vereenzelvigen.
+      Ik heb mijn gezicht gewend naar Degene Die de hemelen en de aarde heeft
+      geschapen. Ik zoek het rechte pad, en ik behoor niet tot de
+      afgodendienaren.’”
       <sup>2</sup>
     </p>
 
     {openBubbles['bubble2'] && (
-      <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble2')}
-      >
+      <div className="speech-bubble" onClick={() => toggleBubble('bubble2')}>
         <p>
-          <sup>2</sup>
-          Surah Al-An‘am 6:76–79.
+          <sup>2</sup> Surah Al-An‘am 6:76–79.
         </p>
       </div>
     )}
   </div>
-
-  <div className="main_text">
+    <div className="main_text">
     <p
-      className="vitalic cursor-pointer "
+      className="vitalic cursor-pointer"
       onClick={() => toggleBubble('bubble3')}
     >
-      During those days,
-      Allah, Mighty and Majestic,
-      sent revelation to him and said:
-{" "}
-      <span className="boldItalic">
-        “Aslim.”
-      </span>
-{" "}
-      Meaning:
-      “Submit yourself to Me.”
+      In die dagen zond Allah, de Verhevene en Almachtige, openbaring naar hem
+      en zei:
+      {' '}
+      <span className="boldItalic">“Aslim.”</span>{' '}
+      Dat betekent:
+      “Onderwerp jezelf aan Mij.”
 
-      Ibrahim (peace be upon him) immediately replied:
+      Ibrahim (vrede zij met hem) antwoordde onmiddellijk:
 
       {' '}
       <span className="boldItalic">
         “Aslamtu li Rabbil-‘Alamin.”
       </span>
-      <sup>3</sup>
-{" "}
-      Meaning:
+      <sup>3</sup>{' '}
+      Dat betekent:
 
-      “I have submitted myself
-      to the Lord of all the worlds.
-      I have believed.”
+      “Ik heb mij overgegeven aan de Heer van alle werelden.
+      Ik geloof.”
 
-      Thereafter,
-      he sought to turn his father
-      and his people away from idol worship
-      and call them back
-      to the worship of the One Allah,
-      the Lord of the heavens and the earth.
+      Daarna probeerde hij zijn vader en zijn volk af te brengen van de
+      afgoderij en hen terug te roepen naar de aanbidding van de Ene Allah,
+      de Heer van de hemelen en de aarde.
     </p>
 
     {openBubbles['bubble3'] && (
@@ -239,34 +161,34 @@ export default function Abraham() {
   </div>
 
   <div className="paragraph_heading">
-    <p>SMASHING THE IDOLS</p>
+    <p>HET VERNIETIGEN VAN DE AFGODEN</p>
   </div>
 
   <div className="main_text">
     <p
-      className="boldItalic cursor-pointer "
+      className="boldItalic cursor-pointer"
       onClick={() => toggleBubble('bubble4')}
     >
-      “He said to his father and his people:
+      “Hij zei tegen zijn vader en zijn volk:
 
-      ‘What is it that you worship?’
+      ‘Wat is het dat jullie aanbidden?’
 
-      They replied:
+      Zij antwoordden:
 
-      ‘We worship idols,
-      and we shall remain devoted to them.’
+      ‘Wij aanbidden afgoden,
+      en wij zullen hen trouw blijven.’
 
-      He asked:
+      Hij vroeg:
 
-      ‘Do they hear you when you call upon them?
-      Can they benefit you
-      or harm you?’
+      ‘Horen zij jullie wanneer jullie hen aanroepen?
+      Kunnen zij jullie voordeel brengen
+      of schade berokkenen?’
 
-      They replied:
+      Zij antwoordden:
 
-      ‘No.
-      But this is what our forefathers did,
-      and we merely follow their example.’”
+      ‘Nee.
+      Maar dit is wat onze voorouders deden,
+      en wij volgen slechts hun voorbeeld.’”
       <sup>4</sup>
     </p>
 
@@ -285,25 +207,26 @@ export default function Abraham() {
 
   <div className="main_text">
     <p
-      className="vitalic cursor-pointer "
+      className="vitalic cursor-pointer"
       onClick={() => toggleBubble('bubble5')}
     >
-      One day there was a festival.
+      Op een dag was er een feest.
 
-      When everyone had left for the celebration,
-      Ibrahim (peace be upon him)
-      took an axe and entered the temple of idols.
+      Toen iedereen naar de viering was vertrokken,
+      nam Ibrahim (vrede zij met hem)
+      een bijl en ging de tempel van de afgoden binnen.
 
-      Seeing the food that had been placed before them,
-      he said:
+      Toen hij het voedsel zag
+      dat voor hen was neergezet,
+      zei hij:
 
       {' '}
       <span className="boldItalic">
-        “Why do you not eat?
-        What is wrong with you?
-        Why do you not speak?”
-        Then he approached them
-        and began striking them down.
+        “Waarom eten jullie niet?
+        Wat is er met jullie?
+        Waarom spreken jullie niet?”
+        Daarna liep hij op hen af
+        en begon hen stuk te slaan.
       </span>
       <sup>5</sup>
     </p>
@@ -321,69 +244,65 @@ export default function Abraham() {
     )}
 
     <p
-      className="vitalic cursor-pointer "
+      className="vitalic cursor-pointer"
       onClick={() => toggleBubble('bubble7')}
     >
-      In Surah Al-Anbiya,
-      it is written:
+      In Surah Al-Anbiya staat geschreven:
 
       {' '}
       <span className="boldItalic">
-        “So he smashed them into pieces,
-        except for the largest of them,”
+        “Toen sloeg hij ze in stukken,
+        behalve de grootste van hen,”
         <sup>6</sup>
-      </span>
-      {' '}
-      and then he hung the axe
-      around the neck of the largest idol
-      and left the temple.
+      </span>{' '}
+      waarna hij de bijl om de hals van het grootste beeld hing
+      en de tempel verliet.
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="vitalic cursor-pointer "
+      className="vitalic cursor-pointer"
       onClick={() => toggleBubble('bubble7')}
     >
-      Some time later,
-      the people returned from the festival
-      and found their idols shattered.
+      Enige tijd later keerde het volk terug van het feest
+      en trof hun afgoden vernietigd aan.
 
-      Enraged,
-      they brought Ibrahim (peace be upon him) before them
-      and asked:
+      Woedend brachten zij Ibrahim (vrede zij met hem) voor zich
+      en vroegen:
 
       {' '}
       <span className="boldItalic">
-        “Did you do this to our gods,
-        O Ibrahim?”
+        “Heb jij dit met onze goden gedaan,
+        o Ibrahim?”
+      </span>{' '}
+
+      Hij antwoordde spottend:
+
+      {' '}
+      <span className="boldItalic">
+        “Nee.
+        Deze grootste heeft het gedaan.
+        Vraag het hun maar,
+        als zij kunnen spreken.”
       </span>
- {' '}
-      He replied mockingly:
+      <sup>7</sup>{' '}
+
+      Zij antwoordden:
+
+      “Jij weet heel goed
+      dat afgoden niet kunnen spreken!”
+
+      Ibrahim zei daarop:
+
+      “Waarom aanbidden jullie dan,
+      in plaats van Allah,
 
       {' '}
       <span className="boldItalic">
-        “No.
-        This largest one did it.
-        Ask them,
-        if they can speak.”
-      </span>
-      <sup>7</sup>
- {' '}
-      They answered:
-
-      “You know very well
-      that idols cannot speak!”
-
-      Ibrahim then said:
-
-      “Then why do you worship,
-      instead of Allah,
-
-      {' '}
-      <span className="boldItalic">
-        things that can neither benefit you
-        nor harm you?
+        iets dat jullie
+        geen voordeel kan brengen
+        en jullie ook geen schade kan berokkenen?
       </span>
       ”
     </p>
@@ -395,50 +314,49 @@ export default function Abraham() {
       >
         <p>
           <sup>6, 7</sup>
-          Surah Al-Anbiya 21:58 and 21:62–67.
+          Surah Al-Anbiya 21:58 en 21:62–67.
         </p>
       </div>
     )}
   </div>
-
-  <div className="paragraph_heading">
-    <p>THEY CAST THE MESSENGER INTO THE FIRE</p>
+    <div className="paragraph_heading">
+    <p>ZIJ WIERPEN DE BOODSCHAPPER IN HET VUUR</p>
   </div>
 
   <div className="main_text">
     <p
-      className="vitalic cursor-pointer "
+      className="vitalic cursor-pointer"
       onClick={() => toggleBubble('bubble8')}
     >
-      After this,
-      the king of that people
-      <sup>8</sup>  {' '}
-      summoned Ibrahim (peace be upon him) and asked:
+      Daarna riep de koning van dat volk
+      <sup>8</sup>{' '}
+      Ibrahim (vrede zij met hem) bij zich en vroeg:
 
-      “Who is your god?
-      Have you ever seen Him?”
+      “Wie is jouw god?
+      Heb je Hem ooit gezien?”
 
-      The Messenger of Allah replied:
+      De Boodschapper van Allah antwoordde:
 
-      “My Lord is the One who gives life
-      and causes death.”
+      “Mijn Heer is Degene Die leven geeft
+      en de dood doet intreden.”
 
-      The king responded:
+      De koning antwoordde:
 
-      “I can do that as well.
-      If two men are sentenced to death,
-      I can execute one
-      and pardon the other.”
+      “Dat kan ik ook.
+      Als twee mannen ter dood zijn veroordeeld,
+      kan ik de één laten doden
+      en de ander gratie geven.”
 
-      Ibrahim (peace be upon him) then said:
+      Ibrahim (vrede zij met hem) zei toen:
 
       {' '}
       <span className="boldItalic">
-        “Allah causes the sun to rise from the east.
-        If you are able,
-        make it rise from the west.”
+        “Allah laat de zon opkomen vanuit het oosten.
+        Als jij daartoe in staat bent,
+        laat haar dan opkomen vanuit het westen.”
       </span>
-      <sup>9</sup> {' '} The king was left speechless.
+      <sup>9</sup>{' '}
+      De koning bleef sprakeloos achter.
     </p>
 
     {openBubbles['bubble8'] && (
@@ -448,8 +366,7 @@ export default function Abraham() {
       >
         <p>
           <sup>8</sup>
-          In many historical works,
-          this king is identified as Nimrod.
+          In veel historische werken wordt deze koning Nimrod genoemd.
         </p>
 
         <p>
@@ -462,21 +379,21 @@ export default function Abraham() {
 
   <div className="main_text">
     <p
-      className="vitalic cursor-pointer "
+      className="vitalic cursor-pointer"
       onClick={() => toggleBubble('bubble10')}
     >
-      The king then decided
-      to burn Allah’s Messenger alive.
+      De koning besloot daarna
+      om Allah’s Boodschapper levend te verbranden.
 
-      For this purpose,
-      a huge pit was dug
-      and filled with wood
-      that would burn for a long time.
+      Voor dit doel werd een enorme kuil gegraven
+      en gevuld met hout
+      dat lang zou blijven branden.
 
-      When everything was ready,
-      an enormous fire was lit,
-      <sup>10</sup>  {' '}      and Ibrahim (peace be upon him)
-      was thrown into the flames.
+      Toen alles gereed was,
+      werd een geweldig vuur aangestoken,
+      <sup>10</sup>{' '}
+      en Ibrahim (vrede zij met hem)
+      werd in de vlammen geworpen.
     </p>
 
     {openBubbles['bubble10'] && (
@@ -486,9 +403,9 @@ export default function Abraham() {
       >
         <p>
           <sup>10</sup>
-          According to some scholars,
-          gathering the wood alone
-          took three months
+          Volgens sommige geleerden
+          duurde alleen al het verzamelen van het hout
+          drie maanden
           (Ibn Iyas, “Bada’i al-Zuhur”).
         </p>
       </div>
@@ -496,55 +413,55 @@ export default function Abraham() {
   </div>
 
   <div className="paragraph_heading">
-    <p>LESSONS FROM THE STORY</p>
+    <p>LESSEN UIT HET VERHAAL</p>
   </div>
 
   <div className="main_text">
     <p className="vitalic">
-      Because Ibrahim (peace be upon him)
-      placed his complete trust in Allah,
-      he never abandoned his faith,
-      even when they threatened
-      to burn him alive.
+      Omdat Ibrahim (vrede zij met hem)
+      volledig op Allah vertrouwde,
+      liet hij zijn geloof nooit los,
+      zelfs niet toen zij dreigden
+      hem levend te verbranden.
 
-      In such moments,
-      every believer places hope
-      in Allah’s help and support.
+      Op zulke momenten
+      stelt iedere gelovige zijn hoop
+      op Allah’s hulp en steun.
 
-      After all,
-      if Allah wills,
-      He can save a person
-      from the trial of fire
-      just as He can save him
-      from the trial of water.
+      Want als Allah wil,
+      kan Hij een mens redden
+      uit de beproeving van vuur,
+      net zoals Hij hem kan redden
+      uit de beproeving van water.
 
-      Yet even if He chooses not to save us,
-      we must never surrender our faith.
+      Maar zelfs als Hij ervoor kiest
+      ons niet te redden,
+      mogen wij ons geloof nooit opgeven.
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="vitalic cursor-pointer "
+      className="vitalic cursor-pointer"
       onClick={() => toggleBubble('bubble11')}
     >
-      When Ibrahim (peace be upon him)
-      was cast into the fire,
-      Allah Most High protected him.
+      Toen Ibrahim (vrede zij met hem)
+      in het vuur werd geworpen,
+      beschermde Allah de Allerhoogste hem.
 
-      The Noble Qur’an records the command:
+      De Edele Qur’an vermeldt het bevel:
 
       {' '}
       <span className="boldItalic">
-        “O fire,
-        be coolness and safety for Ibrahim.”
+        “O vuur,
+        wees koelte en veiligheid voor Ibrahim.”
         <sup>11</sup>
       </span>
 
       {' '}
-      Thus,
-      although his people intended evil against him,
-      Allah made them the true losers.
+      Zo maakte Allah,
+      hoewel zijn volk kwaad tegen hem wilde,
+      hen tot de werkelijke verliezers.
     </p>
 
     {openBubbles['bubble11'] && (

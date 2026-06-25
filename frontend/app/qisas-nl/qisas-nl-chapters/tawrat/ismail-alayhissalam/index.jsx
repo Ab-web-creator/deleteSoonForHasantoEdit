@@ -15,13 +15,13 @@ export default function Ishmael() {
 
   return (
  
-   <main className="stories relative">
+<main className="stories relative">
   <div className="div_with_borders">
     <p className="boldItalic">
-      “And mention Ismail in the Book.
-      Indeed, he was true to his promise,
-      and he was a Messenger and a Prophet.”
-      (Surah Maryam 19:54).
+      “En vermeld Ismail in het Boek.
+      Voorwaar, hij was trouw aan zijn belofte,
+      en hij was een Boodschapper en een Profeet.”
+      <span className="vitalic"> (Surah Maryam 19:54).</span>
     </p>
   </div>
 
@@ -30,12 +30,12 @@ export default function Ishmael() {
       className="vitalic cursor-pointer "
       onClick={() => toggleBubble('bubble1')}
     >
-      Our mother Sarah felt jealousy toward Lady Hajar.
-      Many scholars have mentioned this.
+      Onze moeder Sarah voelde jaloezie tegenover Lady Hajar.
+      Veel geleerden hebben dit vermeld.
       <sup>1</sup>{' '}
-      According to al-Tabari,
-      Lady Sarah sent our mother Hajar away from the house not once,
-      but twice.
+      Volgens al-Tabari
+      stuurde Lady Sarah onze moeder Hajar niet één keer,
+      maar twee keer weg uit het huis.
     </p>
 
     {openBubbles['bubble1'] && (
@@ -45,54 +45,62 @@ export default function Ishmael() {
       >
         <p>
           <sup>1</sup>
-          For example:
+          Bijvoorbeeld:
           al-Suhayli in “Al-Rawd al-Unuf”,
           Abu al-Fida in “Al-Bidayah wa al-Nihayah”,
-          and al-Tabari in his “Tarikh”.
+          en al-Tabari in zijn “Tarikh”.
 
-          According to al-Tha‘labi,
-          Lady Sarah once became so upset that she insisted:
-          “You shall no longer live in the same place as me”
+          Volgens al-Tha‘labi
+          werd Lady Sarah op een keer zo boos
+          dat zij erop stond:
+          “Jij zult niet langer
+          op dezelfde plaats wonen als ik”
           (“Arais”, p. 81).
         </p>
       </div>
     )}
 
     <p>
-      One day,
-      Ibrahim (a.s.) held a great feast
-      on the occasion of his son Ishaq being weaned.
+      Op een dag
+      hield Ibrahim (a.s.) een groot feest
+      ter gelegenheid van het spenen
+      van zijn zoon Ishaq.
 
-      When Lady Sarah saw Ismail,
-      the son of our mother Hajar,
-      laughing and enjoying himself at the feast,
-      she went to Ibrahim (a.s.) and demanded:
+      Toen Lady Sarah Ismail zag,
+      de zoon van onze moeder Hajar,
+      lachend en vrolijk tijdens het feest,
+      ging zij naar Ibrahim (a.s.) en eiste:
 
-      “Send Hajar away with her son.
-      The son of the slave woman
-      shall not share in the inheritance
-      that belongs to my son.”
+      “Stuur Hajar weg met haar zoon.
+      De zoon van de slavin
+      zal niet delen in de erfenis
+      die aan mijn zoon toebehoort.”
     </p>
 
     <p>
-      These words deeply saddened Allah’s Messenger, Ibrahim (a.s.).
-      After all,
-      Ismail (a.s.) was also his son.
+      Deze woorden maakten de Boodschapper van Allah,
+      Ibrahim (a.s.),
+      diep bedroefd.
 
-      But Allah revealed to His Messenger:
+      Ismail (a.s.)
+      was immers ook zijn zoon.
 
-      “Do as Sarah has said.
+      Maar Allah openbaarde aan Zijn Boodschapper:
 
-      For the promise I gave concerning your offspring
-      will continue through Ishaq.
+      “Doe zoals Sarah heeft gezegd.
 
-      Do not worry about Ismail and Hajar either.
+      Want de belofte
+      die Ik over jouw nageslacht heb gedaan,
+      zal doorgaan via Ishaq.
 
-      I shall protect them.
+      Maak je ook geen zorgen
+      over Ismail en Hajar.
 
-      From the descendants of Ismail,
-      I shall bring forth a great people,
-      for he too is your son.”
+      Ik zal hen beschermen.
+
+      Uit de nakomelingen van Ismail
+      zal Ik een groot volk voortbrengen,
+      want ook hij is jouw zoon.”
     </p>
   </div>
 
@@ -101,16 +109,19 @@ export default function Ishmael() {
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble2')}
     >
-      Yes,
-      this too was a trial
+      Ja,
+      ook dit was een beproeving
       <sup>2</sup>{' '}
-      from Allah.
+      van Allah.
 
-      Is separation from one’s child easy?
+      Is afscheid nemen
+      van je eigen kind
+      gemakkelijk?
 
-      After all,
-      Ismail (a.s.) was the firstborn son
-      of Prophet Ibrahim.
+      Ismail (a.s.)
+      was tenslotte
+      de eerstgeboren zoon
+      van Profeet Ibrahim.
     </p>
 
     {openBubbles['bubble2'] && (
@@ -120,41 +131,43 @@ export default function Ishmael() {
       >
         <p>
           <sup>2</sup>
-          According to Afif Abd al-Fattah Tabbara
-          in “Ma‘a al-Anbiya fi al-Qur’an al-Karim”,
-          Allah, Glorified and Exalted,
-          accepted Sarah’s wish
-          and commanded Ibrahim عليه السلام
-          to move our mother Hajar
-          and her son to another place.
+          Volgens Afif Abd al-Fattah Tabbara
+          in “Ma‘a al-Anbiya fi al-Qur’an al-Karim”
+          aanvaardde Allah,
+          Verheven en Geprezen,
+          de wens van Sarah
+          en beval Hij Ibrahim عليه السلام
+          om onze moeder Hajar
+          en haar zoon
+          naar een andere plaats te brengen.
         </p>
       </div>
     )}
   </div>
 
   <div className="paragraph_heading">
-    <p>THE DU‘A OF IBRAHIM </p>
+    <p>DE DUʿĀ VAN IBRAHIM</p>
     <AlayhS className='text-green-800 font-medium' />
   </div>
 
   <div className="main_text">
     <p className="vitalic">
-      The du‘a of Allah’s Messenger
-      is recorded in the Noble Qur’an:
+      De duʿā van de Boodschapper van Allah
+      staat vermeld in de Edele Qur’an:
     </p>
 
     <p className="boldItalic">
-      “Our Lord,
-      I have settled some of my offspring
-      in an uncultivated valley
-      near Your Sacred House,
-      our Lord,
-      so that they may establish prayer.
+      “Onze Heer,
+      ik heb een deel van mijn nageslacht
+      gevestigd in een onbebouwde vallei
+      nabij Uw Gewijde Huis,
+      onze Heer,
+      opdat zij het gebed zullen onderhouden.
 
-      So make hearts among the people
-      incline toward them,
-      and provide them with fruits,
-      so that they may be grateful.”
+      Laat daarom harten van mensen
+      naar hen neigen,
+      en voorzie hen van vruchten,
+      zodat zij dankbaar zullen zijn.”
       <span className="vitalic">
         {' '}
         (Surah Ibrahim 14:37).
@@ -162,18 +175,22 @@ export default function Ishmael() {
     </p>
 
     <p className="vitalic">
-      After Lady Hajar and Ismail عليه السلام
-      were moved to their new dwelling place,
-      Allah Most High Himself cared for them
-      and kept them under His protection.
+      Nadat Lady Hajar en Ismail عليه السلام
+      naar hun nieuwe verblijfplaats waren gebracht,
+      zorgde Allah,
+      de Allerhoogste,
+      Zelf voor hen
+      en hield hen onder Zijn bescherming.
 
-      The spring that appeared in the desert
-      was one of the signs of Allah’s mercy.
+      De bron
+      die in de woestijn verscheen,
+      was een van de tekenen
+      van Allah’s barmhartigheid.
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>THE SPRING IN THE DESERT</p>
+    <p>DE BRON IN DE WOESTIJN</p>
   </div>
 
   <div className="main_text">
@@ -181,15 +198,18 @@ export default function Ishmael() {
       className="vitalic cursor-pointer "
       onClick={() => toggleBubble('bubble3')}
     >
-      According to the hadiths of rasulullah ﷺ,
-      Lady Hajar placed Ismail (a.s.)
-      beneath the shade of a shrub
-      and hung the water-skin on a branch.
+      Volgens de hadiths
+      van rasulullah ﷺ
+      legde Lady Hajar Ismail (a.s.)
+      in de schaduw van een struik
+      en hing zij de waterzak
+      aan een tak.
 
-      She and her child drank from that water-skin.
+      Zij en haar kind
+      dronken uit die waterzak.
       <sup>3</sup>{' '}
-      After some time,
-      the water ran out.
+      Na enige tijd
+      raakte het water op.
     </p>
 
     {openBubbles['bubble3'] && (
@@ -210,11 +230,12 @@ export default function Ishmael() {
       className="vitalic cursor-pointer "
       onClick={() => toggleBubble('bubble4')}
     >
-      When the water was finished,
-      Hajar (r.a.) said,
-      “I cannot bear to watch my child die,”
-      and went some distance away
-      and sat down.
+      Toen het water op was,
+      zei Hajar (r.a.):
+      “Ik kan het niet verdragen
+      om mijn kind te zien sterven,”
+      en zij ging een eind verderop
+      en ging zitten.
       <sup>4</sup>
     </p>
 
@@ -236,25 +257,26 @@ export default function Ishmael() {
       className="vitalic cursor-pointer "
       onClick={() => toggleBubble('bubble5')}
     >
-      Then she climbed a hill
-      and looked around in search of water.
+      Daarna beklom zij een heuvel
+      en keek om zich heen
+      op zoek naar water.
 
-      She gazed in every direction,
-      hoping to hear some sound,
-      but she heard no voice
-      and saw no one.
+      Zij keek in alle richtingen,
+      hopend een geluid te horen,
+      maar zij hoorde geen stem
+      en zag niemand.
 
-      Then she ran down
-      and climbed the next hill.
+      Daarna rende zij naar beneden
+      en beklom de volgende heuvel.
 
-      There too,
-      she looked around anxiously,
-      but saw no one.
+      Ook daar
+      keek zij bezorgd om zich heen,
+      maar zij zag niemand.
 
-      In this way,
-      the grieving mother wandered back and forth
-      between the two hills,
-      weeping in distress.
+      Zo liep de bedroefde moeder
+      heen en weer
+      tussen de twee heuvels,
+      huilend van nood.
       <sup>5</sup>
     </p>
 
@@ -265,56 +287,64 @@ export default function Ishmael() {
       >
         <p>
           <sup>5</sup>
-          According to the books,
-          these two hills were Safa and Marwah.
+          Volgens de boeken
+          waren deze twee heuvels
+          Safa en Marwah.
 
-          At that time,
-          Lady Hajar went back and forth
-          between the two hills seven times
+          In die tijd
+          liep Lady Hajar
+          zeven keer heen en weer
+          tussen de twee heuvels
           (Imam al-Bukhari,
           al-Bayhaqi,
           al-Qurtubi,
-          and others).
+          en anderen).
         </p>
       </div>
     )}
 
     <p className="vitalic">
-      Then an angel of Allah appeared and said:
+      Toen verscheen een engel van Allah en zei:
 
       “Hajar,
       Hajar,
-      why are you crying?
+      waarom huil je?
 
-      Do not be afraid.
+      Wees niet bang.
 
-      Your cries have reached the Highest Heaven.
+      Jouw kreten
+      hebben de Hoogste Hemel bereikt.
 
-      Rise now,
-      lift up the child.
+      Sta nu op,
+      til het kind op.
 
-      Allah will bring forth
-      a great nation from his descendants.”
+      Allah zal uit zijn nakomelingen
+      een groot volk voortbrengen.”
     </p>
 
     <p className="vitalic">
-      Allah had opened a spring for them there,
-      but Lady Hajar had not yet seen it.
+      Allah had daar
+      een bron voor hen geopend,
+      maar Lady Hajar
+      had die nog niet gezien.
 
-      Then Allah turned her gaze toward the spring.
+      Toen richtte Allah haar blik
+      naar de bron.
 
-      She looked —
-      and there was water!
+      Zij keek —
+      en daar was water!
 
-      Life-giving water!
+      Levengevend water!
 
-      She immediately went to it and drank.
+      Zij ging er onmiddellijk naartoe
+      en dronk.
 
-      Then she filled the water-skin
-      and gave her son to drink.
+      Daarna vulde zij
+      de waterzak
+      en gaf haar zoon te drinken.
 
-      The water did not run out;
-      it continued to gush forth from the earth.
+      Het water raakte niet op;
+      het bleef uit de aarde opborrelen.
     </p>
   </div>
 
@@ -323,15 +353,18 @@ export default function Ishmael() {
       className="vitalic cursor-pointer "
       onClick={() => toggleBubble('bubble6')}
     >
-      In this way,
-      Allah Most High was always with them.
+      Op deze manier
+      was Allah,
+      de Allerhoogste,
+      altijd met hen.
 
-      Ismail عليه السلام grew up in the desert
-      and became a skilled archer.
+      Ismail عليه السلام
+      groeide op in de woestijn
+      en werd een vaardige boogschutter.
 
-      Later,
-      his mother married him
-      to an Egyptian girl.
+      Later
+      liet zijn moeder hem trouwen
+      met een Egyptisch meisje.
       <sup>6</sup>
     </p>
 

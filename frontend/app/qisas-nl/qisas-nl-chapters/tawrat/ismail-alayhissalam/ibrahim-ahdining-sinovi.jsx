@@ -7,537 +7,706 @@ export default function ZabihAllah() {
   const { openBubbles, toggleBubble } = useSpeechBubbles(['bubble1']);
 
   return ( 
-    <main className="stories relative">
+<main className="stories relative">
   <div className="main_text">
     <p className="boldItalic text-center border border-gray-400 rounded-md py-3 px-2">
-      “Indeed, this was the clear and unmistakable trial.”
-      (Surah As-Saffat 37:106).
+      “Voorwaar, dit was de duidelijke en onmiskenbare beproeving.”
+      <span className="vitalic"> (Surah As-Saffat 37:106).</span>
     </p>
   </div>
 
   <div
-    className="paragraph_heading cursor-pointer "
+    className="paragraph_heading cursor-pointer"
     onClick={() => toggleBubble('bubble1')}
   >
     <p>
-      THE FINAL TEST<sup>1</sup> {" "} OF IBRAHIM</p>
-      <AlayhS className='text-green-800 font-medium' />
+      DE LAATSTE BEPROEVING<sup>1</sup> VAN IBRAHIM
+    </p>
+    <AlayhS className="text-green-800 font-medium" />
   </div>
 
   <div className="main_text">
-   {openBubbles['bubble1'] && (
-  <div
-    className="speech-bubble"
-    onClick={() => toggleBubble('bubble1')}
-  >
+    {openBubbles['bubble1'] && (
+      <div
+        className="speech-bubble"
+        onClick={() => toggleBubble('bubble1')}
+      >
+        <p>
+          <sup>1</sup>
+          Islamitische geleerden verschilden van mening
+          over welke van de twee zonen van Ibrahim
+          geofferd moest worden.
+
+          Sommigen waren van mening
+          dat het Ishaq ibn Ibrahim was,
+          terwijl anderen stelden
+          dat het Ismail ibn Ibrahim was.
+
+          Beide groepen
+          verwezen naar overleveringen
+          die aan onze Profeet ﷺ
+          worden toegeschreven.
+
+          Degenen die meenden
+          dat Ishaq de bedoelde zoon was,
+          baseerden zich onder andere
+          op overleveringen van
+          Ibn Abbas رضي الله عنه.
+
+          Volgens deze overleveringen
+          werd de Profeet ﷺ,
+          nadat het vers
+
+          <span className="boldItalic">
+            {' '}
+            “En Wij kochten hem vrij
+            met een groot offer”
+          </span>
+
+          {' '}
+          was genoemd,
+          gevraagd:
+
+          “O Boodschapper van Allah,
+          wie was de zoon
+          die geofferd zou worden?”
+
+          Hij antwoordde:
+
+          “De zoon die geofferd zou worden,
+          was Ishaq.”
+
+          Vergelijkbare overleveringen
+          zijn ook overgeleverd door
+          Abu Hurayrah رضي الله عنه,
+          Abdullah ibn Mas‘ud رضي الله عنه,
+          Abdullah ibn Ubayd,
+          Ibn Thabit,
+          Abu Maysarah,
+          Abu Malik,
+          Masruq
+          en anderen.
+
+          <br />
+          <br />
+
+          Ka‘b al-Ahbar overleverde ook:
+
+          “Toen Ibrahim عليه السلام
+          de opdracht kreeg
+          zijn zoon te offeren,
+          ging Shaytan naar Sarah en zei:
+
+          ‘Weet jij
+          waar Ibrahim
+          jouw zoon naartoe heeft meegenomen?’
+
+          Zij antwoordde:
+
+          ‘Zij zijn hout gaan verzamelen.’
+
+          Shaytan zei:
+
+          ‘Nee.
+          Hij heeft hem meegenomen
+          om hem te slachten.’
+
+          Sarah antwoordde:
+
+          ‘Onmogelijk.
+          Een vader zou zijn eigen zoon
+          nooit slachten.’
+
+          Shaytan zei:
+
+          ‘Hij beweert
+          dat Allah hem dat heeft bevolen.’
+
+          Sarah antwoordde:
+
+          ‘Als Allah hem dat werkelijk heeft bevolen,
+          dan doet hij er goed aan
+          zijn Heer te gehoorzamen.’
+
+          Daarna ging Shaytan
+          naar de jongen en zei:
+
+          ‘Weet jij
+          waar jouw vader je naartoe brengt?’
+
+          Hij antwoordde:
+
+          ‘Om een bevel van Allah uit te voeren.’
+
+          Shaytan zei:
+
+          ‘Hij wil jou slachten.’
+
+          De jongen antwoordde:
+
+          ‘Als Allah hem dat heeft bevolen,
+          laat hem dan doen
+          wat hem is opgedragen.’
+
+          Daarna ging Shaytan
+          naar Ibrahim عليه السلام
+          om hem van gehoorzaamheid af te brengen,
+          maar Ibrahim wees hem af.
+
+          <br />
+          <br />
+
+          Volgens veel geleerden
+          is dit een van de redenen
+          waarom tijdens de Hajj
+          de zuilen symbolisch worden gestenigd,
+          als herinnering aan
+          Ibrahims afwijzing van Shaytan.
+
+          Talrijke overleveringsketens
+          van Ibn Abbas رضي الله عنه
+          en andere vroege geleerden
+          ondersteunen de opvatting
+          dat Ishaq
+          de bedoelde offerzoon was.
+
+          Andere geleerden
+          beschouwden echter
+          Ismail عليه السلام
+          als de offerzoon,
+          op basis van andere overleveringen
+          en tekstuele bewijzen.
+
+          Daarom bleef deze kwestie
+          onder de vroege generaties
+          onderwerp van wetenschappelijke discussie.
+        </p>
+      </div>
+    )}
+
     <p>
-      <sup>1</sup>
-      Islamic scholars have differed regarding which of Ibrahim’s two sons
-      was commanded to be offered as a sacrifice.
+      Er ging een lange tijd voorbij.
+      Toen besloot Allah (s.w.t.)
+      op een dag
+      de trouw van Ibrahim
+      aan het verbond te beproeven:
 
-      Some held that the intended sacrifice was Ishaq ibn Ibrahim,
-      while others maintained that it was Ismail ibn Ibrahim.
-
-      Both groups cited reports attributed to our Prophet ﷺ
-      in support of their position.
-
-      Those who held that Ishaq was the intended sacrifice
-      relied upon narrations from Ibn Abbas رضي الله عنه and others.
-
-      According to these reports,
-      when the verse,
-      <span className="boldItalic">
-        {' '}
-        “And We ransomed him with a mighty sacrifice”
-      </span>
-      {' '}
-      was mentioned,
-      the Prophet ﷺ was asked:
-      “O Messenger of Allah,
-      who was the son that was to be sacrificed?”
-      He replied:
-      “The sacrificial son was Ishaq.”
-
-      Similar reports were also narrated from
-      Abu Hurayrah رضي الله عنه,
-      Abdullah ibn Mas‘ud رضي الله عنه,
-      Abdullah ibn Ubayd,
-      Ibn Thabit,
-      Abu Maysarah,
-      Abu Malik,
-      Masruq,
-      and others.
-
-      <br />
-      <br />
-
-      Ka‘b al-Ahbar also narrated:
-
-      “When Ibrahim عليه السلام was commanded
-      to sacrifice his son,
-      Shaytan went to Sarah and said:
-
-      ‘Do you know where Ibrahim has taken your son?’
-
-      She replied:
-      ‘They have gone to gather firewood.’
-
-      Shaytan said:
-      ‘No.
-      He has taken him in order to slaughter him.’
-
-      Sarah replied:
-      ‘Impossible.
-      A father would never slaughter his own son.’
-
-      Shaytan answered:
-      ‘He claims that Allah has commanded him to do so.’
-
-      Sarah said:
-      ‘If Allah has indeed commanded him,
-      then he is right to obey his Lord.’”
-
-      Then Shaytan went to the boy and said:
-
-      “Do you know where your father is taking you?”
-
-      He replied:
-      “To carry out a command from Allah.”
-
-      Shaytan said:
-      “He intends to slaughter you.”
-
-      The boy answered:
-      “If Allah has commanded him,
-      then let him do as he has been ordered.”
-
-      Shaytan then approached Ibrahim عليه السلام
-      and attempted to turn him away from obedience,
-      but Ibrahim rejected him.
-<br />
-<br />
-      According to many scholars,
-      this is one of the reasons why the rites of Hajj include
-      the symbolic stoning of the pillars,
-      commemorating Ibrahim’s rejection of Shaytan.
-
-      Numerous chains of transmission from Ibn Abbas رضي الله عنه
-      and other early scholars support the view
-      that the intended sacrifice was Ishaq.
-
-      Other scholars, however,
-      considered Ismail عليه السلام to be the sacrificial son,
-      citing different narrations and textual evidence.
-
-      For this reason,
-      the matter remained a subject of scholarly discussion
-      among the early generations.
-    </p>
-  </div>
-)}
-    <p>
-      A long time passed. Then one day, Allah (s.w.t.) decided to test
       <span className="vitalic">
         {' '}
-        Ibrahim’s faithfulness to the covenant
+        Ibrahims trouw aan het verbond.
       </span>
-      :
 
       “Ibrahim!”
     </p>
 
     <p>
       “Labbayk!”
-      replied rasulullah (a.s.).
+      antwoordde rasulullah (a.s.).
     </p>
 
     <p>
-      “Take your son
-      and go to the land of Moriah,”
-      Allah said.
+      “Neem je zoon
+      en ga naar het land Moria,”
+      zei Allah.
 
-      “There,
-      upon a mountain,
-      offer him to Me as a sacrifice.”
+      “Daar,
+      op een berg,
+      moet je hem
+      als offer aan Mij aanbieden.”
     </p>
 
     <p className="vitalic">
-      Imagine that you too have a son
-      whom you love more than your own life —
-      a son born to you in old age.
+      Stel je voor
+      dat jij ook een zoon hebt
+      van wie je meer houdt
+      dan van je eigen leven —
+      een zoon
+      die je pas op hoge leeftijd hebt gekregen.
 
-      Now imagine that Allah were to say to you:
+      Stel je nu voor
+      dat Allah tegen jou zou zeggen:
 
-      “Offer that son to Me as a sacrifice —
-      the very son for whom you prayed
-      and waited twenty-five years.”
+      “Offer die zoon aan Mij —
+      juist die zoon
+      om wie je vijfentwintig jaar hebt gebeden
+      en op wie je hebt gewacht.”
 
-      What would become of you?
+      Wat zou er dan
+      met jou gebeuren?
 
-      What do you think Ibrahim عليه السلام felt at that moment?
+      Wat denk je
+      dat Ibrahim عليه السلام
+      op dat moment voelde?
     </p>
 
     <p className="vitalic">
-      He loved his son dearly.
+      Hij hield zielsveel van zijn zoon.
 
-      “Allah loves my son too!
-      Why then has He commanded me
-      to sacrifice him?”
+      “Allah houdt ook van mijn zoon!
+      Waarom heeft Hij mij dan bevolen
+      hem te offeren?”
 
-      Such thoughts filled the heart of the father.
+      Zulke gedachten
+      vulden het hart van de vader.
     </p>
 
     <p className="vitalic">
-      Perhaps Allah intended to bring him back to life?
+      Misschien wilde Allah
+      hem daarna weer tot leven brengen?
 
-      “Surely Allah is capable of that,”
-      Ibrahim عليه السلام believed.
+      “Allah is daar zeker toe in staat,”
+      geloofde Ibrahim عليه السلام.
 
-      “But what if He does not restore him?
-      Then what will happen?”
+      “Maar wat als Hij hem
+      niet terugbrengt?
+
+      Wat zal er dan gebeuren?”
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>OBEDIENCE</p>
+    <p>GEHOORZAAMHEID</p>
   </div>
 
   <div className="main_text">
     <p>
-      The next morning,
-      Ibrahim (a.s.) rose early,
-      saddled his donkey,
-      split wood for the burnt offering,
-      took two of his servants and his son,
-      and set out toward the place
-      Allah had shown him.
+      De volgende ochtend
+      stond Ibrahim (a.s.) vroeg op,
+      zadelde zijn ezel,
+      kloof hout
+      voor het brandoffer,
+      nam twee van zijn dienaren mee
+      en zijn zoon,
+      en vertrok
+      naar de plaats
+      die Allah hem had aangewezen.
     </p>
 
     <p>
-      On the third day of the journey,
-      the destination came into view from afar.
+      Op de derde dag van de reis
+      zagen zij de plaats
+      al van verre.
 
-      Then Allah’s Messenger said to his servants:
+      Toen zei de Boodschapper van Allah
+      tegen zijn dienaren:
 
-      “Remain here.
+      “Blijf hier.
 
-      My son and I will go over there,
-      worship Allah,
-      and then return to you.”
+      Mijn zoon en ik
+      zullen daarheen gaan,
+      Allah aanbidden,
+      en daarna
+      weer bij jullie terugkomen.”
 
-      He placed the wood upon his son’s shoulders,
-      while he himself carried the fire-starter and the knife,
-      and together they began climbing the mountain.
+      Hij legde het hout
+      op de schouders van zijn zoon,
+      terwijl hij zelf
+      het vuur
+      en het mes droeg.
+
+      Samen begonnen zij
+      de berg te beklimmen.
     </p>
 
     <p>
-      “My father,”
-      said the boy along the way.
+      “Mijn vader,”
+      zei de jongen onderweg.
 
-      “Yes, my son?”
+      “Ja, mijn zoon?”
 
-      replied Allah’s Messenger.
+      antwoordde de Boodschapper van Allah.
 
-      “We have the fire
-      and we have the wood,
-      but where is the lamb
-      for the sacrifice?”
+      “Wij hebben het vuur
+      en wij hebben het hout,
+      maar waar is het lam
+      voor het offer?”
     </p>
 
     <p>
-      “Allah Himself will provide the sacrifice,
-      my son,”
-      Ibrahim alayhis-salam replied.
+      “Allah Zelf
+      zal voor het offer zorgen,
+      mijn zoon,”
+      antwoordde Ibrahim alayhis-salam.
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>ALLAH WILL PROVIDE</p>
+    <p>ALLAH ZAL VOORZIEN</p>
   </div>
 
   <div className="main_text">
     <p className="boldItalic">
-      “Then when he was old enough to accompany him,
-      he said:
+      “Toen hij oud genoeg was
+      om met hem mee te gaan,
+      zei hij:
 
-      ‘O my dear son,
-      indeed I have seen in a dream
-      that I am sacrificing you.
+      ‘Mijn lieve zoon,
+      ik heb in een droom gezien
+      dat ik jou offer.
 
-      So tell me,
-      what do you think?’
+      Vertel mij dus,
+      wat denk jij?’
 
-      He replied:
+      Hij antwoordde:
 
-      ‘O my father,
-      do as you have been commanded.
+      ‘Mijn vader,
+      doe wat jou is bevolen.
 
-      If Allah wills,
-      you will find me among the patient.’”
-     {" "} <span className='vitalic'> (Surah As-Saffat 37:102). </span>
+      Als Allah wil,
+      zul je mij
+      onder de geduldigen vinden.’”
+
+      <span className="vitalic">
+        {' '}
+        (Surah As-Saffat 37:102).
+      </span>
     </p>
 
     <p>
-      When they reached the appointed place,
-      Ibrahim (a.s.) built an altar
-      and arranged wood upon it.
+      Toen zij de aangewezen plaats bereikten,
+      bouwde Ibrahim (a.s.)
+      een altaar
+      en legde het hout erop.
 
-      Then he bound his son,
-      laid him upon the altar,
-      and took the knife in his hand
-      to sacrifice him.
+      Daarna bond hij zijn zoon vast,
+      legde hem op het altaar
+      en nam het mes in zijn hand
+      om hem te offeren.
     </p>
 
     <p>
-      Suddenly a call came from the heavens:
+      Plotseling
+      klonk er een stem uit de hemel:
 
       “Ibrahim! Ibrahim!”
 
       “Labbayk!”
-      replied Allah’s Messenger.
+      antwoordde de Boodschapper van Allah.
 
-      “Do not harm the boy. Now I know your devotion,
-      for you did not withhold from Me
-      even your beloved son.”
+      “Doe de jongen geen kwaad.
+      Nu weet Ik
+      hoe groot jouw toewijding is,
+      want zelfs jouw geliefde zoon
+      heb jij Mij niet onthouden.”
     </p>
 
     <p>
-      Then Ibrahim عليه السلام looked up. And behold the power of Allah!
+      Toen keek Ibrahim عليه السلام op.
 
-      A ram stood nearby, its horns caught in a thicket.
+      En zie
+      de macht van Allah!
 
-      Ibrahim went, took the ram,
-      and sacrificed it in place of his son,
-      thus completing the offering.
+      Vlakbij stond een ram,
+      met zijn horens
+      verstrikt in een struik.
+
+      Ibrahim ging erheen,
+      nam de ram,
+      en offerde hem
+      in plaats van zijn zoon,
+      waarmee het offer
+      werd voltooid.
     </p>
 
     <p>
-      (Later,
-      Allah’s Messenger named that place:
-      “Allah Will Provide.”
+      (Later
+      gaf de Boodschapper van Allah
+      die plaats de naam:
 
-      Because of this,
-      the saying,
-      “On the mountain of Allah,
-      He Himself will provide,”
-      became a well-known proverb among the people.)
+      “Allah zal voorzien.”
+
+      Daarom werd onder de mensen
+      het gezegde bekend:
+
+      “Op de berg van Allah
+      zal Hij Zelf voorzien.”)
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>ABOUT THE BURNT OFFERING</p>
-  </div>
+  <p>OVER HET BRANDOFFER</p>
+</div>
 
-  <div className="main_text">
-    <p className="vitalic">
-      Some may wonder:
+<div className="main_text">
+  <p className="vitalic">
+    Sommigen vragen zich misschien af:
 
-      Were sacrifices in those days
-      really burned in fire?
+    Werden offers in die tijd
+    werkelijk door vuur verbrand?
 
-      Why did Ibrahim عليه السلام
-      first arrange wood upon the altar?
-    </p>
+    Waarom legde Ibrahim عليه السلام
+    eerst hout
+    op het altaar?
+  </p>
 
-    <p className="vitalic">
-      In the revealed scriptures,
-      this type of sacrifice was known as
-      <span className="boldItalic">
+  <p className="vitalic">
+    In de geopenbaarde Schriften
+    stond dit soort offer bekend als
+
+    <span className="boldItalic">
+      {' '}
+      “een brandoffer”
+    </span>{' '}
+
+    (Zie Surah Aal ‘Imran 3:183).
+
+    Bij dit offer
+    werd het hele dier
+    aan Allah aangeboden.
+
+    Geen enkel deel van het vlees
+    werd achtergehouden.
+
+    Het was een teken
+    dat de aanbidder
+    zichzelf volledig overgaf
+    aan de wil van Allah.
+
+    Er werd niets
+    voor zichzelf achtergehouden.
+  </p>
+</div>
+
+<div className="paragraph_heading">
+  <p>WAT IS KOSTBAARDER: DE RAM OF DE ZOON?</p>
+</div>
+
+<div className="main_text">
+  <p className="vitalic">
+    De zoon van Ibrahim
+    zou sterven.
+
+    Toch zorgde Allah
+    voor een ram
+    in zijn plaats.
+
+    Ibrahim (a.s.)
+    nam de ram
+    en offerde hem
+    in plaats van zijn zoon.
+  </p>
+
+  <p className="vitalic">
+    De Edele Qur’an zegt:
+
+    <span className="boldItalic">
+      {' '}
+      “En Wij kochten hem vrij
+      <span className="vitalic">
         {' '}
-        “a burnt offering”
-      </span> {" "}
-
-      (See Surah Aal ‘Imran 3:183).
-
-      In this offering,
-      the entire animal was presented to Allah.
-
-      No portion of the meat was kept back.
-
-      It symbolized that the worshipper himself
-      was surrendering completely
-      to the will of Allah.
-
-      Nothing was being withheld.
-    </p>
-  </div>
-
-  <div className="paragraph_heading">
-    <p>WHICH IS MORE PRECIOUS: THE RAM OR THE SON?</p>
-  </div>
-
-  <div className="main_text">
-    <p className="vitalic">
-      Ibrahim’s son was supposed to die.
-
-      Yet Allah provided a ram in his place.  Ibrahim (a.s.) took the ram and sacrificed it instead of his son.
-    </p>
-
-    <p className="vitalic">
-      The Noble Qur’an says:
-
-      <span className="boldItalic">
-        {' '}
-        “And We ransomed him
-        <span className="vitalic">
-          {' '}
-          (his son)
-        </span>
-        {' '}
-        with a mighty sacrifice.”
+        (zijn zoon)
       </span>
       {' '}
+      met een groot offer.”
+    </span>{' '}
+
+    <span className="vitalic">
       (Surah As-Saffat 37:107).
-    </p>
+    </span>
+  </p>
 
-    <p className="vitalic">
-      What do you think was more valuable:
-      the son or the ram?
+  <p className="vitalic">
+    Wat denk jij
+    was waardevoller:
 
-      Surely the son.
+    de zoon
+    of de ram?
 
-      You would not exchange your own child
-      for a thousand rams.
+    Natuurlijk de zoon.
 
-      Then why does Allah describe it as
-      “a mighty sacrifice”?
-    </p>
+    Niemand zou zijn eigen kind
+    ruilen
+    voor duizend rammen.
 
-    <p className="vitalic">
-      The answer is that this ram
-      was a symbol of a greater sacrifice
-      that would be provided in the future.
+    Waarom noemt Allah dit dan
+    “een groot offer”?
+  </p>
 
-      What sacrifice was that?
+  <p className="vitalic">
+    Het antwoord is
+    dat deze ram
+    een symbool was
+    van een groter offer
+    dat Allah
+    in de toekomst zou geven.
 
-      We are not perfect.
+    Welk offer was dat?
 
-      Our obedience to Allah is not perfect.
+    Wij zijn niet volmaakt.
 
-      Therefore humanity stands in need
-      of the perfect sacrifice
-      that Allah Himself provides.
+    Onze gehoorzaamheid aan Allah
+    is niet volmaakt.
 
-      Sacrifice is what is given
-      in place of our imperfect obedience.
+    Daarom heeft de mensheid
+    behoefte aan
+    het volmaakte offer
+    dat Allah Zelf geeft.
 
-      Without sacrifice,
-      we cannot fully partake
-      in the blessings and promises
-      of the covenant.
-    </p>
-  </div>
+    Een offer
+    is datgene
+    wat gegeven wordt
+    in plaats van
+    onze onvolmaakte gehoorzaamheid.
 
-  <div className="paragraph_heading">
-    <p>“ALL NATIONS SHALL BE BLESSED THROUGH YOUR DESCENDANT”</p>
-  </div>
+    Zonder offer
+    kunnen wij
+    niet volledig delen
+    in de zegeningen
+    en beloften
+    van het verbond.
+  </p>
+</div>
 
-  <div className="main_text">
-    <p>
-      At that time,
-      Allah azza wa jall said to Ibrahim alayhis-salam:
+<div className="paragraph_heading">
+  <p>“ALLE VOLKEN ZULLEN GEZEGEND WORDEN DOOR JOUW NAKOMELING”</p>
+</div>
 
-      “I swear by My own Name:
-      because you trusted Me,
-      because you did not withhold from Me
-      your beloved son,
-      I shall surely bless you.
+<div className="main_text">
+  <p>
+    Toen zei Allah,
+    عز وجل,
+    tegen Ibrahim alayhis-salam:
 
-      I shall multiply your descendants
-      like the stars of the heavens
-      and like the sand upon the seashore.
+    “Ik zweer bij Mijn Eigen Naam:
 
-      Because you obeyed Me,
-      all the nations of the earth
-      shall receive blessing
-      through your zurriyya” (descendant).
-    </p>
+    omdat jij Mij hebt vertrouwd,
 
-    <p className="vitalic">
-      This was a special blessing —
-      a promise concerning the salvation
-      that would come in the future.
+    omdat jij Mij
+    zelfs jouw geliefde zoon
+    niet hebt onthouden,
 
-      Through Adam’s sin,
-      the earth had come under a curse.
+    zal Ik jou
+    zeker zegenen.
 
-      Now,
-      one of Ibrahim’s descendants
-      would one day bring forgiveness
-      to the world.
+    Ik zal jouw nakomelingen
+    talrijk maken
+    als de sterren aan de hemel
+    en als het zand
+    aan de oever van de zee.
 
-      Yet that forgiveness would come
-      through the covenant.
+    Omdat jij Mij hebt gehoorzaamd,
 
-      Those who enter the covenant
-      inherit Paradise.
+    zullen alle volken van de aarde
+    gezegend worden
+    door jouw zurriyya”
+    (nakomeling).
+  </p>
 
-      As it is written in Surah Al-Mu’minun:
+  <p className="vitalic">
+    Dit was
+    een bijzondere zegen —
+    een belofte
+    over de redding
+    die in de toekomst zou komen.
 
-      <span className="boldItalic">
-        {' '}
-        “Those who are faithful
-        to their trusts and their covenants,
-        and those who guard their prayers —
+    Door de zonde van Adam
+    was de aarde
+    onder een vloek gekomen.
 
-        they are the inheritors.
+    Nu zou
+    één van de nakomelingen
+    van Ibrahim
+    op een dag
+    vergeving brengen
+    voor de wereld.
 
-        They shall inherit Firdaus
-        and abide therein forever”
-      </span>
+    Maar die vergeving
+    zou komen
+    door het verbond.
+
+    Wie het verbond binnengaat,
+    erft het Paradijs.
+
+    Zoals geschreven staat
+    in Surah Al-Mu’minun:
+
+    <span className="boldItalic">
       {' '}
+      “Degenen die trouw zijn
+      aan hun toevertrouwde zaken
+      en aan hun verbonden,
+
+      en degenen
+      die hun gebeden onderhouden —
+
+      zij zijn de erfgenamen.
+
+      Zij zullen Firdaus erven
+      en daarin
+      voor eeuwig verblijven.”
+    </span>{' '}
+
+    <span className="vitalic">
       (23:8–11).
-    </p>
-  </div>
+    </span>
+  </p>
+</div>
 
-  <div className="paragraph_heading">
-    <p>THE FAITH OF IBRAHIM </p>
-    <AlayhS className='text-green-800 font-medium' />
-  </div>
+<div className="paragraph_heading">
+  <p>HET GELOOF VAN IBRAHIM</p>
+  <AlayhS className="text-green-800 font-medium" />
+</div>
 
-  <div className="main_text">
-    <p className="vitalic">
-      Ibrahim (a.s.) believed
-      in the promises of Allah.
+<div className="main_text">
+  <p className="vitalic">
+    Ibrahim (a.s.)
+    geloofde
+    in de beloften van Allah.
 
-      Since Allah had said,
-      “Your descendants shall continue through your son,”
-      he was willing to take that son
-      to the place of sacrifice.
+    Omdat Allah had gezegd:
 
-      He firmly believed that Allah
-      was able to raise his son from the dead.
-    </p>
+    “Jouw nakomelingen
+    zullen doorgaan
+    via jouw zoon,”
 
-    <p className="vitalic">
-      It is easy to speak of such things.
+    was hij bereid
+    diezelfde zoon
+    naar de plaats van het offer
+    te brengen.
 
-      But to lead your own child toward death —
-      that is another matter entirely.
+    Hij geloofde
+    met heel zijn hart
+    dat Allah
+    zijn zoon
+    uit de dood kon opwekken.
+  </p>
 
-      Only a person who truly trusts
-      in the goodness of Allah
-      can show such courage.
+  <p className="vitalic">
+    Het is gemakkelijk
+    om zulke dingen te zeggen.
 
-      To surrender to Allah,
-      you must first believe
-      that He is good.
-    </p>
+    Maar je eigen kind
+    naar de dood brengen —
 
-    <p className="vitalic">
-      Whoever wishes to draw near to Allah
-      must believe that He exists
-      and that He rewards those
-      who sincerely seek Him.
+    dat is iets heel anders.
 
-      Seek Allah.
+    Alleen iemand
+    die werkelijk vertrouwt
+    op de goedheid van Allah
+    kan zo'n moed tonen.
 
-      Those who seek Him
-      with a sincere heart
-      are never deprived
-      of His mercy.
-    </p>
-  </div>
+    Om je aan Allah over te geven,
+    moet je eerst geloven
+    dat Hij goed is.
+  </p>
+
+  <p className="vitalic">
+    Wie dichter bij Allah wil komen,
+    moet geloven
+    dat Hij bestaat
+    en dat Hij
+    degenen beloont
+    die Hem oprecht zoeken.
+
+    Zoek Allah.
+
+    Wie Hem zoekt
+    met een oprecht hart,
+
+    zal nooit verstoken blijven
+    van Zijn barmhartigheid.
+  </p>
+</div>
 </main>
   );
 }

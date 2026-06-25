@@ -14,54 +14,62 @@ export default function SignOfCovenant() {
   ]);
 
   return (
-    <main className="stories relative">
+<main className="stories relative">
   <div className="main_text">
     <p>
-      Thirteen years passed.
+      Dertien jaar gingen voorbij.
 
-      One day Allah, Who has power over all things,
-      again appeared to Ibrahim عليه السلام and said:
+      Op een dag verscheen Allah,
+      Die macht heeft over alle dingen,
+      opnieuw aan Ibrahim عليه السلام en zei:
 
       “Ibrahim,
-      remain faithful to Our covenant,
-      value Our friendship,
-      and be among the people of taqwā.
+      blijf trouw aan Ons verbond,
+      waardeer Onze vriendschap
+      en behoor tot de mensen van taqwā.
 
-      I shall always be with you.
-      I shall protect you.
-      And I shall greatly multiply your descendants.”
+      Ik zal altijd met jou zijn.
+      Ik zal jou beschermen.
+      En Ik zal jouw nakomelingen
+      zeer talrijk maken.”
     </p>
 
     <p>
-      Allah’s Messenger, Ibrahim عليه السلام,
-      fell down in prostration.
+      De Boodschapper van Allah,
+      Ibrahim عليه السلام,
+      wierp zich neer in sujūd.
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble1')}
     >
-      “You shall become the father of many nations
-      <sup>1</sup>
-      ,” Allah said.
+      “Jij zult de vader worden van vele volken
+      <sup>1</sup>,
+      ” zei Allah.
 
-      “I shall bring forth from you
-      many children and many peoples.
+      “Ik zal uit jou
+      vele kinderen
+      en vele volkeren voortbrengen.
 
-      Kings shall arise from your descendants.
+      Koningen zullen
+      uit jouw nakomelingen voortkomen.
 
-      I shall continue My covenant
-      with you and your offspring
-      from generation to generation.
+      Ik zal Mijn verbond
+      met jou
+      en jouw nageslacht
+      van generatie op generatie voortzetten.
 
-      This land in which you now live as a traveler
-      I shall give to you
-      and to your descendants
-      as an everlasting possession.
+      Dit land,
+      waarin jij nu als vreemdeling verblijft,
+      zal Ik geven
+      aan jou
+      en aan jouw nakomelingen
+      als een eeuwig bezit.
 
-      You shall remain under My protection.”
+      Jullie zullen onder Mijn bescherming blijven.”
     </p>
 
     {openBubbles['bubble1'] && (
@@ -71,57 +79,65 @@ export default function SignOfCovenant() {
       >
         <p>
           <sup>1</sup>
-          In Surah Al-Baqarah,
-          Allah says to Ibrahim عليه السلام:
+          In Surah Al-Baqarah
+          zegt Allah tegen Ibrahim عليه السلام:
+
           {' '}
           <span className="boldItalic">
-            “Indeed, I am going to make you a leader for mankind.”
+            “Voorwaar,
+            Ik zal jou tot een leider
+            voor de mensheid maken.”
           </span>
           {' '}
-          (2:124).
+          <span className="vitalic">(2:124).</span>
         </p>
       </div>
     )}
 
     <p>
-      “But you must uphold My covenant:
-      you and your descendants
-      must remain faithful to it.
+      “Maar jij moet Mijn verbond bewaren:
 
-      Every male among you
-      shall be circumcised.
+      jij
+      en jouw nakomelingen
+      moeten eraan trouw blijven.
 
-      This shall be the sign
-      of the covenant between us.
+      Iedere man onder jullie
+      moet besneden worden.
 
-      Circumcise your sons
-      when they are eight days old.
+      Dit zal het teken zijn
+      van het verbond tussen Ons.
 
-      Your servants as well —
-      whether born in your household
-      or purchased from other peoples —
-      shall also be circumcised.
+      Besnijd jullie zonen
+      wanneer zij acht dagen oud zijn.
 
-      This mark upon your bodies
-      shall be evidence
-      that My covenant with you
-      is everlasting.
+      Ook jullie dienaren —
+      zowel degenen
+      die in jullie huis geboren zijn
+      als degenen
+      die van andere volken zijn gekocht —
+      moeten besneden worden.
 
-      Whoever refuses circumcision
-      shall be cut off from among his people,
-      for he has rejected My covenant.”
+      Dit teken aan jullie lichaam
+      zal het bewijs zijn
+      dat Mijn verbond met jullie
+      eeuwig is.
+
+      Wie weigert zich te laten besnijden,
+      zal van zijn volk afgesneden worden,
+      want hij heeft Mijn verbond verworpen.”
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>ISHAQ — “HE LAUGHS”</p>
+    <p>ISHAQ — “HIJ LACHT”</p>
   </div>
 
   <div className="main_text">
     <p className="boldItalic">
-      “And We gave him the glad tidings of Ishaq,
-      a righteous prophet.
-      And We bestowed blessings upon him and upon Ishaq.”
+      “En Wij gaven hem de blijde tijding van Ishaq,
+      een rechtschapen profeet.
+      En Wij schonken hem
+      en Ishaq Onze zegen.”
       <span className="vitalic">
         {' '}
         (Surah As-Saffat 37:112–113).
@@ -131,19 +147,23 @@ export default function SignOfCovenant() {
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble2')}
     >
-      “You shall no longer call your wife Sarah,”
-      the Lord continued.
+      “Je zult je vrouw
+      niet langer Sarah noemen,”
+      vervolgde de Heer.
 
-      “From now on,
-      her name shall be Sarah.
-      <sup>2</sup>{" "} I shall bless her.
+      “Vanaf nu
+      zal haar naam Sarah zijn.
+      <sup>2</sup>{' '}
+      Ik zal haar zegenen.
 
-      She shall become the mother of many nations.
+      Zij zal de moeder worden
+      van vele volken.
 
-      Kings shall arise from her descendants.”
+      Koningen zullen voortkomen
+      uit haar nakomelingen.”
     </p>
 
     {openBubbles['bubble2'] && (
@@ -153,44 +173,52 @@ export default function SignOfCovenant() {
       >
         <p>
           <sup>2</sup>
-          The name Sarah means “princess” or “queen.”
+          De naam Sarah betekent
+          “prinses”
+          of
+          “koningin”.
         </p>
       </div>
     )}
 
     <p>
-      Ibrahim عليه السلام fell into prostration.
+      Ibrahim عليه السلام
+      wierp zich neer in sujūd.
 
-      Thoughts passed through his mind:
+      Gedachten gingen door zijn hoofd:
 
-      “I am nearly one hundred years old,
-      and Sarah is ninety.”
+      “Ik ben bijna honderd jaar oud,
+      en Sarah is negentig.”
 
-      Then he smiled to himself and thought:
+      Toen glimlachte hij bij zichzelf
+      en dacht:
 
-      “Can Sarah really bear a child at such an age?”
+      “Kan Sarah
+      op zo'n hoge leeftijd
+      werkelijk nog een kind krijgen?”
 
-      Afterwards he said:
+      Daarna zei hij:
 
       “O Allah,
-      bless my son Ismail.”
+      zegen mijn zoon Ismail.”
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble3')}
     >
-      “Ibrahim,” Allah said,
-      “next year Sarah will bear you a son.
+      “Ibrahim,” zei Allah,
+      “volgend jaar
+      zal Sarah jou een zoon schenken.
 
-      You shall name him Ishaq.
+      Je zult hem Ishaq noemen.
       <sup>3</sup>
 
-      Through this son
-      I shall continue the covenant
-      that I made with you.”
+      Door deze zoon
+      zal Ik het verbond voortzetten
+      dat Ik met jou heb gesloten.”
     </p>
 
     {openBubbles['bubble3'] && (
@@ -200,50 +228,60 @@ export default function SignOfCovenant() {
       >
         <p>
           <sup>3</sup>
-          The name “Ishaq” means
-          “he laughs.”
+          De naam “Ishaq” betekent:
+          “hij lacht.”
         </p>
       </div>
     )}
 
     <p>
-      “As for Ismail,
-      set your heart at ease,”
-      Allah continued.
+      “Wat Ismail betreft,
+      stel je hart gerust,”
+      vervolgde Allah.
 
-      “I shall surely bless him.
+      “Ik zal hem zeker zegenen.
 
-      I shall multiply his descendants
-      and make from him a great nation.
+      Ik zal zijn nakomelingen
+      talrijk maken
+      en uit hem
+      een groot volk doen ontstaan.
 
-      He shall become the father
-      of twelve rulers.”
+      Hij zal de vader worden
+      van twaalf leiders.”
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble4')}
     >
-      That very day,
-      Allah’s Messenger, Ibrahim عليه السلام,
-      began carrying out Allah’s command.
+      Nog diezelfde dag
+      begon de Boodschapper van Allah,
+      Ibrahim عليه السلام,
+      het bevel van Allah uit te voeren.
 
-      He circumcised every male in his household —
-      those born in his home,
-      those he had purchased,
-      and all the boys.
+      Hij besneed
+      iedere man in zijn huis —
+      degenen
+      die in zijn huis geboren waren,
+      degenen
+      die hij had gekocht,
+      en alle jongens.
 
-      At that time,
-      Ibrahim عليه السلام was ninety-nine years old,
-      while Ismail عليه السلام was thirteen years old.
+      Op dat moment
+      was Ibrahim عليه السلام
+      negenennegentig jaar oud,
+      terwijl Ismail عليه السلام
+      dertien jaar oud was.
 
-      Thus Ibrahim,
+      Zo werden Ibrahim,
       Ismail,
-      the servants,
-      and every male born in or brought into the household
-      were circumcised on that same day.
+      de dienaren,
+      en iedere man
+      die in het huis geboren was
+      of daarin was opgenomen,
+      op diezelfde dag besneden.
       <sup>4</sup>
     </p>
 
@@ -254,27 +292,33 @@ export default function SignOfCovenant() {
       >
         <p>
           <sup>4</sup>
-          Abd al-Razzaq, “Musannaf”, vol. 2, p. 175;
-          Ibn Abi Shaybah, “Musannaf”, vol. 11, p. 522;
-          Al-Bukhari, “Al-Adab al-Mufrad”, p. 322.
+          Abd al-Razzaq,
+          “Musannaf”, vol. 2, p. 175;
+          Ibn Abi Shaybah,
+          “Musannaf”, vol. 11, p. 522;
+          Al-Bukhari,
+          “Al-Adab al-Mufrad”, p. 322.
         </p>
       </div>
     )}
   </div>
 
   <div className="paragraph_heading">
-    <p>THE VISIT OF THREE GUESTS</p>
+    <p>HET BEZOEK VAN DRIE GASTEN</p>
   </div>
 
   <div className="main_text">
     <p className="boldItalic">
-      “Has the story reached you
-      of Ibrahim’s honored guests? ...
+      “Heeft het verhaal jou bereikt
+      van de geëerde gasten van Ibrahim? ...
 
-      They said:
-      ‘Do not be afraid,’
-      and they gave him the glad tidings
-      of a wise son.”
+      Zij zeiden:
+
+      ‘Wees niet bang,’
+
+      en zij brachten hem
+      de blijde tijding
+      van een wijze zoon.”
       <span className="vitalic">
         {' '}
         (Surah Adh-Dhariyat 51:24, 28).
@@ -284,42 +328,46 @@ export default function SignOfCovenant() {
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble5')}
     >
-      One day Ibrahim عليه السلام
-      was sitting at the entrance of his tent
+      Op een dag zat Ibrahim عليه السلام
+      bij de ingang van zijn tent
       <sup>5</sup>{' '}
-      during the heat of midday.
+      tijdens de hitte van de middag.
 
-      Suddenly he noticed three men
-      standing before him.
+      Plotseling zag hij
+      drie mannen
+      voor zich staan.
 
       <span className="vitalic">
         {' '}
-        They were angels sent by Allah
-        to convey His decree
-        to Allah’s Messenger.
-      </span>
-      {' '}
+        Het waren engelen
+        die door Allah waren gezonden
+        om Zijn besluit
+        aan de Boodschapper van Allah over te brengen.
+      </span>{' '}
 
-      Ibrahim immediately rose,
-      hurried to greet them,
-      bowed respectfully,
-      and said:
+      Ibrahim stond onmiddellijk op,
+      haastte zich om hen te begroeten,
+      boog eerbiedig
+      en zei:
 
-      “My lords,
-      please honor me by staying.
-      Do not pass by your servant.
+      “Mijn heren,
+      bewijs mij de eer
+      om hier te blijven.
 
-      Let water be brought
-      so that you may wash your feet.
+      Ga uw dienaar niet voorbij.
 
-      Rest for a while beneath the shade of the tree.
+      Laat er water gebracht worden,
+      zodat u uw voeten kunt wassen.
 
-      I shall bring you something to eat.
+      Rust een tijdje uit
+      onder de schaduw van de boom.
 
-      Then you may continue your journey.”
+      Ik zal u iets te eten brengen.
+
+      Daarna kunt u uw reis voortzetten.”
     </p>
 
     {openBubbles['bubble5'] && (
@@ -329,50 +377,60 @@ export default function SignOfCovenant() {
       >
         <p>
           <sup>5</sup>
-          At that time,
-          his tent stood near the Mamre tree.
+          In die tijd
+          stond zijn tent
+          bij de boom van Mamre.
         </p>
       </div>
     )}
 
     <p>
-      They replied:
-      “Very well.
-      Let it be as you have said.”
+      Zij antwoordden:
+
+      “Goed.
+      Laat het zo zijn
+      als je hebt gezegd.”
     </p>
 
     <p>
-      Ibrahim عليه السلام hurried into the tent
-      and said to Lady Sarah رضي الله عنها:
+      Ibrahim عليه السلام
+      haastte zich de tent binnen
+      en zei tegen Lady Sarah رضي الله عنها:
 
-      “Quickly,
-      prepare three measures
-      of the finest flour
-      and bake fresh bread.”
+      “Snel,
+      bereid drie maten
+      van het beste meel
+      en bak vers brood.”
 
-      Then he himself ran to the herd
-      and selected a fat calf.
+      Daarna liep hij zelf
+      naar de kudde
+      en koos een vet kalf uit.
 
-      His servant immediately slaughtered it
-      and began preparing the meal.
+      Zijn dienaar slachtte het onmiddellijk
+      en begon de maaltijd klaar te maken.
 
-      When the meat was ready,
-      Allah’s Messenger placed it before the guests
-      together with milk and curdled yogurt
-      beneath the tree.
+      Toen het vlees gereed was,
+      zette de Boodschapper van Allah
+      het voor zijn gasten neer,
+      samen met melk
+      en gestremde yoghurt,
+      onder de boom.
 
-      But...
+      Maar...
     </p>
 
     <p className="boldItalic">
-      “When he saw that their hands
-      did not reach for the food,
-      he became uneasy and felt fear within himself.
+      “Toen hij zag
+      dat hun handen
+      zich niet naar het voedsel uitstrekten,
+      werd hij ongerust
+      en voelde angst in zichzelf.
 
-      They said:
-      ‘Do not be afraid.
-      We have been sent
-      to the people of Lut.’”
+      Zij zeiden:
+
+      ‘Wees niet bang.
+      Wij zijn gezonden
+      naar het volk van Lut.’”
       <span className="vitalic">
         {' '}
         (Surah Hud 11:70).
@@ -380,58 +438,62 @@ export default function SignOfCovenant() {
     </p>
 
     <p>
-      Then the guests asked:
+      Daarna vroegen de gasten:
 
-      “Where is your wife Sarah?”
+      “Waar is jouw vrouw Sarah?”
 
-      Ibrahim عليه السلام replied:
+      Ibrahim عليه السلام antwoordde:
 
-      “She is here,
-      inside the tent.”
+      “Zij is hier,
+      binnen in de tent.”
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>“NEXT YEAR SARAH WILL HAVE A SON”</p>
+    <p>“VOLGEND JAAR ZAL SARAH EEN ZOON HEBBEN”</p>
   </div>
 
   <div className="main_text">
     <p>
-      “At this time next year
-      I shall return,”
-      said one of the guests.
+      “Rond deze tijd volgend jaar
+      zal ik terugkomen,”
+      zei een van de gasten.
 
-      “And when I return,
-      your wife Sarah
-      will have a son in her arms.”
+      “En wanneer ik terugkeer,
+      zal jouw vrouw Sarah
+      een zoon in haar armen hebben.”
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble6')}
     >
-      At that moment,
-      Sarah رضي الله عنها
-      was standing inside the tent behind Ibrahim عليه السلام,
-      listening to the conversation.
+      Op dat moment
+      stond Sarah رضي الله عنها
+      achter Ibrahim عليه السلام
+      in de tent
+      te luisteren naar het gesprek.
 
-      When she heard the guest’s words,
-      she laughed inwardly.
+      Toen zij de woorden van de gast hoorde,
+      lachte zij in zichzelf.
       <sup>6</sup>{' '}
 
-      For both Ibrahim عليه السلام and she herself
-      had reached a very advanced age,
-      and her monthly cycle
-      had long since ceased.
+      Want zowel Ibrahim عليه السلام
+      als zijzelf
+      waren op zeer hoge leeftijd gekomen,
+      en haar maandelijkse cyclus
+      was al lang opgehouden.
 
-      She thought to herself:
+      Zij dacht bij zichzelf:
 
-      “Could such joy really come to me
-      in my old age?
+      “Kan zo'n vreugde
+      mij op mijn oude dag
+      werkelijk nog ten deel vallen?
 
-      My husband too has become elderly...”
+      Ook mijn man
+      is oud geworden...”
     </p>
 
     {openBubbles['bubble6'] && (
@@ -441,53 +503,62 @@ export default function SignOfCovenant() {
       >
         <p className="boldItalic">
           <sup>6</sup>
-          “And his wife was standing there,
-          and she laughed.
+          “En zijn vrouw stond daar,
+          en zij lachte.
 
-          So We gave her the glad tidings of Ishaq...
+          Toen gaven Wij haar
+          de blijde tijding van Ishaq...
 
-          She said:
-          ‘Alas for me!
-          Shall I bear a child
-          when I am an old woman
-          and my husband is an old man?’
+          Zij zei:
 
-          They said:
-          ‘Do you marvel at the decree of Allah?
+          ‘Wee mij!
+          Zal ik nog een kind krijgen,
+          terwijl ik een oude vrouw ben
+          en mijn man een oude man is?’
 
-          The mercy and blessings of Allah
-          are upon this household.’”
-        </p>
+          Zij zeiden:
 
-        <p className="who_wrote">
-          (Surah Hud 11:71–73)
+          ‘Verwonder jij je
+          over het besluit van Allah?
+
+          De barmhartigheid
+          en de zegeningen van Allah
+          rusten op dit huisgezin.’”
+          <span className="vitalic">
+            {' '}
+            (Surah Hud 11:71–73).
+          </span>
         </p>
       </div>
     )}
 
     <p>
-      Then the angel of Allah said to Ibrahim عليه السلام:
+      Toen zei de engel van Allah
+      tegen Ibrahim عليه السلام:
 
-      “Why did Sarah laugh?
+      “Waarom lachte Sarah?
 
-      Why does she doubt
-      that she will bear a child?
+      Waarom twijfelt zij
+      dat zij een kind zal krijgen?
 
-      Is anything impossible for Allah?
+      Is er iets onmogelijk
+      voor Allah?
 
-      At this same time next year
-      I shall return,
-      and Sarah will have a baby in her arms.”
+      Rond deze tijd volgend jaar
+      zal ik terugkomen,
+      en Sarah zal een baby
+      in haar armen hebben.”
     </p>
 
     <p>
-      “I did not laugh,”
-      our mother Sarah said in fear.
+      “Ik heb niet gelachen,”
+      zei onze moeder Sarah
+      uit angst.
 
-      But he replied:
+      Maar hij antwoordde:
 
-      “No,
-      you did laugh.”
+      “Nee,
+      je hebt wel gelachen.”
     </p>
   </div>
 </main>

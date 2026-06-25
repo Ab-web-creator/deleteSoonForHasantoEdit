@@ -17,50 +17,63 @@ export default function SadomGamorra() {
   ]);
 
   return (
-        <main className="stories relative">
-  <div className="mb-8 border border-brand-400 rounded-md px-4 ">
+<main className="stories relative">
+  <div className="mb-8 border border-brand-400 rounded-md px-4">
     <p className="!text-brand-700 !text-sm">
-      “Shall I hide from Ibrahim what I am about to do?” says Allah.
-      “I have chosen him so that he may teach his children and his household
-      to walk in righteousness and justice,
-      guiding them in the way of Allah.
+      “Zou Ik voor Ibrahim verbergen
+      wat Ik van plan ben te doen?”
+      zegt Allah.
 
-      For I shall fulfill the promise I made to him:
-      I shall raise from him a mighty nation
-      and through Ibrahim I shall spread blessing
-      to all the peoples of the earth.”
+      “Ik heb hem uitgekozen,
+      zodat hij zijn kinderen
+      en zijn huisgezin zal leren
+      te wandelen in rechtvaardigheid en gerechtigheid,
+      en hen zal leiden op de weg van Allah.
+
+      Want Ik zal de belofte vervullen
+      die Ik hem heb gedaan:
+
+      Ik zal uit hem
+      een machtig volk doen voortkomen
+      en door Ibrahim
+      zal Ik zegen verspreiden
+      onder alle volken van de aarde.”
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>THE PURPOSE OF THEIR VISIT</p>
+    <p>HET DOEL VAN HUN BEZOEK</p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble1')}
     >
-      Afterwards the guests rose
-      and set out toward Sodom.
+      Daarna stonden de gasten op
+      en gingen op weg naar Sodom.
       <sup>1</sup>{' '}
 
-      Allah’s Messenger, Ibrahim عليه السلام,
-      accompanied them for some distance
-      to see them off.
+      De Boodschapper van Allah,
+      Ibrahim عليه السلام,
+      begeleidde hen
+      een eind op hun weg
+      om afscheid van hen te nemen.
 
-      They said to him:
+      Zij zeiden tegen hem:
 
-      “The people of Sodom and Gomorrah
-      have become deeply immersed in sin.
+      “De mensen van Sodom en Gomorra
+      zijn diep weggezonken in de zonde.
 
-      The cries of those suffering because of them
-      have become very great.
+      De kreten
+      van degenen
+      die door hen lijden,
+      zijn zeer talrijk geworden.
 
-      Therefore we have come
-      to investigate these complaints
-      that have risen all the way
-      to the Highest Heaven.”
+      Daarom zijn wij gekomen
+      om deze klachten te onderzoeken,
+      die zijn opgestegen
+      tot de Hoogste Hemel.”
       <sup>2</sup>
     </p>
 
@@ -72,19 +85,23 @@ export default function SadomGamorra() {
         <p className="boldItalic">
           <sup>1</sup>{' '}
           <span className="vitalic">
-            The Qur’an also contains these verses regarding this event:
-          </span>
-          {' '}
-          “He said:
-          ‘O messengers,
-          what is your mission?’
+            De Qur'an bevat hierover ook deze verzen:
+          </span>{' '}
 
-          They said:
-          ‘We have been sent to a sinful people
-          in order to destroy them.
+          “Hij zei:
 
-          But we shall save the family of Lut completely,
-          except for his wife.’”
+          ‘O boodschappers,
+          wat is jullie opdracht?’
+
+          Zij zeiden:
+
+          ‘Wij zijn gezonden
+          naar een zondig volk
+          om hen te vernietigen.
+
+          Maar de familie van Lut
+          zullen wij volledig redden,
+          behalve zijn vrouw.’”
         </p>
 
         <p className="who_wrote">
@@ -93,19 +110,21 @@ export default function SadomGamorra() {
 
         <p className="vitalic">
           <sup>2</sup>
-          The people of Sodom and Gomorrah
-          were steeped in sin
-          and engaged in shameful acts.
+          De mensen van Sodom en Gomorra
+          leefden diep in de zonde
+          en begingen schandelijke daden.
 
           {' '}
           <span className="boldItalic">
-            “Our messengers came to Ibrahim and said:
-            ‘Indeed,
-            we are going to destroy the people of this town,
-            for its people are wrongdoers.’
+            “Onze boodschappers kwamen naar Ibrahim en zeiden:
 
-            He said:
-            ‘But Lut is there!’”
+            ‘Wij gaan de inwoners
+            van deze stad vernietigen,
+            want zij zijn onrechtplegers.’
+
+            Hij zei:
+
+            ‘Maar Lut is daar!’”
           </span>
         </p>
 
@@ -117,89 +136,94 @@ export default function SadomGamorra() {
   </div>
 
   <div className="paragraph_heading">
-    <p>THE DU‘A OF IBRAHIM عليه السلام</p>
+    <p>DE DUʿĀ VAN IBRAHIM عليه السلام</p>
   </div>
 
   <div className="main_text">
     <p>
-      “My Lord,
-      would You really destroy the righteous
-      together with the wicked?”
-      Allah’s Messenger prayed.
+      “Mijn Heer,
+      zou U werkelijk
+      de rechtvaardigen vernietigen
+      samen met de goddelozen?”
+      bad de Boodschapper van Allah.
 
-      “If fifty righteous people are found there,
-      surely You would not destroy the city?
+      “Als daar vijftig rechtvaardigen zijn,
+      zult U de stad dan toch vernietigen?
 
-      You would not destroy the righteous
-      together with the evil-doers!
+      U zult de rechtvaardigen toch niet
+      samen met de kwaaddoeners vernietigen!
 
-      O Lord of the Worlds,
-      You always judge with perfect justice.”
+      O Heer der Werelden,
+      U oordeelt altijd
+      met volmaakte rechtvaardigheid.”
     </p>
 
     <p>
-      “Indeed,” Allah replied.
-      “If fifty righteous people were found in Sodom,
-      I would spare the city.”
+      “Inderdaad,” antwoordde Allah.
+      “Als er vijftig rechtvaardigen
+      in Sodom gevonden zouden worden,
+      zou Ik de stad sparen.”
     </p>
 
     <p>
-      “My Lord,
-      though I am but Your humble servant,
-      permit me to speak,”
-      said Ibrahim عليه السلام.
+      “Mijn Heer,
+      hoewel ik slechts Uw nederige dienaar ben,
+      sta mij toe verder te spreken,”
+      zei Ibrahim عليه السلام.
 
-      “What if there are forty?”
+      “Wat als er veertig zijn?”
     </p>
 
     <p>
-      “For forty people,
-      I would still spare the city,”
-      Allah replied.
+      “Omwille van veertig mensen
+      zou Ik de stad nog steeds sparen,”
+      antwoordde Allah.
     </p>
 
     <p>
-      “My Lord,
-      do not be displeased with me for speaking further.
+      “Mijn Heer,
+      wees niet boos op mij
+      omdat ik verder spreek.
 
-      What if only thirty righteous people are found?”
+      Wat als er slechts dertig rechtvaardigen zijn?”
     </p>
 
     <p>
-      “Even if thirty are found,
-      I shall not destroy the city,”
-      Allah replied.
+      “Zelfs als er dertig zijn,
+      zal Ik de stad niet vernietigen,”
+      antwoordde Allah.
     </p>
 
     <p>
-      “My Lord,
-      forgive my boldness;
-      what if only twenty are found?”
+      “Mijn Heer,
+      vergeef mijn vrijmoedigheid;
+      wat als er slechts twintig zijn?”
 
-      “Even for twenty,”
-      said Allah.
+      “Zelfs omwille van twintig,”
+      zei Allah.
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble3')}
     >
-      Again seeking forgiveness,
-      Allah’s Messenger asked:
+      Opnieuw vroeg de Boodschapper van Allah,
+      nadat hij om vergeving had gevraagd:
 
-      “What if there are only ten?
-      What would You do then?”
+      “Wat als er slechts tien zijn?
+      Wat zou U dan doen?”
 
-      Allah replied:
+      Allah antwoordde:
 
-      “Even for ten,
-      I would not destroy the city.
+      “Zelfs omwille van tien
+      zou Ik de stad niet vernietigen.
 
       {' '}
       <span className="boldItalic">
-        But We found there only one household of Muslims.”
+        Maar Wij vonden daar
+        slechts één huisgezin van moslims.”
         <sup>3</sup>
       </span>
     </p>
@@ -218,37 +242,47 @@ export default function SadomGamorra() {
   </div>
 
   <div className="paragraph_heading">
-    <p>SLAVES OF DESIRE</p>
+    <p>SLAVEN VAN HUN BEGEERTEN</p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble4')}
     >
-      The angels arrived in Sodom
-      at evening time.
+      De engelen kwamen
+      tegen de avond
+      aan in Sodom.
 
-      As they entered the city, prophet (peace be upon him)
-      <sup>4</sup>{' '} was sitting in the public square
-      near the city gate.
+      Toen zij de stad binnengingen,
+      zat Profeet Lut (vrede zij met hem)
+      <sup>4</sup>{' '}
+      op het stadsplein
+      bij de stadspoort.
 
-      Seeing the strangers,
-      he rose to greet them and said:
+      Toen hij de vreemdelingen zag,
+      stond hij op om hen te begroeten
+      en zei:
 
-      “Welcome.
-      Please honor my home with your presence.
+      “Welkom.
 
-      Spend the night with us,
-      and tomorrow you may continue your journey.”
+      Bewijs mijn huis de eer
+      om bij ons te overnachten.
 
-      They replied:
+      Breng de nacht bij ons door,
+      en morgen kunt u
+      uw reis voortzetten.”
 
-      “No,
-      we shall spend the night in the town square.”
+      Zij antwoordden:
 
-      But Lut alayhis-salam insisted,
-      and eventually they accompanied him home.
+      “Nee,
+      wij zullen overnachten
+      op het stadsplein.”
+
+      Maar Lut عليه السلام
+      drong erop aan,
+      en uiteindelijk
+      gingen zij met hem mee naar huis.
     </p>
 
     {openBubbles['bubble4'] && (
@@ -258,13 +292,15 @@ export default function SadomGamorra() {
       >
         <p>
           <sup>4</sup>
-          Lut  alayhis-salam was the prophet
-          sent to the people of Sodom.
+          Lut عليه السلام was de profeet
+          die naar het volk van Sodom
+          werd gezonden.
 
-          However,
-          the people refused his call
+          Maar het volk
+          wees zijn oproep af.
+
           (Abu al-Faraj Ibn al-Jawzi,
-          “Tabsirah”, vol. 1, p. 150).
+          “Tabsirah”, vol. 1, p. 150.)
         </p>
       </div>
     )}
@@ -272,14 +308,24 @@ export default function SadomGamorra() {
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble5')}
     >
-      After the evening meal, before anyone had gone to sleep,
-      men both young and old gathered from every quarter of Sodom
-      and surrounded the house of Lut alayhis-salam.
+      Na de avondmaaltijd,
+      nog voordat iemand was gaan slapen,
+      verzamelden mannen,
+      jong en oud,
+      uit alle delen van Sodom zich
+      en omsingelden het huis van Lut عليه السلام.
 
-      They shouted:  “Lut! Lut! Where are the men who came to your house today? Bring them out to us, so that we may have our way with them!”
+      Zij riepen:
+
+      “Lut! Lut!
+      Waar zijn de mannen
+      die vandaag bij jou zijn gekomen?
+
+      Breng hen naar buiten,
+      zodat wij ons aan hen kunnen vergrijpen!”
       <sup>5</sup>
     </p>
 
@@ -288,30 +334,31 @@ export default function SadomGamorra() {
         className="speech-bubble"
         onClick={() => toggleBubble('bubble5')}
       >
-        <p className="">
+        <p>
           <sup>5</sup>
-          “When the people of the city heard
-          that handsome young men
-          had come to Lut’s house,
-          they arrived rejoicing.
 
-          Lut said:
+          “Toen de inwoners van de stad hoorden
+          dat knappe jonge mannen
+          in het huis van Lut waren gekomen,
+          kwamen zij juichend aangerend.
 
-          ‘These are my guests!
-          Do not disgrace me.
+          Lut zei:
 
-          Fear Allah
-          and do not shame me!’
+          ‘Dit zijn mijn gasten!
+          Breng mij niet in schande.
 
-          They replied:
+          Vrees Allah
+          en verneder mij niet!’
 
-          ‘Did we not forbid you
-          from interfering in our affairs?’
+          Zij antwoordden:
 
-          Lut said:
+          ‘Hebben wij jou niet verboden
+          je met onze zaken te bemoeien?’
 
-          ‘If you must do something,
-          here are my daughters.’”
+          Lut zei:
+
+          ‘Als jullie dan toch iets willen doen,
+          hier zijn mijn dochters.’”
         </p>
 
         <p className="who_wrote">
@@ -321,54 +368,61 @@ export default function SadomGamorra() {
     )}
 
     <p>
-      Prophet Lut went outside, shut the door behind him, 
-      and said:
+      Profeet Lut ging naar buiten,
+      sloot de deur achter zich
+      en zei:
 
-      “My brothers,
-      do not commit this sin.
+      “Mijn broeders,
+      bega deze zonde niet.
 
-      Here are my two virgin daughters.
+      Hier zijn mijn twee ongehuwde dochters.
 
-      If you wish,
-      I shall bring them before you.
+      Als jullie willen,
+      zal ik hen naar buiten brengen.
 
-      Do whatever you will with them,
-      but do not harm these men.
+      Doe met hen wat jullie willen,
+      maar doe deze mannen geen kwaad.
 
-      They are my guests!”
+      Zij zijn mijn gasten!”
     </p>
 
     <p>
-      “Get out of our way!”
-      they shouted.
+      “Ga uit de weg!”
+      schreeuwden zij.
 
-      “Who do you think you are,
-      a foreigner giving orders to us?
+      “Wie denk jij wel dat je bent,
+      een vreemdeling
+      die ons bevelen geeft?
 
-      We shall treat you even worse!”
+      Wij zullen jou
+      nog erger behandelen!”
 
-      Then they rushed toward Lut (peace be upon him)
-      and tried to break down the door.
+      Daarna stormden zij
+      op Lut (vrede zij met hem) af
+      en probeerden de deur open te breken.
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble6')}
     >
-      At that moment,
-      the guests inside stretched out their hands,
-      pulled Lut inside,
-      and bolted the door.
+      Op dat moment
+      strekten de gasten binnen
+      hun handen uit,
+      trokken Lut naar binnen
+      en sloten de deur.
 
-      Then they struck all the men outside
-      with blindness,
-      from the oldest to the youngest.
+      Daarna sloegen zij
+      alle mannen buiten
+      met blindheid,
+      van de oudste
+      tot de jongste.
       <sup>6</sup>{' '}
 
-      Unable to see anything,
-      not one of them could even find the door.
+      Omdat zij niets meer konden zien,
+      kon niemand zelfs de deur nog vinden.
     </p>
 
     {openBubbles['bubble6'] && (
@@ -377,12 +431,11 @@ export default function SadomGamorra() {
         onClick={() => toggleBubble('bubble6')}
       >
         <p>
-          <sup>6</sup>
+          <sup>6</sup>{' '}
           <span className="boldItalic">
-            “So We blinded their eyes.”
-          </span>
-          {' '}
-          <span>
+            “Toen maakten Wij hun ogen blind.”
+          </span>{' '}
+          <span className="vitalic">
             (Surah Al-Qamar 54:37).
           </span>
         </p>
@@ -391,159 +444,185 @@ export default function SadomGamorra() {
   </div>
 
   <div className="paragraph_heading">
-    <p>THE PUNISHMENT FOR SIN</p>
+    <p>DE BESTRAFFING VAN DE ZONDE</p>
   </div>
 
   <div className="div_with_borders">
     <p className="boldItalic">
-      “Indeed,
-      We sent messengers to nations before you.
+      “Voorzeker,
+      Wij hebben vóór jou
+      boodschappers
+      naar andere volken gezonden.
 
-      We afflicted them with hardship and suffering
-      so that they might humble themselves.
+      Wij troffen hen
+      met moeilijkheden en ellende,
+      opdat zij zich zouden vernederen.
 
-      Why then,
-      when Our punishment came to them,
-      did they not humble themselves?
+      Waarom vernederden zij zich niet
+      toen Onze bestraffing tot hen kwam?
 
-      Rather,
-      their hearts became hardened,
-      and Satan made their deeds appear fair to them.”
-      (Surah Al-An‘am 6:42–43).
+      Integendeel,
+      hun harten werden hard,
+      en Shayṭān liet hun daden
+      mooi lijken.”
+      <span className="vitalic">
+        {' '}
+        (Surah Al-An‘am 6:42–43).
+      </span>
     </p>
   </div>
 
   <div className="main_text">
     <p>
-      “We are about to destroy the city completely,”
-      the angels told Lut (a.s.).
+      “Wij staan op het punt
+      deze stad volledig te vernietigen,”
+      zeiden de engelen tegen Lut (a.s.).
 
-      “The cries against these people
-      have become so numerous
-      that Allah has sent us
-      to destroy the city.
+      “De klachten tegen deze mensen
+      zijn zo talrijk geworden,
+      dat Allah ons heeft gezonden
+      om de stad te vernietigen.
 
-      Who else do you have here?
+      Wie heb je hier nog meer?
 
-      Gather them all
-      and leave immediately.”
+      Verzamel hen allemaal
+      en vertrek onmiddellijk.”
     </p>
 
     <p className="vitalic">
-      What do you think?
+      Wat denk jij?
 
-      If the entire population of a city
-      had become so consumed by sin,
-      who was crying out to Allah against them?
+      Als de hele bevolking
+      van een stad
+      zo diep in de zonde leefde,
+      wie riep er dan
+      tot Allah om hulp
+      tegen hen?
     </p>
 
     <p className="vitalic">
-      Imagine that you were traveling
-      with your family
-      and happened to arrive in such a city.
+      Stel je voor
+      dat jij met je gezin
+      naar zo'n stad zou reizen.
 
-      The people of Sodom
-      were not hospitable.
+      De mensen van Sodom
+      waren niet gastvrij.
 
-      Where would you spend the night?
+      Waar zou je overnachten?
 
-      Most likely in the street.
+      Waarschijnlijk op straat.
 
-      But if you stayed in the street,
-      what would they do to you?
+      Maar als je op straat bleef,
+      wat zouden zij dan met je doen?
 
-      And to whom would you cry for help?
+      En tot wie zou je om hulp roepen?
 
-      To Allah.
+      Tot Allah.
 
-      According to the angels,
-      so many cries had risen against these people
-      that one can scarcely imagine it.
+      Volgens de engelen
+      waren er zóveel noodkreten
+      tegen deze mensen opgestegen,
+      dat het nauwelijks voor te stellen is.
     </p>
 
     <p>
-      Then Lut (a.s.) went
-      to the men engaged to his daughters
-      and said:
+      Daarna ging Lut (a.s.)
+      naar de mannen
+      die met zijn dochters verloofd waren
+      en zei:
 
-      “Hurry!
-      We must leave this place.
+      “Snel!
 
-      Allah is about to destroy the city!”
+      Wij moeten deze plaats verlaten.
 
-      But they thought
-      he was joking.
+      Allah staat op het punt
+      de stad te vernietigen!”
+
+      Maar zij dachten
+      dat hij een grap maakte.
     </p>
 
     <p>
-      At dawn,
-      the angels urged Lut (a.s.):
+      Bij het aanbreken van de dag
+      spoorden de engelen
+      Lut (a.s.) aan:
 
-      “Quickly! Take your wife and your daughters and leave,
-      or you too will perish.”
+      “Snel!
+      Neem je vrouw
+      en je dochters mee
+      en vertrek,
+      anders zul jij ook omkomen.”
     </p>
 
     <p>
-      Yet he hesitated.
+      Toch aarzelde hij.
 
-      Then,
-      behold the mercy of Allah:
+      Toen,
+      zie de barmhartigheid van Allah:
 
-      the angels took him,
-      his wife,
-      and his two daughters by the hand
-      and led them outside the city.
+      de engelen namen hem,
+      zijn vrouw
+      en zijn twee dochters
+      bij de hand
+      en leidden hen
+      buiten de stad.
     </p>
 
     <p>
-      “Do not stop anywhere,”
-      one of the angels said.
+      “Blijf nergens stilstaan,”
+      zei een van de engelen.
 
-      “Do not look back.
+      “Kijk niet achterom.
 
-      Flee toward the mountains,
-      or you will perish.”
+      Vlucht naar de bergen,
+      anders zul je omkomen.”
     </p>
 
     <p>
-      “No, my lord,”
-      pleaded Lut (a.s.).
+      “Nee, mijn heer,”
+      smeekte Lut (a.s.).
 
-      “You have shown great kindness
-      by saving our lives.
+      “U hebt ons grote goedheid bewezen
+      door ons leven te redden.
 
-      But we cannot reach the mountains.
+      Maar wij kunnen de bergen
+      niet bereiken.
 
-      Disaster will overtake us before we arrive.
+      De ramp zal ons inhalen
+      voordat wij daar aankomen.
 
-      Look,
-      there is a small town nearby,
-      a very small town.
+      Kijk,
+      daar ligt een klein stadje,
+      heel dichtbij.
 
-      Allow us to flee there
-      and save our lives.”
+      Sta ons toe
+      daarheen te vluchten
+      en ons leven te redden.”
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble7')}
     >
-      “Very well,”
-      the angel replied.
+      “Goed,”
+      antwoordde de engel.
 
-      “I grant your request.
+      “Ik zal je verzoek inwilligen.
 
-      I shall not destroy the town you mentioned.
+      Ik zal het stadje
+      dat jij noemde
+      niet vernietigen.
 
-      Now hurry and save yourself.
+      Maar haast je
+      en red jezelf.
 
-      For I can do nothing
-      until you arrive there.”
+      Want ik kan niets doen
+      totdat jij daar bent aangekomen.”
 
-      (That is why the town
-      later came to be called Zoar.)
+      (Daarom kreeg die stad
+      later de naam Zoar.)
       <sup>7</sup>
     </p>
 
@@ -554,8 +633,9 @@ export default function SadomGamorra() {
       >
         <p>
           <sup>7</sup>
-          The name “Zoar”
-          means “small.”
+          De naam “Zoar”
+          betekent
+          “klein”.
         </p>
       </div>
     )}
@@ -563,26 +643,30 @@ export default function SadomGamorra() {
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble8')}
     >
-      Lut (a.s.) reached Zoar
-      just as the sun was rising.
+      Lut (a.s.) bereikte Zoar
+      juist toen de zon opkwam.
 
-      Then Allah Most High
-      caused burning stones
-      to rain down from the sky
-      upon Sodom and Gomorrah.
+      Daarna liet Allah,
+      de Allerhoogste,
+      brandende stenen
+      uit de hemel regenen
+      op Sodom en Gomorra.
 
-      The other towns and villages of the valley,
-      together with all living creatures,
-      vegetation,
-      and trees,
-      were consumed and destroyed.
+      De andere steden
+      en dorpen van de vallei,
+      samen met alle levende wezens,
+      planten
+      en bomen,
+      werden volledig vernietigd.
       <sup>8</sup>{' '}
 
-      The wife of Lut alayhis-salam looked back
-      and became a pillar of salt.
+      De vrouw van Lut عليه السلام
+      keek achterom
+      en veranderde
+      in een zoutpilaar.
     </p>
 
     {openBubbles['bubble8'] && (
@@ -593,17 +677,24 @@ export default function SadomGamorra() {
         <p>
           <sup>8</sup>{' '}
           <span className="boldItalic">
-            “While they wandered blindly in their intoxication,
-            the mighty blast seized them at sunrise.
+            “Terwijl zij doelloos ronddwaalden
+            in hun verblinding,
+            trof hen bij zonsopgang
+            de machtige schreeuw.
 
-            Then We turned the city upside down
-            and rained upon them stones of baked clay.
+            Daarna keerden Wij de stad
+            ondersteboven
+            en lieten stenen
+            van gebakken klei
+            op hen neerdalen.
 
-            Surely in this are signs
-            for those who reflect.”
+            Daarin zijn zeker tekenen
+            voor degenen
+            die nadenken.”
+          </span>{' '}
+          <span className="vitalic">
+            (Surah Al-Hijr 15:72–75).
           </span>
-          {' '}
-          (Surah Al-Hijr 15:72–75).
         </p>
       </div>
     )}
@@ -611,22 +702,25 @@ export default function SadomGamorra() {
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble9')}
     >
-      Early that morning,
-      Prophet Ibrahim (a.s.) set out toward the region of Sodom.
+      Vroeg in de ochtend
+      vertrok Profeet Ibrahim (a.s.)
+      naar de streek van Sodom.
 
-      As he approached the valley,
-      he looked from afar
-      toward Sodom and Gomorrah.
+      Toen hij de vallei naderde,
+      keek hij van verre
+      naar Sodom en Gomorra.
 
-      Smoke was rising everywhere,
-      like smoke from a furnace.
+      Overal steeg rook op,
+      als rook uit een oven.
 
-      When Allah destroyed those cities,
-      He saved Lut (a.s.)
-      because of Ibrahim (peace be upon him).
+      Toen Allah
+      deze steden vernietigde,
+      redde Hij Lut (a.s.)
+      omwille van Ibrahim
+      (vrede zij met hem).
       <sup>9</sup>
     </p>
 
@@ -638,41 +732,51 @@ export default function SadomGamorra() {
         <p>
           <sup>9</sup>{' '}
           <span className="boldItalic">
-            “We saved him and his family,
-            except for his wife,
-            who was among those left behind.”
+            “Wij redden hem
+            en zijn familie,
+            behalve zijn vrouw,
+            die behoorde
+            tot degenen
+            die achterbleven.”
+          </span>{' '}
+          <span className="vitalic">
+            (Surah Al-A‘raf 7:83).
           </span>
-          {' '}
-          (Surah Al-A‘raf 7:83).
         </p>
       </div>
     )}
   </div>
 
   <div className="paragraph_heading">
-    <p>THE BIRTH OF PROPHET ISHAQ    </p>
+    <p>DE GEBOORTE VAN PROFEET ISHAQ</p>
     <AlayhS className='text-green-800 font-medium' />
   </div>
 
   <div className="main_text">
     <p>
-      Allah fulfilled His promise.
+      Allah vervulde Zijn belofte.
 
-      Our mother Sarah (r.a.) conceived
-      and at the appointed time
-      gave birth to a son for Ibrahim alayhis-salam.
+      Onze moeder Sarah (r.a.) werd zwanger
+      en baarde
+      op de vastgestelde tijd
+      een zoon
+      voor Ibrahim عليه السلام.
     </p>
 
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble10')}
     >
-      Allah’s Messenger named his son Ishaq
-      and, as Allah had commanded,
-      circumcised him on the eighth day.
+      De Boodschapper van Allah
+      gaf zijn zoon
+      de naam Ishaq
+      en besneed hem,
+      zoals Allah had bevolen,
+      op de achtste dag.
 
-      At that time,
-      Ibrahim عليه السلام had reached one hundred years of age.
+      Op dat moment
+      was Ibrahim عليه السلام
+      honderd jaar oud.
       <sup>10</sup>
     </p>
 
@@ -692,21 +796,26 @@ export default function SadomGamorra() {
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble11')}
     >
-      “Allah has given me laughter,”
-      Sarah (r.a.) would say.
+      “Allah heeft mij
+      laten lachen,”
+      zei Sarah (r.a.).
 
-      “Now everyone who hears of it
-      will laugh with me.
+      “Iedereen
+      die dit hoort,
+      zal met mij meeglachen.
       <sup>11</sup>{' '}
 
-      Who could have imagined
-      that I would one day nurse a child?
+      Wie had ooit gedacht
+      dat ik nog een kind
+      zou voeden?
 
-      Yet I have borne a son
-      for my master in his old age!”
+      Toch heb ik
+      op hoge leeftijd
+      een zoon gebaard
+      voor mijn heer!”
     </p>
 
     {openBubbles['bubble11'] && (
@@ -716,8 +825,9 @@ export default function SadomGamorra() {
       >
         <p>
           <sup>11</sup>
-          The name “Ishaq” means
-          “he laughs.”
+          De naam “Ishaq”
+          betekent:
+          “hij lacht.”
         </p>
       </div>
     )}

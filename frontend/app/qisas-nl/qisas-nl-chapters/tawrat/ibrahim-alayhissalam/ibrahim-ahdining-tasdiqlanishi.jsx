@@ -13,19 +13,21 @@ export default function AbrahamicCovenantConfirmed() {
   ]);
 
   return (
-      <main className="stories relative">
+<main className="stories relative">
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble1')}
     >
-      Later, Allah Most High gave Ibrahim (peace be upon him) a vision and said:
-      “Do not fear, Ibrahim.
-      I am making a covenant
-      <sup>1</sup>{" "}
-      with you.
-      You are under My protection.
-      Your reward shall be very great.”
+      Later gaf Allah, de Allerhoogste, Ibrahim (vrede zij met hem) een visioen
+      en zei:
+
+      “Wees niet bang, Ibrahim.
+      Ik sluit een verbond
+      <sup>1</sup>{' '}
+      met jou.
+      Jij staat onder Mijn bescherming.
+      Jouw beloning zal zeer groot zijn.”
     </p>
 
     {openBubbles['bubble1'] && (
@@ -35,48 +37,51 @@ export default function AbrahamicCovenantConfirmed() {
       >
         <p>
           <sup>1</sup>
-          “Remember when We took from the prophets their covenant:
-          from you,
-          from Nuh,
-          from Ibrahim,
-          from Musa,
-          and from Isa son of Maryam.
-          We took from them a solemn covenant.”
-          (Surah Al-Ahzab 33:7).
+          “Gedenk toen Wij van de profeten hun verbond namen:
+          van jou,
+          van Nūḥ,
+          van Ibrahim,
+          van Mūsā,
+          en van ʿĪsā, zoon van Maryam.
+          Wij namen van hen een plechtig verbond.”
+          <span className="vitalic"> (Surah Al-Ahzab 33:7).</span>
         </p>
       </div>
     )}
 
     <p>
-      The Messenger of Allah said:
-      “O my Lord, Allah!
-      I still have no child.
-      So what shall I do with the reward You give me?
+      De Boodschapper van Allah zei:
 
-      Will Eliezer of Damascus inherit my wealth when I die?
+      “O mijn Heer, Allah!
+      Ik heb nog steeds geen kind.
+      Wat zal ik dan doen
+      met de beloning die U mij geeft?
 
-      You have not granted me a child,
-      so my servant will become my heir.”
+      Zal Eliëzer uit Damascus
+      mijn bezit erven wanneer ik sterf?
+
+      U hebt mij geen kind geschonken,
+      dus zal mijn dienaar mijn erfgenaam worden.”
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble3')}
     >
-      “No,” said Allah (Subhanahu wa Ta‘ala).
-      “Your servant will not inherit you.
-      Rather,
-      a son from your own body
-      will be your heir.”
+      “Nee,” zei Allah (Subḥānahu wa Taʿālā).
+      “Jouw dienaar zal jou niet erven.
+      Integendeel,
+      een zoon uit jouw eigen lichaam
+      zal jouw erfgenaam zijn.”
 
-      Then He brought Ibrahim outside and said:
+      Daarna bracht Hij Ibrahim naar buiten en zei:
 
-      “Look at the stars in the sky.
-      You cannot count them to the end.
+      “Kijk naar de sterren aan de hemel.
+      Je kunt ze niet tellen.
 
-      Your descendants will be as numerous as those stars.”
+      Zo talrijk zullen jouw nakomelingen zijn.”
       <sup>2</sup>
     </p>
 
@@ -87,66 +92,73 @@ export default function AbrahamicCovenantConfirmed() {
       >
         <p>
           <sup>2</sup>
-          Al-Ya‘qubi, “Tarikh”, vol. 1, p. 25.
+          Al-Yaʿqubi, <span className="vitalic">Tarikh</span>, deel 1, p. 25.
         </p>
 
         <p>
           <sup>3</sup>
-          The Noble Qur’an says:
-          “Mention Ibrahim in the Book.
-          Indeed, he was a man of truth and a prophet”
-          (Surah Maryam, verse 41).
+          De Edele Qur’an zegt:
 
-          The meaning is faithfulness to the covenant
-          and loyalty to Allah.
+          “En gedenk Ibrahim in het Boek.
+          Voorwaar, hij was een waarheidsgetrouw man
+          en een profeet.”
+          <span className="vitalic"> (Surah Maryam 19:41).</span>
 
-          A truthful person is a faithful person;
-          but when the letter dal carries a shaddah,
-          the meaning is intensified:
-          “extremely truthful,”
-          “deeply faithful.”
+          Daarmee wordt trouw aan het verbond
+          en oprechtheid tegenover Allah bedoeld.
+
+          Een waarheidsgetrouw mens is trouw,
+          maar wanneer de letter <span className="vitalic">dāl</span> een
+          <span className="vitalic"> shaddah</span> draagt,
+          wordt de betekenis versterkt:
+          “uiterst waarheidsgetrouw”
+          en “volkomen trouw”.
         </p>
       </div>
     )}
 
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble3')}
     >
       (Ibrahim عليه السلام
-      was a man who relied upon Allah.
-      For this reason,
-      Allah granted him the rank of
-       Siddiq
+      was een man die volledig op Allah vertrouwde.
+      Daarom schonk Allah hem de rang van
+      Siddīq
       <sup>3</sup>.)
     </p>
 
     <p>
-      Then Allah said to him:
-      “I am the One who brought you
-      out of the city of the Chaldeans
-      in order to give you this land.”
+      Daarna zei Allah tegen hem:
+
+      “Ik ben Degene
+      Die jou uit de stad van de Chaldeeën
+      heeft weggevoerd
+      om jou dit land te geven.”
     </p>
 
     <p>
-      Ibrahim (peace be upon him) asked:
-      “O my Lord,
-      how shall I know
-      that You will give me this land?”
+      Ibrahim (vrede zij met hem) vroeg:
+
+      “O mijn Heer,
+      hoe zal ik weten
+      dat U mij dit land zult geven?”
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble4')}
     >
-      Allah Most High said:
-      “Bring Me a three-year-old heifer,
-      a three-year-old goat,
-      a three-year-old ram,
-      a turtledove,
-      and a young pigeon.”
+      Allah, de Allerhoogste, zei:
+
+      “Breng Mij
+      een driejarige vaars,
+      een driejarige geit,
+      een driejarige ram,
+      een tortelduif
+      en een jonge duif.”
       <sup>4</sup>
     </p>
 
@@ -157,53 +169,58 @@ export default function AbrahamicCovenantConfirmed() {
       >
         <p>
           <sup>4</sup>
-          “And remember when his Lord tested Ibrahim
-          with certain commands,
-          and he fulfilled them completely.”
-          (Surah Al-Baqarah 2:124).
+          “En gedenk toen zijn Heer Ibrahim
+          met bepaalde beproevingen testte,
+          en hij deze allemaal volbracht.”
+          <span className="vitalic"> (Surah Al-Baqarah 2:124).</span>
         </p>
       </div>
     )}
 
     <p>
-      The Messenger of Allah went
-      and brought what had been commanded.
-      He cut all of them in half,
-      except the birds,
-      and placed the pieces opposite one another.
+      De Boodschapper van Allah ging
+      en bracht alles wat hem was opgedragen.
 
-      As the sun was setting,
-      he fell into a deep sleep.
-      In his vision,
-      a terrifying darkness covered everything.
+      Hij sneed alle dieren doormidden,
+      behalve de vogels,
+      en legde de helften tegenover elkaar.
+
+      Terwijl de zon onderging,
+      viel hij in een diepe slaap.
+
+      In zijn visioen
+      bedekte een angstaanjagende duisternis alles.
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble5')}
     >
-      Then a voice from Allah came to him:
+      Toen kwam een stem van Allah tot hem:
 
-      “You shall live a long life
-      and depart from this world in peace.
+      “Jij zult een lang leven hebben
+      en deze wereld in vrede verlaten.
 
-      Your descendants,
-      however,
-      will live as strangers in a foreign land
-      for four hundred years.
-      <sup>5</sup> {" "}
+      Jouw nakomelingen echter
+      zullen vierhonderd jaar lang
+      als vreemdelingen
+      in een vreemd land wonen.
+      <sup>5</sup>{' '}
 
-      They will suffer oppression in slavery.
+      Zij zullen onderdrukking
+      en slavernij ondergaan.
 
-      Afterwards,
-      I will punish the people of that land
-      and bring your descendants out into freedom.
+      Daarna zal Ik
+      de bewoners van dat land straffen
+      en jouw nakomelingen
+      in vrijheid uitleiden.
 
-      After four generations,
-      when the sin of the Amorites reaches its fullness,
-      they will return to this land.”
+      Na vier generaties,
+      wanneer de zonde van de Amorieten
+      haar volle maat heeft bereikt,
+      zullen zij naar dit land terugkeren.”
     </p>
 
     {openBubbles['bubble5'] && (
@@ -213,98 +230,112 @@ export default function AbrahamicCovenantConfirmed() {
       >
         <p>
           <sup>5</sup>
-          The timespan contained in this covenant
-          covered a very long period.
+          De tijdsperiode
+          die dit verbond omvatte
+          was zeer lang.
 
-          For example,
-          there were still four hundred years
-          before the mission of Prophet Musa would begin.
+          Er moesten bijvoorbeeld
+          nog vierhonderd jaar verstrijken
+          voordat de zending
+          van Profeet Mūsā begon.
 
-          In short,
-          the covenant given to Ibrahim (peace be upon him)
-          was intended for many generations
-          and was a covenant that connected
-          the prophets to one another.
+          Kortom,
+          het verbond dat aan Ibrahim
+          (vrede zij met hem) werd gegeven,
+          was bedoeld voor vele generaties
+          en verbond de profeten
+          met elkaar.
         </p>
       </div>
     )}
 
     <p>
-      After the sun had set
-      and darkness had fallen,
-      something like a smoking oven
-      and a blazing torch appeared
-      and passed between the divided sacrifices.
+      Nadat de zon was ondergegaan
+      en de duisternis was ingevallen,
+      verscheen iets
+      als een rokende oven
+      en een brandende fakkel,
+      die tussen de gedeelde offers doorging.
 
-      In this way,
-      Allah Most High established a covenant
-      with Ibrahim (peace be upon him)
-      and promised:
+      Zo sloot Allah,
+      de Allerhoogste,
+      een verbond met Ibrahim
+      (vrede zij met hem)
+      en beloofde:
 
-      “I shall give this land
-      to your descendants.”
+      “Ik zal dit land
+      aan jouw nakomelingen geven.”
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>UNDERSTANDING THE COVENANT</p>
+    <p>HET VERBOND BEGRIJPEN</p>
   </div>
 
   <div className="main_text">
     <p
-      className="vitalic cursor-pointer "
+      className="vitalic cursor-pointer"
       onClick={() => toggleBubble('bubble6')}
     >
-      Let us briefly explain
-      what a covenant means.
+      Laten wij kort uitleggen
+      wat een verbond betekent.
 
-      In that era,
-      the word covenant meant that two parties
-      had entered a new relationship with one another.
+      In die tijd betekende een verbond
+      dat twee partijen
+      een nieuwe relatie met elkaar aangingen.
 
-      From that point on,
-      they were no longer strangers,
-      but close companions,
-      bound by loyalty and faithfulness.
+      Vanaf dat moment
+      waren zij geen vreemden meer,
+      maar nauwe metgezellen,
+      verbonden door trouw
+      en loyaliteit.
 
-      For this reason,
-      in ancient writings,
-      the word covenant often appears
-      together with the idea of faithfulness.
+      Daarom komt in oude geschriften
+      het woord “verbond”
+      vaak samen voor
+      met het begrip trouw.
 
-      A covenant therefore includes
-      duty and responsibility.
+      Een verbond brengt dus
+      plichten
+      en verantwoordelijkheid met zich mee.
 
-      When Allah said to Ibrahim (peace be upon him),
-      “I have made a covenant with you,”
-      it meant:
+      Toen Allah tegen Ibrahim
+      (vrede zij met hem) zei:
 
-      “I shall always remain faithful to you,
-      and I shall fulfill the promises I have given.”
+      “Ik heb een verbond met jou gesloten,”
 
-      Whoever enters into covenant with Allah
-      shares in His promises —
-      that is,
-      in the blessings of the covenant.
+      betekende dat:
 
-      Here we should also mention something else:
-      a covenant made with Allah
-      was not only for one generation
-      or only for that person himself,
-      but also for his descendants.
+      “Ik zal jou altijd trouw blijven
+      en Mijn beloften vervullen.”
 
-      This is why Ibrahim (peace be upon him)
-      wondered:
+      Wie een verbond met Allah sluit,
+      krijgt deel aan Zijn beloften —
+      dat wil zeggen:
+      aan de zegeningen van het verbond.
 
-      “I have no children.
-      Will my inheritance pass to my servant?”
+      Hier moeten wij nog iets vermelden:
 
-      But Allah, Glorified and Exalted,
-      graciously replied:
+      Een verbond met Allah
+      gold niet alleen
+      voor één generatie
+      of alleen voor die ene persoon,
+      maar ook voor zijn nakomelingen.
 
-      “No.
-      I shall grant you children.
-      Your descendants shall inherit these lands.”
+      Daarom vroeg Ibrahim
+      (vrede zij met hem) zich af:
+
+      “Ik heb geen kinderen.
+      Zal mijn dienaar mijn erfenis ontvangen?”
+
+      Maar Allah,
+      de Verhevene,
+      antwoordde genadig:
+
+      “Nee.
+      Ik zal jou kinderen schenken.
+      Jouw nakomelingen
+      zullen dit land erven.”
       <sup>6</sup>
     </p>
 
@@ -315,74 +346,89 @@ export default function AbrahamicCovenantConfirmed() {
       >
         <p>
           <sup>6</sup>
-          From Imam al-Suyuti’s “Al-Durr al-Manthur”:
+          Uit Imam al-Suyuti’s
+          <span className="vitalic"> Al-Durr al-Manthur</span>:
 
-          Abu Dharr said:
-          “O Messenger of Allah,
-          are there passages in the Scrolls of Ibrahim and Musa
-          that resemble what Allah has revealed to you in the Book?”
+          Abu Dharr zei:
 
-          The Messenger of Allah ﷺ replied:
+          “O Boodschapper van Allah,
+          bevatten de Geschriften
+          van Ibrahim en Mūsā
+          passages
+          die lijken op wat Allah
+          aan u in het Boek heeft geopenbaard?”
+
+          De Boodschapper van Allah ﷺ antwoordde:
+
           “O Abu Dharr,
-          recite this verse:
+          reciteer deze verzen:
 
           {' '}
           <span className="boldItalic">
-            ‘Indeed,
-            successful is the one who purifies himself,
-            remembers the Name of his Lord,
-            and prays.
+            ‘Waarlijk,
+            geslaagd is hij
+            die zichzelf zuivert,
+            de Naam van zijn Heer gedenkt
+            en het gebed verricht.
 
-            Yet you prefer the life of this world,
-            while the Hereafter is better and more lasting.
+            Maar jullie geven
+            de voorkeur aan het wereldse leven,
+            terwijl het Hiernamaals
+            beter
+            en blijvender is.
 
-            Indeed,
-            this is in the former scriptures —
-            the scriptures of Ibrahim and Musa.’
+            Voorwaar,
+            dit staat ook
+            in de vroegere Geschriften —
+            de Geschriften van Ibrahim
+            en Mūsā.’
           </span>
           {' '}
-          (Surah Al-A‘la 87:14–19).”
+          <span className="vitalic">(Surah Al-A‘la 87:14–19).</span>
         </p>
       </div>
     )}
   </div>
 
   <div className="paragraph_heading">
-    <p>THE PROMISES GIVEN THROUGH THE COVENANT</p>
+    <p>DE BELOFTEN VAN HET VERBOND</p>
   </div>
 
   <div className="main_text">
     <p className="vitalic">
-      Thus Allah promised Prophet Ibrahim
-      three things.
+      Zo beloofde Allah
+      aan Profeet Ibrahim
+      drie dingen.
 
-      What were they?
+      Welke waren dat?
     </p>
 
-    <div className="p-3  border rounded-md border-green-600">
+    <div className="p-3 border rounded-md border-green-600">
       <p className="vitalic !my-0 py-1 px-4">
-        ~ that his descendants would become many,
+        ~ dat zijn nakomelingen talrijk zouden worden,
       </p>
 
       <p className="vitalic !my-0 py-1 px-4">
-        ~ that his descendants would inherit the land,
+        ~ dat zijn nakomelingen het land zouden erven,
       </p>
 
       <p className="vitalic !my-0 py-1 px-4">
-        ~ and that through his offspring,
-        blessing would be shared
-        with all the peoples of the earth.
+        ~ en dat door zijn nageslacht
+        alle volken van de aarde
+        gezegend zouden worden.
       </p>
     </div>
 
     <p className="vitalic">
-      Yet at that time,
-      Ibrahim (peace be upon him)
-      had no children.
+      Toch had Ibrahim
+      (vrede zij met hem)
+      op dat moment
+      nog geen kinderen.
 
-      He was living in tents
-      on the borders of Canaan,
-      a traveler with no permanent home of his own.
+      Hij woonde in tenten
+      aan de grenzen van Kanaän,
+      als een reiziger
+      zonder een eigen vaste woonplaats.
     </p>
   </div>
 </main>

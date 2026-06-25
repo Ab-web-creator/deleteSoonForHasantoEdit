@@ -17,118 +17,145 @@ export default function EXAMPLE() {
   ]);
 
   return ( 
-     <main className="stories relative">
+<main className="stories relative">
   <div className="main_text">
     <p>
-      After Ya‘qub عليه السلام had lived there for about a month,
-      his uncle asked him:
+      Nadat Ya‘qub عليه السلام daar ongeveer een maand had gewoond,
+      vroeg zijn oom hem:
 
-      “Just because you are my relative,
-      should you work for me without wages?
+      “Alleen omdat je mijn familielid bent,
+      zou je dan zonder loon voor mij moeten werken?
 
-      Tell me,
-      what shall I pay you for your service?”
+      Vertel mij,
+      wat zal ik je betalen voor je dienst?”
     </p>
 
     <p>
-      Laban had two daughters.
+      Laban had twee dochters.
 
-      The elder was named Leah,
-      while the younger was Rachel —
-      the same young woman whom Ya‘qub عليه السلام had met
-      by the well while she was watering her sheep.
+      De oudste heette Leah,
+      terwijl de jongste Rachel heette —
+      dezelfde jonge vrouw
+      die Ya‘qub عليه السلام
+      bij de bron had ontmoet
+      terwijl zij haar schapen water gaf.
 
-      (Rachel was a woman of striking beauty and graceful form.
-      Leah, on the other hand,
-      was pleasant and gentle in appearance.)
+      (Rachel was een vrouw
+      van opvallende schoonheid
+      en sierlijke gestalte.
+
+      Leah daarentegen
+      had een aangename
+      en zachte uitstraling.)
     </p>
 
     <p>
-      Ya‘qub عليه السلام loved Rachel.
+      Ya‘qub عليه السلام
+      hield van Rachel.
 
-      Therefore he said:
+      Daarom zei hij:
 
-      “If you give me your younger daughter Rachel in marriage,
-      I will serve you for seven years.”
+      “Als u mij
+      uw jongere dochter Rachel
+      tot vrouw geeft,
+      zal ik zeven jaar
+      voor u dienen.”
     </p>
 
     <p>
-      “Very well,”
-      Laban replied.
+      “Goed,”
+      antwoordde Laban.
 
-      “It is better that I give her to you
-      than to a stranger.”
+      “Het is beter
+      dat ik haar aan jou geef
+      dan aan een vreemde.”
 
-      Thus Ya‘qub عليه السلام served his uncle
-      for seven years in exchange for Rachel.
+      Zo diende
+      Ya‘qub عليه السلام
+      zijn oom zeven jaar
+      in ruil voor Rachel.
 
-      Yet because of his love for her,
-      those seven years seemed to him
-      like only a few days.
+      Maar door zijn liefde
+      voor haar
+      leken die zeven jaren
+      voor hem
+      slechts enkele dagen.
     </p>
 
     <p>
-      When the seven years had passed,
-      he said to Laban:
+      Toen de zeven jaren
+      voorbij waren,
+      zei hij tegen Laban:
 
-      “The agreed time has ended.
+      “De afgesproken tijd
+      is voorbij.
 
-      Please allow the wedding to take place.”
+      Sta nu alstublieft toe
+      dat het huwelijk plaatsvindt.”
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>THE WEDDING</p>
+    <p>HET HUWELIJK</p>
   </div>
 
   <div className="main_text">
     <p>
-      Laban gathered the people
-      and held a wedding feast.
+      Laban verzamelde de mensen
+      en hield een bruiloftsfeest.
 
-      But that night,
-      instead of bringing Rachel,
-      he brought his elder daughter Leah to Ya‘qub.
+      Maar die nacht,
+      in plaats van Rachel te brengen,
+      bracht hij zijn oudste dochter Leah
+      naar Ya‘qub.
 
-      (Laban had also given Leah
-      a servant girl named Zilpah
-      to attend her.)
+      (Laban had Leah ook
+      een dienares gegeven
+      genaamd Zilpah
+      om haar te dienen.)
     </p>
 
     <p>
-      The next morning,
-      Ya‘qub عليه السلام looked —
-      and it was Leah lying beside him,
-      not Rachel!
+      De volgende ochtend
+      keek Ya‘qub عليه السلام —
 
-      “What have you done?”
-      he cried to his uncle.
+      en het was Leah
+      die naast hem lag,
+      niet Rachel!
 
-      “I served you seven years for Rachel!
+      “Wat hebt u gedaan?”
+      riep hij tegen zijn oom.
 
-      Why have you deceived me?”
+      “Ik heb u zeven jaar
+      gediend voor Rachel!
+
+      Waarom hebt u mij bedrogen?”
     </p>
   </div>
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble1')}
     >
-      “Among our people,
-      the younger daughter is not given in marriage
-      before the elder,”
-      Laban replied.
+      “Bij ons volk
+      wordt de jongere dochter
+      niet uitgehuwelijkt
+      vóór de oudere,”
+      antwoordde Laban.
 
-      “If you wish,
-      wait one week
+      “Als je wilt,
+      wacht dan één week
       <sup>1</sup>{' '}
-      until the wedding celebrations are finished.
+      totdat de bruiloftsfeesten
+      voorbij zijn.
 
-      Then I will also give Rachel to you.
+      Daarna zal ik
+      Rachel ook aan jou geven.
 
-      But you must serve me
-      for another seven years.”
+      Maar je moet
+      nog zeven jaar
+      voor mij dienen.”
     </p>
 
     {openBubbles['bubble1'] && (
@@ -138,8 +165,10 @@ export default function EXAMPLE() {
       >
         <p>
           <sup>1</sup>
-          According to the custom of that time,
-          wedding celebrations lasted seven days.
+          Volgens de gewoonte
+          van die tijd
+          duurden bruiloftsfeesten
+          zeven dagen.
         </p>
       </div>
     )}
@@ -147,22 +176,28 @@ export default function EXAMPLE() {
 
   <div className="main_text">
     <p
-      className="cursor-pointer "
+      className="cursor-pointer"
       onClick={() => toggleBubble('bubble2')}
     >
-      Ya‘qub عليه السلام agreed.
+      Ya‘qub عليه السلام
+      stemde toe.
 
-      After the wedding week had ended,
-      Laban gave his younger daughter Rachel
-      to Ya‘qub عليه السلام in marriage as well.
+      Nadat de bruiloftsweek
+      voorbij was,
+      gaf Laban ook
+      zijn jongere dochter Rachel
+      aan Ya‘qub عليه السلام
+      tot vrouw.
       <sup>2</sup>{' '}
 
-      (He also gave Rachel
-      a servant girl named Bilhah.)
+      (Hij gaf Rachel ook
+      een dienares
+      genaamd Bilhah.)
 
       <span className="vitalic">
         {' '}
-        This is how Prophet Ya‘qub came to marry.
+        Zo kwam Profeet Ya‘qub
+        tot het huwelijk.
       </span>
     </p>
 
@@ -173,431 +208,438 @@ export default function EXAMPLE() {
       >
         <p>
           <sup>2</sup>
-          According to the customs of that era,
-          it was permissible to marry two sisters.
+          Volgens de gebruiken
+          van die tijd
+          was het toegestaan
+          om met twee zussen
+          te trouwen.
 
-          Later,
-          such a practice was prohibited in the Shariah.
+          Later werd zo'n praktijk
+          in de Shariah verboden.
         </p>
       </div>
     )}
 
     <p>
-      Yet Ya‘qub عليه السلام loved Rachel
-      more than Leah.
+      Toch hield
+      Ya‘qub عليه السلام
+      meer van Rachel
+      dan van Leah.
 
-      Therefore he served Laban
-      another seven years for Rachel.
+      Daarom diende hij Laban
+      nog eens zeven jaar
+      voor Rachel.
     </p>
 
     <p className="vitalic">
-      It sounds unusual to modern ears
-      that Ya‘qub عليه السلام worked fourteen years
-      in order to marry Rachel,
-      does it not?
+      Het klinkt misschien vreemd
+      voor moderne oren
+      dat Ya‘qub عليه السلام
+      veertien jaar werkte
+      om met Rachel te kunnen trouwen,
+      nietwaar?
 
-      But the truth is that people are willing
-      to pay a great price
-      for what they truly value.
+      Maar de waarheid is
+      dat mensen bereid zijn
+      een grote prijs te betalen
+      voor wat zij werkelijk waarderen.
 
-      Apparently,
-      marrying a righteous and beloved wife
-      was extremely important to Prophet Ya‘qub.
+      Blijkbaar was het trouwen
+      met een rechtschapen
+      en geliefde vrouw
+      zeer belangrijk
+      voor Profeet Ya‘qub.
 
-      He desired to spend his entire life
-      with Rachel.
+      Hij verlangde ernaar
+      zijn hele leven
+      met Rachel door te brengen.
     </p>
 
     <p className="vitalic">
-      Let us think about ourselves for a moment.
+      Laten wij even
+      over onszelf nadenken.
 
-      What do you consider
-      the most important thing in life?
+      Wat beschouw jij
+      als het belangrijkste
+      in het leven?
 
-      For what goal
-      would you be willing to spend
-      your years,
-      your strength,
-      or your wealth?
+      Voor welk doel
+      zou jij bereid zijn
+      je jaren,
+      je kracht
+      of je bezit
+      te besteden?
 
-      What are you spending your time on today?
+      Waar besteed jij
+      vandaag je tijd aan?
 
-      And is the thing consuming your time and resources
-      truly worthy of that sacrifice?
+      En is datgene
+      wat jouw tijd
+      en middelen opeist
+      werkelijk
+      zo'n offer waard?
     </p>
   </div>
-
   <div className="paragraph_heading">
-    <p>THE RIVALRY BETWEEN RACHEL AND LEAH</p>
-  </div>
-
-  <div className="main_text">
-    <p>
-      Seeing that her husband loved her less,
-      Allah, Glorified and Exalted,
-      blessed Leah with children.
-
-      Rachel,
-      however,
-      remained unable to conceive.
-    </p>
-  </div>
-
-  <div className="main_text">
-    <p
-      className="cursor-pointer "
-      onClick={() => toggleBubble('bubble3')}
-    >
-      When Leah رضي الله عنها gave birth to her first son,
-      she said:
-
-      “Allah has seen my humiliation
-      and has given me a son.
-
-      Surely now my husband will love me.”
-
-      Therefore she named him Reuben.
-      <sup>3</sup>
-    </p>
-
-    {openBubbles['bubble3'] && (
-      <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble3')}
-      >
-        <p>
-          <sup>3</sup>
-          The name Reuben means:
-          “Behold, a son.”
-        </p>
-      </div>
-    )}
-  </div>
-
-  <div className="main_text">
-    <p
-      className="cursor-pointer "
-      onClick={() => toggleBubble('bubble4')}
-    >
-      When she gave birth to her second son,
-      she said:
-
-      “Allah heard that my husband does not love me,
-      and He has given me another son.”
-
-      Therefore she named him Simeon.
-      <sup>4</sup>
-    </p>
-
-    {openBubbles['bubble4'] && (
-      <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble4')}
-      >
-        <p>
-          <sup>4</sup>
-          Derived from a word meaning
-          “one who hears.”
-        </p>
-      </div>
-    )}
-  </div>
-
-  <div className="main_text">
-    <p
-      className="cursor-pointer "
-      onClick={() => toggleBubble('bubble5')}
-    >
-      Then she conceived a third time
-      and bore another son.
-
-      She said:
-
-      “Now that I have borne my husband three sons,
-      he will surely become attached to me.”
-
-      Therefore she named him Levi.
-      <sup>5</sup>
-    </p>
-
-    {openBubbles['bubble5'] && (
-      <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble5')}
-      >
-        <p>
-          <sup>5</sup>
-          Meaning:
-          “to be joined” or “attached.”
-        </p>
-      </div>
-    )}
-  </div>
-
-  <div className="main_text">
-    <p
-      className="cursor-pointer "
-      onClick={() => toggleBubble('bubble6')}
-    >
-      Then she gave birth to a fourth son.
-
-      “All praise belongs to Allah!”
-      she exclaimed.
-
-      Therefore she named him Judah.
-      <sup>6</sup>
-
-      After that,
-      she stopped bearing children for a time.
-    </p>
-
-    {openBubbles['bubble6'] && (
-      <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble6')}
-      >
-        <p>
-          <sup>6</sup>
-          The name Judah means:
-          “praise” or “thanksgiving.”
-        </p>
-      </div>
-    )}
-
-    <p>
-      Rachel,
-      unable to have children,
-      became jealous of her sister.
-
-      One day she even quarreled with her husband,
-      saying:
-
-      “Give me children,
-      or I shall die!”
-    </p>
-
-    <p>
-      Ya‘qub عليه السلام became upset and replied:
-
-      “Am I Allah,
-      that I can give you children?”
-    </p>
-
-    <p>
-      Then Rachel رضي الله عنها said:
-
-      “In that case,
-      take my servant girl
-      and let her bear children on my behalf,
-      so that I too may become a mother.”
-
-      Thus she gave her servant Bilhah
-      to her husband.
-    </p>
-
-    <p>
-      Bilhah conceived
-      and gave birth to a son.
-
-      Rachel said:
-
-      “Allah has vindicated me.
-
-      He has heard my plea
-      and granted me a child.”
-
-      Therefore she named him Dan.
-    </p>
-  </div>
-
-  <div className="main_text">
-    <p
-      className="cursor-pointer "
-      onClick={() => toggleBubble('bubble7')}
-    >
-      Later Bilhah conceived again
-      and bore Ya‘qub عليه السلام another son.
-
-      This time Rachel رضي الله عنها said:
-
-      “I have wrestled greatly with my sister,
-      and I have prevailed.”
-
-      Therefore she named the child Naphtali.
-      <sup>7</sup>
-    </p>
-
-    {openBubbles['bubble7'] && (
-      <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble7')}
-      >
-        <p>
-          <sup>7</sup>
-          The name Naphtali means:
-          “my wrestling.”
-        </p>
-      </div>
-    )}
-
-    <p>
-      Leah رضي الله عنها,
-      seeing that she was no longer bearing children,
-      gave her servant Zilpah
-      to her husband as a wife.
-
-      Zilpah conceived
-      and bore a son.
-
-      Then Leah said:
-
-      “Good fortune has come to me!”
-
-      And she named him Gad.
-    </p>
-
-    <p>
-      Afterwards Zilpah bore another son.
-
-      “How happy I am!”
-      said Leah.
-
-      “Now women will call me blessed.”
-
-      Therefore she named him Asher.
-    </p>
-
-    <p>
-      During the wheat harvest,
-      Reuben brought some mandrakes from the field
-      and gave them to his mother Leah.
-
-      Rachel then said to Leah:
-
-      “Please give me some of the mandrakes
-      your son brought.”
-    </p>
-
-    <p>
-      “Is it not enough
-      that you have taken my husband?”
-      Leah replied.
-
-      “Now you want to take
-      my son’s mandrakes as well?”
-    </p>
-
-    <p>
-      “Very well,”
-      said Rachel.
-
-      “Give me the mandrakes,
-      and in exchange
-      my husband shall spend tonight with you.”
-    </p>
-
-    <p>
-      That evening,
-      when Ya‘qub عليه السلام returned from the field,
-      Leah went out to meet him and said:
-
-      “Tonight you must stay with me.
-
-      I have hired you
-      with my son’s mandrakes.”
-    </p>
-
-    <p>
-      So Ya‘qub عليه السلام spent the night with her.
-
-      She conceived
-      and bore him a fifth son.
-
-      Allah had answered Leah’s prayers.
-    </p>
-  </div>
-
-  <div className="main_text">
-    <p
-      className="cursor-pointer "
-      onClick={() => toggleBubble('bubble8')}
-    >
-      Leah said:
-
-      “Allah has rewarded me
-      because I gave my servant to my husband.”
-
-      Therefore she named her son Issachar.
-      <sup>8</sup>
-    </p>
-
-    {openBubbles['bubble8'] && (
-      <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble8')}
-      >
-        <p>
-          <sup>8</sup>
-          The name Issachar means:
-          “reward.”
-        </p>
-      </div>
-    )}
-
-    <p>
-      Then she conceived again
-      and bore Ya‘qub عليه السلام a sixth son.
-
-      “This is Allah’s gift to me,”
-      she said.
-
-      “I have borne my husband six sons.
-      Surely now he will honor me.”
-
-      Therefore she named him Zebulun.
-
-      Afterwards she gave birth to a daughter
-      and named her Dinah.
-    </p>
-  </div>
-
-  <div className="main_text">
-    <p
-      className="cursor-pointer "
-      onClick={() => toggleBubble('bubble9')}
-    >
-      At last,
-      Rachel’s prayers were also answered.
-
-      She conceived
-      and gave birth to a son.
-
-      “Allah has removed my disgrace
-      and delivered me
-      from the shame people spoke of,”
-      she said.
-
-      “May Allah grant me yet another son.”
-
-      Therefore she named the child Yusuf.
-      <sup>9</sup>
-    </p>
-
-    {openBubbles['bubble9'] && (
-      <div
-        className="speech-bubble"
-        onClick={() => toggleBubble('bubble9')}
-      >
-        <p>
-          <sup>9</sup>
-          The name Yusuf,
-          in Hebrew,
-          means:
-          “may He add” or “increase.”
-        </p>
-      </div>
-    )}
-  </div>
+  <p>RACHEL EN LEAH</p>
+</div>
+
+<div className="main_text">
+  <p>
+    Allah, de Verhevene,
+    zag dat Leah
+    minder geliefd was.
+
+    Daarom schonk Hij haar kinderen.
+
+    Rachel daarentegen
+    bleef onvruchtbaar.
+  </p>
+
+  <p>
+    Leah werd zwanger
+    en baarde een zoon.
+
+    Zij gaf hem de naam Reuben,
+    want zij zei:
+
+    “Allah heeft
+    mijn verdriet gezien.
+
+    Nu zal mijn echtgenoot
+    van mij houden.”
+  </p>
+
+  <p>
+    Daarna werd zij opnieuw zwanger
+    en baarde nog een zoon.
+
+    Zij noemde hem Simeon.
+
+    Zij zei:
+
+    “Allah heeft gehoord
+    dat ik niet geliefd ben,
+    daarom heeft Hij mij
+    ook deze zoon geschonken.”
+  </p>
+
+  <p>
+    Vervolgens werd zij
+    voor de derde keer zwanger.
+
+    Zij baarde opnieuw een zoon
+    en noemde hem Levi.
+
+    Zij zei:
+
+    “Nu zal mijn man
+    zich werkelijk
+    aan mij hechten,
+    want ik heb hem
+    drie zonen geschonken.”
+  </p>
+
+  <p>
+    Daarna werd zij
+    opnieuw zwanger.
+
+    Zij baarde een vierde zoon
+    en noemde hem Juda.
+
+    Zij zei:
+
+    “Nu zal ik
+    Allah prijzen.”
+
+    Daarna kreeg zij
+    een tijdlang
+    geen kinderen meer.
+  </p>
+</div>
+
+<div className="main_text">
+  <p>
+    Toen Rachel zag
+    dat zij geen kinderen kreeg,
+    werd zij jaloers
+    op haar zuster.
+
+    Zij zei tegen
+    Ya‘qub عليه السلام:
+
+    “Geef mij kinderen!
+
+    Anders sterf ik!”
+  </p>
+
+  <p>
+    Ya‘qub عليه السلام
+    antwoordde:
+
+    “Ben ik soms Allah,
+    Die jou
+    kinderen onthoudt?”
+  </p>
+
+  <p>
+    Toen zei Rachel:
+
+    “Hier is mijn dienares Bilhah.
+
+    Neem haar tot vrouw.
+
+    Als zij kinderen krijgt,
+    zullen zij
+    als de mijne worden beschouwd.”
+  </p>
+
+  <p>
+    Zo gaf zij
+    haar dienares Bilhah
+    aan Ya‘qub عليه السلام
+    tot vrouw.
+
+    Bilhah werd zwanger
+    en baarde een zoon.
+  </p>
+
+  <p>
+    Rachel zei:
+
+    “Allah heeft
+    recht over mij gesproken.
+
+    Hij heeft
+    mijn smeekbede gehoord
+    en mij
+    een zoon geschonken.”
+
+    Daarom gaf zij hem
+    de naam Dan.
+  </p>
+</div>
+
+<div className="main_text">
+  <p>
+    Daarna werd Bilhah
+    opnieuw zwanger
+    en baarde
+    een tweede zoon.
+  </p>
+
+  <p>
+    Rachel zei:
+
+    “Ik heb
+    een zware strijd gevoerd
+    met mijn zuster,
+    en ik heb overwonnen.”
+
+    Daarom noemde zij hem
+    Naftali.
+  </p>
+</div>
+
+<div className="main_text">
+  <p>
+    Toen Leah zag
+    dat zij
+    geen kinderen meer kreeg,
+    gaf ook zij
+    haar dienares Zilpah
+    aan Ya‘qub عليه السلام
+    tot vrouw.
+  </p>
+
+  <p>
+    Zilpah werd zwanger
+    en baarde een zoon.
+
+    Leah zei:
+
+    “Wat een geluk!”
+
+    Daarom gaf zij hem
+    de naam Gad.
+  </p>
+
+  <p>
+    Daarna baarde Zilpah
+    een tweede zoon.
+
+    Leah zei:
+
+    “Hoe gelukkig ben ik!
+
+    De vrouwen
+    zullen mij gelukkig prijzen.”
+
+    Daarom noemde zij hem
+    Asher.
+  </p>
+</div>
+
+<div className="main_text">
+  <p>
+    In de tijd
+    van de tarweoogst
+    ging Reuben
+    het veld in.
+
+    Daar vond hij
+    alruinen
+    en bracht die
+    naar zijn moeder Leah.
+
+    Toen zei Rachel
+    tegen Leah:
+
+    “Geef mij alstublieft
+    wat van de alruinen
+    van jouw zoon.”
+  </p>
+
+  <p>
+    Leah antwoordde:
+
+    “Is het niet genoeg
+    dat je mijn man
+    van mij hebt afgenomen?
+
+    Wil je nu ook nog
+    de alruinen
+    van mijn zoon afnemen?”
+  </p>
+
+  <p>
+    Rachel zei:
+
+    “Goed dan.
+
+    Laat Ya‘qub
+    vannacht bij jou blijven,
+    in ruil voor
+    de alruinen
+    van jouw zoon.”
+  </p>
+
+  <p>
+    Toen Ya‘qub عليه السلام
+    die avond
+    van het veld terugkwam,
+
+    ging Leah hem tegemoet
+    en zei:
+
+    “Vanavond
+    moet je bij mij komen.
+
+    Ik heb je
+    verkregen
+    voor de alruinen
+    van mijn zoon.”
+
+    Zo bleef hij
+    die nacht
+    bij haar.
+  </p>
+</div>
+
+<div className="main_text">
+  <p>
+    Allah verhoorde
+    Leah.
+
+    Zij werd opnieuw zwanger
+    en baarde
+    een vijfde zoon.
+
+    Zij zei:
+
+    “Allah heeft mij
+    mijn beloning gegeven,
+    omdat ik
+    mijn dienares
+    aan mijn echtgenoot
+    heb gegeven.”
+
+    Daarom noemde zij hem
+    Issachar.
+  </p>
+
+  <p>
+    Daarna werd zij
+    opnieuw zwanger
+    en baarde
+    een zesde zoon.
+
+    Zij noemde hem
+    Zebulun.
+
+    Zij zei:
+
+    “Allah heeft mij
+    een prachtig geschenk gegeven.
+
+    Nu zal mijn man
+    bij mij blijven,
+    want ik heb hem
+    zes zonen geschonken.”
+  </p>
+
+  <p>
+    Daarna baarde zij
+    een dochter
+    en gaf haar
+    de naam Dinah.
+  </p>
+</div>
+
+<div className="main_text">
+  <p>
+    Vervolgens
+    dacht Allah
+    ook aan Rachel.
+
+    Hij verhoorde
+    haar smeekbede
+    en schonk haar
+    een zoon.
+  </p>
+
+  <p>
+    Rachel zei:
+
+    “Allah heeft
+    mijn schande
+    van mij weggenomen.”
+
+    Daarom gaf zij hem
+    de naam Yusuf.
+
+    Zij zei:
+
+    “Moge Allah
+    mij nog
+    een zoon schenken.”
+  </p>
+
+  <p className="vitalic">
+    Zo werden
+    de twaalf stammen
+    van Bani Isra'il
+    geboren.
+
+    Uit deze twaalf zonen
+    zouden later
+    de twaalf stammen
+    voortkomen,
+    waaruit Allah
+    vele profeten
+    zou doen opstaan.
+  </p>
+</div>
 </main>
   );
 }

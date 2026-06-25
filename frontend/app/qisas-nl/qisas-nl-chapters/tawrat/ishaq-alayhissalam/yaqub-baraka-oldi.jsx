@@ -11,20 +11,20 @@ export default function EXAMPLE() {
   ]);
 
   return (
-    <main className="stories relative">
+<main className="stories relative">
   <div className="main_text">
     <p
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble1')}
     >
-      Ishaq عليه السلام had grown old,
-      and his eyesight had become weak.
+      Ishaq عليه السلام was oud geworden,
+      en zijn zicht was zwak geworden.
       <sup>1</sup>{' '}
 
-      One day,
-      he called his firstborn son Esau to him:
+      Op een dag
+      riep hij zijn eerstgeboren zoon Esau bij zich:
 
-      “My son!”
+      “Mijn zoon!”
     </p>
 
     {openBubbles['bubble1'] && (
@@ -44,8 +44,8 @@ export default function EXAMPLE() {
 
     <p>
       “Labbayk,
-      my father,”
-      Esau رضي الله عنه replied.
+      mijn vader,”
+      antwoordde Esau رضي الله عنه.
     </p>
   </div>
 
@@ -54,19 +54,22 @@ export default function EXAMPLE() {
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble2')}
     >
-      Ishaq عليه السلام said:
+      Ishaq عليه السلام zei:
 
-      “I have grown old,
-      and I do not know when my time will come.
+      “Ik ben oud geworden,
+      en ik weet niet
+      wanneer mijn tijd zal komen.
 
-      So take your bow,
-      go out,
-      and hunt some game for me.
+      Neem daarom je boog,
+      ga naar buiten
+      en jaag wat wild voor mij.
 
-      Then prepare from it the food I love.
+      Maak daarvan het eten
+      waar ik van houd.
 
-      Before I die,
-      I wish to give you the blessing of Allah.”
+      Voordat ik sterf,
+      wil ik jou
+      de zegen van Allah geven.”
       <sup>2</sup>
     </p>
 
@@ -77,19 +80,19 @@ export default function EXAMPLE() {
       >
         <p>
           <sup>2</sup>
-          He thought that the chain of blessing
-          promised to Ibrahim عليه السلام
-          should continue through his firstborn son.
+          Hij dacht dat de keten van zegen
+          die aan Ibrahim عليه السلام was beloofd,
+          moest doorgaan via zijn eerstgeboren zoon.
         </p>
       </div>
     )}
 
     <p>
       Lady Rifqah رضي الله عنها
-      was listening to their conversation.
+      luisterde naar hun gesprek.
 
-      As soon as Esau left to hunt,
-      she quickly called her younger son Ya‘qub and said:
+      Zodra Esau vertrok om te jagen,
+      riep zij snel haar jongere zoon Ya‘qub en zei:
     </p>
   </div>
 
@@ -98,27 +101,34 @@ export default function EXAMPLE() {
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble3')}
     >
-      “My son!
-      I heard your father say to Esau:
+      “Mijn zoon!
+      Ik hoorde je vader tegen Esau zeggen:
 
-      ‘Go hunt some game for me.
-      Prepare the food I love.
-      Before I die,
-      I wish to give you the blessing of Allah.’
+      ‘Ga wat wild voor mij jagen.
+      Maak het eten
+      waar ik van houd.
+      Voordat ik sterf,
+      wil ik jou
+      de zegen van Allah geven.’
 
-      Now listen carefully to what I tell you.
+      Luister nu goed
+      naar wat ik je zeg.
 
-      Go quickly to the flock
-      and bring me two fat young goats.
+      Ga snel naar de kudde
+      en breng mij
+      twee vette jonge geiten.
 
-      I will prepare from them
-      the food your father loves.
+      Ik zal daarvan
+      het eten bereiden
+      waar je vader van houdt.
 
-      You will take it in to your father,
-      and after he eats,
-      before he dies,
-      he will give the blessing to you,
-      not to Esau.
+      Jij zult het
+      naar je vader brengen,
+      en nadat hij gegeten heeft,
+      vóórdat hij sterft,
+      zal hij de zegen
+      aan jou geven,
+      niet aan Esau.
       <sup>3</sup>”
     </p>
 
@@ -129,341 +139,406 @@ export default function EXAMPLE() {
       >
         <p>
           <sup>3</sup>
-          Esau had already sold his birthright
-          to his younger brother Ya‘qub.
+          Esau had zijn eerstgeboorterecht
+          al verkocht
+          aan zijn jongere broer Ya‘qub.
 
-          Even so,
-          he said nothing about this to his father
-          and went out to hunt.
+          Toch zei hij hierover niets
+          tegen zijn vader
+          en ging hij op jacht.
         </p>
       </div>
     )}
 
     <p className="vitalic">
-      Do you remember?
+      Weet je nog?
 
-      Allah, Glorified and Exalted,
-      had once told Lady Rifqah:
+      Allah, Verheven en Geprezen,
+      had ooit tegen Lady Rifqah gezegd:
 
-      “Two nations are within your womb.
-      Two separate peoples shall come forth from you.
-      One shall be stronger than the other,
-      and the elder shall serve the younger.”
+      “Twee volken
+      bevinden zich in jouw schoot.
+      Twee verschillende volken
+      zullen uit jou voortkomen.
+      De één zal sterker zijn
+      dan de ander,
+      en de oudste
+      zal de jongste dienen.”
 
-      These two nations would arise
-      from these two brothers.
+      Deze twee volken
+      zouden voortkomen
+      uit deze twee broers.
 
-      The statement,
-      “the elder shall serve the younger,”
-      meant that the chain of blessing
-      would continue through the descendants
-      of her younger son.
+      De uitspraak:
+      “de oudste zal de jongste dienen,”
+      betekende dat de keten van zegen
+      zou doorgaan
+      via de nakomelingen
+      van haar jongere zoon.
 
-      For this reason,
-      when Lady Rifqah heard what Ishaq عليه السلام had said,
-      she became deeply troubled.
+      Daarom werd Lady Rifqah
+      diep bezorgd
+      toen zij hoorde
+      wat Ishaq عليه السلام had gezegd.
     </p>
 
     <p>
-      “Mother!”
-      said Ya‘qub عليه السلام.
+      “Moeder!”
+      zei Ya‘qub عليه السلام.
 
-      “My brother’s body is hairy,
-      but mine is smooth.
+      “Het lichaam van mijn broer
+      is behaard,
+      maar het mijne is glad.
 
-      If my father touches me,
-      I will appear to him as a deceiver.
+      Als mijn vader mij aanraakt,
+      zal ik voor hem lijken
+      op een bedrieger.
 
-      Then instead of blessing me,
-      he may curse me and say:
-      ‘Are you trying to make a fool of me?’”
+      Dan zal hij mij
+      misschien vervloeken
+      in plaats van zegenen
+      en zeggen:
+      ‘Probeer je mij
+      voor de gek te houden?’”
     </p>
 
     <p>
-      “Let that curse fall upon me,”
-      replied Rifqah رضي الله عنها.
+      “Laat die vloek
+      dan op mij komen,”
+      antwoordde Rifqah رضي الله عنها.
 
-      “Go now,
-      and do exactly as I have told you.
+      “Ga nu,
+      en doe precies
+      wat ik je heb gezegd.
 
-      Bring me the young goats.”
+      Breng mij
+      de jonge geiten.”
     </p>
 
     <p>
-      Ya‘qub عليه السلام brought the goats and slaughtered them.
+      Ya‘qub عليه السلام
+      bracht de geiten
+      en slachtte ze.
 
-      Lady Rifqah prepared the food
-      that Ishaq عليه السلام loved.
+      Lady Rifqah bereidde het eten
+      waar Ishaq عليه السلام van hield.
 
-      Then she took Esau’s finest clothes from the house
-      and dressed Ya‘qub عليه السلام in them.
+      Daarna nam zij
+      de mooiste kleren van Esau
+      uit het huis
+      en kleedde Ya‘qub عليه السلام ermee.
 
-      She covered his hands and neck
-      with the skins of the young goats.
+      Zij bedekte zijn handen
+      en zijn hals
+      met de huiden
+      van de jonge geiten.
 
-      Then she placed the food and bread in his hands
-      and sent him in to his father.
+      Daarna legde zij
+      het eten en het brood
+      in zijn handen
+      en stuurde hem
+      naar zijn vader.
     </p>
   </div>
 
   <div className="main_text">
-    <p className="!my-0">—Father!</p>
+    <p className="!my-0">—Vader!</p>
 
     <p className="!my-0">
-      —Yes, my son?
-      Who are you —
-      Esau or Ya‘qub?
-      asked his father.
+      —Ja, mijn zoon?
+      Wie ben jij —
+      Esau of Ya‘qub?
+      vroeg zijn vader.
     </p>
 
     <p className="!my-0">
-      —It is I,
-      your firstborn son Esau,
-      Ya‘qub said to his father.
+      —Ik ben het,
+      uw eerstgeboren zoon Esau,
+      zei Ya‘qub tegen zijn vader.
 
-      I have prepared food from the hunt
-      so that I may receive your du‘a.
+      Ik heb eten bereid
+      van de jacht,
+      zodat ik uw du‘a mag ontvangen.
 
-      Please rise and eat.
+      Sta alstublieft op
+      en eet.
     </p>
 
     <p className="!my-0">
-      —How did you find it so quickly?
-      his father asked in surprise.
+      —Hoe heb je het
+      zo snel gevonden?
+      vroeg zijn vader verbaasd.
     </p>
 
     <p className="!my-0">
-      —Allah brought it before me,
-      Ya‘qub عليه السلام replied.
+      —Allah bracht het
+      voor mij,
+      antwoordde Ya‘qub عليه السلام.
     </p>
 
     <p className="!my-0">
-      —Come closer, my son.
-      Let me touch you
-      and see whether you are truly Esau.
+      —Kom dichterbij,
+      mijn zoon.
+      Laat mij je aanraken
+      en zien
+      of je werkelijk Esau bent.
     </p>
   </div>
 
   <div className="main_text">
-    <p className="">
-      Ya‘qub عليه السلام came near to his father.
+    <p>
+      Ya‘qub عليه السلام
+      kwam dichter bij zijn vader.
 
-      His father touched him and said:
+      Zijn vader raakte hem aan en zei:
 
-      “The voice is the voice of Ya‘qub,
-      but the hands are the hands of Esau.”
+      “De stem
+      is de stem van Ya‘qub,
+      maar de handen
+      zijn de handen van Esau.”
     </p>
 
     <p>
-      Ya‘qub’s hands were covered with skins,
-      so they felt hairy like the hands of his brother Esau.
+      De handen van Ya‘qub
+      waren bedekt met huiden,
+      waardoor ze behaard aanvoelden
+      als de handen
+      van zijn broer Esau.
 
-      Because of this,
-      Ishaq عليه السلام thought he was Esau.
+      Daarom dacht
+      Ishaq عليه السلام
+      dat hij Esau was.
 
-      Still,
-      he asked once more:
+      Toch vroeg hij nog een keer:
     </p>
 
     <p className="!my-0">
-      —Are you truly Esau?
+      —Ben jij werkelijk Esau?
     </p>
 
     <p className="!my-0">
-      —Yes,
-      I am Esau,
-      Ya‘qub عليه السلام replied.
+      —Ja,
+      ik ben Esau,
+      antwoordde Ya‘qub عليه السلام.
     </p>
 
     <p>
-      Then his father said:
+      Toen zei zijn vader:
 
-      “Bring me your food.
-      After I eat,
-      I will give you the blessing.”
+      “Breng mij je eten.
+      Nadat ik gegeten heb,
+      zal ik jou de zegen geven.”
     </p>
   </div>
 
   <div className="paragraph_heading">
-    <p>THE BLESSING GIVEN ONLY ONCE</p>
+    <p>DE ZEGEN DIE MAAR ÉÉN KEER GEGEVEN WERD</p>
   </div>
 
   <div className="main_text">
     <p>
-      After he had eaten and drunk,
-      Ishaq عليه السلام said:
+      Nadat hij had gegeten en gedronken,
+      zei Ishaq عليه السلام:
 
-      “Come closer,
-      my son,
-      and kiss me.”
+      “Kom dichterbij,
+      mijn zoon,
+      en kus mij.”
 
-      Ya‘qub عليه السلام came near
-      and kissed his father.
+      Ya‘qub عليه السلام
+      kwam dichterbij
+      en kuste zijn vader.
 
-      Ishaq عليه السلام smelled the scent of his garments,
-      then blessed him and said:
+      Ishaq عليه السلام
+      rook de geur van zijn kleren,
+      zegende hem en zei:
 
-      “The scent of my son
-      is like the scent of a field
-      blessed by Allah!
+      “De geur van mijn zoon
+      is als de geur van een veld
+      dat door Allah is gezegend!
     </p>
 
     <div className="pl-4 leading-tight">
       <p className="!my-0">
-        May Allah always send rain upon your crops,
+        Moge Allah altijd regen zenden
+        over jouw gewassen,
       </p>
 
       <p className="!my-0">
-        may your lands be fertile,
-        your grain abundant,
-        and your grapes plentiful.
+        mogen jouw landen vruchtbaar zijn,
+        jouw graan overvloedig,
+        en jouw druiven talrijk.
       </p>
 
       <p className="!my-0">
-        May peoples serve you,
-        and nations bow before you.
+        Mogen volken jou dienen,
+        en naties zich voor jou buigen.
       </p>
 
       <p className="!my-0">
-        You shall be lord over your brothers,
+        Jij zult heer zijn
+        over je broers,
       </p>
 
       <p className="!my-0">
-        and your relatives shall bow before you.
+        en jouw verwanten
+        zullen zich voor jou buigen.
       </p>
 
       <p className="!my-0">
-        May those who curse you be cursed,
+        Mogen degenen die jou vervloeken
+        vervloekt worden,
       </p>
 
       <p className="!my-0">
-        and may those who bless you be blessed!”
+        en mogen degenen die jou zegenen
+        gezegend worden!”
       </p>
     </div>
   </div>
 
   <div className="main_text">
     <p>
-      Ya‘qub عليه السلام received his father’s du‘a
-      and had only just left
-      when his brother Esau returned from the hunt.
+      Ya‘qub عليه السلام
+      ontving de du‘a van zijn vader
+      en was nog maar net vertrokken
+      toen zijn broer Esau
+      terugkwam van de jacht.
 
-      He prepared the food
-      and came in to his father:
+      Hij bereidde het eten
+      en ging naar zijn vader toe:
 
-      “Father,
-      please rise.
+      “Vader,
+      sta alstublieft op.
 
-      I have prepared for you
-      the food you love from the hunt.
+      Ik heb voor u
+      het eten bereid
+      waar u van houdt,
+      van de jacht.
 
-      Eat,
-      and then bless me.”
+      Eet,
+      en zegen mij daarna.”
     </p>
   </div>
 
   <div className="leading-tight space-y-0">
     <p className="!my-0 leading-tight">
-      —What?!
-      Who are you?
-      asked Ishaq عليه السلام.
+      —Wat?!
+      Wie ben jij?
+      vroeg Ishaq عليه السلام.
     </p>
 
     <p className="!my-0 leading-tight">
-      —I am your firstborn son Esau.
+      —Ik ben uw eerstgeboren zoon Esau.
     </p>
   </div>
 
   <div className="main_text">
     <p>
-      When Ishaq عليه السلام heard this,
-      he trembled greatly and became deeply troubled.
+      Toen Ishaq عليه السلام dit hoorde,
+      beefde hij hevig
+      en raakte diep bedroefd.
 
-      “Then who was it
-      who prepared food and brought it to me?
+      “Wie was het dan
+      die eten heeft bereid
+      en het naar mij heeft gebracht?
 
-      I ate it
-      and gave him the blessing.
+      Ik heb ervan gegeten
+      en hem de zegen gegeven.
 
-      Now the blessing belongs to him,”
-      he said, trembling.
+      Nu behoort de zegen
+      aan hem toe,”
+      zei hij bevend.
     </p>
 
     <p>
-      When Esau رضي الله عنه heard this,
-      he became overwhelmed with anger and grief.
+      Toen Esau رضي الله عنه dit hoorde,
+      werd hij overweldigd
+      door woede en verdriet.
 
-      Then he pleaded:
+      Daarna smeekte hij:
 
-      “Father,
-      my father,
-      bless me too,
-      my father!”
+      “Vader,
+      mijn vader,
+      zegen mij ook,
+      mijn vader!”
     </p>
 
     <p>
-      “Your brother came with cunning
-      and took your blessing,
-      my son,”
-      Ishaq عليه السلام said.
+      “Je broer is gekomen
+      met list
+      en heeft jouw zegen genomen,
+      mijn zoon,”
+      zei Ishaq عليه السلام.
     </p>
 
     <p>
-      Esau رضي الله عنه cried out:
+      Esau رضي الله عنه riep uit:
 
-      “Was he not rightly named Ya‘qub?
+      “Heet hij niet terecht Ya‘qub?
 
-      This is the second time
-      he has deceived me.
+      Dit is de tweede keer
+      dat hij mij heeft bedrogen.
 
-      First he took my birthright,
-      and now he has taken my blessing too.
+      Eerst nam hij
+      mijn eerstgeboorterecht,
+      en nu heeft hij ook
+      mijn zegen genomen.
 
-      Have you not left even one blessing for me?”
+      Hebt u dan
+      niet één zegen
+      voor mij overgelaten?”
     </p>
 
     <p>
-      “I have made him lord over you,”
-      said Ishaq عليه السلام.
+      “Ik heb hem
+      heer over jou gemaakt,”
+      zei Ishaq عليه السلام.
 
-      “I declared that all his brothers
-      would serve him.
+      “Ik heb verklaard
+      dat al zijn broers
+      hem zouden dienen.
 
-      I provided him with grain and wine.
+      Ik heb hem voorzien
+      van graan en wijn.
 
-      What then can I still do for you,
-      my son?”
+      Wat kan ik dan nog
+      voor jou doen,
+      mijn zoon?”
     </p>
 
     <p>
-      “Do you have only one blessing?
+      “Hebt u maar één zegen?
 
-      Bless me too!”
-      he wept.
+      Zegen mij ook!”
+      huilde hij.
     </p>
 
     <p>
-      “You shall be deprived
-      of the richest lands.
+      “Jij zult verstoken zijn
+      van de rijkste landen.
 
-      You shall live by the shadow of your sword,
-      and you shall serve your brother.
+      Jij zult leven
+      in de schaduw van je zwaard,
+      en jij zult je broer dienen.
 
-      But when you long for freedom,
-      you shall break his yoke
-      from your neck,”
-      said Ishaq عليه السلام.
+      Maar wanneer jij
+      naar vrijheid verlangt,
+      zul jij zijn juk
+      van je nek breken,”
+      zei Ishaq عليه السلام.
     </p>
 
     <p>
-      Esau رضي الله عنه came to hate his brother deeply.
+      Esau رضي الله عنه
+      begon zijn broer
+      diep te haten.
 
-      “As long as my father is alive,
-      I will remain silent.
+      “Zolang mijn vader leeft,
+      zal ik zwijgen.
 
-      But when the time comes,
-      I will surely kill him,”
-      he said to himself.
+      Maar wanneer de tijd komt,
+      zal ik hem zeker doden,”
+      zei hij bij zichzelf.
     </p>
   </div>
 </main>
