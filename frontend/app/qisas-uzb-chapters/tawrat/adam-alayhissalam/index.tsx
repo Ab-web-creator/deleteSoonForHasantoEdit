@@ -340,14 +340,14 @@ export default function AdamAlayhissalam() {
               <p className='!text-4xl'>SEE HONORIFICS IN ARABIC</p>
             </div>
      
-            <div className="mt-10">
+            <div className="">
                 <p>CAPITAL LETTERS of ENGLISH ALPHABET</p>
                 <p className='aga-font !text-8xl !leading-[2] tracking-wider'>
                    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
                 </p>
               </div>
 
-              <div className="mt-10">
+              <div className="mt-1">
                 <p>SMALL LETTERS of ENGLISH ALPHABET</p>
                 <p className='aga-font !text-8xl !leading-[2] tracking-wider'>
                     a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -363,29 +363,70 @@ export default function AdamAlayhissalam() {
 
               <div className="mt-10">
                 <p>Common Symbols of ENGLISH ALPHABET</p>
-<p className="aga-font !text-8xl !leading-[2] tracking-wider">
-  ! @ # $ % ^ &amp; * ( ) _ + - = {'{'} {'}'} [ ] | \ : ; " ' &lt; &gt; , . ? / ` ~
+                <p className="aga-font !text-8xl !leading-[2] tracking-wider">
+                  ! @ # $ % ^ &amp; * ( ) _ + - = {'{'} {'}'} [ ] | \ : ; " ' &lt; &gt; , . ? / ` ~
+                </p>
+                </div>
+
+
+  <p className="aga-font !text-7xl !leading-[2.1] tracking-[0.12em] text-center">
+  ☠ ⚐ ✆ ✉ ⚙ ⚒ ♺ ♬ ♨ ☽ ☾ ☘ ☜ ☞ ☏ ☆ ★ ☉ ✎ ✓ ✔ ✕ ✣ ✡ ➞ ➟ ➤ ➢ ⟳ ⥮ ✩ ✻ ✼ ❄ ❈ ❖ ❤ € £ ¥ ＄ ⊚ ⊝ § © ® ™ ¶ · ― • † ‡ 
+  ✦ ✧ ✪ ✫ ✬ ✭ ✮ ❂ ❉ ❊ ❋ ❄ ❅ ❖ ★ ☆ ♠ ♥ ♦ ♣ ⚔ ⚖ ⚕ ⚓ ♾ ∞ ✈ ⚡ ☀ ☁ ☂ ♩ ♪ ♫ ♬ ✉ ✍ ✏ ✐ ✓ ✔ ✖ ✗ ✘ ✝
 </p>
-              </div>
 
 
-              <div className="symbol_group">
-                <span className='text-4xl !leading-[2] tracking-wide'>
-                  &#9760; &#9872; &#9990; &#9993; &#9881; &#9874; &#9850; &#9836;
-                </span>
 
-             <span className='text-4xl !leading-[2] tracking-wide'>
-                  &#9832; &#9789; &#9790; &#9752; &#9756; &#9758; &#9752; &#9743; &#9734; &#9733; &#9737; &#9998; &#10003; &#10004; &#10005; &#10019; &#10017; &#10142; &#10143; &#10148; &#10146; &#10227; &#10606;
-                </span>
+<hr className='border-4 border-brand-500'/>
 
-             <span className='text-4xl !leading-[2] tracking-wide'>
-                  &#10025; &#10043; &#10044; &#10052; &#10056; &#10070; &#10084;
-                </span>
+<p className="aga-font !text-8xl !leading-[2.1] tracking-wider">
+  ❦ ❧ ⌘ ✬ ✭ ✮ ✯ ✰ ❂ ❃ ❋ ❊ ❉ ❈ ❇ ❆ ❅ ❄ ❋ ✿ ❀ ❁ ✾ ✽ ✼ ✻ ✺ ✹ ✸ ✷
+</p>
 
-             <span className='text-4xl !leading-[2] tracking-wide'>
-                  &#8364; &#65284; &#8858; &#8861; &#167; &#169; &#182; &#183; &#8213;
-                </span>
-              </div>
+<p className="aga-font !text-8xl !leading-[2.1] tracking-wider">
+  ✶ ✵ ✴ ✳ ✲ ✱ ✧ ✦ ★ ☆ ✡ ❂ ⚝ ⚜ ⚹ ⚸ ⚷ ⚶ ⚵ ⚴ ⚳ ⚲ ⚱ ⚰ 
+</p>
+
+<p className="aga-font !text-8xl !leading-[2.1] tracking-wider">
+  ♔ ♕ ♖ ♗ ♘ ♙ ♚ ♛ ♜ ♝ ♞ ♟ ⚔ ⚔️ ⚖️ ⚕️ ♾️ ∞ ❖ ❖ ✠ ✟ ✞ ✝ ☪ ☭ ☮ ☯ ☸ ☯
+</p>
+
+<p className="aga-font !text-8xl !leading-[2.1] tracking-wider">
+  ✈ ✉ ✎ ✏ ✐ ❝ ❞ ❡ ❢ ❣ ❤ ❥ ❦ ❧ ❨ ❩ ❪ ❫ ❬ ❭ ❮ ❯ ❰ ❱ ❲ ❳
+</p>
+
+<p className="aga-font !text-8xl !leading-[2.1] tracking-wider">
+  ➀ ➁ ➂ ➃ ➄ ➅ ➆ ➇ ➈ ➉ ➊ ➋ ➌ ➍ ➎ ➏ ➐ ➑ ➒ ➓ 
+</p>
+
+<p className="aga-font !text-8xl !leading-[2.2] tracking-[0.1em]">
+  🜂 🜃 🜄 🜁 🜔 🜍 🝞 🝰 ☾ ☽ ☿ ♁ ♂ ♃ ♄ ♅ ♆ ♇ 
+  ✹ ✺ ✻ ✼ ✽ ✾ ✿ ❀ ❁ ❂ ❃ ❄ ❅ ❆ ❇ ❈ ❉ ❊ ❋
+</p>
+
+<p className="aga-font !text-8xl !leading-[2.2] tracking-[0.15em] text-center">
+  ❦ ❧ ✬ ✭ ✮ ✯ ✰ ❂ ❋ ❊ ❉ ❈ ❇ ❆ ❅ ❄ ✿ ❀ ❁ ✾ ✽ ✼ ✻ ✺ 
+  ♔ ♕ ♖ ⚔ ⚖ ♾ ∞ ❖ ✠ ✟ ✝ ☪ ☮ ☯ ✈ ❝ ❞ ❤ ❣ ❦ ❧
+</p>
+
+<hr className='border border-brand-600'/>
+
+<p className="aga-font !text-8xl !leading-[2.2] tracking-wider">
+  ﷽ ﷺ ﷻ ﷲ ﷴ ﷳ ﷱ ﵆ ﵇
+</p>
+
+<div className="text-center space-y-12">
+  <p className="aga-font !text-8xl !leading-[2.3] tracking-[0.12em]">
+    ﷽ ﷺ ﷻ ﷲ ❦ ❧ ✿ ❀ ❋ ❖ ★ ☆ ⚜ ♾
+  </p>
+  
+  <p className="aga-font !text-7xl !leading-[2.1] tracking-wider">
+    ☪ ☾ ☽ ۝ ۞ ⚔ ⚖ ✺ ✹ ❂ ✦ ✧ ✩ ✪ ✫ ✬
+  </p>
+  
+  <p className="aga-font !text-7xl !leading-[2.1] tracking-wider">
+    ! @ # $ % ^ &amp; * ( ) _ + = {'{'} {'}'} [ ] | \ : ; " ' &lt; &gt; , . ? ~
+  </p>
+</div>
 
         </main>
       </div>
