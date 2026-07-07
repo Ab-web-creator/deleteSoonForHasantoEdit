@@ -2,7 +2,7 @@
 
 'use client';
 
-import '../../../qisas-uzb/stories.css';
+ 
 import { useSpeechBubbles } from '../../../hooks/useSpeechBubbles';
 
 

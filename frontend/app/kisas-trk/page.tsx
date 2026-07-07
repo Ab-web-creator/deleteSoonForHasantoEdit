@@ -16,7 +16,7 @@ import {
   ahirzamanData,
 } from './KisasNavigationData';
 
-import '../qisas-uzb/qisasNavigation.css';
+import '@/app/styles/qisasNavigation.css';
 
 type CollectionKey =
   | 'tewratData'

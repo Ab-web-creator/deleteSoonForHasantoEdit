@@ -12,7 +12,7 @@ import {
   safarData,
 } from './QisasNavigationData';
 
-import './qisasNavigation.css';
+import '@/app/styles/qisasNavigation.css';
 
 type CollectionKey =
   | 'tawratData'

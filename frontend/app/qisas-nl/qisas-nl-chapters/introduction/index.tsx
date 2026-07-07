@@ -1,8 +1,9 @@
 'use client';
+import '@/app/styles/stories.css';
 
 import { useSpeechBubbles } from '../../../hooks/useSpeechBubbles';
 import ConverterForQisas from './ConverterForQisas';
-import '../../../qisas-uzb/stories.css';
+ 
 // import './converterForQisas.css';
 
 export default function Introduction() {

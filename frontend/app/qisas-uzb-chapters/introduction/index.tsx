@@ -1,6 +1,6 @@
 'use client';
 
-import '../../qisas-uzb/stories.css';
+import '@/app/styles/stories.css';
 import { useSpeechBubbles } from '../../hooks/useSpeechBubbles';
 import ConverterForQisas from './ConverterForQisas';
 import './converterForQisas.css';

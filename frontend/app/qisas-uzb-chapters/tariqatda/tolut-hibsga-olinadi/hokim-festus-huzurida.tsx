@@ -1,6 +1,6 @@
 'use client';
 
-import '../../../qisas-uzb/stories.css';
+ 
 
 export default function HokimHuzurida() {
   return (

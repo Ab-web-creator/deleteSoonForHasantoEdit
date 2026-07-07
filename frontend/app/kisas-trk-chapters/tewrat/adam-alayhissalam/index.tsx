@@ -1,6 +1,6 @@
 'use client';
 
-import '../../../qisas-uzb/stories.css';
+import '@/app/styles/stories.css'; 
 
 export default function AdamAlayhissalam() {
   return (

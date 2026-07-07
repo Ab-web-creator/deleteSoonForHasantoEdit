@@ -12,7 +12,7 @@ import {
   safarData,
 } from './QisasNavigationDutchData';
 
-import '../qisas-uzb/qisasNavigation.css';
+import '@/app/styles/qisasNavigation.css';
 
 type CollectionKey =
   | 'tawratData'
