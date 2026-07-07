@@ -23,7 +23,7 @@ return (
       className="vitalic cursor-pointer "
       onClick={() => toggleBubble('bubble1')}
     >
-      Ab: deleted 7 JULY Volgens wat in de Edele Qur’an geschreven staat,
+      Volgens wat in de Edele Qur’an geschreven staat,
       schiep Allah de Verhevene Adam alayhis-salam
       uit klei
       (Soera Sad 38:71)
@@ -118,7 +118,7 @@ return (
     </p>
 
     <p className="vitalic">
-      In Soera Ta-Ha
+      Make side note $$$ In Soera Ta-Ha
       staat geschreven dat Allah (s.w.t.)
       Adam (a.s.) waarschuwde voor Shaytan:
 
@@ -283,12 +283,7 @@ return (
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble7')}
     >
-      Toen Adam (a.s.) Umm Hawwa voor het eerst zag
-      <span className="vitalic">
-        {' '}
-      
-      </span>
-      , riep hij vol vreugde uit:
+      Toen Adam (a.s.) Umm Hawwa voor het eerst zag, riep hij vol vreugde uit:
 
       “Deze beenderen zijn van mijn beenderen, dit vlees is van mijn vlees; ik noem haar vrouw, want zij was geschapen uit de rib van de man!”
       <sup>7</sup>
