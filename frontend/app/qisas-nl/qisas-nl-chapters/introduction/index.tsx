@@ -75,10 +75,7 @@ export default function Introduction() {
 
   <div className="main_text">
     <p>
-      Alle lof behoort toe aan Allah, de Heer van alle werelden. Moge vrede en
-      zegeningen rusten op onze meester Muḥammad, op zijn familie en op al zijn
-      metgezellen. Assalamu alaykum wa rahmatullahi wa barakatuh. Om verder te
-      gaan...
+      Alḥamdulillah. Alḥamdulillah rabbī al-amīn. Wa-l-salatu wa-l-salamu ʿalā sayyidīna Muḥammad wa ʿalā ālihi wa-l-shabihi ajmayn. Ammā baʿd...
     </p>
 
     <p>
@@ -92,41 +89,39 @@ export default function Introduction() {
     </p>
 
     <p>
-      Helaas is het werk van Ibn Ishaq niet volledig tot ons gekomen. Toch
-      hebben sommige geleerden, zoals al-Tabari, de overleveringen van Ibn Ishaq
-      vaak genoemd in zijn tafsir en in zijn boek over de wereldgeschiedenis
-      (zie: Tarikh al-rusul wa-l-muluk). Vooral de invloed van Ibn Ishaq is
-      sterk te zien in zowel het idee als de opbouw van dat latere werk.
+      Helaas is het werk van Ibn Ishaq verloren gegaan. Toch
+      hebben sommige geleerden de overleveringen van Ibn Ishaq vaak genoemd in hun boeken. Al-Tabari gebruikte bijvoorbeeld geschriften van Ibn Ishaq in zijn tafsir en in zijn boek over de wereldgeschiedenis
+      (zie: Tarikh al-rusul wa-l-muluk). De invloed van Ibn Ishaq is vooral
+      sterk te zien in zowel het idee als de opbouw van zijn geschiedenis boek.
     </p>
 
     <p>
       Een andere schrijver die bijdroeg aan het genre Qisas al-Anbiya was Wahb
-      ibn Munabbih, een Jemenitische geleerde van Perzische afkomst. Hij bezat
-      een verzameling van honderd delen waarin de geschiedenis van de profeten
-      werd verteld. Naast Arabisch kende hij ook goed Hebreeuws en Aramees. Hij
-      kon de Torah en de Psalmen in hun oorspronkelijke taal lezen, en daarom
-      vertelde hij de geschiedenis van de oude profeten met sterke bewijzen en
-      documentatie.
+      ibn Munabbih, een Jemenitische geleerde van Perzische afkomst. Hij stelde
+      een collectie van boeken samen waarin de geschiedenis van de profeten
+      werd verteld. Naast Arabisch was hij vloeiend in Hebreeuws en Aramees en hij
+      kon daardoor de Tawrāt en de Zabūr in hun oorspronkelijke taal lezen, waardoor
+      hij de geschiedenis van de oude profeten met sterke bewijzen en
+      documentatie kon vertellen.
     </p>
   </div>
 
   <div className="main_text">
     <p onClick={() => toggleBubble('bubble2')} className="cursor-pointer">
       Een andere verzameling van Qisas al-Anbiya behoort toe aan Ishaq ibn Bishr
-      uit Khurasan. Hij schreef ook werken over andere onderwerpen, maar voor de
-      geschiedenis van de profeten schreef hij een boek met de titel “Mubtada’
-      al-dunya wa qisas al-Anbiya”, wat betekent: “Het Begin van de Wereld en
-      de Verhalen van de Profeten”. Tot voor kort werd dit boek als verloren
-      beschouwd, maar door Allah’s gunst werd enkele jaren geleden het eerste
-      deel van het boek ontdekt, en werden de bibliotheken van de wereld verrijkt
-      met nog een manuscript.<sup>2</sup>
+      uit Khurasan. Hij schreef een boek over de
+      geschiedenis van de profeten met de titel “Mubtada’
+      al-dunya wa qisas al-Anbiya”, (“Het Begin van de Wereld en
+      de Verhalen van de Profeten”). Tot voor kort werd dit boek als verloren
+      beschouwd, maar door Allah’s gunst werd recent het eerste
+      deel van dit boek ontdekt.<sup>2</sup>
     </p>
 
     {openBubbles['bubble2'] && (
       <div className="speech-bubble" onClick={() => toggleBubble('bubble2')}>
         <p>
           <sup>2</sup> Dit manuscript beschrijft de schepping van de wereld, het
-          verhaal van Ibrahim, vrede zij met hem, en de geschiedenis van de
+          verhaal van Ibrahim (a.s.), en de geschiedenis van de
           profeten die vóór hem leefden.
         </p>
       </div>
@@ -137,35 +132,35 @@ export default function Introduction() {
     <p onClick={() => toggleBubble('bubble3')} className="cursor-pointer">
       De volgende verzameling van profetische geschiedenis behoort toe aan Abu
       Ishaq al-Thaʿlabi.<sup>3</sup> Hoewel zijn commentaren op de geopenbaarde
-      geschriften grote wetenschappelijke waarde hebben, werden ze onder het
-      gewone volk niet erg bekend.
+      geschriften grote wetenschappelijke waarde hebben, zijn ze onder het
+      gewone volk niet erg bekend geworden.
     </p>
 
     {openBubbles['bubble3'] && (
       <div className="speech-bubble" onClick={() => toggleBubble('bubble3')}>
         <p>
-          <sup>3</sup> Abu Ishaq was een geleerde en uitlegger die ongeveer
-          vierhonderd jaar na onze Profeet Muhammad ﷺ leefde.
+          <sup>3</sup> Abu Ishaq was een geleerde die ongeveer
+          vierhonderd jaar na de Profeet Muhammad ﷺ leefde.
         </p>
       </div>
     )}
 
     <p>
       De volgende schrijver was al-Haytham ibn Muhammad al-Bushanjī. Zijn
-      Arabische verzameling “Qisas al-Qur’an” verdient ook bijzondere aandacht.
-      Het boek vertelt de geschiedenis van de profeten die in de Qur’an worden
+      Arabische verzameling van de “Qisas al-Qur’an” verdient ook bijzondere aandacht.
+      Het boek beschrijft de geschiedenis van de profeten die in de Qur’an worden
       genoemd, de overleveringen die over hen zijn doorgegeven, en het leven van
       de Profeet Muhammad ﷺ.
     </p>
 
     <p>
-      Ahmad ibn Abu Uzaybah uit Jeruzalem stelde ook een “Qisas al-Anbiya”
+      Ahmad ibn Abu Uzaybah uit Baytul-Muqaddas stelde ook een “Qisas al-Anbiya”
       samen, maar slechts één manuscript van zijn werk is tot ons gekomen.
     </p>
 
     <p>
-      Onder niet-Arabische auteurs behoort misschien de belangrijkste plaats toe
-      aan het boek van Nasiruddin Rabghuzi, geschreven in de Turkse taal. Zijn
+      Onder de niet-Arabische boeken is misschien de belangrijkste 
+      het boek van Nasiruddin Rabghuzi, geschreven in het Turks. Zijn
       verhalen over de profeten zijn uitgebreid en bestaan uit overleveringen en
       traditionele vertellingen met veel details.
     </p>
@@ -183,46 +178,37 @@ export default function Introduction() {
       <div className="speech-bubble" onClick={() => toggleBubble('bubble4')}>
         <p>
           <sup>4</sup> Er moet worden vermeld dat de verzameling van Ibn Kathir
-          in de laatste honderd jaar een grote invloed heeft gehad onder het
-          algemene publiek.
+          in de laatste honderd jaar een grote invloed heeft gehad onder veel
+          mensen.
         </p>
       </div>
     )}
 
     <p>
-      Ja, dit literaire genre, dat door de eeuwen heen van generatie op generatie
-      is doorgegeven — de boeken van “Qisas al-Anbiya” — blijft zelfs vandaag
-      geliefd bij lezers. Onder Arabische, Perzische en Turkse volkeren wordt
-      “De Geschiedenis van de Profeten” steeds opnieuw gepubliceerd. Bijvoorbeeld
-      ook de “Qisas al-Anbiya” van de Egyptische geleerde al-Shaʿrawi is zeer
+      Ja, dit literaire genre, de boeken van “Qisas al-Anbiya”, dat door de eeuwen heen van generatie op generatie
+      is doorgegeven, is tot op de dag van vandaag
+      populair. Onder Arabisch, Perzisch en Turks sprekende volken wordt
+      “De Geschiedenis van de Profeten” steeds opnieuw gepubliceerd.
+      De “Qisas al-Anbiya” van de Egyptische geleerde al-Shaʿrawi is bijvoorbeeld zeer
       bekend. Dit boek, bestaande uit vijf delen en meer dan 3.000 pagina’s,
-      legt de geschiedenis van de profeten uit in een moderne stijl en bevat,
-      hoewel soms kort in diepgang, een grote hoeveelheid informatie.
+      legt de geschiedenis van de profeten uit op een moderne manier en bevat
+      een grote hoeveelheid informatie.
     </p>
 
-    <p>
-      Tot nu toe is de geschiedenis van de profeten vele malen gepubliceerd in
-      het Arabisch, Perzisch en Turkse talen. Helaas is dit literaire genre
-      echter zeer weinig in het Oezbeeks gedrukt. Daarom hebben ook wij, hoewel
-      onze inspanning misschien niet veel is, een beetje moeite gedaan op dit
-      gebied en geprobeerd ten minste enige kennis over de geschiedenis van de
-      vroegere profeten over te brengen.
-    </p>
 
     <p>
-      Dit boek is de verzameling van Abu Hamid ibn Muhammad. Hij bestudeerde de
-      geschiedenis van de profeten vanuit oude en betrouwbare bronnen, vooral
-      vanuit de edele Torah en Psalmen. Hij onderzocht ook de verzen van de Edele
-      Qur’an over dit onderwerp en hield rekening met de uitleg van grote
+      De Qisas al-Anbiya op deze website is de verzameling van Muhammad Abdur-Rahman al-Haj. Hij zocht naar Hikma
+      in oude overleveringen en boeken, met zorgvuldige aandacht voor de Qur'an al Karim en de Sunna van de Profeet.
+      Hij bestudeerde biografieën van de profeten uit betrouwbare bronnen en analyseerde daarbij de verzen van de Edele
+      Qur’an en hield daarbij rekening met de uitleg van grote
       geleerden van de Islam, onder wie al-Tabari, Ibn Ishaq, Ibn Khaldun en
-      al-Yaʿqubi. Wij hebben deze verzameling naar ons beste vermogen in het
-      Oezbeeks vertaald. Wij hopen dat de verhalen van de profeten uw hart zullen
+      al-Yaʿqubi. Wij hebben deze verzameling naar ons beste vermogen naar het Nederlands vertaald. Wij hopen dat de verhalen van de profeten uw hart zullen
       inspireren en u zullen uitnodigen tot goedheid, waarachtigheid en een leven
       van taqwa.
     </p>
 
-    <p className='my-0'>Met respect, het vertaalteam.</p>
-    <p className='my-0'>© 2016 Abdul-Ghafur ibn Abdul-Sattar</p>
+    <p className='my-0'>Met respect, namens het vertaalteam.</p>
+    <p className='my-0'>© 2026 Abdul-Ghafur ibn Abdul-Sattar</p>
   </div>
 
   {/* <ConverterForQisas /> */}

@@ -23,8 +23,8 @@ return (
       className="vitalic cursor-pointer "
       onClick={() => toggleBubble('bubble1')}
     >
-      Volgens wat in de Edele Qur’an geschreven staat,
-      schiep Allah de Verhevene Adam alayhis-salam uit de aarde —
+      7 july Volgens wat in de Edele Qur’an geschreven staat,
+      schiep Allah de Verhevene Adam alayhis-salam
       uit klei
       (Soera Sad 38:71)
       <sup>1</sup>.
@@ -66,17 +66,17 @@ return (
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble2')}
     >
-      Allah, Machtig en Majestueus,
+      Allah
       vormde de mens uit het stof van de aarde
       en blies in zijn neusgaten
-      de adem van het leven vanuit Zijn eigen Geest,
+      de leven gevende adem van Zijn Geest,
       en de mens begon te ademen.
 
       <span className="vitalic">
         {' '}
         In die tijd
-        was er geen ander mens
-        op het aangezicht van de aarde behalve hij.<sup>2</sup>
+        was er behalve Adam (a.s.) geen ander mens
+        op de aarde.<sup>2</sup>
       </span>
     </p>
 
@@ -96,37 +96,31 @@ return (
 
   <div className="main_text">
     <p>
-      Daarna schiep Allah, Machtig en Majestueus,
-      een tuin op een plaats die Eden genoemd werd
+      Allah schiep een tuin op een plaats die Aden genoemd werd
       en vulde die met prachtige bomen
-      die zoete vruchten droegen.
+      die heerlijke vruchten droegen.
 
       Midden in de tuin
-      groeiden twee bomen:
-      de ene was de Boom van het Leven,
-      en de andere was de Boom van de Kennis van Goed en Kwaad.
+      groeiden twee speciale bomen:
+      de ene was de boom van het leven,
+      en de andere was de boom van de kennis van goed en kwaad.
 
-      Allah de Verhevene plaatste Adam alayhis-salam daar,
-      zodat hij voor de tuin zou zorgen.
+      Allah (s.w.t.) plaatste Adam (a.s.) in deze tuin en beval hem dat hij
+      voor de tuin zou zorgen.
     </p>
 
     <p>
       Daarna waarschuwde Hij hem:
 
-      “Je mag eten van de vruchten
-      van elke boom in de tuin.
-
-      Maar eet niet van de Boom
-      van de Kennis van Goed en Kwaad.
-
-      Op de dag dat je daarvan eet,
-      zul je zeker sterven!”
+      “Het is halal voor jou om te eten van de vruchten
+      van elke boom in de tuin, behalve van één. Eet niet van de boom
+      van de kennis van goed en kwaad, want op de dag dat je daarvan eet, zul je sterven.”
     </p>
 
     <p className="vitalic">
       In Soera Ta-Ha
-      staat geschreven dat Allah de Verhevene
-      Adam alayhis-salam waarschuwde voor Shaytan:
+      staat geschreven dat Allah (s.w.t.)
+      Adam (a.s.) waarschuwde voor Shaytan:
 
       <span className="boldItalic">
         {' '}
@@ -150,30 +144,30 @@ return (
       className="vitalic cursor-pointer"
       onClick={() => toggleBubble('bubble3')}
     >
-      Abu Dharr رضي الله عنه,
+      Abu Dharr (r.a.),
       een van de edele Sahaba,
-      vroeg onze Profeet ﷺ eens:
+      vroeg de Profeet (s.a.w.) eens:
 
       “Wie was de eerste profeet?”
 
-      De Boodschapper van Allah ﷺ zei:
+      Rasul Allah zei:
 
-      “De eerste boodschapper-profeet was Adam alayhis-salam.
-      Allah vormde hem met Zijn eigen Hand,
+      “Adam (a.s.). was de eerste gezonden profeet.
+      Allah vormde hem met Zijn eigen Hand, 
       blies de geest in hem,
       en schiep hem als een mooie mens.”
 
-      In een andere overlevering van Abu Dharr رضي الله عنه
+      In een andere overlevering van Abu Dharr (r.a.)
       wordt gezegd:
 
-      “Ik vroeg de Boodschapper van Allah ﷺ:
+      “Ik vroeg de Rasul (s.a.w.):
 
       ‘O Boodschapper van Allah,
       behoorde Adam tot de profeten?’
 
-      De Boodschapper van Allah ﷺ antwoordde:
+      De Rasul (s.a.w.) antwoordde:
 
-      ‘Zeker,
+      ‘Jazeker,
       Adam was de eerste profeet
       die rechtstreeks met Allah sprak.’”
       <sup>3</sup>
@@ -199,24 +193,19 @@ return (
   <div className="main_text">
     <p>
       <span className="vitalic">
-        Terwijl Profeet Adam alayhis-salam door de tuin van het Paradijs liep,
-        zag hij de dieren in paren bewegen
-        en de prachtige vogels in groepen vliegen.
-        Alles was zeer mooi
-        en werkelijk wonderlijk.
-      </span>
+        Terwijl Adam (a.s) door jannat 'adn liep,
+        zag hij de prachtige perfecte schoonheid die hem omringde.
+        </span>
     </p>
 
     <p
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble4')}
     >
-      Allah bracht de levende schepselen
-      die Hij vóór Adam alayhis-salam had geschapen,
-      en Adam gaf namen<sup>4</sup> {" "}
-      aan hen allemaal —
-      de dieren en de vogels.
-    </p>
+      Allah (s.w.t) bracht al de levende schepselen
+      die Hij had geschapen naar Adam (a.s.)
+      zodat hij (a.s.) ze allemaal een naam kon geven.<sup>4</sup> {" "}
+      </p>
 
     {openBubbles['bubble4'] && (
       <div
@@ -237,9 +226,8 @@ return (
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble5')}
     >
-      Het enige wat voor hem nog ontbrak,
-      was dat er nog geen geschikte metgezel
-      voor hem gevonden was.
+      Nadat hij ze allemaal een naam had gegeven, realiseerde Allah (s.w.t.) dat het Adam (a.s.)
+      aan één ding ontbrak. Er was geen geschikte metgezel voor hem.
       <sup>5</sup>
     </p>
 
@@ -260,7 +248,7 @@ return (
   </div>
 
   <div className="paragraph_heading">
-    <p>DE SCHEPPING VAN MOEDER HAWWA</p>
+    <p>DE SCHEPPING VAN UMM HAWWA</p>
   </div>
 
   <div className="main_text">
@@ -268,15 +256,10 @@ return (
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble6')}
     >
-      Allah, verheerlijkt en verheven is Hij,
-      zei dat het niet goed was
-      dat Adam alayhis-salam alleen zou zijn,
-      en dat Hij voor hem
-      een geschikte echtgenote zou scheppen
-      <sup>6</sup>.
-
-      Nadat Adam alayhis-salam de dieren namen had gegeven,
-      schiep Allah Moeder Hawwa رضي الله عنها
+      Voordat Allah, de Verhevene, de dieren aan Adam (a.s.) toonde, openbaarde Hij: "Het is niet goed voor Adam (a.s.) dat hij alleen is.
+      Ik zal een geschikte echtgenote voor hem scheppen.
+      <sup>6</sup> Nadat Adam (a.s.) de dieren namen had gegeven,
+      schiep Allah Umm Hawwa
       uit zijn zijde.
     </p>
 
@@ -300,15 +283,14 @@ return (
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble7')}
     >
-      Toen Profeet Adam alayhis-salam Moeder Hawwa voor het eerst zag
-
+      Toen Adam (a.s.) Umm Hawwa voor het eerst zag
       <span className="vitalic">
         {' '}
-        (vol vreugde)
+      
       </span>
-      , zou hij hebben uitgeroepen:
+      , riep hij vol vreugde uit:
 
-      “Dus zij bestaat toch!”
+      “Deze beenderen zijn van mijn beenderen, dit vlees is van mijn vlees; ik noem haar vrouw, want zij was geschapen uit de rib van de man!”
       <sup>7</sup>
     </p>
 
@@ -319,9 +301,9 @@ return (
       >
         <p>
           <sup>7</sup> Volgens wat geschreven staat
-          in het boek “Arais” van Hazrat Tha‘labi,
-          liet Allah de Verhevene Adam alayhis-salam slapen
-          en schiep Hij Moeder Hawwa
+          in het boek “Arais” van Tha‘labi,
+          liet Allah (s.w.t. ) Adam (a.s.) slapen
+          en schiep Hij Umm Hawwa
           uit zijn rib.
         </p>
       </div>
@@ -329,15 +311,15 @@ return (
 
     <p>
       <span className="vitalic">
-        Zo waren het vlees en bot van Moeder Hawwa
-        oorspronkelijk genomen uit Vader Adam.
-        Zoals in de Qur’an wordt gezegd:{' '}
+        Zo waren de beenderen en het vlees van Umm Hawwa
+        oorspronkelijk genomen uit Adam (a.s.).
+        Zoals in de Qur’an al Karim wordt gezegd:{' '}
       </span>
 
       <span className="boldItalic">
         “O mensheid!...
         Jullie Heer schiep jullie uit één enkele ziel,
-        en uit haar schiep Hij haar echtgenote...”
+        en uit haar schiep Hij zijn echtgenoot...”
       </span>
       {' '}
 
@@ -346,11 +328,10 @@ return (
       </span>
 
       {' '}
-      Daarom verlaat een mens,
-      wanneer hij het huwelijk binnentreedt,
-      zijn vader en moeder,
-      wordt hij verbonden met zijn vrouw,
-      en worden de twee één lichaam.
+      Dat is waarom
+      wanneer een man trouwt hij zijn ouders verlaat,
+      verbonden wordt met zijn vrouw,
+      en de twee één lichaam worden.
     </p>
   </div>
 </main>
