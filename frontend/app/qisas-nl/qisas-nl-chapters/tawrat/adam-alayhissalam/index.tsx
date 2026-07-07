@@ -23,7 +23,7 @@ return (
       className="vitalic cursor-pointer "
       onClick={() => toggleBubble('bubble1')}
     >
-      7 july Volgens wat in de Edele Qur’an geschreven staat,
+      Ab: deleted 7 JULY Volgens wat in de Edele Qur’an geschreven staat,
       schiep Allah de Verhevene Adam alayhis-salam
       uit klei
       (Soera Sad 38:71)
