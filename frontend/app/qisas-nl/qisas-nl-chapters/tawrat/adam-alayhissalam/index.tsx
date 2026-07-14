@@ -23,11 +23,10 @@ return (
       className="vitalic cursor-pointer "
       onClick={() => toggleBubble('bubble1')}
     >
-      Volgens wat in de Edele Qur’an geschreven staat,
-      schiep Allah de Verhevene Adam alayhis-salam
-      uit klei
-      (Soera Sad 38:71)
-      <sup>1</sup>.
+      Volgens wat in de Edele Koran geschreven staat,
+      schiep Allah, de Verhevene, Adam 'alayhi as-salam
+      uit klei.
+      <sup>1</sup>
     </p>
 
     {openBubbles['bubble1'] && (
@@ -36,14 +35,13 @@ return (
         onClick={() => toggleBubble('bubble1')}
       >
         <p>
-          <sup>1</sup> Qur’an-ayah:
+          <sup>1</sup> Soera Sad 38:71-73:
           “Gedenk toen jouw Heer tegen de engelen zei:
           ‘Voorwaar, Ik schep een mens uit klei.
           Wanneer Ik hem dan gevormd heb
           en in hem van Mijn Geest heb geblazen,
           val dan voor hem neer in sajdah.’
-          Toen wierpen alle engelen zich gezamenlijk neer”
-          (Soera Sad 38:71-73).
+          Toen wierpen alle engelen zich gezamenlijk neer”.
         </p>
       </div>
     )}
@@ -66,10 +64,10 @@ return (
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble2')}
     >
-      Allah
+      Allah (swt)
       vormde de mens uit het stof van de aarde
       en blies in zijn neusgaten
-      de leven gevende adem van Zijn Geest,
+      de leven gevende adem van zijn Geest,
       en de mens begon te ademen.
 
       <span className="vitalic">
@@ -86,8 +84,8 @@ return (
         onClick={() => toggleBubble('bubble2')}
       >
         <p>
-          <sup>2</sup> Volgens de edele ahadith
-          werd Adam alayhis-salam op een vrijdag geschapen
+          <sup>2</sup> Volgens de edele hadith
+          werd Adam (a.s.) op een vrijdag geschapen
           (Muslim, Abu Dawud, Tirmidhi, Ibn Majah).
         </p>
       </div>
@@ -96,7 +94,7 @@ return (
 
   <div className="main_text">
     <p>
-      Allah schiep een tuin op een plaats die Aden genoemd werd
+      Allah (swt) schiep een tuin op een plaats die 'Adn genoemd werd
       en vulde die met prachtige bomen
       die heerlijke vruchten droegen.
 
@@ -105,7 +103,7 @@ return (
       de ene was de boom van het leven,
       en de andere was de boom van de kennis van goed en kwaad.
 
-      Allah (s.w.t.) plaatste Adam (a.s.) in deze tuin en beval hem dat hij
+      Allah (swt) plaatste Adam (a.s.) in deze tuin en beval hem dat hij
       voor de tuin zou zorgen.
     </p>
 
@@ -119,7 +117,7 @@ return (
 
     <p className="vitalic">
       Make side note $$$ In Soera Ta-Ha
-      staat geschreven dat Allah (s.w.t.)
+      staat geschreven dat Allah (swt)
       Adam (a.s.) waarschuwde voor Shaytan:
 
       <span className="boldItalic">
@@ -144,13 +142,13 @@ return (
       className="vitalic cursor-pointer"
       onClick={() => toggleBubble('bubble3')}
     >
-      Abu Dharr (r.a.),
-      een van de edele Sahaba,
+      Abu Dharr al-Ghifari (r.a.),
+      een van de Sahaba,
       vroeg de Profeet (s.a.w.) eens:
 
       “Wie was de eerste profeet?”
 
-      Rasul Allah zei:
+      Rasul Allah (s.a.w.) zei:
 
       “Adam (a.s.). was de eerste gezonden profeet.
       Allah vormde hem met Zijn eigen Hand, 
@@ -160,12 +158,12 @@ return (
       In een andere overlevering van Abu Dharr (r.a.)
       wordt gezegd:
 
-      “Ik vroeg de Rasul (s.a.w.):
+      “Ik vroeg de Profeet (s.a.w.):
 
       ‘O Boodschapper van Allah,
       behoorde Adam tot de profeten?’
 
-      De Rasul (s.a.w.) antwoordde:
+      Rasul Allah (s.a.w.) antwoordde:
 
       ‘Jazeker,
       Adam was de eerste profeet
@@ -179,7 +177,7 @@ return (
         onClick={() => toggleBubble('bubble3')}
       >
         <p>
-          <sup>3</sup> Abu Ja‘far Muhammad ibn Jarir al-Tabari,
+          <sup>3</sup> Abu Ja'far Muhammad ibn Jarir al-Tabari,
           “Tarikh al-Umam wa al-Muluk”.
         </p>
       </div>
@@ -193,7 +191,7 @@ return (
   <div className="main_text">
     <p>
       <span className="vitalic">
-        Terwijl Adam (a.s) door jannat 'adn liep,
+        Terwijl Adam (a.s) door jannat 'Adn liep,
         zag hij de prachtige perfecte schoonheid die hem omringde.
         </span>
     </p>
@@ -202,9 +200,9 @@ return (
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble4')}
     >
-      Allah (s.w.t) bracht al de levende schepselen
+      Allah (swt) bracht al de levende schepselen
       die Hij had geschapen naar Adam (a.s.)
-      zodat hij (a.s.) ze allemaal een naam kon geven.<sup>4</sup> {" "}
+      zodat hij ze allemaal een naam kon geven.<sup>4</sup> {" "}
       </p>
 
     {openBubbles['bubble4'] && (
@@ -213,7 +211,7 @@ return (
         onClick={() => toggleBubble('bubble4')}
       >
         <p>
-          <sup>4</sup> Soera Al-Baqarah:
+          <sup>4</sup> Soerah al-Baqarah:
           “En Hij onderwees Adam alle namen”
           (2:31).
         </p>
@@ -226,7 +224,7 @@ return (
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble5')}
     >
-      Nadat hij ze allemaal een naam had gegeven, realiseerde Allah (s.w.t.) dat het Adam (a.s.)
+      Nadat hij ze allemaal een naam had gegeven, realiseerde Allah (swt) dat het Adam (a.s.)
       aan één ding ontbrak. Er was geen geschikte metgezel voor hem.
       <sup>5</sup>
     </p>
@@ -256,10 +254,10 @@ return (
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble6')}
     >
-      Voordat Allah, de Verhevene, de dieren aan Adam (a.s.) toonde, openbaarde Hij: "Het is niet goed voor Adam (a.s.) dat hij alleen is.
+      Voordat Allah, de Verhevene, de dieren aan Adam (a.s.) toonde, openbaarde Hij: "Het is niet goed voor Adam dat hij alleen is.
       Ik zal een geschikte echtgenote voor hem scheppen.
       <sup>6</sup> Nadat Adam (a.s.) de dieren namen had gegeven,
-      schiep Allah Umm Hawwa
+      schiep Allah (swt) Hawwa
       uit zijn zijde.
     </p>
 
@@ -269,7 +267,7 @@ return (
         onClick={() => toggleBubble('bubble6')}
       >
         <p>
-          <sup>6</sup> In de Shariah
+          <sup>6</sup> In de sharia
           wordt het belang van het kiezen
           van een geschikte echtgenoot of echtgenote
           bijzonder benadrukt.
@@ -283,7 +281,7 @@ return (
       className="cursor-pointer "
       onClick={() => toggleBubble('bubble7')}
     >
-      Toen Adam (a.s.) Umm Hawwa voor het eerst zag, riep hij vol vreugde uit:
+      Toen Adam (a.s.) Hawwa voor het eerst zag, riep hij vol vreugde uit:
 
       “Deze beenderen zijn van mijn beenderen, dit vlees is van mijn vlees; ik noem haar vrouw, want zij was geschapen uit de rib van de man!”
       <sup>7</sup>
@@ -296,9 +294,9 @@ return (
       >
         <p>
           <sup>7</sup> Volgens wat geschreven staat
-          in het boek “Arais” van Tha‘labi,
-          liet Allah (s.w.t. ) Adam (a.s.) slapen
-          en schiep Hij Umm Hawwa
+          in het boek Arai's al-Majalis van Tha'labi,
+          liet Allah (swt) Adam (a.s.) slapen
+          en schiep Hij Hawwa
           uit zijn rib.
         </p>
       </div>
@@ -306,9 +304,9 @@ return (
 
     <p>
       <span className="vitalic">
-        Zo waren de beenderen en het vlees van Umm Hawwa
+        Zo waren de beenderen en het vlees van Hawwa
         oorspronkelijk genomen uit Adam (a.s.).
-        Zoals in de Qur’an al Karim wordt gezegd:{' '}
+        Zoals in de edele Koran wordt gezegd:{' '}
       </span>
 
       <span className="boldItalic">
@@ -319,7 +317,7 @@ return (
       {' '}
 
       <span className="vitalic">
-        (Soera An-Nisa 4:1).
+        (Soerah an-Nisa 4:1).
       </span>
 
       {' '}
